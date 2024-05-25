@@ -75,8 +75,6 @@ proxies:
   - {name: 德国 1, server: de01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de01.god-likebernadette.cloud}}}
   - {name: 德国 2, server: de02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de02.god-likebernadette.cloud}}}
   - {name: 德国 3, server: de03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de03.god-likebernadette.cloud}}}
-  - {name: 英国 1, server: szxddx.kunkun.icu, port: 41327, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 英国 2, server: szxddx.kunkun.icu, port: 56261, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -163,8 +161,6 @@ proxy-groups:
       - 德国 1
       - 德国 2
       - 德国 3
-      - 英国 1
-      - 英国 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -241,8 +237,6 @@ proxy-groups:
       - 德国 1
       - 德国 2
       - 德国 3
-      - 英国 1
-      - 英国 2
   - name: 📲 电报消息
     type: select
     proxies:
