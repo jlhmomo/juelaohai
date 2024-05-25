@@ -7,30 +7,32 @@ external-controller: :9090
 proxies:
   - {name: 关注Telegram频道, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
   - {name: t.me/juelaohai, server: mi.moluo.xyz, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
-  - {name: 台湾IEPL专线1【主力】, server: a.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 台湾IEPL专线2【备用】, server: a.v2ray.wtf, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 台湾IEPL专线3【备用】, server: a.v2ray.wtf, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 台湾IEPL专线4【备用】, server: a.v2ray.wtf, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 菲律宾IEPL专线1【备用】, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 新加坡IEPL专线1【次级备用】, server: a.v2ray.wtf, port: 30009, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 新加坡IEPL专线2【次级备用】, server: a.v2ray.wtf, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 新加坡IEPL专线3【次级备用】, server: a.v2ray.wtf, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 新加坡IEPL专线4【次级备用】, server: a.v2ray.wtf, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 越南IEPL专线1【娱乐】, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 泰国IEPL专线1【娱乐】, server: a.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 马来西亚IEPL专线1【娱乐】, server: a.v2ray.wtf, port: 30021, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 韩国IEPL专线1【娱乐】, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 香港IEPL专线1【娱乐】, server: a.v2ray.wtf, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 香港IEPL专线2【娱乐】, server: a.v2ray.wtf, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 香港IEPL专线3【娱乐】, server: a.v2ray.wtf, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 香港IEPL专线4【娱乐】, server: a.v2ray.wtf, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 台湾 IEPL 1 主力, server: a.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 台湾 IEPL 2 主力, server: a.v2ray.wtf, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 台湾 IEPL 3 主力, server: a.v2ray.wtf, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 台湾 IEPL 4 主力, server: a.v2ray.wtf, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 菲律宾 IEPL 1 备选, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 新加坡 IEPL 1 备选, server: a.v2ray.wtf, port: 30009, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 新加坡 IEPL 2 备选, server: a.v2ray.wtf, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 新加坡 IEPL 3 备选, server: a.v2ray.wtf, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 新加坡 IEPL 4 备选, server: a.v2ray.wtf, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 越南 IEPL 1 娱乐, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 泰国 IEPL 1 娱乐, server: a.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 马来西亚 IEPL 1 娱乐, server: a.v2ray.wtf, port: 30021, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 韩国 IEPL 1 娱乐, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 香港 IEPL 1 娱乐, server: a.v2ray.wtf, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 香港 IEPL 2 娱乐, server: a.v2ray.wtf, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 香港 IEPL 3 娱乐, server: a.v2ray.wtf, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 香港 IEPL 4 娱乐, server: a.v2ray.wtf, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 日本 IEPL 1 维护, server: a.v2ray.wtf, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 日本 IEPL 2 维护, server: a.v2ray.wtf, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 日本 IEPL 3 维护, server: a.v2ray.wtf, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 日本 IEPL 4 维护, server: a.v2ray.wtf, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
@@ -44,23 +46,27 @@ proxy-groups:
     proxies:
       - 关注Telegram频道
       - t.me/juelaohai
-      - 台湾IEPL专线1【主力】
-      - 台湾IEPL专线2【备用】
-      - 台湾IEPL专线3【备用】
-      - 台湾IEPL专线4【备用】
-      - 菲律宾IEPL专线1【备用】
-      - 新加坡IEPL专线1【次级备用】
-      - 新加坡IEPL专线2【次级备用】
-      - 新加坡IEPL专线3【次级备用】
-      - 新加坡IEPL专线4【次级备用】
-      - 越南IEPL专线1【娱乐】
-      - 泰国IEPL专线1【娱乐】
-      - 马来西亚IEPL专线1【娱乐】
-      - 韩国IEPL专线1【娱乐】
-      - 香港IEPL专线1【娱乐】
-      - 香港IEPL专线2【娱乐】
-      - 香港IEPL专线3【娱乐】
-      - 香港IEPL专线4【娱乐】
+      - 台湾 IEPL 1 主力
+      - 台湾 IEPL 2 主力
+      - 台湾 IEPL 3 主力
+      - 台湾 IEPL 4 主力
+      - 菲律宾 IEPL 1 备选
+      - 新加坡 IEPL 1 备选
+      - 新加坡 IEPL 2 备选
+      - 新加坡 IEPL 3 备选
+      - 新加坡 IEPL 4 备选
+      - 越南 IEPL 1 娱乐
+      - 泰国 IEPL 1 娱乐
+      - 马来西亚 IEPL 1 娱乐
+      - 韩国 IEPL 1 娱乐
+      - 香港 IEPL 1 娱乐
+      - 香港 IEPL 2 娱乐
+      - 香港 IEPL 3 娱乐
+      - 香港 IEPL 4 娱乐
+      - 日本 IEPL 1 维护
+      - 日本 IEPL 2 维护
+      - 日本 IEPL 3 维护
+      - 日本 IEPL 4 维护
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -69,74 +75,27 @@ proxy-groups:
     proxies:
       - 关注Telegram频道
       - t.me/juelaohai
-      - 台湾IEPL专线1【主力】
-      - 台湾IEPL专线2【备用】
-      - 台湾IEPL专线3【备用】
-      - 台湾IEPL专线4【备用】
-      - 菲律宾IEPL专线1【备用】
-      - 新加坡IEPL专线1【次级备用】
-      - 新加坡IEPL专线2【次级备用】
-      - 新加坡IEPL专线3【次级备用】
-      - 新加坡IEPL专线4【次级备用】
-      - 越南IEPL专线1【娱乐】
-      - 泰国IEPL专线1【娱乐】
-      - 马来西亚IEPL专线1【娱乐】
-      - 韩国IEPL专线1【娱乐】
-      - 香港IEPL专线1【娱乐】
-      - 香港IEPL专线2【娱乐】
-      - 香港IEPL专线3【娱乐】
-      - 香港IEPL专线4【娱乐】
-  - name: 🔯 故障转移
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 关注Telegram频道
-      - t.me/juelaohai
-      - 台湾IEPL专线1【主力】
-      - 台湾IEPL专线2【备用】
-      - 台湾IEPL专线3【备用】
-      - 台湾IEPL专线4【备用】
-      - 菲律宾IEPL专线1【备用】
-      - 新加坡IEPL专线1【次级备用】
-      - 新加坡IEPL专线2【次级备用】
-      - 新加坡IEPL专线3【次级备用】
-      - 新加坡IEPL专线4【次级备用】
-      - 越南IEPL专线1【娱乐】
-      - 泰国IEPL专线1【娱乐】
-      - 马来西亚IEPL专线1【娱乐】
-      - 韩国IEPL专线1【娱乐】
-      - 香港IEPL专线1【娱乐】
-      - 香港IEPL专线2【娱乐】
-      - 香港IEPL专线3【娱乐】
-      - 香港IEPL专线4【娱乐】
-  - name: 🔮 负载均衡
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 关注Telegram频道
-      - t.me/juelaohai
-      - 台湾IEPL专线1【主力】
-      - 台湾IEPL专线2【备用】
-      - 台湾IEPL专线3【备用】
-      - 台湾IEPL专线4【备用】
-      - 菲律宾IEPL专线1【备用】
-      - 新加坡IEPL专线1【次级备用】
-      - 新加坡IEPL专线2【次级备用】
-      - 新加坡IEPL专线3【次级备用】
-      - 新加坡IEPL专线4【次级备用】
-      - 越南IEPL专线1【娱乐】
-      - 泰国IEPL专线1【娱乐】
-      - 马来西亚IEPL专线1【娱乐】
-      - 韩国IEPL专线1【娱乐】
-      - 香港IEPL专线1【娱乐】
-      - 香港IEPL专线2【娱乐】
-      - 香港IEPL专线3【娱乐】
-      - 香港IEPL专线4【娱乐】
+      - 台湾 IEPL 1 主力
+      - 台湾 IEPL 2 主力
+      - 台湾 IEPL 3 主力
+      - 台湾 IEPL 4 主力
+      - 菲律宾 IEPL 1 备选
+      - 新加坡 IEPL 1 备选
+      - 新加坡 IEPL 2 备选
+      - 新加坡 IEPL 3 备选
+      - 新加坡 IEPL 4 备选
+      - 越南 IEPL 1 娱乐
+      - 泰国 IEPL 1 娱乐
+      - 马来西亚 IEPL 1 娱乐
+      - 韩国 IEPL 1 娱乐
+      - 香港 IEPL 1 娱乐
+      - 香港 IEPL 2 娱乐
+      - 香港 IEPL 3 娱乐
+      - 香港 IEPL 4 娱乐
+      - 日本 IEPL 1 维护
+      - 日本 IEPL 2 维护
+      - 日本 IEPL 3 维护
+      - 日本 IEPL 4 维护
   - name: 📲 电报消息
     type: select
     proxies:
@@ -338,17 +297,20 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 香港IEPL专线1【娱乐】
-      - 香港IEPL专线2【娱乐】
-      - 香港IEPL专线3【娱乐】
-      - 香港IEPL专线4【娱乐】
+      - 香港 IEPL 1 娱乐
+      - 香港 IEPL 2 娱乐
+      - 香港 IEPL 3 娱乐
+      - 香港 IEPL 4 娱乐
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 日本 IEPL 1 维护
+      - 日本 IEPL 2 维护
+      - 日本 IEPL 3 维护
+      - 日本 IEPL 4 维护
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -362,27 +324,27 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 台湾IEPL专线1【主力】
-      - 台湾IEPL专线2【备用】
-      - 台湾IEPL专线3【备用】
-      - 台湾IEPL专线4【备用】
+      - 台湾 IEPL 1 主力
+      - 台湾 IEPL 2 主力
+      - 台湾 IEPL 3 主力
+      - 台湾 IEPL 4 主力
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 新加坡IEPL专线1【次级备用】
-      - 新加坡IEPL专线2【次级备用】
-      - 新加坡IEPL专线3【次级备用】
-      - 新加坡IEPL专线4【次级备用】
+      - 新加坡 IEPL 1 备选
+      - 新加坡 IEPL 2 备选
+      - 新加坡 IEPL 3 备选
+      - 新加坡 IEPL 4 备选
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 韩国IEPL专线1【娱乐】
+      - 韩国 IEPL 1 娱乐
   - name: 🎥 奈飞节点
     type: select
     proxies:
