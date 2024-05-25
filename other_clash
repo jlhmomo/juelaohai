@@ -7,106 +7,104 @@ external-controller: :9090
 proxies:
   - {name: 关注Telegram频道, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
   - {name: t.me/juelaohai, server: mi.moluo.xyz, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
-  - {name: 香港1【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
-  - {name: 香港2【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
-  - {name: 香港3【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
-  - {name: 香港4【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
-  - {name: 香港5【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
-  - {name: 香港6【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
-  - {name: 香港7【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
-  - {name: 香港8【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
-  - {name: 香港9【普通节点】, server: szxddx.kunkun.icu, port: 31036, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 香港10【普通节点】, server: szxddx.kunkun.icu, port: 37325, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 香港11【普通节点】, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sdvsgsgsdfgh?ed=2048", headers: {Host: hk.catcloud.cfd}}}
-  - {name: 香港12【普通节点】, server: hk01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk01.god-likebernadette.cloud}}}
-  - {name: 香港13【普通节点】, server: hk02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk02.god-likebernadette.cloud}}}
-  - {name: 香港14【普通节点】, server: hk03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk03.god-likebernadette.cloud}}}
-  - {name: 香港15【普通节点】, server: hk04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk04.god-likebernadette.cloud}}}
-  - {name: 日本1【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
-  - {name: 日本2【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
-  - {name: 日本3【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
-  - {name: 日本4【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
-  - {name: 日本5【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
-  - {name: 日本6【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
-  - {name: 日本7【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
-  - {name: 日本8【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
-  - {name: 日本9【普通节点】, server: jp01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp01.god-likebernadette.cloud}}}
-  - {name: 日本10【普通节点】, server: jp02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.god-likebernadette.cloud}}}
-  - {name: 日本11【普通节点】, server: jp03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp03.god-likebernadette.cloud}}}
-  - {name: 日本12【普通节点】, server: jp04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp04.god-likebernadette.cloud}}}
-  - {name: 日本13【普通节点】, server: szxddx.kunkun.icu, port: 41113, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 日本14【普通节点】, server: szxddx.kunkun.icu, port: 52040, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 日本15【普通节点】, server: szxddx.kunkun.icu, port: 45204, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 韩国1【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
-  - {name: 韩国2【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 韩国3【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
-  - {name: 韩国4【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 韩国5【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
-  - {name: 韩国6【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 韩国7【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
-  - {name: 韩国8【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 韩国9【普通节点】, server: kr01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr01.god-likebernadette.cloud}}}
-  - {name: 韩国10【普通节点】, server: kr02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr02.god-likebernadette.cloud}}}
-  - {name: 韩国11【普通节点】, server: kr03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr03.god-likebernadette.cloud}}}
-  - {name: 韩国12【普通节点】, server: kr04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr04.god-likebernadette.cloud}}}
-  - {name: 韩国13【普通节点】, server: szxddx.kunkun.icu, port: 38943, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 新加坡1【普通节点】, server: mi.moluo.xyz, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
-  - {name: 新加坡2【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
-  - {name: 新加坡3【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
-  - {name: 新加坡4【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
-  - {name: 新加坡5【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
-  - {name: 新加坡6【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
-  - {name: 新加坡7【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
-  - {name: 新加坡8【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
-  - {name: 新加坡9【普通节点】, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
-  - {name: 新加坡10【普通节点】, server: sg01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg01.god-likebernadette.cloud}}}
-  - {name: 新加坡11【普通节点】, server: sg02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg02.god-likebernadette.cloud}}}
-  - {name: 新加坡12【普通节点】, server: sg03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg03.god-likebernadette.cloud}}}
-  - {name: 新加坡13【普通节点】, server: sg04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg04.god-likebernadette.cloud}}}
-  - {name: 新加坡14【普通节点】, server: szxddx.kunkun.icu, port: 24146, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 新加坡15【普通节点】, server: szxddx.kunkun.icu, port: 61826, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 新加坡16【普通节点】, server: szxddx.kunkun.icu, port: 47764, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 德国1【普通节点】, server: de01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de01.god-likebernadette.cloud}}}
-  - {name: 德国2【普通节点】, server: de02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de02.god-likebernadette.cloud}}}
-  - {name: 德国3【普通节点】, server: de03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de03.god-likebernadette.cloud}}}
-  - {name: 德国4【普通节点】, server: de04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de04.god-likebernadette.cloud}}}
-  - {name: 德国5【普通节点】, server: szxddx.kunkun.icu, port: 59706, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 英国1【普通节点】, server: szxddx.kunkun.icu, port: 41327, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 英国2【普通节点】, server: szxddx.kunkun.icu, port: 56261, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 瑞典1【普通节点】, server: szxddx.kunkun.icu, port: 62006, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 巴西1【普通节点】, server: szxddx.kunkun.icu, port: 42601, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 迪拜1【普通节点】, server: szxddx.kunkun.icu, port: 58510, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 土耳其1【普通节点】, server: szxddx.kunkun.icu, port: 16935, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 法国1【普通节点】, server: szxddx.kunkun.icu, port: 14714, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 印度1【普通节点】, server: szxddx.kunkun.icu, port: 13401, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 以色列1【普通节点】, server: szxddx.kunkun.icu, port: 52650, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 西班牙1【普通节点】, server: szxddx.kunkun.icu, port: 25006, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 墨西哥1【普通节点】, server: szxddx.kunkun.icu, port: 32957, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 美国1【普通节点】, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
-  - {name: 美国2【普通节点】, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
-  - {name: 美国3【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
-  - {name: 美国4【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 美国5【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
-  - {name: 美国6【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 美国7【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
-  - {name: 美国8【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 美国9【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
-  - {name: 美国10【普通节点】, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 美国11【普通节点】, server: szxddx.kunkun.icu, port: 23636, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 美国12【普通节点】, server: szxddx.kunkun.icu, port: 27417, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 美国13【普通节点】, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sfdgdegdh?ed=2048", headers: {Host: us.catcloud.cfd}}}
-  - {name: 美国14【普通节点】, server: us01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us01.god-likebernadette.cloud}}}
-  - {name: 美国15【普通节点】, server: us02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us02.god-likebernadette.cloud}}}
-  - {name: 美国16【普通节点】, server: us03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us03.god-likebernadette.cloud}}}
-  - {name: 美国17【普通节点】, server: us04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us04.god-likebernadette.cloud}}}
-  - {name: 美国18【普通节点】, server: szxddx.kunkun.icu, port: 13201, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 美国 1, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
+  - {name: 美国 2, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
+  - {name: 美国 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
+  - {name: 美国 4, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
+  - {name: 美国 5, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
+  - {name: 美国 6, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
+  - {name: 美国 7, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
+  - {name: 美国 8, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
+  - {name: 美国 9, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
+  - {name: 美国 10, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
+  - {name: 美国 11, server: us01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us01.god-likebernadette.cloud}}}
+  - {name: 美国 12, server: us02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us02.god-likebernadette.cloud}}}
+  - {name: 美国 13, server: us03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us03.god-likebernadette.cloud}}}
+  - {name: 美国 14, server: us04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us04.god-likebernadette.cloud}}}
+  - {name: 美国 15, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sfdgdegdh?ed=2048", headers: {Host: us.catcloud.cfd}}}
+  - {name: 美国 16, server: szxddx.kunkun.icu, port: 27417, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 美国 17, server: szxddx.kunkun.icu, port: 13201, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 美国 18, server: szxddx.kunkun.icu, port: 23636, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 香港-1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
+  - {name: 香港 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
+  - {name: 香港 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
+  - {name: 香港 4, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
+  - {name: 香港 5, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
+  - {name: 香港 6, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
+  - {name: 香港 7, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
+  - {name: 香港 8, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
+  - {name: 香港 9, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sdvsgsgsdfgh?ed=2048", headers: {Host: hk.catcloud.cfd}}}
+  - {name: 香港 10, server: hk01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk01.god-likebernadette.cloud}}}
+  - {name: 香港 11, server: hk02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk02.god-likebernadette.cloud}}}
+  - {name: 香港 12, server: hk03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk03.god-likebernadette.cloud}}}
+  - {name: 香港 13, server: hk04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk04.god-likebernadette.cloud}}}
+  - {name: 香港 BGP 1, server: szxddx.kunkun.icu, port: 31036, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 香港 BGP 2, server: szxddx.kunkun.icu, port: 37325, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 日本 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
+  - {name: 日本 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
+  - {name: 日本 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
+  - {name: 日本 4, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
+  - {name: 日本 5, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
+  - {name: 日本 6, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
+  - {name: 日本 7, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
+  - {name: 日本 8, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
+  - {name: 日本 9, server: jp01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp01.god-likebernadette.cloud}}}
+  - {name: 日本 10, server: jp02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.god-likebernadette.cloud}}}
+  - {name: 日本 11, server: jp03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp03.god-likebernadette.cloud}}}
+  - {name: 日本 12, server: jp04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp04.god-likebernadette.cloud}}}
+  - {name: 日本 BGP 1, server: szxddx.kunkun.icu, port: 41113, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 日本 BGP 2, server: szxddx.kunkun.icu, port: 52040, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 日本 BGP 3, server: szxddx.kunkun.icu, port: 45204, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 韩国 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
+  - {name: 韩国 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
+  - {name: 韩国 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
+  - {name: 韩国 4, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
+  - {name: 韩国 5, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
+  - {name: 韩国 6, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
+  - {name: 韩国 7, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
+  - {name: 韩国 8, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
+  - {name: 韩国 9, server: kr01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr01.god-likebernadette.cloud}}}
+  - {name: 韩国 10, server: kr02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr02.god-likebernadette.cloud}}}
+  - {name: 韩国 11, server: kr03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr03.god-likebernadette.cloud}}}
+  - {name: 韩国 12, server: kr04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr04.god-likebernadette.cloud}}}
+  - {name: 韩国 13, server: szxddx.kunkun.icu, port: 38943, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 新加坡 1, server: mi.moluo.xyz, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
+  - {name: 新加坡 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
+  - {name: 新加坡 3, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
+  - {name: 新加坡 4, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
+  - {name: 新加坡 5, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
+  - {name: 新加坡 6, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
+  - {name: 新加坡 7, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
+  - {name: 新加坡 8, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
+  - {name: 新加坡 9, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
+  - {name: 新加坡 10, server: sg01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg01.god-likebernadette.cloud}}}
+  - {name: 新加坡 11, server: sg02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg02.god-likebernadette.cloud}}}
+  - {name: 新加坡 12, server: sg03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg03.god-likebernadette.cloud}}}
+  - {name: 新加坡 13, server: sg04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg04.god-likebernadette.cloud}}}
+  - {name: 新加坡 BGP 1, server: szxddx.kunkun.icu, port: 24146, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 新加坡 BGP 2, server: szxddx.kunkun.icu, port: 61826, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 新加坡 BGP 3, server: szxddx.kunkun.icu, port: 47764, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 德国 1, server: de01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de01.god-likebernadette.cloud}}}
+  - {name: 德国 2, server: de02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de02.god-likebernadette.cloud}}}
+  - {name: 德国 3, server: de03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de03.god-likebernadette.cloud}}}
+  - {name: 德国 4, server: de04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de04.god-likebernadette.cloud}}}
+  - {name: 德国 5, server: szxddx.kunkun.icu, port: 59706, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 英国 1, server: szxddx.kunkun.icu, port: 41327, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 英国 2, server: szxddx.kunkun.icu, port: 56261, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 瑞典 1, server: szxddx.kunkun.icu, port: 62006, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 巴西 1, server: szxddx.kunkun.icu, port: 42601, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 迪拜 1, server: szxddx.kunkun.icu, port: 58510, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 土耳其 1, server: szxddx.kunkun.icu, port: 16935, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 法国 1, server: szxddx.kunkun.icu, port: 14714, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 印度 1, server: szxddx.kunkun.icu, port: 13401, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 以色列 1, server: szxddx.kunkun.icu, port: 52650, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 西班牙 1, server: szxddx.kunkun.icu, port: 25006, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 墨西哥 1, server: szxddx.kunkun.icu, port: 32957, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
@@ -120,99 +118,99 @@ proxy-groups:
     proxies:
       - 关注Telegram频道
       - t.me/juelaohai
-      - 香港1【普通节点】
-      - 香港2【普通节点】
-      - 香港3【普通节点】
-      - 香港4【普通节点】
-      - 香港5【普通节点】
-      - 香港6【普通节点】
-      - 香港7【普通节点】
-      - 香港8【普通节点】
-      - 香港9【普通节点】
-      - 香港10【普通节点】
-      - 香港11【普通节点】
-      - 香港12【普通节点】
-      - 香港13【普通节点】
-      - 香港14【普通节点】
-      - 香港15【普通节点】
-      - 日本1【普通节点】
-      - 日本2【普通节点】
-      - 日本3【普通节点】
-      - 日本4【普通节点】
-      - 日本5【普通节点】
-      - 日本6【普通节点】
-      - 日本7【普通节点】
-      - 日本8【普通节点】
-      - 日本9【普通节点】
-      - 日本10【普通节点】
-      - 日本11【普通节点】
-      - 日本12【普通节点】
-      - 日本13【普通节点】
-      - 日本14【普通节点】
-      - 日本15【普通节点】
-      - 韩国1【普通节点】
-      - 韩国2【普通节点】
-      - 韩国3【普通节点】
-      - 韩国4【普通节点】
-      - 韩国5【普通节点】
-      - 韩国6【普通节点】
-      - 韩国7【普通节点】
-      - 韩国8【普通节点】
-      - 韩国9【普通节点】
-      - 韩国10【普通节点】
-      - 韩国11【普通节点】
-      - 韩国12【普通节点】
-      - 韩国13【普通节点】
-      - 新加坡1【普通节点】
-      - 新加坡2【普通节点】
-      - 新加坡3【普通节点】
-      - 新加坡4【普通节点】
-      - 新加坡5【普通节点】
-      - 新加坡6【普通节点】
-      - 新加坡7【普通节点】
-      - 新加坡8【普通节点】
-      - 新加坡9【普通节点】
-      - 新加坡10【普通节点】
-      - 新加坡11【普通节点】
-      - 新加坡12【普通节点】
-      - 新加坡13【普通节点】
-      - 新加坡14【普通节点】
-      - 新加坡15【普通节点】
-      - 新加坡16【普通节点】
-      - 德国1【普通节点】
-      - 德国2【普通节点】
-      - 德国3【普通节点】
-      - 德国4【普通节点】
-      - 德国5【普通节点】
-      - 英国1【普通节点】
-      - 英国2【普通节点】
-      - 瑞典1【普通节点】
-      - 巴西1【普通节点】
-      - 迪拜1【普通节点】
-      - 土耳其1【普通节点】
-      - 法国1【普通节点】
-      - 印度1【普通节点】
-      - 以色列1【普通节点】
-      - 西班牙1【普通节点】
-      - 墨西哥1【普通节点】
-      - 美国1【普通节点】
-      - 美国2【普通节点】
-      - 美国3【普通节点】
-      - 美国4【普通节点】
-      - 美国5【普通节点】
-      - 美国6【普通节点】
-      - 美国7【普通节点】
-      - 美国8【普通节点】
-      - 美国9【普通节点】
-      - 美国10【普通节点】
-      - 美国11【普通节点】
-      - 美国12【普通节点】
-      - 美国13【普通节点】
-      - 美国14【普通节点】
-      - 美国15【普通节点】
-      - 美国16【普通节点】
-      - 美国17【普通节点】
-      - 美国18【普通节点】
+      - 美国 1
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 香港-1
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 BGP 1
+      - 香港 BGP 2
+      - 日本 1
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 日本 9
+      - 日本 10
+      - 日本 11
+      - 日本 12
+      - 日本 BGP 1
+      - 日本 BGP 2
+      - 日本 BGP 3
+      - 韩国 1
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 韩国 5
+      - 韩国 6
+      - 韩国 7
+      - 韩国 8
+      - 韩国 9
+      - 韩国 10
+      - 韩国 11
+      - 韩国 12
+      - 韩国 13
+      - 新加坡 1
+      - 新加坡 2
+      - 新加坡 3
+      - 新加坡 4
+      - 新加坡 5
+      - 新加坡 6
+      - 新加坡 7
+      - 新加坡 8
+      - 新加坡 9
+      - 新加坡 10
+      - 新加坡 11
+      - 新加坡 12
+      - 新加坡 13
+      - 新加坡 BGP 1
+      - 新加坡 BGP 2
+      - 新加坡 BGP 3
+      - 德国 1
+      - 德国 2
+      - 德国 3
+      - 德国 4
+      - 德国 5
+      - 英国 1
+      - 英国 2
+      - 瑞典 1
+      - 巴西 1
+      - 迪拜 1
+      - 土耳其 1
+      - 法国 1
+      - 印度 1
+      - 以色列 1
+      - 西班牙 1
+      - 墨西哥 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -221,302 +219,99 @@ proxy-groups:
     proxies:
       - 关注Telegram频道
       - t.me/juelaohai
-      - 香港1【普通节点】
-      - 香港2【普通节点】
-      - 香港3【普通节点】
-      - 香港4【普通节点】
-      - 香港5【普通节点】
-      - 香港6【普通节点】
-      - 香港7【普通节点】
-      - 香港8【普通节点】
-      - 香港9【普通节点】
-      - 香港10【普通节点】
-      - 香港11【普通节点】
-      - 香港12【普通节点】
-      - 香港13【普通节点】
-      - 香港14【普通节点】
-      - 香港15【普通节点】
-      - 日本1【普通节点】
-      - 日本2【普通节点】
-      - 日本3【普通节点】
-      - 日本4【普通节点】
-      - 日本5【普通节点】
-      - 日本6【普通节点】
-      - 日本7【普通节点】
-      - 日本8【普通节点】
-      - 日本9【普通节点】
-      - 日本10【普通节点】
-      - 日本11【普通节点】
-      - 日本12【普通节点】
-      - 日本13【普通节点】
-      - 日本14【普通节点】
-      - 日本15【普通节点】
-      - 韩国1【普通节点】
-      - 韩国2【普通节点】
-      - 韩国3【普通节点】
-      - 韩国4【普通节点】
-      - 韩国5【普通节点】
-      - 韩国6【普通节点】
-      - 韩国7【普通节点】
-      - 韩国8【普通节点】
-      - 韩国9【普通节点】
-      - 韩国10【普通节点】
-      - 韩国11【普通节点】
-      - 韩国12【普通节点】
-      - 韩国13【普通节点】
-      - 新加坡1【普通节点】
-      - 新加坡2【普通节点】
-      - 新加坡3【普通节点】
-      - 新加坡4【普通节点】
-      - 新加坡5【普通节点】
-      - 新加坡6【普通节点】
-      - 新加坡7【普通节点】
-      - 新加坡8【普通节点】
-      - 新加坡9【普通节点】
-      - 新加坡10【普通节点】
-      - 新加坡11【普通节点】
-      - 新加坡12【普通节点】
-      - 新加坡13【普通节点】
-      - 新加坡14【普通节点】
-      - 新加坡15【普通节点】
-      - 新加坡16【普通节点】
-      - 德国1【普通节点】
-      - 德国2【普通节点】
-      - 德国3【普通节点】
-      - 德国4【普通节点】
-      - 德国5【普通节点】
-      - 英国1【普通节点】
-      - 英国2【普通节点】
-      - 瑞典1【普通节点】
-      - 巴西1【普通节点】
-      - 迪拜1【普通节点】
-      - 土耳其1【普通节点】
-      - 法国1【普通节点】
-      - 印度1【普通节点】
-      - 以色列1【普通节点】
-      - 西班牙1【普通节点】
-      - 墨西哥1【普通节点】
-      - 美国1【普通节点】
-      - 美国2【普通节点】
-      - 美国3【普通节点】
-      - 美国4【普通节点】
-      - 美国5【普通节点】
-      - 美国6【普通节点】
-      - 美国7【普通节点】
-      - 美国8【普通节点】
-      - 美国9【普通节点】
-      - 美国10【普通节点】
-      - 美国11【普通节点】
-      - 美国12【普通节点】
-      - 美国13【普通节点】
-      - 美国14【普通节点】
-      - 美国15【普通节点】
-      - 美国16【普通节点】
-      - 美国17【普通节点】
-      - 美国18【普通节点】
-  - name: 🔯 故障转移
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 关注Telegram频道
-      - t.me/juelaohai
-      - 香港1【普通节点】
-      - 香港2【普通节点】
-      - 香港3【普通节点】
-      - 香港4【普通节点】
-      - 香港5【普通节点】
-      - 香港6【普通节点】
-      - 香港7【普通节点】
-      - 香港8【普通节点】
-      - 香港9【普通节点】
-      - 香港10【普通节点】
-      - 香港11【普通节点】
-      - 香港12【普通节点】
-      - 香港13【普通节点】
-      - 香港14【普通节点】
-      - 香港15【普通节点】
-      - 日本1【普通节点】
-      - 日本2【普通节点】
-      - 日本3【普通节点】
-      - 日本4【普通节点】
-      - 日本5【普通节点】
-      - 日本6【普通节点】
-      - 日本7【普通节点】
-      - 日本8【普通节点】
-      - 日本9【普通节点】
-      - 日本10【普通节点】
-      - 日本11【普通节点】
-      - 日本12【普通节点】
-      - 日本13【普通节点】
-      - 日本14【普通节点】
-      - 日本15【普通节点】
-      - 韩国1【普通节点】
-      - 韩国2【普通节点】
-      - 韩国3【普通节点】
-      - 韩国4【普通节点】
-      - 韩国5【普通节点】
-      - 韩国6【普通节点】
-      - 韩国7【普通节点】
-      - 韩国8【普通节点】
-      - 韩国9【普通节点】
-      - 韩国10【普通节点】
-      - 韩国11【普通节点】
-      - 韩国12【普通节点】
-      - 韩国13【普通节点】
-      - 新加坡1【普通节点】
-      - 新加坡2【普通节点】
-      - 新加坡3【普通节点】
-      - 新加坡4【普通节点】
-      - 新加坡5【普通节点】
-      - 新加坡6【普通节点】
-      - 新加坡7【普通节点】
-      - 新加坡8【普通节点】
-      - 新加坡9【普通节点】
-      - 新加坡10【普通节点】
-      - 新加坡11【普通节点】
-      - 新加坡12【普通节点】
-      - 新加坡13【普通节点】
-      - 新加坡14【普通节点】
-      - 新加坡15【普通节点】
-      - 新加坡16【普通节点】
-      - 德国1【普通节点】
-      - 德国2【普通节点】
-      - 德国3【普通节点】
-      - 德国4【普通节点】
-      - 德国5【普通节点】
-      - 英国1【普通节点】
-      - 英国2【普通节点】
-      - 瑞典1【普通节点】
-      - 巴西1【普通节点】
-      - 迪拜1【普通节点】
-      - 土耳其1【普通节点】
-      - 法国1【普通节点】
-      - 印度1【普通节点】
-      - 以色列1【普通节点】
-      - 西班牙1【普通节点】
-      - 墨西哥1【普通节点】
-      - 美国1【普通节点】
-      - 美国2【普通节点】
-      - 美国3【普通节点】
-      - 美国4【普通节点】
-      - 美国5【普通节点】
-      - 美国6【普通节点】
-      - 美国7【普通节点】
-      - 美国8【普通节点】
-      - 美国9【普通节点】
-      - 美国10【普通节点】
-      - 美国11【普通节点】
-      - 美国12【普通节点】
-      - 美国13【普通节点】
-      - 美国14【普通节点】
-      - 美国15【普通节点】
-      - 美国16【普通节点】
-      - 美国17【普通节点】
-      - 美国18【普通节点】
-  - name: 🔮 负载均衡
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 关注Telegram频道
-      - t.me/juelaohai
-      - 香港1【普通节点】
-      - 香港2【普通节点】
-      - 香港3【普通节点】
-      - 香港4【普通节点】
-      - 香港5【普通节点】
-      - 香港6【普通节点】
-      - 香港7【普通节点】
-      - 香港8【普通节点】
-      - 香港9【普通节点】
-      - 香港10【普通节点】
-      - 香港11【普通节点】
-      - 香港12【普通节点】
-      - 香港13【普通节点】
-      - 香港14【普通节点】
-      - 香港15【普通节点】
-      - 日本1【普通节点】
-      - 日本2【普通节点】
-      - 日本3【普通节点】
-      - 日本4【普通节点】
-      - 日本5【普通节点】
-      - 日本6【普通节点】
-      - 日本7【普通节点】
-      - 日本8【普通节点】
-      - 日本9【普通节点】
-      - 日本10【普通节点】
-      - 日本11【普通节点】
-      - 日本12【普通节点】
-      - 日本13【普通节点】
-      - 日本14【普通节点】
-      - 日本15【普通节点】
-      - 韩国1【普通节点】
-      - 韩国2【普通节点】
-      - 韩国3【普通节点】
-      - 韩国4【普通节点】
-      - 韩国5【普通节点】
-      - 韩国6【普通节点】
-      - 韩国7【普通节点】
-      - 韩国8【普通节点】
-      - 韩国9【普通节点】
-      - 韩国10【普通节点】
-      - 韩国11【普通节点】
-      - 韩国12【普通节点】
-      - 韩国13【普通节点】
-      - 新加坡1【普通节点】
-      - 新加坡2【普通节点】
-      - 新加坡3【普通节点】
-      - 新加坡4【普通节点】
-      - 新加坡5【普通节点】
-      - 新加坡6【普通节点】
-      - 新加坡7【普通节点】
-      - 新加坡8【普通节点】
-      - 新加坡9【普通节点】
-      - 新加坡10【普通节点】
-      - 新加坡11【普通节点】
-      - 新加坡12【普通节点】
-      - 新加坡13【普通节点】
-      - 新加坡14【普通节点】
-      - 新加坡15【普通节点】
-      - 新加坡16【普通节点】
-      - 德国1【普通节点】
-      - 德国2【普通节点】
-      - 德国3【普通节点】
-      - 德国4【普通节点】
-      - 德国5【普通节点】
-      - 英国1【普通节点】
-      - 英国2【普通节点】
-      - 瑞典1【普通节点】
-      - 巴西1【普通节点】
-      - 迪拜1【普通节点】
-      - 土耳其1【普通节点】
-      - 法国1【普通节点】
-      - 印度1【普通节点】
-      - 以色列1【普通节点】
-      - 西班牙1【普通节点】
-      - 墨西哥1【普通节点】
-      - 美国1【普通节点】
-      - 美国2【普通节点】
-      - 美国3【普通节点】
-      - 美国4【普通节点】
-      - 美国5【普通节点】
-      - 美国6【普通节点】
-      - 美国7【普通节点】
-      - 美国8【普通节点】
-      - 美国9【普通节点】
-      - 美国10【普通节点】
-      - 美国11【普通节点】
-      - 美国12【普通节点】
-      - 美国13【普通节点】
-      - 美国14【普通节点】
-      - 美国15【普通节点】
-      - 美国16【普通节点】
-      - 美国17【普通节点】
-      - 美国18【普通节点】
+      - 美国 1
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 香港-1
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 BGP 1
+      - 香港 BGP 2
+      - 日本 1
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 日本 9
+      - 日本 10
+      - 日本 11
+      - 日本 12
+      - 日本 BGP 1
+      - 日本 BGP 2
+      - 日本 BGP 3
+      - 韩国 1
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 韩国 5
+      - 韩国 6
+      - 韩国 7
+      - 韩国 8
+      - 韩国 9
+      - 韩国 10
+      - 韩国 11
+      - 韩国 12
+      - 韩国 13
+      - 新加坡 1
+      - 新加坡 2
+      - 新加坡 3
+      - 新加坡 4
+      - 新加坡 5
+      - 新加坡 6
+      - 新加坡 7
+      - 新加坡 8
+      - 新加坡 9
+      - 新加坡 10
+      - 新加坡 11
+      - 新加坡 12
+      - 新加坡 13
+      - 新加坡 BGP 1
+      - 新加坡 BGP 2
+      - 新加坡 BGP 3
+      - 德国 1
+      - 德国 2
+      - 德国 3
+      - 德国 4
+      - 德国 5
+      - 英国 1
+      - 英国 2
+      - 瑞典 1
+      - 巴西 1
+      - 迪拜 1
+      - 土耳其 1
+      - 法国 1
+      - 印度 1
+      - 以色列 1
+      - 西班牙 1
+      - 墨西哥 1
   - name: 📲 电报消息
     type: select
     proxies:
@@ -718,66 +513,66 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 香港1【普通节点】
-      - 香港2【普通节点】
-      - 香港3【普通节点】
-      - 香港4【普通节点】
-      - 香港5【普通节点】
-      - 香港6【普通节点】
-      - 香港7【普通节点】
-      - 香港8【普通节点】
-      - 香港9【普通节点】
-      - 香港10【普通节点】
-      - 香港11【普通节点】
-      - 香港12【普通节点】
-      - 香港13【普通节点】
-      - 香港14【普通节点】
-      - 香港15【普通节点】
+      - 香港-1
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 BGP 1
+      - 香港 BGP 2
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 日本1【普通节点】
-      - 日本2【普通节点】
-      - 日本3【普通节点】
-      - 日本4【普通节点】
-      - 日本5【普通节点】
-      - 日本6【普通节点】
-      - 日本7【普通节点】
-      - 日本8【普通节点】
-      - 日本9【普通节点】
-      - 日本10【普通节点】
-      - 日本11【普通节点】
-      - 日本12【普通节点】
-      - 日本13【普通节点】
-      - 日本14【普通节点】
-      - 日本15【普通节点】
+      - 日本 1
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 日本 9
+      - 日本 10
+      - 日本 11
+      - 日本 12
+      - 日本 BGP 1
+      - 日本 BGP 2
+      - 日本 BGP 3
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 美国1【普通节点】
-      - 美国2【普通节点】
-      - 美国3【普通节点】
-      - 美国4【普通节点】
-      - 美国5【普通节点】
-      - 美国6【普通节点】
-      - 美国7【普通节点】
-      - 美国8【普通节点】
-      - 美国9【普通节点】
-      - 美国10【普通节点】
-      - 美国11【普通节点】
-      - 美国12【普通节点】
-      - 美国13【普通节点】
-      - 美国14【普通节点】
-      - 美国15【普通节点】
-      - 美国16【普通节点】
-      - 美国17【普通节点】
-      - 美国18【普通节点】
+      - 美国 1
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -791,41 +586,41 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 新加坡1【普通节点】
-      - 新加坡2【普通节点】
-      - 新加坡3【普通节点】
-      - 新加坡4【普通节点】
-      - 新加坡5【普通节点】
-      - 新加坡6【普通节点】
-      - 新加坡7【普通节点】
-      - 新加坡8【普通节点】
-      - 新加坡9【普通节点】
-      - 新加坡10【普通节点】
-      - 新加坡11【普通节点】
-      - 新加坡12【普通节点】
-      - 新加坡13【普通节点】
-      - 新加坡14【普通节点】
-      - 新加坡15【普通节点】
-      - 新加坡16【普通节点】
+      - 新加坡 1
+      - 新加坡 2
+      - 新加坡 3
+      - 新加坡 4
+      - 新加坡 5
+      - 新加坡 6
+      - 新加坡 7
+      - 新加坡 8
+      - 新加坡 9
+      - 新加坡 10
+      - 新加坡 11
+      - 新加坡 12
+      - 新加坡 13
+      - 新加坡 BGP 1
+      - 新加坡 BGP 2
+      - 新加坡 BGP 3
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 韩国1【普通节点】
-      - 韩国2【普通节点】
-      - 韩国3【普通节点】
-      - 韩国4【普通节点】
-      - 韩国5【普通节点】
-      - 韩国6【普通节点】
-      - 韩国7【普通节点】
-      - 韩国8【普通节点】
-      - 韩国9【普通节点】
-      - 韩国10【普通节点】
-      - 韩国11【普通节点】
-      - 韩国12【普通节点】
-      - 韩国13【普通节点】
+      - 韩国 1
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 韩国 5
+      - 韩国 6
+      - 韩国 7
+      - 韩国 8
+      - 韩国 9
+      - 韩国 10
+      - 韩国 11
+      - 韩国 12
+      - 韩国 13
   - name: 🎥 奈飞节点
     type: select
     proxies:
