@@ -22,9 +22,6 @@ proxies:
   - {name: 美国 13, server: us03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us03.god-likebernadette.cloud}}}
   - {name: 美国 14, server: us04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us04.god-likebernadette.cloud}}}
   - {name: 美国 15, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sfdgdegdh?ed=2048", headers: {Host: us.catcloud.cfd}}}
-  - {name: 美国 16, server: szxddx.kunkun.icu, port: 27417, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 美国 17, server: szxddx.kunkun.icu, port: 13201, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 美国 18, server: szxddx.kunkun.icu, port: 23636, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 香港-1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
   - {name: 香港 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
   - {name: 香港 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
@@ -38,8 +35,6 @@ proxies:
   - {name: 香港 11, server: hk02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk02.god-likebernadette.cloud}}}
   - {name: 香港 12, server: hk03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk03.god-likebernadette.cloud}}}
   - {name: 香港 13, server: hk04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk04.god-likebernadette.cloud}}}
-  - {name: 香港 BGP 1, server: szxddx.kunkun.icu, port: 31036, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 香港 BGP 2, server: szxddx.kunkun.icu, port: 37325, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 日本 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
   - {name: 日本 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
@@ -52,9 +47,6 @@ proxies:
   - {name: 日本 10, server: jp02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.god-likebernadette.cloud}}}
   - {name: 日本 11, server: jp03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp03.god-likebernadette.cloud}}}
   - {name: 日本 12, server: jp04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp04.god-likebernadette.cloud}}}
-  - {name: 日本 BGP 1, server: szxddx.kunkun.icu, port: 41113, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 日本 BGP 2, server: szxddx.kunkun.icu, port: 52040, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 日本 BGP 3, server: szxddx.kunkun.icu, port: 45204, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 韩国 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
@@ -67,7 +59,6 @@ proxies:
   - {name: 韩国 10, server: kr02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr02.god-likebernadette.cloud}}}
   - {name: 韩国 11, server: kr03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr03.god-likebernadette.cloud}}}
   - {name: 韩国 12, server: kr04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr04.god-likebernadette.cloud}}}
-  - {name: 韩国 13, server: szxddx.kunkun.icu, port: 38943, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 新加坡 1, server: mi.moluo.xyz, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
   - {name: 新加坡 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
   - {name: 新加坡 3, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
@@ -81,25 +72,11 @@ proxies:
   - {name: 新加坡 11, server: sg02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg02.god-likebernadette.cloud}}}
   - {name: 新加坡 12, server: sg03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg03.god-likebernadette.cloud}}}
   - {name: 新加坡 13, server: sg04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg04.god-likebernadette.cloud}}}
-  - {name: 新加坡 BGP 1, server: szxddx.kunkun.icu, port: 24146, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 新加坡 BGP 2, server: szxddx.kunkun.icu, port: 61826, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 新加坡 BGP 3, server: szxddx.kunkun.icu, port: 47764, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 德国 1, server: de01.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de01.god-likebernadette.cloud}}}
   - {name: 德国 2, server: de02.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de02.god-likebernadette.cloud}}}
   - {name: 德国 3, server: de03.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de03.god-likebernadette.cloud}}}
-  - {name: 德国 4, server: de04.god-likebernadette.cloud, port: 80, type: vmess, uuid: d447467f-e34d-4bc0-b429-9863e40803df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de04.god-likebernadette.cloud}}}
-  - {name: 德国 5, server: szxddx.kunkun.icu, port: 59706, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 英国 1, server: szxddx.kunkun.icu, port: 41327, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 英国 2, server: szxddx.kunkun.icu, port: 56261, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 瑞典 1, server: szxddx.kunkun.icu, port: 62006, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 巴西 1, server: szxddx.kunkun.icu, port: 42601, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 迪拜 1, server: szxddx.kunkun.icu, port: 58510, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 土耳其 1, server: szxddx.kunkun.icu, port: 16935, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 法国 1, server: szxddx.kunkun.icu, port: 14714, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 印度 1, server: szxddx.kunkun.icu, port: 13401, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 以色列 1, server: szxddx.kunkun.icu, port: 52650, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 西班牙 1, server: szxddx.kunkun.icu, port: 25006, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 墨西哥 1, server: szxddx.kunkun.icu, port: 32957, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -133,9 +110,6 @@ proxy-groups:
       - 美国 13
       - 美国 14
       - 美国 15
-      - 美国 16
-      - 美国 17
-      - 美国 18
       - 香港-1
       - 香港 2
       - 香港 3
@@ -149,8 +123,6 @@ proxy-groups:
       - 香港 11
       - 香港 12
       - 香港 13
-      - 香港 BGP 1
-      - 香港 BGP 2
       - 日本 1
       - 日本 2
       - 日本 3
@@ -163,9 +135,6 @@ proxy-groups:
       - 日本 10
       - 日本 11
       - 日本 12
-      - 日本 BGP 1
-      - 日本 BGP 2
-      - 日本 BGP 3
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -178,7 +147,6 @@ proxy-groups:
       - 韩国 10
       - 韩国 11
       - 韩国 12
-      - 韩国 13
       - 新加坡 1
       - 新加坡 2
       - 新加坡 3
@@ -192,25 +160,11 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12
       - 新加坡 13
-      - 新加坡 BGP 1
-      - 新加坡 BGP 2
-      - 新加坡 BGP 3
       - 德国 1
       - 德国 2
       - 德国 3
-      - 德国 4
-      - 德国 5
       - 英国 1
       - 英国 2
-      - 瑞典 1
-      - 巴西 1
-      - 迪拜 1
-      - 土耳其 1
-      - 法国 1
-      - 印度 1
-      - 以色列 1
-      - 西班牙 1
-      - 墨西哥 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -234,9 +188,6 @@ proxy-groups:
       - 美国 13
       - 美国 14
       - 美国 15
-      - 美国 16
-      - 美国 17
-      - 美国 18
       - 香港-1
       - 香港 2
       - 香港 3
@@ -250,8 +201,6 @@ proxy-groups:
       - 香港 11
       - 香港 12
       - 香港 13
-      - 香港 BGP 1
-      - 香港 BGP 2
       - 日本 1
       - 日本 2
       - 日本 3
@@ -264,9 +213,6 @@ proxy-groups:
       - 日本 10
       - 日本 11
       - 日本 12
-      - 日本 BGP 1
-      - 日本 BGP 2
-      - 日本 BGP 3
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -279,7 +225,6 @@ proxy-groups:
       - 韩国 10
       - 韩国 11
       - 韩国 12
-      - 韩国 13
       - 新加坡 1
       - 新加坡 2
       - 新加坡 3
@@ -293,25 +238,11 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12
       - 新加坡 13
-      - 新加坡 BGP 1
-      - 新加坡 BGP 2
-      - 新加坡 BGP 3
       - 德国 1
       - 德国 2
       - 德国 3
-      - 德国 4
-      - 德国 5
       - 英国 1
       - 英国 2
-      - 瑞典 1
-      - 巴西 1
-      - 迪拜 1
-      - 土耳其 1
-      - 法国 1
-      - 印度 1
-      - 以色列 1
-      - 西班牙 1
-      - 墨西哥 1
   - name: 📲 电报消息
     type: select
     proxies:
@@ -526,8 +457,6 @@ proxy-groups:
       - 香港 11
       - 香港 12
       - 香港 13
-      - 香港 BGP 1
-      - 香港 BGP 2
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -546,9 +475,6 @@ proxy-groups:
       - 日本 10
       - 日本 11
       - 日本 12
-      - 日本 BGP 1
-      - 日本 BGP 2
-      - 日本 BGP 3
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -570,9 +496,6 @@ proxy-groups:
       - 美国 13
       - 美国 14
       - 美国 15
-      - 美国 16
-      - 美国 17
-      - 美国 18
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -599,9 +522,6 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12
       - 新加坡 13
-      - 新加坡 BGP 1
-      - 新加坡 BGP 2
-      - 新加坡 BGP 3
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -620,7 +540,6 @@ proxy-groups:
       - 韩国 10
       - 韩国 11
       - 韩国 12
-      - 韩国 13
   - name: 🎥 奈飞节点
     type: select
     proxies:
