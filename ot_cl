@@ -19,8 +19,6 @@ proxies:
   - {name: 美国 10, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
   - {name: 美国 11, server: szxddxsh.kunkun.icu, port: 23636, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
   - {name: 美国 12, server: szxddxsh.kunkun.icu, port: 23636, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 香港 BGP 1, server: szxddxsh.kunkun.icu, port: 63070, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
-  - {name: 香港 BGP 2, server: szxddxsh.kunkun.icu, port: 63070, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 日本 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
   - {name: 日本 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
@@ -29,8 +27,8 @@ proxies:
   - {name: 日本 6, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
   - {name: 日本 7, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本 8, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
-  - {name: 日本 BGP 1, server: szxddxsh.kunkun.icu, port: 41113, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
-  - {name: 日本 BGP 2, server: szxddxsh.kunkun.icu, port: 41113, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 日本 BGP 1, server: jsidcyd.kunkun.icu, port: 15451, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 日本 BGP 2, server: jsidcyd.kunkun.icu, port: 15451, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
   - {name: 韩国 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
@@ -58,8 +56,8 @@ proxies:
   - {name: 迪拜 2, server: szxddxsh.kunkun.icu, port: 58510, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 法国 1, server: szxddxsh.kunkun.icu, port: 14714, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
   - {name: 法国 2, server: szxddxsh.kunkun.icu, port: 14714, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 瑞典 1, server: szxddxsh.kunkun.icu, port: 62006, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
-  - {name: 瑞典 2, server: szxddxsh.kunkun.icu, port: 62006, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 瑞典 1, server: szxddxsh.kunkun.icu, port: 62006, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 瑞典 2, server: szxddxsh.kunkun.icu, port: 62006, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -80,8 +78,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港 BGP 1
-      - 香港 BGP 2
       - 日本 1
       - 日本 2
       - 日本 3
@@ -140,8 +136,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港 BGP 1
-      - 香港 BGP 2
       - 日本 1
       - 日本 2
       - 日本 3
@@ -201,8 +195,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港 BGP 1
-      - 香港 BGP 2
       - 日本 1
       - 日本 2
       - 日本 3
@@ -274,8 +266,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港 BGP 1
-      - 香港 BGP 2
       - 日本 1
       - 日本 2
       - 日本 3
@@ -319,8 +309,6 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 BGP 1
-      - 香港 BGP 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -341,8 +329,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港 BGP 1
-      - 香港 BGP 2
       - 日本 1
       - 日本 2
       - 日本 3
@@ -401,8 +387,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港 BGP 1
-      - 香港 BGP 2
       - 日本 1
       - 日本 2
       - 日本 3
@@ -462,8 +446,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港 BGP 1
-      - 香港 BGP 2
       - 日本 1
       - 日本 2
       - 日本 3
@@ -532,8 +514,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港 BGP 1
-      - 香港 BGP 2
       - 日本 1
       - 日本 2
       - 日本 3
