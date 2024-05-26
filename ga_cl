@@ -34,8 +34,6 @@ proxies:
   - {name: 香港 IEPL 5 备用, server: a.v2ray.wtf, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 香港 IEPL 6 故障, server: a.v2ray.wtf, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 香港 IEPL 7 故障, server: a.v2ray.wtf, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 香港 IEPL 8 广港 备用, server: sg1.whatfuck.top, port: 16301, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
-  - {name: 香港 IEPL 9 广港 备用, server: sg1.whatfuck.top, port: 16301, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 日本 IEPL 1 备用, server: abc.dggs.org, port: 10702, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 日本 IEPL 2 备用, server: abc.dggs.org, port: 10703, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 日本 IEPL 3 故障, server: a.v2ray.wtf, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
@@ -79,8 +77,6 @@ proxy-groups:
       - 香港 IEPL 5 备用
       - 香港 IEPL 6 故障
       - 香港 IEPL 7 故障
-      - 香港 IEPL 8 广港 备用
-      - 香港 IEPL 9 广港 备用
       - 日本 IEPL 1 备用
       - 日本 IEPL 2 备用
       - 日本 IEPL 3 故障
@@ -123,8 +119,6 @@ proxy-groups:
       - 香港 IEPL 5 备用
       - 香港 IEPL 6 故障
       - 香港 IEPL 7 故障
-      - 香港 IEPL 8 广港 备用
-      - 香港 IEPL 9 广港 备用
       - 日本 IEPL 1 备用
       - 日本 IEPL 2 备用
       - 日本 IEPL 3 故障
@@ -168,8 +162,6 @@ proxy-groups:
       - 香港 IEPL 5 备用
       - 香港 IEPL 6 故障
       - 香港 IEPL 7 故障
-      - 香港 IEPL 8 广港 备用
-      - 香港 IEPL 9 广港 备用
       - 日本 IEPL 1 备用
       - 日本 IEPL 2 备用
       - 日本 IEPL 3 故障
@@ -225,8 +217,6 @@ proxy-groups:
       - 香港 IEPL 5 备用
       - 香港 IEPL 6 故障
       - 香港 IEPL 7 故障
-      - 香港 IEPL 8 广港 备用
-      - 香港 IEPL 9 广港 备用
       - 日本 IEPL 1 备用
       - 日本 IEPL 2 备用
       - 日本 IEPL 3 故障
@@ -252,8 +242,6 @@ proxy-groups:
       - 香港 IEPL 5 备用
       - 香港 IEPL 6 故障
       - 香港 IEPL 7 故障
-      - 香港 IEPL 8 广港 备用
-      - 香港 IEPL 9 广港 备用
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -289,8 +277,6 @@ proxy-groups:
       - 香港 IEPL 5 备用
       - 香港 IEPL 6 故障
       - 香港 IEPL 7 故障
-      - 香港 IEPL 8 广港 备用
-      - 香港 IEPL 9 广港 备用
       - 日本 IEPL 1 备用
       - 日本 IEPL 2 备用
       - 日本 IEPL 3 故障
@@ -333,8 +319,6 @@ proxy-groups:
       - 香港 IEPL 5 备用
       - 香港 IEPL 6 故障
       - 香港 IEPL 7 故障
-      - 香港 IEPL 8 广港 备用
-      - 香港 IEPL 9 广港 备用
       - 日本 IEPL 1 备用
       - 日本 IEPL 2 备用
       - 日本 IEPL 3 故障
@@ -378,8 +362,6 @@ proxy-groups:
       - 香港 IEPL 5 备用
       - 香港 IEPL 6 故障
       - 香港 IEPL 7 故障
-      - 香港 IEPL 8 广港 备用
-      - 香港 IEPL 9 广港 备用
       - 日本 IEPL 1 备用
       - 日本 IEPL 2 备用
       - 日本 IEPL 3 故障
@@ -432,8 +414,6 @@ proxy-groups:
       - 香港 IEPL 5 备用
       - 香港 IEPL 6 故障
       - 香港 IEPL 7 故障
-      - 香港 IEPL 8 广港 备用
-      - 香港 IEPL 9 广港 备用
       - 日本 IEPL 1 备用
       - 日本 IEPL 2 备用
       - 日本 IEPL 3 故障
