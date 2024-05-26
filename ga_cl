@@ -27,8 +27,8 @@ proxies:
   - {name: 泰国 IEPL 1 备用, server: a.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 马来西亚 IEPL 1 备用, server: a.v2ray.wtf, port: 30021, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 韩国 IEPL 1 故障, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 香港 IEPL 1 主力, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 香港 IEPL 2 主力, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 香港 IEPL 1 备用, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 香港 IEPL 2 备用, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 香港 IEPL 3 故障, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 香港 IEPL 4 备用, server: a.v2ray.wtf, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 香港 IEPL 5 备用, server: a.v2ray.wtf, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
@@ -70,8 +70,8 @@ proxy-groups:
       - 泰国 IEPL 1 备用
       - 马来西亚 IEPL 1 备用
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 主力
-      - 香港 IEPL 2 主力
+      - 香港 IEPL 1 备用
+      - 香港 IEPL 2 备用
       - 香港 IEPL 3 故障
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
@@ -112,8 +112,8 @@ proxy-groups:
       - 泰国 IEPL 1 备用
       - 马来西亚 IEPL 1 备用
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 主力
-      - 香港 IEPL 2 主力
+      - 香港 IEPL 1 备用
+      - 香港 IEPL 2 备用
       - 香港 IEPL 3 故障
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
@@ -155,8 +155,8 @@ proxy-groups:
       - 泰国 IEPL 1 备用
       - 马来西亚 IEPL 1 备用
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 主力
-      - 香港 IEPL 2 主力
+      - 香港 IEPL 1 备用
+      - 香港 IEPL 2 备用
       - 香港 IEPL 3 故障
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
@@ -210,8 +210,8 @@ proxy-groups:
       - 泰国 IEPL 1 备用
       - 马来西亚 IEPL 1 备用
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 主力
-      - 香港 IEPL 2 主力
+      - 香港 IEPL 1 备用
+      - 香港 IEPL 2 备用
       - 香港 IEPL 3 故障
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
@@ -235,8 +235,8 @@ proxy-groups:
       - 台湾 IEPL 4 备用
       - 台湾 IEPL 5 故障
       - 台湾 IEPL 6 故障
-      - 香港 IEPL 1 主力
-      - 香港 IEPL 2 主力
+      - 香港 IEPL 1 备用
+      - 香港 IEPL 2 备用
       - 香港 IEPL 3 故障
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
@@ -270,8 +270,8 @@ proxy-groups:
       - 泰国 IEPL 1 备用
       - 马来西亚 IEPL 1 备用
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 主力
-      - 香港 IEPL 2 主力
+      - 香港 IEPL 1 备用
+      - 香港 IEPL 2 备用
       - 香港 IEPL 3 故障
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
@@ -312,8 +312,8 @@ proxy-groups:
       - 泰国 IEPL 1 备用
       - 马来西亚 IEPL 1 备用
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 主力
-      - 香港 IEPL 2 主力
+      - 香港 IEPL 1 备用
+      - 香港 IEPL 2 备用
       - 香港 IEPL 3 故障
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
@@ -355,8 +355,8 @@ proxy-groups:
       - 泰国 IEPL 1 备用
       - 马来西亚 IEPL 1 备用
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 主力
-      - 香港 IEPL 2 主力
+      - 香港 IEPL 1 备用
+      - 香港 IEPL 2 备用
       - 香港 IEPL 3 故障
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
@@ -407,8 +407,8 @@ proxy-groups:
       - 泰国 IEPL 1 备用
       - 马来西亚 IEPL 1 备用
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 主力
-      - 香港 IEPL 2 主力
+      - 香港 IEPL 1 备用
+      - 香港 IEPL 2 备用
       - 香港 IEPL 3 故障
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
