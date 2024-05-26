@@ -47,8 +47,8 @@ proxies:
   - {name: 韩国 6, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 7, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 8, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 韩国 9, server: szxddxsh.kunkun.icu, port: 38943, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
-  - {name: 韩国 10, server: szxddxsh.kunkun.icu, port: 38943, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 韩国 9, server: jsidcyd.kunkun.icu, port: 3109, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 韩国 10, server: jsidcyd.kunkun.icu, port: 3109, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
   - {name: 新加坡 1, server: mi.moluo.xyz, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
   - {name: 新加坡 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
   - {name: 新加坡 3, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
