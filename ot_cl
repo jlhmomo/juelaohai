@@ -19,14 +19,6 @@ proxies:
   - {name: 美国 10, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
   - {name: 美国 11, server: szxddxsh.kunkun.icu, port: 23636, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
   - {name: 美国 12, server: szxddxsh.kunkun.icu, port: 23636, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 香港-1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
-  - {name: 香港 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
-  - {name: 香港 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
-  - {name: 香港 4, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
-  - {name: 香港 5, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
-  - {name: 香港 6, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
-  - {name: 香港 7, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.diao.icu}}}
-  - {name: 香港 8, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.diao.icu}}}
   - {name: 香港 BGP 1, server: szxddxsh.kunkun.icu, port: 63070, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
   - {name: 香港 BGP 2, server: szxddxsh.kunkun.icu, port: 63070, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 日本 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
@@ -68,8 +60,6 @@ proxies:
   - {name: 法国 2, server: szxddxsh.kunkun.icu, port: 14714, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 瑞典 1, server: szxddxsh.kunkun.icu, port: 62006, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
   - {name: 瑞典 2, server: szxddxsh.kunkun.icu, port: 62006, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 土耳其 1, server: szxddxsh.kunkun.icu, port: 16935, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
-  - {name: 土耳其 2, server: szxddxsh.kunkun.icu, port: 16935, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -90,14 +80,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港-1
-      - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
-      - 香港 6
-      - 香港 7
-      - 香港 8
       - 香港 BGP 1
       - 香港 BGP 2
       - 日本 1
@@ -139,8 +121,6 @@ proxy-groups:
       - 法国 2
       - 瑞典 1
       - 瑞典 2
-      - 土耳其 1
-      - 土耳其 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -160,14 +140,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港-1
-      - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
-      - 香港 6
-      - 香港 7
-      - 香港 8
       - 香港 BGP 1
       - 香港 BGP 2
       - 日本 1
@@ -209,8 +181,6 @@ proxy-groups:
       - 法国 2
       - 瑞典 1
       - 瑞典 2
-      - 土耳其 1
-      - 土耳其 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -231,14 +201,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港-1
-      - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
-      - 香港 6
-      - 香港 7
-      - 香港 8
       - 香港 BGP 1
       - 香港 BGP 2
       - 日本 1
@@ -280,8 +242,6 @@ proxy-groups:
       - 法国 2
       - 瑞典 1
       - 瑞典 2
-      - 土耳其 1
-      - 土耳其 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -314,14 +274,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港-1
-      - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
-      - 香港 6
-      - 香港 7
-      - 香港 8
       - 香港 BGP 1
       - 香港 BGP 2
       - 日本 1
@@ -363,20 +315,10 @@ proxy-groups:
       - 法国 2
       - 瑞典 1
       - 瑞典 2
-      - 土耳其 1
-      - 土耳其 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港-1
-      - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
-      - 香港 6
-      - 香港 7
-      - 香港 8
       - 香港 BGP 1
       - 香港 BGP 2
       - 🔰 节点选择
@@ -399,14 +341,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港-1
-      - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
-      - 香港 6
-      - 香港 7
-      - 香港 8
       - 香港 BGP 1
       - 香港 BGP 2
       - 日本 1
@@ -448,8 +382,6 @@ proxy-groups:
       - 法国 2
       - 瑞典 1
       - 瑞典 2
-      - 土耳其 1
-      - 土耳其 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -469,14 +401,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港-1
-      - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
-      - 香港 6
-      - 香港 7
-      - 香港 8
       - 香港 BGP 1
       - 香港 BGP 2
       - 日本 1
@@ -518,8 +442,6 @@ proxy-groups:
       - 法国 2
       - 瑞典 1
       - 瑞典 2
-      - 土耳其 1
-      - 土耳其 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -540,14 +462,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港-1
-      - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
-      - 香港 6
-      - 香港 7
-      - 香港 8
       - 香港 BGP 1
       - 香港 BGP 2
       - 日本 1
@@ -589,8 +503,6 @@ proxy-groups:
       - 法国 2
       - 瑞典 1
       - 瑞典 2
-      - 土耳其 1
-      - 土耳其 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -620,14 +532,6 @@ proxy-groups:
       - 美国 10
       - 美国 11
       - 美国 12
-      - 香港-1
-      - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
-      - 香港 6
-      - 香港 7
-      - 香港 8
       - 香港 BGP 1
       - 香港 BGP 2
       - 日本 1
@@ -669,8 +573,6 @@ proxy-groups:
       - 法国 2
       - 瑞典 1
       - 瑞典 2
-      - 土耳其 1
-      - 土耳其 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
