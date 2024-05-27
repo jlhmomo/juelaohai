@@ -10,22 +10,11 @@ proxies:
   - {name: 美国 1, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
   - {name: 美国 2, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
   - {name: 美国 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
-  - {name: 美国 4, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 美国 5, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
-  - {name: 美国 6, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 美国 7, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
-  - {name: 美国 8, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 美国 9, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
-  - {name: 美国 10, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 美国 11, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sfdgdegdh?ed=2048", headers: {Host: us.catcloud.cfd}}}
-  - {name: 美国 12, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sfdgdegdh?ed=2048", headers: {Host: us.catcloud.cfd}}}
-  - {name: 美国 13, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sfdgdegdh?ed=2048", headers: {Host: us.catcloud.cfd}}}
-  - {name: 美国 14, server: e55596d8b2d8c495.cdn.jiashule.com, port: 64814, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 美国 4, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sfdgdegdh?ed=2048", headers: {Host: us.catcloud.cfd}}}
+  - {name: 美国 5, server: e55596d8b2d8c495.cdn.jiashule.com, port: 64814, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 美国 6, server: zy.02er.com, port: 15899, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 1, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sdvsgsgsdfgh?ed=2048", headers: {Host: hk.catcloud.cfd}}}
-  - {name: 香港 2, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sdvsgsgsdfgh?ed=2048", headers: {Host: hk.catcloud.cfd}}}
-  - {name: 香港 3, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sdvsgsgsdfgh?ed=2048", headers: {Host: hk.catcloud.cfd}}}
-  - {name: 香港 4, server: e55596d8b2d8c495.cdn.jiashule.com, port: 16106, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 香港 5, server: e55596d8b2d8c495.cdn.jiashule.com, port: 36966, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 香港 2, server: e55596d8b2d8c495.cdn.jiashule.com, port: 36966, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
   - {name: 日本 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
@@ -36,6 +25,9 @@ proxies:
   - {name: 日本 8, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
   - {name: 日本 9 东京, server: zy.02er.com, port: 28470, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 10 东京, server: e55596d8b2d8c495.cdn.jiashule.com, port: 18749, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 日本 11 日本东部, server: zy.02er.com, port: 13555, type: vmess, uuid: 0cf8499e-5409-438d-abe8-396d9fef3cfd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: zy.02er.com}}}
+  - {name: 日本 12, server: zy.02er.com, port: 20168, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 日本 13, server: zy.02er.com, port: 13125, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 韩国 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
@@ -60,6 +52,8 @@ proxies:
   - {name: 台湾 1, server: e55596d8b2d8c495.cdn.jiashule.com, port: 51669, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 台湾 2, server: zy.02er.com, port: 45323, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 英国 1, server: e55596d8b2d8c495.cdn.jiashule.com, port: 34394, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 德国 1 法兰克福, server: zy.02er.com, port: 12466, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 澳大利亚 1, server: zy.02er.com, port: 13102, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -74,19 +68,8 @@ proxy-groups:
       - 美国 4
       - 美国 5
       - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 美国 12
-      - 美国 13
-      - 美国 14
       - 香港 1
       - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
       - 日本 1
       - 日本 2
       - 日本 3
@@ -97,6 +80,9 @@ proxy-groups:
       - 日本 8
       - 日本 9 东京
       - 日本 10 东京
+      - 日本 11 日本东部
+      - 日本 12
+      - 日本 13
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -121,6 +107,8 @@ proxy-groups:
       - 台湾 1
       - 台湾 2
       - 英国 1
+      - 德国 1 法兰克福
+      - 澳大利亚 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -134,19 +122,8 @@ proxy-groups:
       - 美国 4
       - 美国 5
       - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 美国 12
-      - 美国 13
-      - 美国 14
       - 香港 1
       - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
       - 日本 1
       - 日本 2
       - 日本 3
@@ -157,6 +134,9 @@ proxy-groups:
       - 日本 8
       - 日本 9 东京
       - 日本 10 东京
+      - 日本 11 日本东部
+      - 日本 12
+      - 日本 13
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -181,6 +161,8 @@ proxy-groups:
       - 台湾 1
       - 台湾 2
       - 英国 1
+      - 德国 1 法兰克福
+      - 澳大利亚 1
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -195,19 +177,8 @@ proxy-groups:
       - 美国 4
       - 美国 5
       - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 美国 12
-      - 美国 13
-      - 美国 14
       - 香港 1
       - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
       - 日本 1
       - 日本 2
       - 日本 3
@@ -218,6 +189,9 @@ proxy-groups:
       - 日本 8
       - 日本 9 东京
       - 日本 10 东京
+      - 日本 11 日本东部
+      - 日本 12
+      - 日本 13
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -242,6 +216,8 @@ proxy-groups:
       - 台湾 1
       - 台湾 2
       - 英国 1
+      - 德国 1 法兰克福
+      - 澳大利亚 1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -268,19 +244,8 @@ proxy-groups:
       - 美国 4
       - 美国 5
       - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 美国 12
-      - 美国 13
-      - 美国 14
       - 香港 1
       - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
       - 日本 1
       - 日本 2
       - 日本 3
@@ -291,6 +256,9 @@ proxy-groups:
       - 日本 8
       - 日本 9 东京
       - 日本 10 东京
+      - 日本 11 日本东部
+      - 日本 12
+      - 日本 13
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -315,15 +283,14 @@ proxy-groups:
       - 台湾 1
       - 台湾 2
       - 英国 1
+      - 德国 1 法兰克福
+      - 澳大利亚 1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港 1
       - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
       - 台湾 1
       - 台湾 2
       - 🔰 节点选择
@@ -340,19 +307,8 @@ proxy-groups:
       - 美国 4
       - 美国 5
       - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 美国 12
-      - 美国 13
-      - 美国 14
       - 香港 1
       - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
       - 日本 1
       - 日本 2
       - 日本 3
@@ -363,6 +319,9 @@ proxy-groups:
       - 日本 8
       - 日本 9 东京
       - 日本 10 东京
+      - 日本 11 日本东部
+      - 日本 12
+      - 日本 13
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -387,6 +346,8 @@ proxy-groups:
       - 台湾 1
       - 台湾 2
       - 英国 1
+      - 德国 1 法兰克福
+      - 澳大利亚 1
   - name: 📲 电报信息
     type: select
     proxies:
@@ -400,19 +361,8 @@ proxy-groups:
       - 美国 4
       - 美国 5
       - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 美国 12
-      - 美国 13
-      - 美国 14
       - 香港 1
       - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
       - 日本 1
       - 日本 2
       - 日本 3
@@ -423,6 +373,9 @@ proxy-groups:
       - 日本 8
       - 日本 9 东京
       - 日本 10 东京
+      - 日本 11 日本东部
+      - 日本 12
+      - 日本 13
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -447,6 +400,8 @@ proxy-groups:
       - 台湾 1
       - 台湾 2
       - 英国 1
+      - 德国 1 法兰克福
+      - 澳大利亚 1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -461,19 +416,8 @@ proxy-groups:
       - 美国 4
       - 美国 5
       - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 美国 12
-      - 美国 13
-      - 美国 14
       - 香港 1
       - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
       - 日本 1
       - 日本 2
       - 日本 3
@@ -484,6 +428,9 @@ proxy-groups:
       - 日本 8
       - 日本 9 东京
       - 日本 10 东京
+      - 日本 11 日本东部
+      - 日本 12
+      - 日本 13
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -508,6 +455,8 @@ proxy-groups:
       - 台湾 1
       - 台湾 2
       - 英国 1
+      - 德国 1 法兰克福
+      - 澳大利亚 1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -531,19 +480,8 @@ proxy-groups:
       - 美国 4
       - 美国 5
       - 美国 6
-      - 美国 7
-      - 美国 8
-      - 美国 9
-      - 美国 10
-      - 美国 11
-      - 美国 12
-      - 美国 13
-      - 美国 14
       - 香港 1
       - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
       - 日本 1
       - 日本 2
       - 日本 3
@@ -554,6 +492,9 @@ proxy-groups:
       - 日本 8
       - 日本 9 东京
       - 日本 10 东京
+      - 日本 11 日本东部
+      - 日本 12
+      - 日本 13
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -578,6 +519,8 @@ proxy-groups:
       - 台湾 1
       - 台湾 2
       - 英国 1
+      - 德国 1 法兰克福
+      - 澳大利亚 1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
