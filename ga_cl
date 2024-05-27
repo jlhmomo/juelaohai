@@ -43,6 +43,7 @@ proxies:
   - {name: 日本 IEPL 6 故障, server: a.v2ray.wtf, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 美国 IEPL 1 备用, server: abc.dggs.org, port: 10704, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 美国 IEPL 2 备用, server: abc.dggs.org, port: 10705, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 美国 IEPL 3 备用, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -87,6 +88,7 @@ proxy-groups:
       - 日本 IEPL 6 故障
       - 美国 IEPL 1 备用
       - 美国 IEPL 2 备用
+      - 美国 IEPL 3 备用
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -130,6 +132,7 @@ proxy-groups:
       - 日本 IEPL 6 故障
       - 美国 IEPL 1 备用
       - 美国 IEPL 2 备用
+      - 美国 IEPL 3 备用
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -174,6 +177,7 @@ proxy-groups:
       - 日本 IEPL 6 故障
       - 美国 IEPL 1 备用
       - 美国 IEPL 2 备用
+      - 美国 IEPL 3 备用
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -230,6 +234,7 @@ proxy-groups:
       - 日本 IEPL 6 故障
       - 美国 IEPL 1 备用
       - 美国 IEPL 2 备用
+      - 美国 IEPL 3 备用
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -292,6 +297,7 @@ proxy-groups:
       - 日本 IEPL 6 故障
       - 美国 IEPL 1 备用
       - 美国 IEPL 2 备用
+      - 美国 IEPL 3 备用
   - name: 📲 电报信息
     type: select
     proxies:
@@ -335,6 +341,7 @@ proxy-groups:
       - 日本 IEPL 6 故障
       - 美国 IEPL 1 备用
       - 美国 IEPL 2 备用
+      - 美国 IEPL 3 备用
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -379,6 +386,7 @@ proxy-groups:
       - 日本 IEPL 6 故障
       - 美国 IEPL 1 备用
       - 美国 IEPL 2 备用
+      - 美国 IEPL 3 备用
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -432,6 +440,7 @@ proxy-groups:
       - 日本 IEPL 6 故障
       - 美国 IEPL 1 备用
       - 美国 IEPL 2 备用
+      - 美国 IEPL 3 备用
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
