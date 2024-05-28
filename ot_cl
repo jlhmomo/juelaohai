@@ -15,7 +15,7 @@ proxies:
   - {name: 美国 6, server: zy.02er.com, port: 15899, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 1, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sdvsgsgsdfgh?ed=2048", headers: {Host: hk.catcloud.cfd}}}
   - {name: 香港 2, server: e55596d8b2d8c495.cdn.jiashule.com, port: 36966, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 香港 3, server: zy.02er.com, port: 49129, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 香港 3 解锁流媒体, server: zy.02er.com, port: 49129, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 4, server: zy.02er.com, port: 13148, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 5, server: e55596d8b2d8c495.cdn.jiashule.com, port: 16106, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
@@ -73,7 +73,7 @@ proxy-groups:
       - 美国 6
       - 香港 1
       - 香港 2
-      - 香港 3
+      - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 日本 1
@@ -130,7 +130,7 @@ proxy-groups:
       - 美国 6
       - 香港 1
       - 香港 2
-      - 香港 3
+      - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 日本 1
@@ -188,7 +188,7 @@ proxy-groups:
       - 美国 6
       - 香港 1
       - 香港 2
-      - 香港 3
+      - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 日本 1
@@ -258,7 +258,7 @@ proxy-groups:
       - 美国 6
       - 香港 1
       - 香港 2
-      - 香港 3
+      - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 日本 1
@@ -306,7 +306,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港 1
       - 香港 2
-      - 香港 3
+      - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 台湾 1
@@ -327,7 +327,7 @@ proxy-groups:
       - 美国 6
       - 香港 1
       - 香港 2
-      - 香港 3
+      - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 日本 1
@@ -384,7 +384,7 @@ proxy-groups:
       - 美国 6
       - 香港 1
       - 香港 2
-      - 香港 3
+      - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 日本 1
@@ -442,7 +442,7 @@ proxy-groups:
       - 美国 6
       - 香港 1
       - 香港 2
-      - 香港 3
+      - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 日本 1
@@ -509,7 +509,7 @@ proxy-groups:
       - 美国 6
       - 香港 1
       - 香港 2
-      - 香港 3
+      - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 日本 1
