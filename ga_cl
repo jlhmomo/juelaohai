@@ -13,39 +13,38 @@ proxies:
   - {name: 台湾 IEPL 2 备用, server: a.v2ray.wtf, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 台湾 IEPL 3 备用, server: a.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 台湾 IEPL 4 备用, server: a.v2ray.wtf, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 台湾 IEPL 5 稳定 延迟可能偏高, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 台湾 IEPL 5 稳定 推荐 延迟偏高 25MS, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 台湾 IEPL 6 故障, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 台湾 IEPL 7 稳定 延迟可能偏高, server: abc.dggs.org, port: 10712, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 新加坡 IEPL 1 稳定, server: abc.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 新加坡 IEPL 2 稳定, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 新加坡 IEPL 1 稳定 推荐, server: abc.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 新加坡 IEPL 2 稳定 推荐, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 新加坡 IEPL 3 故障, server: abc.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 新加坡 IEPL 4 备用, server: a.v2ray.wtf, port: 30009, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 新加坡 IEPL 5 备用, server: a.v2ray.wtf, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 新加坡 IEPL 6 故障, server: a.v2ray.wtf, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 新加坡 IEPL 7 备用, server: a.v2ray.wtf, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 日本 IEPL 1 稳定, server: abc.dggs.org, port: 10702, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 日本 IEPL 2 稳定, server: abc.dggs.org, port: 10703, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 日本 IEPL 3 故障, server: a.v2ray.wtf, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 日本 IEPL 4 故障, server: a.v2ray.wtf, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 日本 IEPL 5 故障, server: a.v2ray.wtf, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 日本 IEPL 6 故障, server: a.v2ray.wtf, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 日本 IEPL 1 稳定 推荐, server: abc.dggs.org, port: 10702, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 日本 IEPL 2 稳定 推荐 延迟偏高 5MS, server: abc.dggs.org, port: 10703, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 日本 IEPL 3 备用, server: a.v2ray.wtf, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 日本 IEPL 4 备用 延迟偏高 8MS, server: a.v2ray.wtf, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 日本 IEPL 5 备用, server: a.v2ray.wtf, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 日本 IEPL 6 备用 延迟偏高 8MS, server: a.v2ray.wtf, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 美国 IEPL 1 稳定, server: abc.dggs.org, port: 10704, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 美国 IEPL 2 稳定, server: abc.dggs.org, port: 10705, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 美国 IEPL 3 故障, server: b.v2ray.wtf, port: 30021, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 美国 IEPL 4 故障, server: b.v2ray.wtf, port: 30022, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 美国 IEPL 5 故障, server: b.v2ray.wtf, port: 30023, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 美国 IEPL 6 故障, server: b.v2ray.wtf, port: 30024, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 马来西亚 IEPL 1 备用, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 美国 IEPL 3 备用, server: b.v2ray.wtf, port: 30021, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 美国 IEPL 4 备用, server: b.v2ray.wtf, port: 30022, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 美国 IEPL 5 备用, server: b.v2ray.wtf, port: 30023, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 美国 IEPL 6 备用, server: b.v2ray.wtf, port: 30024, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 马来西亚 IEPL 1 稳定, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 泰国 IEPL 1 备用, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 越南 IEPL 1 备用, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 越南 IEPL 1 稳定 推荐, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 韩国 IEPL 1 故障, server: a.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 香港 IEPL 1 备用, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 香港 IEPL 2 备用, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 香港 IEPL 3 故障, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 香港 IEPL 1 稳定 推荐, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 香港 IEPL 2 稳定 推荐, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 香港 IEPL 3 稳定 推荐, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 香港 IEPL 4 备用, server: a.v2ray.wtf, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 香港 IEPL 5 备用, server: a.v2ray.wtf, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 香港 IEPL 6 故障, server: a.v2ray.wtf, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
-  - {name: 香港 IEPL 7 故障, server: a.v2ray.wtf, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 香港 IEPL 6 备用, server: a.v2ray.wtf, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
+  - {name: 香港 IEPL 7 备用, server: a.v2ray.wtf, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -60,39 +59,38 @@ proxy-groups:
       - 台湾 IEPL 2 备用
       - 台湾 IEPL 3 备用
       - 台湾 IEPL 4 备用
-      - 台湾 IEPL 5 稳定 延迟可能偏高
+      - 台湾 IEPL 5 稳定 推荐 延迟偏高 25MS
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 稳定 延迟可能偏高
-      - 新加坡 IEPL 1 稳定
-      - 新加坡 IEPL 2 稳定
+      - 新加坡 IEPL 1 稳定 推荐
+      - 新加坡 IEPL 2 稳定 推荐
       - 新加坡 IEPL 3 故障
       - 新加坡 IEPL 4 备用
       - 新加坡 IEPL 5 备用
       - 新加坡 IEPL 6 故障
       - 新加坡 IEPL 7 备用
-      - 日本 IEPL 1 稳定
-      - 日本 IEPL 2 稳定
-      - 日本 IEPL 3 故障
-      - 日本 IEPL 4 故障
-      - 日本 IEPL 5 故障
-      - 日本 IEPL 6 故障
+      - 日本 IEPL 1 稳定 推荐
+      - 日本 IEPL 2 稳定 推荐 延迟偏高 5MS
+      - 日本 IEPL 3 备用
+      - 日本 IEPL 4 备用 延迟偏高 8MS
+      - 日本 IEPL 5 备用
+      - 日本 IEPL 6 备用 延迟偏高 8MS
       - 美国 IEPL 1 稳定
       - 美国 IEPL 2 稳定
-      - 美国 IEPL 3 故障
-      - 美国 IEPL 4 故障
-      - 美国 IEPL 5 故障
-      - 美国 IEPL 6 故障
-      - 马来西亚 IEPL 1 备用
+      - 美国 IEPL 3 备用
+      - 美国 IEPL 4 备用
+      - 美国 IEPL 5 备用
+      - 美国 IEPL 6 备用
+      - 马来西亚 IEPL 1 稳定
       - 泰国 IEPL 1 备用
-      - 越南 IEPL 1 备用
+      - 越南 IEPL 1 稳定 推荐
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 备用
-      - 香港 IEPL 2 备用
-      - 香港 IEPL 3 故障
+      - 香港 IEPL 1 稳定 推荐
+      - 香港 IEPL 2 稳定 推荐
+      - 香港 IEPL 3 稳定 推荐
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
-      - 香港 IEPL 6 故障
-      - 香港 IEPL 7 故障
+      - 香港 IEPL 6 备用
+      - 香港 IEPL 7 备用
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -106,39 +104,38 @@ proxy-groups:
       - 台湾 IEPL 2 备用
       - 台湾 IEPL 3 备用
       - 台湾 IEPL 4 备用
-      - 台湾 IEPL 5 稳定 延迟可能偏高
+      - 台湾 IEPL 5 稳定 推荐 延迟偏高 25MS
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 稳定 延迟可能偏高
-      - 新加坡 IEPL 1 稳定
-      - 新加坡 IEPL 2 稳定
+      - 新加坡 IEPL 1 稳定 推荐
+      - 新加坡 IEPL 2 稳定 推荐
       - 新加坡 IEPL 3 故障
       - 新加坡 IEPL 4 备用
       - 新加坡 IEPL 5 备用
       - 新加坡 IEPL 6 故障
       - 新加坡 IEPL 7 备用
-      - 日本 IEPL 1 稳定
-      - 日本 IEPL 2 稳定
-      - 日本 IEPL 3 故障
-      - 日本 IEPL 4 故障
-      - 日本 IEPL 5 故障
-      - 日本 IEPL 6 故障
+      - 日本 IEPL 1 稳定 推荐
+      - 日本 IEPL 2 稳定 推荐 延迟偏高 5MS
+      - 日本 IEPL 3 备用
+      - 日本 IEPL 4 备用 延迟偏高 8MS
+      - 日本 IEPL 5 备用
+      - 日本 IEPL 6 备用 延迟偏高 8MS
       - 美国 IEPL 1 稳定
       - 美国 IEPL 2 稳定
-      - 美国 IEPL 3 故障
-      - 美国 IEPL 4 故障
-      - 美国 IEPL 5 故障
-      - 美国 IEPL 6 故障
-      - 马来西亚 IEPL 1 备用
+      - 美国 IEPL 3 备用
+      - 美国 IEPL 4 备用
+      - 美国 IEPL 5 备用
+      - 美国 IEPL 6 备用
+      - 马来西亚 IEPL 1 稳定
       - 泰国 IEPL 1 备用
-      - 越南 IEPL 1 备用
+      - 越南 IEPL 1 稳定 推荐
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 备用
-      - 香港 IEPL 2 备用
-      - 香港 IEPL 3 故障
+      - 香港 IEPL 1 稳定 推荐
+      - 香港 IEPL 2 稳定 推荐
+      - 香港 IEPL 3 稳定 推荐
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
-      - 香港 IEPL 6 故障
-      - 香港 IEPL 7 故障
+      - 香港 IEPL 6 备用
+      - 香港 IEPL 7 备用
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -153,39 +150,38 @@ proxy-groups:
       - 台湾 IEPL 2 备用
       - 台湾 IEPL 3 备用
       - 台湾 IEPL 4 备用
-      - 台湾 IEPL 5 稳定 延迟可能偏高
+      - 台湾 IEPL 5 稳定 推荐 延迟偏高 25MS
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 稳定 延迟可能偏高
-      - 新加坡 IEPL 1 稳定
-      - 新加坡 IEPL 2 稳定
+      - 新加坡 IEPL 1 稳定 推荐
+      - 新加坡 IEPL 2 稳定 推荐
       - 新加坡 IEPL 3 故障
       - 新加坡 IEPL 4 备用
       - 新加坡 IEPL 5 备用
       - 新加坡 IEPL 6 故障
       - 新加坡 IEPL 7 备用
-      - 日本 IEPL 1 稳定
-      - 日本 IEPL 2 稳定
-      - 日本 IEPL 3 故障
-      - 日本 IEPL 4 故障
-      - 日本 IEPL 5 故障
-      - 日本 IEPL 6 故障
+      - 日本 IEPL 1 稳定 推荐
+      - 日本 IEPL 2 稳定 推荐 延迟偏高 5MS
+      - 日本 IEPL 3 备用
+      - 日本 IEPL 4 备用 延迟偏高 8MS
+      - 日本 IEPL 5 备用
+      - 日本 IEPL 6 备用 延迟偏高 8MS
       - 美国 IEPL 1 稳定
       - 美国 IEPL 2 稳定
-      - 美国 IEPL 3 故障
-      - 美国 IEPL 4 故障
-      - 美国 IEPL 5 故障
-      - 美国 IEPL 6 故障
-      - 马来西亚 IEPL 1 备用
+      - 美国 IEPL 3 备用
+      - 美国 IEPL 4 备用
+      - 美国 IEPL 5 备用
+      - 美国 IEPL 6 备用
+      - 马来西亚 IEPL 1 稳定
       - 泰国 IEPL 1 备用
-      - 越南 IEPL 1 备用
+      - 越南 IEPL 1 稳定 推荐
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 备用
-      - 香港 IEPL 2 备用
-      - 香港 IEPL 3 故障
+      - 香港 IEPL 1 稳定 推荐
+      - 香港 IEPL 2 稳定 推荐
+      - 香港 IEPL 3 稳定 推荐
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
-      - 香港 IEPL 6 故障
-      - 香港 IEPL 7 故障
+      - 香港 IEPL 6 备用
+      - 香港 IEPL 7 备用
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -212,39 +208,38 @@ proxy-groups:
       - 台湾 IEPL 2 备用
       - 台湾 IEPL 3 备用
       - 台湾 IEPL 4 备用
-      - 台湾 IEPL 5 稳定 延迟可能偏高
+      - 台湾 IEPL 5 稳定 推荐 延迟偏高 25MS
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 稳定 延迟可能偏高
-      - 新加坡 IEPL 1 稳定
-      - 新加坡 IEPL 2 稳定
+      - 新加坡 IEPL 1 稳定 推荐
+      - 新加坡 IEPL 2 稳定 推荐
       - 新加坡 IEPL 3 故障
       - 新加坡 IEPL 4 备用
       - 新加坡 IEPL 5 备用
       - 新加坡 IEPL 6 故障
       - 新加坡 IEPL 7 备用
-      - 日本 IEPL 1 稳定
-      - 日本 IEPL 2 稳定
-      - 日本 IEPL 3 故障
-      - 日本 IEPL 4 故障
-      - 日本 IEPL 5 故障
-      - 日本 IEPL 6 故障
+      - 日本 IEPL 1 稳定 推荐
+      - 日本 IEPL 2 稳定 推荐 延迟偏高 5MS
+      - 日本 IEPL 3 备用
+      - 日本 IEPL 4 备用 延迟偏高 8MS
+      - 日本 IEPL 5 备用
+      - 日本 IEPL 6 备用 延迟偏高 8MS
       - 美国 IEPL 1 稳定
       - 美国 IEPL 2 稳定
-      - 美国 IEPL 3 故障
-      - 美国 IEPL 4 故障
-      - 美国 IEPL 5 故障
-      - 美国 IEPL 6 故障
-      - 马来西亚 IEPL 1 备用
+      - 美国 IEPL 3 备用
+      - 美国 IEPL 4 备用
+      - 美国 IEPL 5 备用
+      - 美国 IEPL 6 备用
+      - 马来西亚 IEPL 1 稳定
       - 泰国 IEPL 1 备用
-      - 越南 IEPL 1 备用
+      - 越南 IEPL 1 稳定 推荐
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 备用
-      - 香港 IEPL 2 备用
-      - 香港 IEPL 3 故障
+      - 香港 IEPL 1 稳定 推荐
+      - 香港 IEPL 2 稳定 推荐
+      - 香港 IEPL 3 稳定 推荐
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
-      - 香港 IEPL 6 故障
-      - 香港 IEPL 7 故障
+      - 香港 IEPL 6 备用
+      - 香港 IEPL 7 备用
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -253,16 +248,15 @@ proxy-groups:
       - 台湾 IEPL 2 备用
       - 台湾 IEPL 3 备用
       - 台湾 IEPL 4 备用
-      - 台湾 IEPL 5 稳定 延迟可能偏高
+      - 台湾 IEPL 5 稳定 推荐 延迟偏高 25MS
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 稳定 延迟可能偏高
-      - 香港 IEPL 1 备用
-      - 香港 IEPL 2 备用
-      - 香港 IEPL 3 故障
+      - 香港 IEPL 1 稳定 推荐
+      - 香港 IEPL 2 稳定 推荐
+      - 香港 IEPL 3 稳定 推荐
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
-      - 香港 IEPL 6 故障
-      - 香港 IEPL 7 故障
+      - 香港 IEPL 6 备用
+      - 香港 IEPL 7 备用
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -277,39 +271,38 @@ proxy-groups:
       - 台湾 IEPL 2 备用
       - 台湾 IEPL 3 备用
       - 台湾 IEPL 4 备用
-      - 台湾 IEPL 5 稳定 延迟可能偏高
+      - 台湾 IEPL 5 稳定 推荐 延迟偏高 25MS
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 稳定 延迟可能偏高
-      - 新加坡 IEPL 1 稳定
-      - 新加坡 IEPL 2 稳定
+      - 新加坡 IEPL 1 稳定 推荐
+      - 新加坡 IEPL 2 稳定 推荐
       - 新加坡 IEPL 3 故障
       - 新加坡 IEPL 4 备用
       - 新加坡 IEPL 5 备用
       - 新加坡 IEPL 6 故障
       - 新加坡 IEPL 7 备用
-      - 日本 IEPL 1 稳定
-      - 日本 IEPL 2 稳定
-      - 日本 IEPL 3 故障
-      - 日本 IEPL 4 故障
-      - 日本 IEPL 5 故障
-      - 日本 IEPL 6 故障
+      - 日本 IEPL 1 稳定 推荐
+      - 日本 IEPL 2 稳定 推荐 延迟偏高 5MS
+      - 日本 IEPL 3 备用
+      - 日本 IEPL 4 备用 延迟偏高 8MS
+      - 日本 IEPL 5 备用
+      - 日本 IEPL 6 备用 延迟偏高 8MS
       - 美国 IEPL 1 稳定
       - 美国 IEPL 2 稳定
-      - 美国 IEPL 3 故障
-      - 美国 IEPL 4 故障
-      - 美国 IEPL 5 故障
-      - 美国 IEPL 6 故障
-      - 马来西亚 IEPL 1 备用
+      - 美国 IEPL 3 备用
+      - 美国 IEPL 4 备用
+      - 美国 IEPL 5 备用
+      - 美国 IEPL 6 备用
+      - 马来西亚 IEPL 1 稳定
       - 泰国 IEPL 1 备用
-      - 越南 IEPL 1 备用
+      - 越南 IEPL 1 稳定 推荐
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 备用
-      - 香港 IEPL 2 备用
-      - 香港 IEPL 3 故障
+      - 香港 IEPL 1 稳定 推荐
+      - 香港 IEPL 2 稳定 推荐
+      - 香港 IEPL 3 稳定 推荐
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
-      - 香港 IEPL 6 故障
-      - 香港 IEPL 7 故障
+      - 香港 IEPL 6 备用
+      - 香港 IEPL 7 备用
   - name: 📲 电报信息
     type: select
     proxies:
@@ -323,39 +316,38 @@ proxy-groups:
       - 台湾 IEPL 2 备用
       - 台湾 IEPL 3 备用
       - 台湾 IEPL 4 备用
-      - 台湾 IEPL 5 稳定 延迟可能偏高
+      - 台湾 IEPL 5 稳定 推荐 延迟偏高 25MS
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 稳定 延迟可能偏高
-      - 新加坡 IEPL 1 稳定
-      - 新加坡 IEPL 2 稳定
+      - 新加坡 IEPL 1 稳定 推荐
+      - 新加坡 IEPL 2 稳定 推荐
       - 新加坡 IEPL 3 故障
       - 新加坡 IEPL 4 备用
       - 新加坡 IEPL 5 备用
       - 新加坡 IEPL 6 故障
       - 新加坡 IEPL 7 备用
-      - 日本 IEPL 1 稳定
-      - 日本 IEPL 2 稳定
-      - 日本 IEPL 3 故障
-      - 日本 IEPL 4 故障
-      - 日本 IEPL 5 故障
-      - 日本 IEPL 6 故障
+      - 日本 IEPL 1 稳定 推荐
+      - 日本 IEPL 2 稳定 推荐 延迟偏高 5MS
+      - 日本 IEPL 3 备用
+      - 日本 IEPL 4 备用 延迟偏高 8MS
+      - 日本 IEPL 5 备用
+      - 日本 IEPL 6 备用 延迟偏高 8MS
       - 美国 IEPL 1 稳定
       - 美国 IEPL 2 稳定
-      - 美国 IEPL 3 故障
-      - 美国 IEPL 4 故障
-      - 美国 IEPL 5 故障
-      - 美国 IEPL 6 故障
-      - 马来西亚 IEPL 1 备用
+      - 美国 IEPL 3 备用
+      - 美国 IEPL 4 备用
+      - 美国 IEPL 5 备用
+      - 美国 IEPL 6 备用
+      - 马来西亚 IEPL 1 稳定
       - 泰国 IEPL 1 备用
-      - 越南 IEPL 1 备用
+      - 越南 IEPL 1 稳定 推荐
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 备用
-      - 香港 IEPL 2 备用
-      - 香港 IEPL 3 故障
+      - 香港 IEPL 1 稳定 推荐
+      - 香港 IEPL 2 稳定 推荐
+      - 香港 IEPL 3 稳定 推荐
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
-      - 香港 IEPL 6 故障
-      - 香港 IEPL 7 故障
+      - 香港 IEPL 6 备用
+      - 香港 IEPL 7 备用
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -370,39 +362,38 @@ proxy-groups:
       - 台湾 IEPL 2 备用
       - 台湾 IEPL 3 备用
       - 台湾 IEPL 4 备用
-      - 台湾 IEPL 5 稳定 延迟可能偏高
+      - 台湾 IEPL 5 稳定 推荐 延迟偏高 25MS
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 稳定 延迟可能偏高
-      - 新加坡 IEPL 1 稳定
-      - 新加坡 IEPL 2 稳定
+      - 新加坡 IEPL 1 稳定 推荐
+      - 新加坡 IEPL 2 稳定 推荐
       - 新加坡 IEPL 3 故障
       - 新加坡 IEPL 4 备用
       - 新加坡 IEPL 5 备用
       - 新加坡 IEPL 6 故障
       - 新加坡 IEPL 7 备用
-      - 日本 IEPL 1 稳定
-      - 日本 IEPL 2 稳定
-      - 日本 IEPL 3 故障
-      - 日本 IEPL 4 故障
-      - 日本 IEPL 5 故障
-      - 日本 IEPL 6 故障
+      - 日本 IEPL 1 稳定 推荐
+      - 日本 IEPL 2 稳定 推荐 延迟偏高 5MS
+      - 日本 IEPL 3 备用
+      - 日本 IEPL 4 备用 延迟偏高 8MS
+      - 日本 IEPL 5 备用
+      - 日本 IEPL 6 备用 延迟偏高 8MS
       - 美国 IEPL 1 稳定
       - 美国 IEPL 2 稳定
-      - 美国 IEPL 3 故障
-      - 美国 IEPL 4 故障
-      - 美国 IEPL 5 故障
-      - 美国 IEPL 6 故障
-      - 马来西亚 IEPL 1 备用
+      - 美国 IEPL 3 备用
+      - 美国 IEPL 4 备用
+      - 美国 IEPL 5 备用
+      - 美国 IEPL 6 备用
+      - 马来西亚 IEPL 1 稳定
       - 泰国 IEPL 1 备用
-      - 越南 IEPL 1 备用
+      - 越南 IEPL 1 稳定 推荐
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 备用
-      - 香港 IEPL 2 备用
-      - 香港 IEPL 3 故障
+      - 香港 IEPL 1 稳定 推荐
+      - 香港 IEPL 2 稳定 推荐
+      - 香港 IEPL 3 稳定 推荐
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
-      - 香港 IEPL 6 故障
-      - 香港 IEPL 7 故障
+      - 香港 IEPL 6 备用
+      - 香港 IEPL 7 备用
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -426,39 +417,38 @@ proxy-groups:
       - 台湾 IEPL 2 备用
       - 台湾 IEPL 3 备用
       - 台湾 IEPL 4 备用
-      - 台湾 IEPL 5 稳定 延迟可能偏高
+      - 台湾 IEPL 5 稳定 推荐 延迟偏高 25MS
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 稳定 延迟可能偏高
-      - 新加坡 IEPL 1 稳定
-      - 新加坡 IEPL 2 稳定
+      - 新加坡 IEPL 1 稳定 推荐
+      - 新加坡 IEPL 2 稳定 推荐
       - 新加坡 IEPL 3 故障
       - 新加坡 IEPL 4 备用
       - 新加坡 IEPL 5 备用
       - 新加坡 IEPL 6 故障
       - 新加坡 IEPL 7 备用
-      - 日本 IEPL 1 稳定
-      - 日本 IEPL 2 稳定
-      - 日本 IEPL 3 故障
-      - 日本 IEPL 4 故障
-      - 日本 IEPL 5 故障
-      - 日本 IEPL 6 故障
+      - 日本 IEPL 1 稳定 推荐
+      - 日本 IEPL 2 稳定 推荐 延迟偏高 5MS
+      - 日本 IEPL 3 备用
+      - 日本 IEPL 4 备用 延迟偏高 8MS
+      - 日本 IEPL 5 备用
+      - 日本 IEPL 6 备用 延迟偏高 8MS
       - 美国 IEPL 1 稳定
       - 美国 IEPL 2 稳定
-      - 美国 IEPL 3 故障
-      - 美国 IEPL 4 故障
-      - 美国 IEPL 5 故障
-      - 美国 IEPL 6 故障
-      - 马来西亚 IEPL 1 备用
+      - 美国 IEPL 3 备用
+      - 美国 IEPL 4 备用
+      - 美国 IEPL 5 备用
+      - 美国 IEPL 6 备用
+      - 马来西亚 IEPL 1 稳定
       - 泰国 IEPL 1 备用
-      - 越南 IEPL 1 备用
+      - 越南 IEPL 1 稳定 推荐
       - 韩国 IEPL 1 故障
-      - 香港 IEPL 1 备用
-      - 香港 IEPL 2 备用
-      - 香港 IEPL 3 故障
+      - 香港 IEPL 1 稳定 推荐
+      - 香港 IEPL 2 稳定 推荐
+      - 香港 IEPL 3 稳定 推荐
       - 香港 IEPL 4 备用
       - 香港 IEPL 5 备用
-      - 香港 IEPL 6 故障
-      - 香港 IEPL 7 故障
+      - 香港 IEPL 6 备用
+      - 香港 IEPL 7 备用
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
