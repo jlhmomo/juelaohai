@@ -15,7 +15,7 @@ proxies:
   - {name: 台湾 IEPL 4 备用, server: a.v2ray.wtf, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 台湾 IEPL 5 备用 延迟偏高, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 台湾 IEPL 6 故障, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 台湾 IEPL 7 主力 延迟偏高, server: abc.dggs.org, port: 10712, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 台湾 IEPL 7 故障 延迟偏高, server: abc.dggs.org, port: 10712, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 菲律宾 IEPL 1 故障, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: e07b9db3-6508-4eb0-8715-629188840a52}
   - {name: 新加坡 IEPL 1 主力, server: abc.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 新加坡 IEPL 2 主力, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
@@ -60,7 +60,7 @@ proxy-groups:
       - 台湾 IEPL 4 备用
       - 台湾 IEPL 5 备用 延迟偏高
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 主力 延迟偏高
+      - 台湾 IEPL 7 故障 延迟偏高
       - 菲律宾 IEPL 1 故障
       - 新加坡 IEPL 1 主力
       - 新加坡 IEPL 2 主力
@@ -104,7 +104,7 @@ proxy-groups:
       - 台湾 IEPL 4 备用
       - 台湾 IEPL 5 备用 延迟偏高
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 主力 延迟偏高
+      - 台湾 IEPL 7 故障 延迟偏高
       - 菲律宾 IEPL 1 故障
       - 新加坡 IEPL 1 主力
       - 新加坡 IEPL 2 主力
@@ -149,7 +149,7 @@ proxy-groups:
       - 台湾 IEPL 4 备用
       - 台湾 IEPL 5 备用 延迟偏高
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 主力 延迟偏高
+      - 台湾 IEPL 7 故障 延迟偏高
       - 菲律宾 IEPL 1 故障
       - 新加坡 IEPL 1 主力
       - 新加坡 IEPL 2 主力
@@ -206,7 +206,7 @@ proxy-groups:
       - 台湾 IEPL 4 备用
       - 台湾 IEPL 5 备用 延迟偏高
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 主力 延迟偏高
+      - 台湾 IEPL 7 故障 延迟偏高
       - 菲律宾 IEPL 1 故障
       - 新加坡 IEPL 1 主力
       - 新加坡 IEPL 2 主力
@@ -245,7 +245,7 @@ proxy-groups:
       - 台湾 IEPL 4 备用
       - 台湾 IEPL 5 备用 延迟偏高
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 主力 延迟偏高
+      - 台湾 IEPL 7 故障 延迟偏高
       - 香港 IEPL 1 备用
       - 香港 IEPL 2 备用
       - 香港 IEPL 3 故障
@@ -269,7 +269,7 @@ proxy-groups:
       - 台湾 IEPL 4 备用
       - 台湾 IEPL 5 备用 延迟偏高
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 主力 延迟偏高
+      - 台湾 IEPL 7 故障 延迟偏高
       - 菲律宾 IEPL 1 故障
       - 新加坡 IEPL 1 主力
       - 新加坡 IEPL 2 主力
@@ -313,7 +313,7 @@ proxy-groups:
       - 台湾 IEPL 4 备用
       - 台湾 IEPL 5 备用 延迟偏高
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 主力 延迟偏高
+      - 台湾 IEPL 7 故障 延迟偏高
       - 菲律宾 IEPL 1 故障
       - 新加坡 IEPL 1 主力
       - 新加坡 IEPL 2 主力
@@ -358,7 +358,7 @@ proxy-groups:
       - 台湾 IEPL 4 备用
       - 台湾 IEPL 5 备用 延迟偏高
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 主力 延迟偏高
+      - 台湾 IEPL 7 故障 延迟偏高
       - 菲律宾 IEPL 1 故障
       - 新加坡 IEPL 1 主力
       - 新加坡 IEPL 2 主力
@@ -412,7 +412,7 @@ proxy-groups:
       - 台湾 IEPL 4 备用
       - 台湾 IEPL 5 备用 延迟偏高
       - 台湾 IEPL 6 故障
-      - 台湾 IEPL 7 主力 延迟偏高
+      - 台湾 IEPL 7 故障 延迟偏高
       - 菲律宾 IEPL 1 故障
       - 新加坡 IEPL 1 主力
       - 新加坡 IEPL 2 主力
