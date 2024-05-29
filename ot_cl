@@ -9,12 +9,13 @@ proxies:
   - {name: t.me/juelaohai, server: mi.mo.x, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
   - {name: 美国 1, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
   - {name: 美国 2, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
-  - {name: 美国 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
   - {name: 美国 4, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sfdgdegdh?ed=2048", headers: {Host: us.catcloud.cfd}}}
-  - {name: 美国 5, server: e55596d8b2d8c495.cdn.jiashule.com, port: 64814, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 美国 6, server: zy.02er.com, port: 15899, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 美国 19 六台机器在线 均衡负载, server: ny.whatfuck.top, port: 26520, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
   - {name: 美国 20 六台机器在线 均衡负载, server: ny.whatfuck.top, port: 26520, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 美国 21 YM, server: us01.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us01.thomasinahalbert.online}}}
+  - {name: 美国 22 YM, server: us02.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us02.thomasinahalbert.online}}}
+  - {name: 美国 23 YM, server: us03.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us03.thomasinahalbert.online}}}
+  - {name: 美国 24 YM, server: us04.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us04.thomasinahalbert.online}}}
   - {name: 香港 1, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sdvsgsgsdfgh?ed=2048", headers: {Host: hk.catcloud.cfd}}}
   - {name: 香港 2, server: e55596d8b2d8c495.cdn.jiashule.com, port: 36966, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 3 解锁流媒体, server: zy.02er.com, port: 49129, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
@@ -22,8 +23,11 @@ proxies:
   - {name: 香港 5, server: e55596d8b2d8c495.cdn.jiashule.com, port: 16106, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 15 四台机器在线 均衡负载, server: ny.whatfuck.top, port: 37181, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
   - {name: 香港 16 四台机器在线 均衡负载, server: ny.whatfuck.top, port: 37181, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 日本 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
-  - {name: 日本 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
+  - {name: 香港 17 YM, server: hk01.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk01.thomasinahalbert.online}}}
+  - {name: 香港 18 YM, server: hk02.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk02.thomasinahalbert.online}}}
+  - {name: 香港 19 YM, server: hk03.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk03.thomasinahalbert.online}}}
+  - {name: 香港 20 YM, server: hk04.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk04.thomasinahalbert.online}}}
+  - {name: 美国 21 YM 2, server: us01.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us01.thomasinahalbert.online}}}
   - {name: 日本 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本 4, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
   - {name: 日本 5, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
@@ -37,19 +41,21 @@ proxies:
   - {name: 日本 13, server: zy.02er.com, port: 13125, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 18 四台机器在线 均衡负载, server: ny.whatfuck.top, port: 45255, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
   - {name: 日本 19 四台机器在线 均衡负载, server: ny.whatfuck.top, port: 45255, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 韩国 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
-  - {name: 韩国 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
+  - {name: 日本 20 YM, server: jp01.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp01.thomasinahalbert.online}}}
+  - {name: 日本 21 YM, server: jp02.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.thomasinahalbert.online}}}
+  - {name: 日本 22 YM, server: jp03.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp03.thomasinahalbert.online}}}
+  - {name: 日本 23 YM, server: jp04.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp04.thomasinahalbert.online}}}
   - {name: 韩国 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 4, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 5, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 6, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 7, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 8, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 韩国 9, server: jsidcyd.kunkun.icu, port: 3109, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
-  - {name: 韩国 10, server: jsidcyd.kunkun.icu, port: 3109, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
+  - {name: 韩国 9 YM, server: kr01.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr01.thomasinahalbert.online}}}
+  - {name: 韩国 10 YM, server: kr02.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr02.thomasinahalbert.online}}}
+  - {name: 韩国 11 YM, server: kr03.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr03.thomasinahalbert.online}}}
+  - {name: 韩国 12 YM, server: kr04.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr04.thomasinahalbert.online}}}
   - {name: 新加坡 1, server: mi.moluo.xyz, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
-  - {name: 新加坡 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
-  - {name: 新加坡 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 3c01bcba-6bad-4f5c-9aa0-7de0d2013b37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
   - {name: 新加坡 4, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
   - {name: 新加坡 5, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
   - {name: 新加坡 6, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
@@ -60,10 +66,18 @@ proxies:
   - {name: 新加坡 11, server: e55596d8b2d8c495.cdn.jiashule.com, port: 33258, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 新加坡 12 四台机器在线 均衡负载, server: ny.whatfuck.top, port: 35712, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
   - {name: 新加坡 13 四台机器在线 均衡负载, server: ny.whatfuck.top, port: 35712, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
+  - {name: 新加坡 14 YM, server: sg01.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg01.thomasinahalbert.online}}}
+  - {name: 新加坡 15 YM, server: sg02.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg02.thomasinahalbert.online}}}
+  - {name: 新加坡 16 YM, server: sg03.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg03.thomasinahalbert.online}}}
+  - {name: 新加坡 17 YM, server: sg04.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg04.thomasinahalbert.online}}}
   - {name: 台湾 1, server: e55596d8b2d8c495.cdn.jiashule.com, port: 51669, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 台湾 2, server: zy.02er.com, port: 45323, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 英国 1, server: e55596d8b2d8c495.cdn.jiashule.com, port: 34394, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 德国 1 法兰克福, server: zy.02er.com, port: 12466, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 德国 6 YM, server: de01.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de01.thomasinahalbert.online}}}
+  - {name: 德国 7 YM, server: de02.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de02.thomasinahalbert.online}}}
+  - {name: 德国 8 YM, server: de03.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de03.thomasinahalbert.online}}}
+  - {name: 德国 9 YM, server: de04.thomasinahalbert.online, port: 80, type: vmess, uuid: 4d6c966d-4d4e-49d0-99c3-3043ebd539f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de04.thomasinahalbert.online}}}
   - {name: 澳大利亚 1, server: zy.02er.com, port: 13102, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
 proxy-groups:
   - name: 🔰 节点选择
@@ -75,12 +89,13 @@ proxy-groups:
       - t.me/juelaohai
       - 美国 1
       - 美国 2
-      - 美国 3
       - 美国 4
-      - 美国 5
-      - 美国 6
       - 美国 19 六台机器在线 均衡负载
       - 美国 20 六台机器在线 均衡负载
+      - 美国 21 YM
+      - 美国 22 YM
+      - 美国 23 YM
+      - 美国 24 YM
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -88,8 +103,11 @@ proxy-groups:
       - 香港 5
       - 香港 15 四台机器在线 均衡负载
       - 香港 16 四台机器在线 均衡负载
-      - 日本 1
-      - 日本 2
+      - 香港 17 YM
+      - 香港 18 YM
+      - 香港 19 YM
+      - 香港 20 YM
+      - 美国 21 YM 2
       - 日本 3
       - 日本 4
       - 日本 5
@@ -103,19 +121,21 @@ proxy-groups:
       - 日本 13
       - 日本 18 四台机器在线 均衡负载
       - 日本 19 四台机器在线 均衡负载
-      - 韩国 1
-      - 韩国 2
+      - 日本 20 YM
+      - 日本 21 YM
+      - 日本 22 YM
+      - 日本 23 YM
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
       - 韩国 7
       - 韩国 8
-      - 韩国 9
-      - 韩国 10
+      - 韩国 9 YM
+      - 韩国 10 YM
+      - 韩国 11 YM
+      - 韩国 12 YM
       - 新加坡 1
-      - 新加坡 2
-      - 新加坡 3
       - 新加坡 4
       - 新加坡 5
       - 新加坡 6
@@ -126,10 +146,18 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 四台机器在线 均衡负载
       - 新加坡 13 四台机器在线 均衡负载
+      - 新加坡 14 YM
+      - 新加坡 15 YM
+      - 新加坡 16 YM
+      - 新加坡 17 YM
       - 台湾 1
       - 台湾 2
       - 英国 1
       - 德国 1 法兰克福
+      - 德国 6 YM
+      - 德国 7 YM
+      - 德国 8 YM
+      - 德国 9 YM
       - 澳大利亚 1
   - name: ♻️ 自动选择
     type: url-test
@@ -140,12 +168,13 @@ proxy-groups:
       - t.me/juelaohai
       - 美国 1
       - 美国 2
-      - 美国 3
       - 美国 4
-      - 美国 5
-      - 美国 6
       - 美国 19 六台机器在线 均衡负载
       - 美国 20 六台机器在线 均衡负载
+      - 美国 21 YM
+      - 美国 22 YM
+      - 美国 23 YM
+      - 美国 24 YM
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -153,8 +182,11 @@ proxy-groups:
       - 香港 5
       - 香港 15 四台机器在线 均衡负载
       - 香港 16 四台机器在线 均衡负载
-      - 日本 1
-      - 日本 2
+      - 香港 17 YM
+      - 香港 18 YM
+      - 香港 19 YM
+      - 香港 20 YM
+      - 美国 21 YM 2
       - 日本 3
       - 日本 4
       - 日本 5
@@ -168,19 +200,21 @@ proxy-groups:
       - 日本 13
       - 日本 18 四台机器在线 均衡负载
       - 日本 19 四台机器在线 均衡负载
-      - 韩国 1
-      - 韩国 2
+      - 日本 20 YM
+      - 日本 21 YM
+      - 日本 22 YM
+      - 日本 23 YM
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
       - 韩国 7
       - 韩国 8
-      - 韩国 9
-      - 韩国 10
+      - 韩国 9 YM
+      - 韩国 10 YM
+      - 韩国 11 YM
+      - 韩国 12 YM
       - 新加坡 1
-      - 新加坡 2
-      - 新加坡 3
       - 新加坡 4
       - 新加坡 5
       - 新加坡 6
@@ -191,10 +225,18 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 四台机器在线 均衡负载
       - 新加坡 13 四台机器在线 均衡负载
+      - 新加坡 14 YM
+      - 新加坡 15 YM
+      - 新加坡 16 YM
+      - 新加坡 17 YM
       - 台湾 1
       - 台湾 2
       - 英国 1
       - 德国 1 法兰克福
+      - 德国 6 YM
+      - 德国 7 YM
+      - 德国 8 YM
+      - 德国 9 YM
       - 澳大利亚 1
   - name: 🎥 NETFLIX
     type: select
@@ -206,12 +248,13 @@ proxy-groups:
       - t.me/juelaohai
       - 美国 1
       - 美国 2
-      - 美国 3
       - 美国 4
-      - 美国 5
-      - 美国 6
       - 美国 19 六台机器在线 均衡负载
       - 美国 20 六台机器在线 均衡负载
+      - 美国 21 YM
+      - 美国 22 YM
+      - 美国 23 YM
+      - 美国 24 YM
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -219,8 +262,11 @@ proxy-groups:
       - 香港 5
       - 香港 15 四台机器在线 均衡负载
       - 香港 16 四台机器在线 均衡负载
-      - 日本 1
-      - 日本 2
+      - 香港 17 YM
+      - 香港 18 YM
+      - 香港 19 YM
+      - 香港 20 YM
+      - 美国 21 YM 2
       - 日本 3
       - 日本 4
       - 日本 5
@@ -234,19 +280,21 @@ proxy-groups:
       - 日本 13
       - 日本 18 四台机器在线 均衡负载
       - 日本 19 四台机器在线 均衡负载
-      - 韩国 1
-      - 韩国 2
+      - 日本 20 YM
+      - 日本 21 YM
+      - 日本 22 YM
+      - 日本 23 YM
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
       - 韩国 7
       - 韩国 8
-      - 韩国 9
-      - 韩国 10
+      - 韩国 9 YM
+      - 韩国 10 YM
+      - 韩国 11 YM
+      - 韩国 12 YM
       - 新加坡 1
-      - 新加坡 2
-      - 新加坡 3
       - 新加坡 4
       - 新加坡 5
       - 新加坡 6
@@ -257,10 +305,18 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 四台机器在线 均衡负载
       - 新加坡 13 四台机器在线 均衡负载
+      - 新加坡 14 YM
+      - 新加坡 15 YM
+      - 新加坡 16 YM
+      - 新加坡 17 YM
       - 台湾 1
       - 台湾 2
       - 英国 1
       - 德国 1 法兰克福
+      - 德国 6 YM
+      - 德国 7 YM
+      - 德国 8 YM
+      - 德国 9 YM
       - 澳大利亚 1
   - name: ⛔️ 广告拦截
     type: select
@@ -284,12 +340,13 @@ proxy-groups:
       - t.me/juelaohai
       - 美国 1
       - 美国 2
-      - 美国 3
       - 美国 4
-      - 美国 5
-      - 美国 6
       - 美国 19 六台机器在线 均衡负载
       - 美国 20 六台机器在线 均衡负载
+      - 美国 21 YM
+      - 美国 22 YM
+      - 美国 23 YM
+      - 美国 24 YM
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -297,8 +354,11 @@ proxy-groups:
       - 香港 5
       - 香港 15 四台机器在线 均衡负载
       - 香港 16 四台机器在线 均衡负载
-      - 日本 1
-      - 日本 2
+      - 香港 17 YM
+      - 香港 18 YM
+      - 香港 19 YM
+      - 香港 20 YM
+      - 美国 21 YM 2
       - 日本 3
       - 日本 4
       - 日本 5
@@ -312,19 +372,21 @@ proxy-groups:
       - 日本 13
       - 日本 18 四台机器在线 均衡负载
       - 日本 19 四台机器在线 均衡负载
-      - 韩国 1
-      - 韩国 2
+      - 日本 20 YM
+      - 日本 21 YM
+      - 日本 22 YM
+      - 日本 23 YM
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
       - 韩国 7
       - 韩国 8
-      - 韩国 9
-      - 韩国 10
+      - 韩国 9 YM
+      - 韩国 10 YM
+      - 韩国 11 YM
+      - 韩国 12 YM
       - 新加坡 1
-      - 新加坡 2
-      - 新加坡 3
       - 新加坡 4
       - 新加坡 5
       - 新加坡 6
@@ -335,10 +397,18 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 四台机器在线 均衡负载
       - 新加坡 13 四台机器在线 均衡负载
+      - 新加坡 14 YM
+      - 新加坡 15 YM
+      - 新加坡 16 YM
+      - 新加坡 17 YM
       - 台湾 1
       - 台湾 2
       - 英国 1
       - 德国 1 法兰克福
+      - 德国 6 YM
+      - 德国 7 YM
+      - 德国 8 YM
+      - 德国 9 YM
       - 澳大利亚 1
   - name: 🌏 国内媒体
     type: select
@@ -353,6 +423,10 @@ proxy-groups:
       - 香港 5
       - 香港 15 四台机器在线 均衡负载
       - 香港 16 四台机器在线 均衡负载
+      - 香港 17 YM
+      - 香港 18 YM
+      - 香港 19 YM
+      - 香港 20 YM
       - 日本 18 四台机器在线 均衡负载
       - 日本 19 四台机器在线 均衡负载
       - 新加坡 12 四台机器在线 均衡负载
@@ -369,12 +443,13 @@ proxy-groups:
       - t.me/juelaohai
       - 美国 1
       - 美国 2
-      - 美国 3
       - 美国 4
-      - 美国 5
-      - 美国 6
       - 美国 19 六台机器在线 均衡负载
       - 美国 20 六台机器在线 均衡负载
+      - 美国 21 YM
+      - 美国 22 YM
+      - 美国 23 YM
+      - 美国 24 YM
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -382,8 +457,11 @@ proxy-groups:
       - 香港 5
       - 香港 15 四台机器在线 均衡负载
       - 香港 16 四台机器在线 均衡负载
-      - 日本 1
-      - 日本 2
+      - 香港 17 YM
+      - 香港 18 YM
+      - 香港 19 YM
+      - 香港 20 YM
+      - 美国 21 YM 2
       - 日本 3
       - 日本 4
       - 日本 5
@@ -397,19 +475,21 @@ proxy-groups:
       - 日本 13
       - 日本 18 四台机器在线 均衡负载
       - 日本 19 四台机器在线 均衡负载
-      - 韩国 1
-      - 韩国 2
+      - 日本 20 YM
+      - 日本 21 YM
+      - 日本 22 YM
+      - 日本 23 YM
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
       - 韩国 7
       - 韩国 8
-      - 韩国 9
-      - 韩国 10
+      - 韩国 9 YM
+      - 韩国 10 YM
+      - 韩国 11 YM
+      - 韩国 12 YM
       - 新加坡 1
-      - 新加坡 2
-      - 新加坡 3
       - 新加坡 4
       - 新加坡 5
       - 新加坡 6
@@ -420,10 +500,18 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 四台机器在线 均衡负载
       - 新加坡 13 四台机器在线 均衡负载
+      - 新加坡 14 YM
+      - 新加坡 15 YM
+      - 新加坡 16 YM
+      - 新加坡 17 YM
       - 台湾 1
       - 台湾 2
       - 英国 1
       - 德国 1 法兰克福
+      - 德国 6 YM
+      - 德国 7 YM
+      - 德国 8 YM
+      - 德国 9 YM
       - 澳大利亚 1
   - name: 📲 电报信息
     type: select
@@ -434,12 +522,13 @@ proxy-groups:
       - t.me/juelaohai
       - 美国 1
       - 美国 2
-      - 美国 3
       - 美国 4
-      - 美国 5
-      - 美国 6
       - 美国 19 六台机器在线 均衡负载
       - 美国 20 六台机器在线 均衡负载
+      - 美国 21 YM
+      - 美国 22 YM
+      - 美国 23 YM
+      - 美国 24 YM
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -447,8 +536,11 @@ proxy-groups:
       - 香港 5
       - 香港 15 四台机器在线 均衡负载
       - 香港 16 四台机器在线 均衡负载
-      - 日本 1
-      - 日本 2
+      - 香港 17 YM
+      - 香港 18 YM
+      - 香港 19 YM
+      - 香港 20 YM
+      - 美国 21 YM 2
       - 日本 3
       - 日本 4
       - 日本 5
@@ -462,19 +554,21 @@ proxy-groups:
       - 日本 13
       - 日本 18 四台机器在线 均衡负载
       - 日本 19 四台机器在线 均衡负载
-      - 韩国 1
-      - 韩国 2
+      - 日本 20 YM
+      - 日本 21 YM
+      - 日本 22 YM
+      - 日本 23 YM
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
       - 韩国 7
       - 韩国 8
-      - 韩国 9
-      - 韩国 10
+      - 韩国 9 YM
+      - 韩国 10 YM
+      - 韩国 11 YM
+      - 韩国 12 YM
       - 新加坡 1
-      - 新加坡 2
-      - 新加坡 3
       - 新加坡 4
       - 新加坡 5
       - 新加坡 6
@@ -485,10 +579,18 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 四台机器在线 均衡负载
       - 新加坡 13 四台机器在线 均衡负载
+      - 新加坡 14 YM
+      - 新加坡 15 YM
+      - 新加坡 16 YM
+      - 新加坡 17 YM
       - 台湾 1
       - 台湾 2
       - 英国 1
       - 德国 1 法兰克福
+      - 德国 6 YM
+      - 德国 7 YM
+      - 德国 8 YM
+      - 德国 9 YM
       - 澳大利亚 1
   - name: 🍎 苹果服务
     type: select
@@ -500,12 +602,13 @@ proxy-groups:
       - t.me/juelaohai
       - 美国 1
       - 美国 2
-      - 美国 3
       - 美国 4
-      - 美国 5
-      - 美国 6
       - 美国 19 六台机器在线 均衡负载
       - 美国 20 六台机器在线 均衡负载
+      - 美国 21 YM
+      - 美国 22 YM
+      - 美国 23 YM
+      - 美国 24 YM
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -513,8 +616,11 @@ proxy-groups:
       - 香港 5
       - 香港 15 四台机器在线 均衡负载
       - 香港 16 四台机器在线 均衡负载
-      - 日本 1
-      - 日本 2
+      - 香港 17 YM
+      - 香港 18 YM
+      - 香港 19 YM
+      - 香港 20 YM
+      - 美国 21 YM 2
       - 日本 3
       - 日本 4
       - 日本 5
@@ -528,19 +634,21 @@ proxy-groups:
       - 日本 13
       - 日本 18 四台机器在线 均衡负载
       - 日本 19 四台机器在线 均衡负载
-      - 韩国 1
-      - 韩国 2
+      - 日本 20 YM
+      - 日本 21 YM
+      - 日本 22 YM
+      - 日本 23 YM
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
       - 韩国 7
       - 韩国 8
-      - 韩国 9
-      - 韩国 10
+      - 韩国 9 YM
+      - 韩国 10 YM
+      - 韩国 11 YM
+      - 韩国 12 YM
       - 新加坡 1
-      - 新加坡 2
-      - 新加坡 3
       - 新加坡 4
       - 新加坡 5
       - 新加坡 6
@@ -551,10 +659,18 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 四台机器在线 均衡负载
       - 新加坡 13 四台机器在线 均衡负载
+      - 新加坡 14 YM
+      - 新加坡 15 YM
+      - 新加坡 16 YM
+      - 新加坡 17 YM
       - 台湾 1
       - 台湾 2
       - 英国 1
       - 德国 1 法兰克福
+      - 德国 6 YM
+      - 德国 7 YM
+      - 德国 8 YM
+      - 德国 9 YM
       - 澳大利亚 1
   - name: 🎯 全球直连
     type: select
@@ -575,12 +691,13 @@ proxy-groups:
       - t.me/juelaohai
       - 美国 1
       - 美国 2
-      - 美国 3
       - 美国 4
-      - 美国 5
-      - 美国 6
       - 美国 19 六台机器在线 均衡负载
       - 美国 20 六台机器在线 均衡负载
+      - 美国 21 YM
+      - 美国 22 YM
+      - 美国 23 YM
+      - 美国 24 YM
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -588,8 +705,11 @@ proxy-groups:
       - 香港 5
       - 香港 15 四台机器在线 均衡负载
       - 香港 16 四台机器在线 均衡负载
-      - 日本 1
-      - 日本 2
+      - 香港 17 YM
+      - 香港 18 YM
+      - 香港 19 YM
+      - 香港 20 YM
+      - 美国 21 YM 2
       - 日本 3
       - 日本 4
       - 日本 5
@@ -603,19 +723,21 @@ proxy-groups:
       - 日本 13
       - 日本 18 四台机器在线 均衡负载
       - 日本 19 四台机器在线 均衡负载
-      - 韩国 1
-      - 韩国 2
+      - 日本 20 YM
+      - 日本 21 YM
+      - 日本 22 YM
+      - 日本 23 YM
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
       - 韩国 7
       - 韩国 8
-      - 韩国 9
-      - 韩国 10
+      - 韩国 9 YM
+      - 韩国 10 YM
+      - 韩国 11 YM
+      - 韩国 12 YM
       - 新加坡 1
-      - 新加坡 2
-      - 新加坡 3
       - 新加坡 4
       - 新加坡 5
       - 新加坡 6
@@ -626,10 +748,18 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 四台机器在线 均衡负载
       - 新加坡 13 四台机器在线 均衡负载
+      - 新加坡 14 YM
+      - 新加坡 15 YM
+      - 新加坡 16 YM
+      - 新加坡 17 YM
       - 台湾 1
       - 台湾 2
       - 英国 1
       - 德国 1 法兰克福
+      - 德国 6 YM
+      - 德国 7 YM
+      - 德国 8 YM
+      - 德国 9 YM
       - 澳大利亚 1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
