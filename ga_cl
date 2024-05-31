@@ -48,7 +48,7 @@ proxies:
   - {name: 马来西亚 1 IEPL 稳定, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 泰国 1 IEPL 备用, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 越南 1 IEPL 稳定, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 韩国 1 IEPL 故障, server: a.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 韩国 1 IEPL 备用, server: a.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 香港 1 IEPL 稳定 推荐, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 香港 2 IEPL 稳定 推荐, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 香港 3 IEPL 稳定 推荐, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
@@ -109,7 +109,7 @@ proxy-groups:
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
       - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 故障
+      - 韩国 1 IEPL 备用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -169,7 +169,7 @@ proxy-groups:
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
       - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 故障
+      - 韩国 1 IEPL 备用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -230,7 +230,7 @@ proxy-groups:
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
       - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 故障
+      - 韩国 1 IEPL 备用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -303,7 +303,7 @@ proxy-groups:
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
       - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 故障
+      - 韩国 1 IEPL 备用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -389,7 +389,7 @@ proxy-groups:
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
       - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 故障
+      - 韩国 1 IEPL 备用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -449,7 +449,7 @@ proxy-groups:
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
       - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 故障
+      - 韩国 1 IEPL 备用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -510,7 +510,7 @@ proxy-groups:
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
       - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 故障
+      - 韩国 1 IEPL 备用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -580,7 +580,7 @@ proxy-groups:
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
       - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 故障
+      - 韩国 1 IEPL 备用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
