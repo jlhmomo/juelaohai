@@ -11,12 +11,20 @@ proxies:
   - {name: 美国 2, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
   - {name: 美国 3, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sfdgdegdh?ed=2048", headers: {Host: us.catcloud.cfd}}}
   - {name: 美国 16 解锁流媒体, server: zy.02er.com, port: 27484, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 美国 17 BGP, server: cn-sh.aseur8qwer.top, port: 16707, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 18 BGP, server: cn-sh.aseur8qwer.top, port: 36465, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 19 BGP, server: cn-sh.aseur8qwer.top, port: 24766, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 20 BGP, server: cn-sh.aseur8qwer.top, port: 23608, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 香港 1, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sdvsgsgsdfgh?ed=2048", headers: {Host: hk.catcloud.cfd}}}
   - {name: 香港 2, server: e55596d8b2d8c495.cdn.jiashule.com, port: 36966, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 3 解锁流媒体, server: zy.02er.com, port: 49129, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 4, server: zy.02er.com, port: 13148, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 5, server: e55596d8b2d8c495.cdn.jiashule.com, port: 16106, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 14 解锁流媒体, server: zy.02er.com, port: 37575, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 香港 15 BGP, server: cn-gz.aseur8qwer.top, port: 25254, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港 16 BGP, server: cn-gz.aseur8qwer.top, port: 52517, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港 17 BGP, server: cn-gz.aseur8qwer.top, port: 24724, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港 18 BGP, server: cn-gz.aseur8qwer.top, port: 42599, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
   - {name: 日本 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
@@ -29,6 +37,10 @@ proxies:
   - {name: 日本 10, server: zy.02er.com, port: 20168, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 11, server: zy.02er.com, port: 13125, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 16 解锁流媒体, server: zy.02er.com, port: 12039, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 日本 17 BGP, server: cn-sh.aseur8qwer.top, port: 39925, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本 18 BGP, server: cn-sh.aseur8qwer.top, port: 19991, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本 19 BGP, server: cn-sh.aseur8qwer.top, port: 31009, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本 20 BGP, server: cn-sh.aseur8qwer.top, port: 46964, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 韩国 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
@@ -48,8 +60,16 @@ proxies:
   - {name: 新加坡 11, server: ny.whatfuck.top, port: 35712, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 新加坡 12 解锁流媒体, server: zy.02er.com, port: 23204, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 新加坡 13 解锁流媒体, server: zy.02er.com, port: 46538, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 新加坡 14 BGP, server: cn-hn.aseur8qwer.top, port: 9191, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡 15 BGP, server: cn-hn.aseur8qwer.top, port: 9669, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡 16 BGP, server: cn-hn.aseur8qwer.top, port: 48354, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡 17 BGP, server: cn-hn.aseur8qwer.top, port: 18680, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 台湾 1, server: e55596d8b2d8c495.cdn.jiashule.com, port: 51669, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 台湾 2, server: zy.02er.com, port: 45323, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 台湾 11 BGP, server: cn-gz.aseur8qwer.top, port: 7330, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 台湾 12 BGP, server: cn-gz.aseur8qwer.top, port: 32360, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 台湾 13 BGP, server: cn-gz.aseur8qwer.top, port: 20209, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 台湾 14 BGP, server: cn-gz.aseur8qwer.top, port: 51875, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 英国 1, server: e55596d8b2d8c495.cdn.jiashule.com, port: 34394, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 德国 1 法兰克福, server: zy.02er.com, port: 12466, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 澳大利亚 1, server: zy.02er.com, port: 13102, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
@@ -66,12 +86,20 @@ proxy-groups:
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
+      - 美国 17 BGP
+      - 美国 18 BGP
+      - 美国 19 BGP
+      - 美国 20 BGP
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 香港 14 解锁流媒体
+      - 香港 15 BGP
+      - 香港 16 BGP
+      - 香港 17 BGP
+      - 香港 18 BGP
       - 日本 1
       - 日本 2
       - 日本 3
@@ -84,6 +112,10 @@ proxy-groups:
       - 日本 10
       - 日本 11
       - 日本 16 解锁流媒体
+      - 日本 17 BGP
+      - 日本 18 BGP
+      - 日本 19 BGP
+      - 日本 20 BGP
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -103,8 +135,16 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
+      - 新加坡 14 BGP
+      - 新加坡 15 BGP
+      - 新加坡 16 BGP
+      - 新加坡 17 BGP
       - 台湾 1
       - 台湾 2
+      - 台湾 11 BGP
+      - 台湾 12 BGP
+      - 台湾 13 BGP
+      - 台湾 14 BGP
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
@@ -120,12 +160,20 @@ proxy-groups:
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
+      - 美国 17 BGP
+      - 美国 18 BGP
+      - 美国 19 BGP
+      - 美国 20 BGP
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 香港 14 解锁流媒体
+      - 香港 15 BGP
+      - 香港 16 BGP
+      - 香港 17 BGP
+      - 香港 18 BGP
       - 日本 1
       - 日本 2
       - 日本 3
@@ -138,6 +186,10 @@ proxy-groups:
       - 日本 10
       - 日本 11
       - 日本 16 解锁流媒体
+      - 日本 17 BGP
+      - 日本 18 BGP
+      - 日本 19 BGP
+      - 日本 20 BGP
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -157,8 +209,16 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
+      - 新加坡 14 BGP
+      - 新加坡 15 BGP
+      - 新加坡 16 BGP
+      - 新加坡 17 BGP
       - 台湾 1
       - 台湾 2
+      - 台湾 11 BGP
+      - 台湾 12 BGP
+      - 台湾 13 BGP
+      - 台湾 14 BGP
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
@@ -175,12 +235,20 @@ proxy-groups:
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
+      - 美国 17 BGP
+      - 美国 18 BGP
+      - 美国 19 BGP
+      - 美国 20 BGP
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 香港 14 解锁流媒体
+      - 香港 15 BGP
+      - 香港 16 BGP
+      - 香港 17 BGP
+      - 香港 18 BGP
       - 日本 1
       - 日本 2
       - 日本 3
@@ -193,6 +261,10 @@ proxy-groups:
       - 日本 10
       - 日本 11
       - 日本 16 解锁流媒体
+      - 日本 17 BGP
+      - 日本 18 BGP
+      - 日本 19 BGP
+      - 日本 20 BGP
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -212,8 +284,16 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
+      - 新加坡 14 BGP
+      - 新加坡 15 BGP
+      - 新加坡 16 BGP
+      - 新加坡 17 BGP
       - 台湾 1
       - 台湾 2
+      - 台湾 11 BGP
+      - 台湾 12 BGP
+      - 台湾 13 BGP
+      - 台湾 14 BGP
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
@@ -242,12 +322,20 @@ proxy-groups:
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
+      - 美国 17 BGP
+      - 美国 18 BGP
+      - 美国 19 BGP
+      - 美国 20 BGP
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 香港 14 解锁流媒体
+      - 香港 15 BGP
+      - 香港 16 BGP
+      - 香港 17 BGP
+      - 香港 18 BGP
       - 日本 1
       - 日本 2
       - 日本 3
@@ -260,6 +348,10 @@ proxy-groups:
       - 日本 10
       - 日本 11
       - 日本 16 解锁流媒体
+      - 日本 17 BGP
+      - 日本 18 BGP
+      - 日本 19 BGP
+      - 日本 20 BGP
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -279,8 +371,16 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
+      - 新加坡 14 BGP
+      - 新加坡 15 BGP
+      - 新加坡 16 BGP
+      - 新加坡 17 BGP
       - 台湾 1
       - 台湾 2
+      - 台湾 11 BGP
+      - 台湾 12 BGP
+      - 台湾 13 BGP
+      - 台湾 14 BGP
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
@@ -295,8 +395,16 @@ proxy-groups:
       - 香港 4
       - 香港 5
       - 香港 14 解锁流媒体
+      - 香港 15 BGP
+      - 香港 16 BGP
+      - 香港 17 BGP
+      - 香港 18 BGP
       - 台湾 1
       - 台湾 2
+      - 台湾 11 BGP
+      - 台湾 12 BGP
+      - 台湾 13 BGP
+      - 台湾 14 BGP
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -309,12 +417,20 @@ proxy-groups:
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
+      - 美国 17 BGP
+      - 美国 18 BGP
+      - 美国 19 BGP
+      - 美国 20 BGP
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 香港 14 解锁流媒体
+      - 香港 15 BGP
+      - 香港 16 BGP
+      - 香港 17 BGP
+      - 香港 18 BGP
       - 日本 1
       - 日本 2
       - 日本 3
@@ -327,6 +443,10 @@ proxy-groups:
       - 日本 10
       - 日本 11
       - 日本 16 解锁流媒体
+      - 日本 17 BGP
+      - 日本 18 BGP
+      - 日本 19 BGP
+      - 日本 20 BGP
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -346,8 +466,16 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
+      - 新加坡 14 BGP
+      - 新加坡 15 BGP
+      - 新加坡 16 BGP
+      - 新加坡 17 BGP
       - 台湾 1
       - 台湾 2
+      - 台湾 11 BGP
+      - 台湾 12 BGP
+      - 台湾 13 BGP
+      - 台湾 14 BGP
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
@@ -363,12 +491,20 @@ proxy-groups:
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
+      - 美国 17 BGP
+      - 美国 18 BGP
+      - 美国 19 BGP
+      - 美国 20 BGP
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 香港 14 解锁流媒体
+      - 香港 15 BGP
+      - 香港 16 BGP
+      - 香港 17 BGP
+      - 香港 18 BGP
       - 日本 1
       - 日本 2
       - 日本 3
@@ -381,6 +517,10 @@ proxy-groups:
       - 日本 10
       - 日本 11
       - 日本 16 解锁流媒体
+      - 日本 17 BGP
+      - 日本 18 BGP
+      - 日本 19 BGP
+      - 日本 20 BGP
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -400,8 +540,16 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
+      - 新加坡 14 BGP
+      - 新加坡 15 BGP
+      - 新加坡 16 BGP
+      - 新加坡 17 BGP
       - 台湾 1
       - 台湾 2
+      - 台湾 11 BGP
+      - 台湾 12 BGP
+      - 台湾 13 BGP
+      - 台湾 14 BGP
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
@@ -418,12 +566,20 @@ proxy-groups:
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
+      - 美国 17 BGP
+      - 美国 18 BGP
+      - 美国 19 BGP
+      - 美国 20 BGP
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 香港 14 解锁流媒体
+      - 香港 15 BGP
+      - 香港 16 BGP
+      - 香港 17 BGP
+      - 香港 18 BGP
       - 日本 1
       - 日本 2
       - 日本 3
@@ -436,6 +592,10 @@ proxy-groups:
       - 日本 10
       - 日本 11
       - 日本 16 解锁流媒体
+      - 日本 17 BGP
+      - 日本 18 BGP
+      - 日本 19 BGP
+      - 日本 20 BGP
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -455,8 +615,16 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
+      - 新加坡 14 BGP
+      - 新加坡 15 BGP
+      - 新加坡 16 BGP
+      - 新加坡 17 BGP
       - 台湾 1
       - 台湾 2
+      - 台湾 11 BGP
+      - 台湾 12 BGP
+      - 台湾 13 BGP
+      - 台湾 14 BGP
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
@@ -482,12 +650,20 @@ proxy-groups:
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
+      - 美国 17 BGP
+      - 美国 18 BGP
+      - 美国 19 BGP
+      - 美国 20 BGP
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
       - 香港 5
       - 香港 14 解锁流媒体
+      - 香港 15 BGP
+      - 香港 16 BGP
+      - 香港 17 BGP
+      - 香港 18 BGP
       - 日本 1
       - 日本 2
       - 日本 3
@@ -500,6 +676,10 @@ proxy-groups:
       - 日本 10
       - 日本 11
       - 日本 16 解锁流媒体
+      - 日本 17 BGP
+      - 日本 18 BGP
+      - 日本 19 BGP
+      - 日本 20 BGP
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -519,8 +699,16 @@ proxy-groups:
       - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
+      - 新加坡 14 BGP
+      - 新加坡 15 BGP
+      - 新加坡 16 BGP
+      - 新加坡 17 BGP
       - 台湾 1
       - 台湾 2
+      - 台湾 11 BGP
+      - 台湾 12 BGP
+      - 台湾 13 BGP
+      - 台湾 14 BGP
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
