@@ -7,14 +7,18 @@ external-controller: :9090
 proxies:
   - {name: 关注Telegram频道, server: 34.s3.bu, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
   - {name: t.me/juelaohai, server: i.moo.xy, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
-  - {name: 专线节点仅供游戏使用, server: 344.3.b, port: 21796, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
-  - {name: 若有其它需求请使用频道内提供的其它节点 不要影响大家的游戏体验, server: j.mhho.x, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
+  - {name: 以下节点仅供游戏使用, server: 344.3.b, port: 21796, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
+  - {name: 若有其它需求可使用频道内提供的其它节点, server: j.mhho.x, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
   - {name: 台湾 1 IEPL 备用, server: a.v2ray.wtf, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 台湾 2 IEPL 备用, server: a.v2ray.wtf, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 台湾 3 IEPL 备用, server: a.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 台湾 4 IEPL 备用, server: a.v2ray.wtf, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 台湾 5 IEPL 稳定 推荐 延迟偏高 25MS, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 台湾 5 IEPL 稳定 延迟偏高, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 台湾 6 IEPL 故障, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 台湾 9 BGP 备用 延迟偏高, server: cn-gz.aseur8qwer.top, port: 20209, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 台湾 8 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 32360, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 台湾 7 BGP 备用 延迟偏高, server: cn-gz.aseur8qwer.top, port: 7330, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 台湾 10 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 51875, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 1 IEPL 稳定 推荐, server: abc.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 新加坡 2 IEPL 故障, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 新加坡 3 IEPL 故障, server: abc.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
@@ -22,27 +26,29 @@ proxies:
   - {name: 新加坡 5 IEPL 备用, server: a.v2ray.wtf, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 新加坡 6 IEPL 故障, server: a.v2ray.wtf, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 新加坡 7 IEPL 备用, server: a.v2ray.wtf, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 新加坡 8 备用 高峰期慎用, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
-  - {name: 新加坡 9 备用 高峰期慎用, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
-  - {name: 新加坡 10 备用 高峰期慎用, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
+  - {name: 新加坡 8 BGP 备用 延迟偏高, server: cn-hn.aseur8qwer.top, port: 9191, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡 11 BGP 稳定 延迟偏高, server: cn-hn.aseur8qwer.top, port: 18680, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡 10 BGP 稳定 延迟偏高, server: cn-hn.aseur8qwer.top, port: 48354, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 1 IEPL 稳定 推荐, server: abc.dggs.org, port: 10702, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 日本 2 IEPL 稳定 推荐 延迟偏高 5MS, server: abc.dggs.org, port: 10703, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 日本 2 IEPL 稳定 延迟偏高, server: abc.dggs.org, port: 10703, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 日本 3 IEPL 备用, server: a.v2ray.wtf, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 日本 4 IEPL 备用 延迟偏高 8MS, server: a.v2ray.wtf, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 日本 4 IEPL 备用 延迟偏高, server: a.v2ray.wtf, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 日本 5 IEPL 备用, server: a.v2ray.wtf, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 日本 6 IEPL 备用 延迟偏高 8MS, server: a.v2ray.wtf, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 日本 7 备用 高峰期慎用, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
-  - {name: 日本 8 备用 高峰期慎用, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
-  - {name: 日本 9 备用 高峰期慎用, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
-  - {name: 美国 1 IEPL 稳定 推荐, server: abc.dggs.org, port: 10704, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 美国 2 IEPL 稳定 推荐, server: abc.dggs.org, port: 10705, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 日本 6 IEPL 备用 延迟偏高, server: a.v2ray.wtf, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 日本 9 BGP 备用 延迟偏高, server: cn-sh.aseur8qwer.top, port: 31009, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本 8 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 19991, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本 7 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 39925, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本 10 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 46964, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 1 IEPL 稳定, server: abc.dggs.org, port: 10704, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 美国 2 IEPL 稳定, server: abc.dggs.org, port: 10705, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 美国 6 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 23608, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 5 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 24766, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 4 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 36465, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 3 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 16707, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 马来西亚 1 IEPL 稳定, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 泰国 1 IEPL 备用, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 越南 1 IEPL 稳定 推荐, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 越南 1 IEPL 稳定, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 韩国 1 IEPL 故障, server: a.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 韩国 2 备用 高峰期慎用, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
-  - {name: 韩国 3 备用 高峰期慎用, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
-  - {name: 韩国 4 备用 高峰期慎用, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 香港 1 IEPL 稳定 推荐, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 香港 2 IEPL 稳定 推荐, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 香港 3 IEPL 稳定 推荐, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
@@ -50,6 +56,10 @@ proxies:
   - {name: 香港 5 IEPL 备用, server: a.v2ray.wtf, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 香港 6 IEPL 备用, server: a.v2ray.wtf, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 香港 7 IEPL 备用, server: a.v2ray.wtf, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 香港 9 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 52517, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港 8 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 25254, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港 11 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 42599, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港 10 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 24724, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -58,14 +68,18 @@ proxy-groups:
       - 🎯 全球直连
       - 关注Telegram频道
       - t.me/juelaohai
-      - 专线节点仅供游戏使用
-      - 若有其它需求请使用频道内提供的其它节点 不要影响大家的游戏体验
+      - 以下节点仅供游戏使用
+      - 若有其它需求可使用频道内提供的其它节点
       - 台湾 1 IEPL 备用
       - 台湾 2 IEPL 备用
       - 台湾 3 IEPL 备用
       - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 推荐 延迟偏高 25MS
+      - 台湾 5 IEPL 稳定 延迟偏高
       - 台湾 6 IEPL 故障
+      - 台湾 9 BGP 备用 延迟偏高
+      - 台湾 8 BGP 稳定 延迟偏高
+      - 台湾 7 BGP 备用 延迟偏高
+      - 台湾 10 BGP 稳定 延迟偏高
       - 新加坡 1 IEPL 稳定 推荐
       - 新加坡 2 IEPL 故障
       - 新加坡 3 IEPL 故障
@@ -73,27 +87,29 @@ proxy-groups:
       - 新加坡 5 IEPL 备用
       - 新加坡 6 IEPL 故障
       - 新加坡 7 IEPL 备用
-      - 新加坡 8 备用 高峰期慎用
-      - 新加坡 9 备用 高峰期慎用
-      - 新加坡 10 备用 高峰期慎用
+      - 新加坡 8 BGP 备用 延迟偏高
+      - 新加坡 11 BGP 稳定 延迟偏高
+      - 新加坡 10 BGP 稳定 延迟偏高
       - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 推荐 延迟偏高 5MS
+      - 日本 2 IEPL 稳定 延迟偏高
       - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高 8MS
+      - 日本 4 IEPL 备用 延迟偏高
       - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高 8MS
-      - 日本 7 备用 高峰期慎用
-      - 日本 8 备用 高峰期慎用
-      - 日本 9 备用 高峰期慎用
-      - 美国 1 IEPL 稳定 推荐
-      - 美国 2 IEPL 稳定 推荐
+      - 日本 6 IEPL 备用 延迟偏高
+      - 日本 9 BGP 备用 延迟偏高
+      - 日本 8 BGP 稳定 延迟偏高
+      - 日本 7 BGP 稳定 延迟偏高
+      - 日本 10 BGP 稳定 延迟偏高
+      - 美国 1 IEPL 稳定
+      - 美国 2 IEPL 稳定
+      - 美国 6 BGP 稳定 延迟偏高
+      - 美国 5 BGP 稳定 延迟偏高
+      - 美国 4 BGP 稳定 延迟偏高
+      - 美国 3 BGP 稳定 延迟偏高
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定 推荐
+      - 越南 1 IEPL 稳定
       - 韩国 1 IEPL 故障
-      - 韩国 2 备用 高峰期慎用
-      - 韩国 3 备用 高峰期慎用
-      - 韩国 4 备用 高峰期慎用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -101,6 +117,10 @@ proxy-groups:
       - 香港 5 IEPL 备用
       - 香港 6 IEPL 备用
       - 香港 7 IEPL 备用
+      - 香港 9 BGP 稳定 延迟偏高
+      - 香港 8 BGP 稳定 延迟偏高
+      - 香港 11 BGP 稳定 延迟偏高
+      - 香港 10 BGP 稳定 延迟偏高
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -108,14 +128,18 @@ proxy-groups:
     proxies:
       - 关注Telegram频道
       - t.me/juelaohai
-      - 专线节点仅供游戏使用
-      - 若有其它需求请使用频道内提供的其它节点 不要影响大家的游戏体验
+      - 以下节点仅供游戏使用
+      - 若有其它需求可使用频道内提供的其它节点
       - 台湾 1 IEPL 备用
       - 台湾 2 IEPL 备用
       - 台湾 3 IEPL 备用
       - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 推荐 延迟偏高 25MS
+      - 台湾 5 IEPL 稳定 延迟偏高
       - 台湾 6 IEPL 故障
+      - 台湾 9 BGP 备用 延迟偏高
+      - 台湾 8 BGP 稳定 延迟偏高
+      - 台湾 7 BGP 备用 延迟偏高
+      - 台湾 10 BGP 稳定 延迟偏高
       - 新加坡 1 IEPL 稳定 推荐
       - 新加坡 2 IEPL 故障
       - 新加坡 3 IEPL 故障
@@ -123,27 +147,29 @@ proxy-groups:
       - 新加坡 5 IEPL 备用
       - 新加坡 6 IEPL 故障
       - 新加坡 7 IEPL 备用
-      - 新加坡 8 备用 高峰期慎用
-      - 新加坡 9 备用 高峰期慎用
-      - 新加坡 10 备用 高峰期慎用
+      - 新加坡 8 BGP 备用 延迟偏高
+      - 新加坡 11 BGP 稳定 延迟偏高
+      - 新加坡 10 BGP 稳定 延迟偏高
       - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 推荐 延迟偏高 5MS
+      - 日本 2 IEPL 稳定 延迟偏高
       - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高 8MS
+      - 日本 4 IEPL 备用 延迟偏高
       - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高 8MS
-      - 日本 7 备用 高峰期慎用
-      - 日本 8 备用 高峰期慎用
-      - 日本 9 备用 高峰期慎用
-      - 美国 1 IEPL 稳定 推荐
-      - 美国 2 IEPL 稳定 推荐
+      - 日本 6 IEPL 备用 延迟偏高
+      - 日本 9 BGP 备用 延迟偏高
+      - 日本 8 BGP 稳定 延迟偏高
+      - 日本 7 BGP 稳定 延迟偏高
+      - 日本 10 BGP 稳定 延迟偏高
+      - 美国 1 IEPL 稳定
+      - 美国 2 IEPL 稳定
+      - 美国 6 BGP 稳定 延迟偏高
+      - 美国 5 BGP 稳定 延迟偏高
+      - 美国 4 BGP 稳定 延迟偏高
+      - 美国 3 BGP 稳定 延迟偏高
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定 推荐
+      - 越南 1 IEPL 稳定
       - 韩国 1 IEPL 故障
-      - 韩国 2 备用 高峰期慎用
-      - 韩国 3 备用 高峰期慎用
-      - 韩国 4 备用 高峰期慎用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -151,6 +177,10 @@ proxy-groups:
       - 香港 5 IEPL 备用
       - 香港 6 IEPL 备用
       - 香港 7 IEPL 备用
+      - 香港 9 BGP 稳定 延迟偏高
+      - 香港 8 BGP 稳定 延迟偏高
+      - 香港 11 BGP 稳定 延迟偏高
+      - 香港 10 BGP 稳定 延迟偏高
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -159,14 +189,18 @@ proxy-groups:
       - 🎯 全球直连
       - 关注Telegram频道
       - t.me/juelaohai
-      - 专线节点仅供游戏使用
-      - 若有其它需求请使用频道内提供的其它节点 不要影响大家的游戏体验
+      - 以下节点仅供游戏使用
+      - 若有其它需求可使用频道内提供的其它节点
       - 台湾 1 IEPL 备用
       - 台湾 2 IEPL 备用
       - 台湾 3 IEPL 备用
       - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 推荐 延迟偏高 25MS
+      - 台湾 5 IEPL 稳定 延迟偏高
       - 台湾 6 IEPL 故障
+      - 台湾 9 BGP 备用 延迟偏高
+      - 台湾 8 BGP 稳定 延迟偏高
+      - 台湾 7 BGP 备用 延迟偏高
+      - 台湾 10 BGP 稳定 延迟偏高
       - 新加坡 1 IEPL 稳定 推荐
       - 新加坡 2 IEPL 故障
       - 新加坡 3 IEPL 故障
@@ -174,27 +208,29 @@ proxy-groups:
       - 新加坡 5 IEPL 备用
       - 新加坡 6 IEPL 故障
       - 新加坡 7 IEPL 备用
-      - 新加坡 8 备用 高峰期慎用
-      - 新加坡 9 备用 高峰期慎用
-      - 新加坡 10 备用 高峰期慎用
+      - 新加坡 8 BGP 备用 延迟偏高
+      - 新加坡 11 BGP 稳定 延迟偏高
+      - 新加坡 10 BGP 稳定 延迟偏高
       - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 推荐 延迟偏高 5MS
+      - 日本 2 IEPL 稳定 延迟偏高
       - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高 8MS
+      - 日本 4 IEPL 备用 延迟偏高
       - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高 8MS
-      - 日本 7 备用 高峰期慎用
-      - 日本 8 备用 高峰期慎用
-      - 日本 9 备用 高峰期慎用
-      - 美国 1 IEPL 稳定 推荐
-      - 美国 2 IEPL 稳定 推荐
+      - 日本 6 IEPL 备用 延迟偏高
+      - 日本 9 BGP 备用 延迟偏高
+      - 日本 8 BGP 稳定 延迟偏高
+      - 日本 7 BGP 稳定 延迟偏高
+      - 日本 10 BGP 稳定 延迟偏高
+      - 美国 1 IEPL 稳定
+      - 美国 2 IEPL 稳定
+      - 美国 6 BGP 稳定 延迟偏高
+      - 美国 5 BGP 稳定 延迟偏高
+      - 美国 4 BGP 稳定 延迟偏高
+      - 美国 3 BGP 稳定 延迟偏高
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定 推荐
+      - 越南 1 IEPL 稳定
       - 韩国 1 IEPL 故障
-      - 韩国 2 备用 高峰期慎用
-      - 韩国 3 备用 高峰期慎用
-      - 韩国 4 备用 高峰期慎用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -202,6 +238,10 @@ proxy-groups:
       - 香港 5 IEPL 备用
       - 香港 6 IEPL 备用
       - 香港 7 IEPL 备用
+      - 香港 9 BGP 稳定 延迟偏高
+      - 香港 8 BGP 稳定 延迟偏高
+      - 香港 11 BGP 稳定 延迟偏高
+      - 香港 10 BGP 稳定 延迟偏高
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -222,14 +262,18 @@ proxy-groups:
       - 🎯 全球直连
       - 关注Telegram频道
       - t.me/juelaohai
-      - 专线节点仅供游戏使用
-      - 若有其它需求请使用频道内提供的其它节点 不要影响大家的游戏体验
+      - 以下节点仅供游戏使用
+      - 若有其它需求可使用频道内提供的其它节点
       - 台湾 1 IEPL 备用
       - 台湾 2 IEPL 备用
       - 台湾 3 IEPL 备用
       - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 推荐 延迟偏高 25MS
+      - 台湾 5 IEPL 稳定 延迟偏高
       - 台湾 6 IEPL 故障
+      - 台湾 9 BGP 备用 延迟偏高
+      - 台湾 8 BGP 稳定 延迟偏高
+      - 台湾 7 BGP 备用 延迟偏高
+      - 台湾 10 BGP 稳定 延迟偏高
       - 新加坡 1 IEPL 稳定 推荐
       - 新加坡 2 IEPL 故障
       - 新加坡 3 IEPL 故障
@@ -237,27 +281,29 @@ proxy-groups:
       - 新加坡 5 IEPL 备用
       - 新加坡 6 IEPL 故障
       - 新加坡 7 IEPL 备用
-      - 新加坡 8 备用 高峰期慎用
-      - 新加坡 9 备用 高峰期慎用
-      - 新加坡 10 备用 高峰期慎用
+      - 新加坡 8 BGP 备用 延迟偏高
+      - 新加坡 11 BGP 稳定 延迟偏高
+      - 新加坡 10 BGP 稳定 延迟偏高
       - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 推荐 延迟偏高 5MS
+      - 日本 2 IEPL 稳定 延迟偏高
       - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高 8MS
+      - 日本 4 IEPL 备用 延迟偏高
       - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高 8MS
-      - 日本 7 备用 高峰期慎用
-      - 日本 8 备用 高峰期慎用
-      - 日本 9 备用 高峰期慎用
-      - 美国 1 IEPL 稳定 推荐
-      - 美国 2 IEPL 稳定 推荐
+      - 日本 6 IEPL 备用 延迟偏高
+      - 日本 9 BGP 备用 延迟偏高
+      - 日本 8 BGP 稳定 延迟偏高
+      - 日本 7 BGP 稳定 延迟偏高
+      - 日本 10 BGP 稳定 延迟偏高
+      - 美国 1 IEPL 稳定
+      - 美国 2 IEPL 稳定
+      - 美国 6 BGP 稳定 延迟偏高
+      - 美国 5 BGP 稳定 延迟偏高
+      - 美国 4 BGP 稳定 延迟偏高
+      - 美国 3 BGP 稳定 延迟偏高
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定 推荐
+      - 越南 1 IEPL 稳定
       - 韩国 1 IEPL 故障
-      - 韩国 2 备用 高峰期慎用
-      - 韩国 3 备用 高峰期慎用
-      - 韩国 4 备用 高峰期慎用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -265,6 +311,10 @@ proxy-groups:
       - 香港 5 IEPL 备用
       - 香港 6 IEPL 备用
       - 香港 7 IEPL 备用
+      - 香港 9 BGP 稳定 延迟偏高
+      - 香港 8 BGP 稳定 延迟偏高
+      - 香港 11 BGP 稳定 延迟偏高
+      - 香港 10 BGP 稳定 延迟偏高
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -273,8 +323,12 @@ proxy-groups:
       - 台湾 2 IEPL 备用
       - 台湾 3 IEPL 备用
       - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 推荐 延迟偏高 25MS
+      - 台湾 5 IEPL 稳定 延迟偏高
       - 台湾 6 IEPL 故障
+      - 台湾 9 BGP 备用 延迟偏高
+      - 台湾 8 BGP 稳定 延迟偏高
+      - 台湾 7 BGP 备用 延迟偏高
+      - 台湾 10 BGP 稳定 延迟偏高
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -282,6 +336,10 @@ proxy-groups:
       - 香港 5 IEPL 备用
       - 香港 6 IEPL 备用
       - 香港 7 IEPL 备用
+      - 香港 9 BGP 稳定 延迟偏高
+      - 香港 8 BGP 稳定 延迟偏高
+      - 香港 11 BGP 稳定 延迟偏高
+      - 香港 10 BGP 稳定 延迟偏高
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -290,14 +348,18 @@ proxy-groups:
       - 🔰 节点选择
       - 关注Telegram频道
       - t.me/juelaohai
-      - 专线节点仅供游戏使用
-      - 若有其它需求请使用频道内提供的其它节点 不要影响大家的游戏体验
+      - 以下节点仅供游戏使用
+      - 若有其它需求可使用频道内提供的其它节点
       - 台湾 1 IEPL 备用
       - 台湾 2 IEPL 备用
       - 台湾 3 IEPL 备用
       - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 推荐 延迟偏高 25MS
+      - 台湾 5 IEPL 稳定 延迟偏高
       - 台湾 6 IEPL 故障
+      - 台湾 9 BGP 备用 延迟偏高
+      - 台湾 8 BGP 稳定 延迟偏高
+      - 台湾 7 BGP 备用 延迟偏高
+      - 台湾 10 BGP 稳定 延迟偏高
       - 新加坡 1 IEPL 稳定 推荐
       - 新加坡 2 IEPL 故障
       - 新加坡 3 IEPL 故障
@@ -305,27 +367,29 @@ proxy-groups:
       - 新加坡 5 IEPL 备用
       - 新加坡 6 IEPL 故障
       - 新加坡 7 IEPL 备用
-      - 新加坡 8 备用 高峰期慎用
-      - 新加坡 9 备用 高峰期慎用
-      - 新加坡 10 备用 高峰期慎用
+      - 新加坡 8 BGP 备用 延迟偏高
+      - 新加坡 11 BGP 稳定 延迟偏高
+      - 新加坡 10 BGP 稳定 延迟偏高
       - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 推荐 延迟偏高 5MS
+      - 日本 2 IEPL 稳定 延迟偏高
       - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高 8MS
+      - 日本 4 IEPL 备用 延迟偏高
       - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高 8MS
-      - 日本 7 备用 高峰期慎用
-      - 日本 8 备用 高峰期慎用
-      - 日本 9 备用 高峰期慎用
-      - 美国 1 IEPL 稳定 推荐
-      - 美国 2 IEPL 稳定 推荐
+      - 日本 6 IEPL 备用 延迟偏高
+      - 日本 9 BGP 备用 延迟偏高
+      - 日本 8 BGP 稳定 延迟偏高
+      - 日本 7 BGP 稳定 延迟偏高
+      - 日本 10 BGP 稳定 延迟偏高
+      - 美国 1 IEPL 稳定
+      - 美国 2 IEPL 稳定
+      - 美国 6 BGP 稳定 延迟偏高
+      - 美国 5 BGP 稳定 延迟偏高
+      - 美国 4 BGP 稳定 延迟偏高
+      - 美国 3 BGP 稳定 延迟偏高
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定 推荐
+      - 越南 1 IEPL 稳定
       - 韩国 1 IEPL 故障
-      - 韩国 2 备用 高峰期慎用
-      - 韩国 3 备用 高峰期慎用
-      - 韩国 4 备用 高峰期慎用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -333,6 +397,10 @@ proxy-groups:
       - 香港 5 IEPL 备用
       - 香港 6 IEPL 备用
       - 香港 7 IEPL 备用
+      - 香港 9 BGP 稳定 延迟偏高
+      - 香港 8 BGP 稳定 延迟偏高
+      - 香港 11 BGP 稳定 延迟偏高
+      - 香港 10 BGP 稳定 延迟偏高
   - name: 📲 电报信息
     type: select
     proxies:
@@ -340,14 +408,18 @@ proxy-groups:
       - 🎯 全球直连
       - 关注Telegram频道
       - t.me/juelaohai
-      - 专线节点仅供游戏使用
-      - 若有其它需求请使用频道内提供的其它节点 不要影响大家的游戏体验
+      - 以下节点仅供游戏使用
+      - 若有其它需求可使用频道内提供的其它节点
       - 台湾 1 IEPL 备用
       - 台湾 2 IEPL 备用
       - 台湾 3 IEPL 备用
       - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 推荐 延迟偏高 25MS
+      - 台湾 5 IEPL 稳定 延迟偏高
       - 台湾 6 IEPL 故障
+      - 台湾 9 BGP 备用 延迟偏高
+      - 台湾 8 BGP 稳定 延迟偏高
+      - 台湾 7 BGP 备用 延迟偏高
+      - 台湾 10 BGP 稳定 延迟偏高
       - 新加坡 1 IEPL 稳定 推荐
       - 新加坡 2 IEPL 故障
       - 新加坡 3 IEPL 故障
@@ -355,27 +427,29 @@ proxy-groups:
       - 新加坡 5 IEPL 备用
       - 新加坡 6 IEPL 故障
       - 新加坡 7 IEPL 备用
-      - 新加坡 8 备用 高峰期慎用
-      - 新加坡 9 备用 高峰期慎用
-      - 新加坡 10 备用 高峰期慎用
+      - 新加坡 8 BGP 备用 延迟偏高
+      - 新加坡 11 BGP 稳定 延迟偏高
+      - 新加坡 10 BGP 稳定 延迟偏高
       - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 推荐 延迟偏高 5MS
+      - 日本 2 IEPL 稳定 延迟偏高
       - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高 8MS
+      - 日本 4 IEPL 备用 延迟偏高
       - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高 8MS
-      - 日本 7 备用 高峰期慎用
-      - 日本 8 备用 高峰期慎用
-      - 日本 9 备用 高峰期慎用
-      - 美国 1 IEPL 稳定 推荐
-      - 美国 2 IEPL 稳定 推荐
+      - 日本 6 IEPL 备用 延迟偏高
+      - 日本 9 BGP 备用 延迟偏高
+      - 日本 8 BGP 稳定 延迟偏高
+      - 日本 7 BGP 稳定 延迟偏高
+      - 日本 10 BGP 稳定 延迟偏高
+      - 美国 1 IEPL 稳定
+      - 美国 2 IEPL 稳定
+      - 美国 6 BGP 稳定 延迟偏高
+      - 美国 5 BGP 稳定 延迟偏高
+      - 美国 4 BGP 稳定 延迟偏高
+      - 美国 3 BGP 稳定 延迟偏高
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定 推荐
+      - 越南 1 IEPL 稳定
       - 韩国 1 IEPL 故障
-      - 韩国 2 备用 高峰期慎用
-      - 韩国 3 备用 高峰期慎用
-      - 韩国 4 备用 高峰期慎用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -383,6 +457,10 @@ proxy-groups:
       - 香港 5 IEPL 备用
       - 香港 6 IEPL 备用
       - 香港 7 IEPL 备用
+      - 香港 9 BGP 稳定 延迟偏高
+      - 香港 8 BGP 稳定 延迟偏高
+      - 香港 11 BGP 稳定 延迟偏高
+      - 香港 10 BGP 稳定 延迟偏高
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -391,14 +469,18 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注Telegram频道
       - t.me/juelaohai
-      - 专线节点仅供游戏使用
-      - 若有其它需求请使用频道内提供的其它节点 不要影响大家的游戏体验
+      - 以下节点仅供游戏使用
+      - 若有其它需求可使用频道内提供的其它节点
       - 台湾 1 IEPL 备用
       - 台湾 2 IEPL 备用
       - 台湾 3 IEPL 备用
       - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 推荐 延迟偏高 25MS
+      - 台湾 5 IEPL 稳定 延迟偏高
       - 台湾 6 IEPL 故障
+      - 台湾 9 BGP 备用 延迟偏高
+      - 台湾 8 BGP 稳定 延迟偏高
+      - 台湾 7 BGP 备用 延迟偏高
+      - 台湾 10 BGP 稳定 延迟偏高
       - 新加坡 1 IEPL 稳定 推荐
       - 新加坡 2 IEPL 故障
       - 新加坡 3 IEPL 故障
@@ -406,27 +488,29 @@ proxy-groups:
       - 新加坡 5 IEPL 备用
       - 新加坡 6 IEPL 故障
       - 新加坡 7 IEPL 备用
-      - 新加坡 8 备用 高峰期慎用
-      - 新加坡 9 备用 高峰期慎用
-      - 新加坡 10 备用 高峰期慎用
+      - 新加坡 8 BGP 备用 延迟偏高
+      - 新加坡 11 BGP 稳定 延迟偏高
+      - 新加坡 10 BGP 稳定 延迟偏高
       - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 推荐 延迟偏高 5MS
+      - 日本 2 IEPL 稳定 延迟偏高
       - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高 8MS
+      - 日本 4 IEPL 备用 延迟偏高
       - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高 8MS
-      - 日本 7 备用 高峰期慎用
-      - 日本 8 备用 高峰期慎用
-      - 日本 9 备用 高峰期慎用
-      - 美国 1 IEPL 稳定 推荐
-      - 美国 2 IEPL 稳定 推荐
+      - 日本 6 IEPL 备用 延迟偏高
+      - 日本 9 BGP 备用 延迟偏高
+      - 日本 8 BGP 稳定 延迟偏高
+      - 日本 7 BGP 稳定 延迟偏高
+      - 日本 10 BGP 稳定 延迟偏高
+      - 美国 1 IEPL 稳定
+      - 美国 2 IEPL 稳定
+      - 美国 6 BGP 稳定 延迟偏高
+      - 美国 5 BGP 稳定 延迟偏高
+      - 美国 4 BGP 稳定 延迟偏高
+      - 美国 3 BGP 稳定 延迟偏高
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定 推荐
+      - 越南 1 IEPL 稳定
       - 韩国 1 IEPL 故障
-      - 韩国 2 备用 高峰期慎用
-      - 韩国 3 备用 高峰期慎用
-      - 韩国 4 备用 高峰期慎用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -434,6 +518,10 @@ proxy-groups:
       - 香港 5 IEPL 备用
       - 香港 6 IEPL 备用
       - 香港 7 IEPL 备用
+      - 香港 9 BGP 稳定 延迟偏高
+      - 香港 8 BGP 稳定 延迟偏高
+      - 香港 11 BGP 稳定 延迟偏高
+      - 香港 10 BGP 稳定 延迟偏高
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -451,14 +539,18 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注Telegram频道
       - t.me/juelaohai
-      - 专线节点仅供游戏使用
-      - 若有其它需求请使用频道内提供的其它节点 不要影响大家的游戏体验
+      - 以下节点仅供游戏使用
+      - 若有其它需求可使用频道内提供的其它节点
       - 台湾 1 IEPL 备用
       - 台湾 2 IEPL 备用
       - 台湾 3 IEPL 备用
       - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 推荐 延迟偏高 25MS
+      - 台湾 5 IEPL 稳定 延迟偏高
       - 台湾 6 IEPL 故障
+      - 台湾 9 BGP 备用 延迟偏高
+      - 台湾 8 BGP 稳定 延迟偏高
+      - 台湾 7 BGP 备用 延迟偏高
+      - 台湾 10 BGP 稳定 延迟偏高
       - 新加坡 1 IEPL 稳定 推荐
       - 新加坡 2 IEPL 故障
       - 新加坡 3 IEPL 故障
@@ -466,27 +558,29 @@ proxy-groups:
       - 新加坡 5 IEPL 备用
       - 新加坡 6 IEPL 故障
       - 新加坡 7 IEPL 备用
-      - 新加坡 8 备用 高峰期慎用
-      - 新加坡 9 备用 高峰期慎用
-      - 新加坡 10 备用 高峰期慎用
+      - 新加坡 8 BGP 备用 延迟偏高
+      - 新加坡 11 BGP 稳定 延迟偏高
+      - 新加坡 10 BGP 稳定 延迟偏高
       - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 推荐 延迟偏高 5MS
+      - 日本 2 IEPL 稳定 延迟偏高
       - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高 8MS
+      - 日本 4 IEPL 备用 延迟偏高
       - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高 8MS
-      - 日本 7 备用 高峰期慎用
-      - 日本 8 备用 高峰期慎用
-      - 日本 9 备用 高峰期慎用
-      - 美国 1 IEPL 稳定 推荐
-      - 美国 2 IEPL 稳定 推荐
+      - 日本 6 IEPL 备用 延迟偏高
+      - 日本 9 BGP 备用 延迟偏高
+      - 日本 8 BGP 稳定 延迟偏高
+      - 日本 7 BGP 稳定 延迟偏高
+      - 日本 10 BGP 稳定 延迟偏高
+      - 美国 1 IEPL 稳定
+      - 美国 2 IEPL 稳定
+      - 美国 6 BGP 稳定 延迟偏高
+      - 美国 5 BGP 稳定 延迟偏高
+      - 美国 4 BGP 稳定 延迟偏高
+      - 美国 3 BGP 稳定 延迟偏高
       - 马来西亚 1 IEPL 稳定
       - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定 推荐
+      - 越南 1 IEPL 稳定
       - 韩国 1 IEPL 故障
-      - 韩国 2 备用 高峰期慎用
-      - 韩国 3 备用 高峰期慎用
-      - 韩国 4 备用 高峰期慎用
       - 香港 1 IEPL 稳定 推荐
       - 香港 2 IEPL 稳定 推荐
       - 香港 3 IEPL 稳定 推荐
@@ -494,6 +588,10 @@ proxy-groups:
       - 香港 5 IEPL 备用
       - 香港 6 IEPL 备用
       - 香港 7 IEPL 备用
+      - 香港 9 BGP 稳定 延迟偏高
+      - 香港 8 BGP 稳定 延迟偏高
+      - 香港 11 BGP 稳定 延迟偏高
+      - 香港 10 BGP 稳定 延迟偏高
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
