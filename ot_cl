@@ -7,7 +7,6 @@ external-controller: :9090
 proxies:
   - {name: 关注Telegram频道, server: 34.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
   - {name: t.me/juelaohai, server: mi.mo.x, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
-  - {name: 美国 1, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
   - {name: 美国 2, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
   - {name: 美国 3, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sfdgdegdh?ed=2048", headers: {Host: us.catcloud.cfd}}}
   - {name: 美国 16 解锁流媒体, server: zy.02er.com, port: 27484, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
@@ -82,7 +81,6 @@ proxy-groups:
       - 🎯 全球直连
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 1
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
@@ -156,7 +154,6 @@ proxy-groups:
     proxies:
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 1
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
@@ -231,7 +228,6 @@ proxy-groups:
       - 🎯 全球直连
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 1
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
@@ -318,7 +314,6 @@ proxy-groups:
       - 🎯 全球直连
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 1
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
@@ -413,7 +408,6 @@ proxy-groups:
       - 🔰 节点选择
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 1
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
@@ -487,7 +481,6 @@ proxy-groups:
       - 🎯 全球直连
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 1
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
@@ -562,7 +555,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 1
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
@@ -646,7 +638,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 1
       - 美国 2
       - 美国 3
       - 美国 16 解锁流媒体
