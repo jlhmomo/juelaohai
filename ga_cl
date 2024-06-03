@@ -14,17 +14,17 @@ proxies:
   - {name: 台湾 上弦月 IEPL 备用, server: a.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 台湾 血月 IEPL 备用, server: a.v2ray.wtf, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 台湾 花灵 IEPL 稳定 延迟偏高, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 台湾 梦幻星月 IEPL 故障, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 台湾 梦幻星月 IEPL 稳定 延迟偏高, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 台湾 糖果巴菲 BGP 备用 延迟偏高, server: cn-gz.aseur8qwer.top, port: 7330, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 台湾 摇曳藤曼 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 32360, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 台湾 萝莉画手 BGP 备用 延迟偏高, server: cn-gz.aseur8qwer.top, port: 20209, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 台湾 花好月圆 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 51875, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 智识之光 IEPL 稳定 推荐, server: abc.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 新加坡 深渊之子 IEPL 故障, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 新加坡 逆鳞 IEPL 故障, server: abc.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 新加坡 深渊之子 IEPL 稳定 推荐, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 新加坡 逆鳞 IEPL 稳定 故障, server: abc.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 新加坡 废土猎人 IEPL 备用, server: a.v2ray.wtf, port: 30009, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 新加坡 眼镜蛇 IEPL 备用, server: a.v2ray.wtf, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 新加坡 红莲业火 IEPL 故障, server: a.v2ray.wtf, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 新加坡 红莲业火 IEPL 备用, server: a.v2ray.wtf, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 新加坡 甜心猫灵 IEPL 备用, server: a.v2ray.wtf, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 新加坡 时钟女仆 BGP 备用 延迟偏高, server: cn-hn.aseur8qwer.top, port: 9191, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 墓园派对 BGP 稳定 延迟偏高, server: cn-hn.aseur8qwer.top, port: 9669, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
@@ -80,17 +80,17 @@ proxy-groups:
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
       - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
       - 台湾 糖果巴菲 BGP 备用 延迟偏高
       - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
       - 台湾 萝莉画手 BGP 备用 延迟偏高
       - 台湾 花好月圆 BGP 稳定 延迟偏高
       - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 故障
-      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 深渊之子 IEPL 稳定 推荐
+      - 新加坡 逆鳞 IEPL 稳定 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
-      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
       - 新加坡 时钟女仆 BGP 备用 延迟偏高
       - 新加坡 墓园派对 BGP 稳定 延迟偏高
@@ -145,17 +145,17 @@ proxy-groups:
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
       - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
       - 台湾 糖果巴菲 BGP 备用 延迟偏高
       - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
       - 台湾 萝莉画手 BGP 备用 延迟偏高
       - 台湾 花好月圆 BGP 稳定 延迟偏高
       - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 故障
-      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 深渊之子 IEPL 稳定 推荐
+      - 新加坡 逆鳞 IEPL 稳定 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
-      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
       - 新加坡 时钟女仆 BGP 备用 延迟偏高
       - 新加坡 墓园派对 BGP 稳定 延迟偏高
@@ -211,17 +211,17 @@ proxy-groups:
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
       - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
       - 台湾 糖果巴菲 BGP 备用 延迟偏高
       - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
       - 台湾 萝莉画手 BGP 备用 延迟偏高
       - 台湾 花好月圆 BGP 稳定 延迟偏高
       - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 故障
-      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 深渊之子 IEPL 稳定 推荐
+      - 新加坡 逆鳞 IEPL 稳定 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
-      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
       - 新加坡 时钟女仆 BGP 备用 延迟偏高
       - 新加坡 墓园派对 BGP 稳定 延迟偏高
@@ -289,17 +289,17 @@ proxy-groups:
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
       - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
       - 台湾 糖果巴菲 BGP 备用 延迟偏高
       - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
       - 台湾 萝莉画手 BGP 备用 延迟偏高
       - 台湾 花好月圆 BGP 稳定 延迟偏高
       - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 故障
-      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 深渊之子 IEPL 稳定 推荐
+      - 新加坡 逆鳞 IEPL 稳定 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
-      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
       - 新加坡 时钟女仆 BGP 备用 延迟偏高
       - 新加坡 墓园派对 BGP 稳定 延迟偏高
@@ -349,7 +349,7 @@ proxy-groups:
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
       - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
       - 台湾 糖果巴菲 BGP 备用 延迟偏高
       - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
       - 台湾 萝莉画手 BGP 备用 延迟偏高
@@ -380,17 +380,17 @@ proxy-groups:
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
       - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
       - 台湾 糖果巴菲 BGP 备用 延迟偏高
       - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
       - 台湾 萝莉画手 BGP 备用 延迟偏高
       - 台湾 花好月圆 BGP 稳定 延迟偏高
       - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 故障
-      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 深渊之子 IEPL 稳定 推荐
+      - 新加坡 逆鳞 IEPL 稳定 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
-      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
       - 新加坡 时钟女仆 BGP 备用 延迟偏高
       - 新加坡 墓园派对 BGP 稳定 延迟偏高
@@ -445,17 +445,17 @@ proxy-groups:
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
       - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
       - 台湾 糖果巴菲 BGP 备用 延迟偏高
       - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
       - 台湾 萝莉画手 BGP 备用 延迟偏高
       - 台湾 花好月圆 BGP 稳定 延迟偏高
       - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 故障
-      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 深渊之子 IEPL 稳定 推荐
+      - 新加坡 逆鳞 IEPL 稳定 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
-      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
       - 新加坡 时钟女仆 BGP 备用 延迟偏高
       - 新加坡 墓园派对 BGP 稳定 延迟偏高
@@ -511,17 +511,17 @@ proxy-groups:
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
       - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
       - 台湾 糖果巴菲 BGP 备用 延迟偏高
       - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
       - 台湾 萝莉画手 BGP 备用 延迟偏高
       - 台湾 花好月圆 BGP 稳定 延迟偏高
       - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 故障
-      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 深渊之子 IEPL 稳定 推荐
+      - 新加坡 逆鳞 IEPL 稳定 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
-      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
       - 新加坡 时钟女仆 BGP 备用 延迟偏高
       - 新加坡 墓园派对 BGP 稳定 延迟偏高
@@ -586,17 +586,17 @@ proxy-groups:
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
       - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
       - 台湾 糖果巴菲 BGP 备用 延迟偏高
       - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
       - 台湾 萝莉画手 BGP 备用 延迟偏高
       - 台湾 花好月圆 BGP 稳定 延迟偏高
       - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 故障
-      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 深渊之子 IEPL 稳定 推荐
+      - 新加坡 逆鳞 IEPL 稳定 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
-      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
       - 新加坡 时钟女仆 BGP 备用 延迟偏高
       - 新加坡 墓园派对 BGP 稳定 延迟偏高
