@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注Telegram频道, server: jue.lao.hai, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
-  - {name: t.me/juelaohai, server: jue.lao.hai, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
+  - {name: 关注Telegram频道, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-256-gcm, password: t.me/juelaohai}
+  - {name: t.me/juelaohai, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: t.me/juelaohai}
   - {name: 美国 炙热之弓, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
   - {name: 美国 蛮荒猎人 解锁流媒体, server: zy.02er.com, port: 27484, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 美国 远古山神 BGP, server: cn-sh.aseur8qwer.top, port: 16707, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
