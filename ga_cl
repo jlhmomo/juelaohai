@@ -13,58 +13,102 @@ proxies:
   - {name: 台湾 广寒仙子 IEPL 备用, server: a.v2ray.wtf, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 台湾 上弦月 IEPL 备用, server: a.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 台湾 血月 IEPL 备用, server: a.v2ray.wtf, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 台湾 花灵 IEPL 稳定 延迟偏高, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 台湾 梦幻星月 IEPL 稳定 延迟偏高, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 台湾 糖果巴菲 BGP 备用 延迟偏高, server: cn-gz.aseur8qwer.top, port: 7330, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 摇曳藤曼 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 32360, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 萝莉画手 BGP 备用 延迟偏高, server: cn-gz.aseur8qwer.top, port: 20209, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 花好月圆 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 51875, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 智识之光 IEPL 稳定 推荐, server: abc.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 新加坡 深渊之子 IEPL 稳定 推荐, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 新加坡 逆鳞 IEPL 稳定 故障, server: abc.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 台湾 花灵 IEPL 推荐 延迟偏高, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 台湾 梦幻星月 IEPL 推荐 延迟偏高, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 新加坡 智识之光 IEPL 推荐, server: abc.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 新加坡 深渊之子 IEPL 推荐, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 新加坡 逆鳞 IEPL 故障, server: abc.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 新加坡 废土猎人 IEPL 备用, server: a.v2ray.wtf, port: 30009, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 新加坡 眼镜蛇 IEPL 备用, server: a.v2ray.wtf, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 新加坡 红莲业火 IEPL 备用, server: a.v2ray.wtf, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 新加坡 甜心猫灵 IEPL 备用, server: a.v2ray.wtf, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 新加坡 时钟女仆 BGP 备用 延迟偏高, server: cn-hn.aseur8qwer.top, port: 9191, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 墓园派对 BGP 稳定 延迟偏高, server: cn-hn.aseur8qwer.top, port: 9669, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 睡衣派对 BGP 稳定 延迟偏高, server: cn-hn.aseur8qwer.top, port: 48354, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 吱吱 BGP 稳定 延迟偏高, server: cn-hn.aseur8qwer.top, port: 18680, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 机甲甜心 IEPL 稳定 推荐, server: abc.dggs.org, port: 10702, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 日本 晴天宝贝 IEPL 稳定 延迟偏高, server: abc.dggs.org, port: 10703, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 日本 水之灵 IEPL 延迟偏高, server: abcd.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 日本 街头大作战 IEPL 延迟偏高, server: abcd.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 新加坡 米诺斯之子 IEPL 推荐, server: sgp01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 爆裂阎魔 IEPL 推荐, server: sgp02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 皇族之锤 IEPL 推荐, server: sgp03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 放逐之锤 IEPL 推荐, server: sgp04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 金牛座 IEPL 推荐, server: sgp05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 狂甲战牛 IEPL 推荐, server: sgp06.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 糖果巴菲 IEPL 推荐, server: sgp07.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 摇曳藤曼 IEPL 推荐, server: sgp08.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 萝莉画手 IEPL 推荐, server: sgp09.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 花好月圆 IEPL 推荐, server: sgp10.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 时钟女仆 IEPL 推荐, server: sgp11.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 墓园派对 IEPL 推荐, server: sgp12.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 睡衣派对 IEPL 推荐, server: sgp13.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 吱吱 IEPL 推荐, server: sgp14.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 新加坡 熊猫武士 IEPL 推荐, server: sgp15.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 日本 机甲甜心 IEPL 推荐, server: abc.dggs.org, port: 10702, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 日本 晴天宝贝 IEPL 推荐 延迟偏高, server: abc.dggs.org, port: 10703, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 日本 水之灵 IEPL 备用 延迟偏高, server: abcd.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 日本 街头大作战 IEPL 备用 延迟偏高, server: abcd.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 日本 蒸腾幻兽 IEPL 备用, server: a.v2ray.wtf, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 日本 力量之王 IEPL 备用 延迟偏高, server: a.v2ray.wtf, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 日本 修罗斗士 IEPL 备用, server: a.v2ray.wtf, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 日本 须佐之男 IEPL 备用 延迟偏高, server: a.v2ray.wtf, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 日本 狮子座 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 39925, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 铁甲神拳 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 19991, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 堕血之华 BGP 备用 延迟偏高, server: cn-sh.aseur8qwer.top, port: 31009, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 鬼姬 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 46964, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 魔法教师 IEPL 稳定, server: abc.dggs.org, port: 10704, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 美国 圣隼 IEPL 稳定, server: abc.dggs.org, port: 10705, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 美国 锦衣卫 IEPL 稳定, server: abcd.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 美国 灵溪居士 IEPL 稳定, server: abcd.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 美国 滑翔女爵 BGP 稳定, server: cn-sh.aseur8qwer.top, port: 16707, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 腾蛇之翼 BGP 稳定, server: cn-sh.aseur8qwer.top, port: 36465, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 曙光战神 BGP 稳定, server: cn-sh.aseur8qwer.top, port: 24766, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 黑暗守护者 BGP 稳定, server: cn-sh.aseur8qwer.top, port: 23608, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 马来西亚 堕落守卫 IEPL 备用, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 泰国 屠龙 IEPL 备用, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 越南 坚守 IEPL 稳定, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 越南 坚守 IEPL 备用, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 韩国 金钱大亨 IEPL 备用, server: a.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 香港 星际执政官 IEPL 稳定 推荐, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 香港 暗影之刃 IEPL 稳定 推荐, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 香港 刀锋魅影 IEPL 稳定 推荐, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 韩国 狮子座 IEPL 3Gbps 备用, server: kraz01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 铁甲神拳 IEPL 3Gbps 备用, server: kraz02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 堕血之华 IEPL 3Gbps 备用, server: kraz03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 鬼姬 IEPL 3Gbps 备用, server: kraz04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 血夜之刃 IEPL 3Gbps 备用, server: kraz05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 IEPL 3Gbps 备用, server: kraz06.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 黑暗守护者 IEPL 3Gbps 备用, server: kraz07.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 曙光战神 IPLC 备用, server: kr01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 腾蛇之翼IPLC 备用, server: kr02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 滑翔女爵 IPLC 备用, server: kr03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 灵溪居士 IPLC 备用, server: kr04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 锦衣卫 IPLC 备用, server: kr05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 圣隼 IPLC 备用, server: kr06.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 魔法教师 IPLC 备用, server: kr07.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 星际执政官 IEPL 推荐, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 香港 暗影之刃 IEPL 推荐, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 香港 刀锋魅影 IEPL 推荐, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 香港 黑珍珠 IEPL 备用, server: a.v2ray.wtf, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 香港 彼岸花 IEPL 备用, server: a.v2ray.wtf, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 香港 深渊梦魇 IEPL 备用, server: a.v2ray.wtf, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 香港 光耀 IEPL 备用, server: a.v2ray.wtf, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 香港 血夜之刃 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 25254, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 香港 熊猫武士 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 52517, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 香港 武僧 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 24724, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 香港 赤备突击 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 42599, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港 西部侠影 IEPL Equinix HK2 1Gbps 备用, server: hk01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 夏日沙滩 IEPL Equinix HK2 1Gbps 备用, server: hk02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 枪与玫瑰 IEPL Equinix HK2 1Gbps 备用, server: hk03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 摇滚狂潮 IEPL Equinix HK2 1Gbps 备用, server: hk04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 羽球王子 IEPL Equinix HK2 1Gbps 备用, server: hk05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 幽灵猎杀者 IEPL Equinix HK2 1Gbps 备用, server: hk06.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 暗影启示 IEPL Equinix HK2 1Gbps 备用, server: hk07.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 都市猎人 IEPL Equinix HK2 1Gbps 备用, server: hk09.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 炽焰枪豪 IEPL Equinix HK2 1Gbps 备用, server: hk10.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 圣光之翼 IEPL Equinix HK2 1Gbps 备用, server: sg02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 丰饶女神 IEPL Equinix HK2 1Gbps 备用, server: sg03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 花仙女 IEPL Equinix HK2 1Gbps 备用, server: sg04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 战地天使 IEPL Equinix HK2 1Gbps 备用, server: sg05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 救世主 IEPL Equinix HK2 1Gbps 备用, server: sg06.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 浮光掠星 IEPL Equinix HK2 1Gbps 备用, server: sg07.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 圣诞恋歌 IEPL Equinix HK2 1Gbps 备用, server: sg08.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 闪亮之星 IEPL Equinix HK2 1Gbps 备用, server: sg09.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 飞刃之舞 IEPL Equinix HK2 1Gbps 备用, server: sg10.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 青春校园 IEPL Equinix HK2 1Gbps 备用, server: sg11.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 朋克女孩 IEPL Equinix HK2 1Gbps 备用, server: sg12.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 云雀 IEPL Equinix HK2 1Gbps 备用, server: sg13.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 贵族骑兵 IEPL Equinix HK2 1Gbps 备用, server: sg14.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 沙滩救援队 IEPL Equinix HK2 1Gbps 备用, server: sg15.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 掠影 IEPL Equinix HK2 1Gbps 备用, server: sg16.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 圣诞小鹿 IEPL Equinix HK2 1Gbps 备用, server: sg17.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 帝国武士 IEPL Equinix HK2 1Gbps 备用, server: sg18.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 信念之刃 IEPL Equinix HK2 1Gbps 备用, server: sg19.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 香港 梦幻之恋 IEPL Equinix HK2 1Gbps 备用, server: sg20.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 印度 马哈拉施特拉 红莲街霸 IPLC 推荐, server: in01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 印度 马哈拉施特拉 功夫熊猫 IPLC 推荐, server: in02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐, server: in03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 印度 马哈拉施特拉 学城守护者 IPLC 推荐, server: in04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 印度 马哈拉施特拉 最佳前锋 IPLC 推荐, server: in05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 印度 马哈拉施特拉  最佳DJ IPLC 推荐, server: in06.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 澳大利亚 悉尼 街头足球 IPLC 推荐, server: au01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐, server: au02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 澳大利亚 悉尼 霹雳火 IPLC 推荐, server: au03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 澳大利亚 悉尼 潮流球手 IPLC 推荐, server: au04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 澳大利亚 悉尼 奇迹缔造者 IPLC 推荐, server: au05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -79,58 +123,102 @@ proxy-groups:
       - 台湾 广寒仙子 IEPL 备用
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
-      - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
-      - 台湾 糖果巴菲 BGP 备用 延迟偏高
-      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
-      - 台湾 萝莉画手 BGP 备用 延迟偏高
-      - 台湾 花好月圆 BGP 稳定 延迟偏高
-      - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 稳定 推荐
-      - 新加坡 逆鳞 IEPL 稳定 故障
+      - 台湾 花灵 IEPL 推荐 延迟偏高
+      - 台湾 梦幻星月 IEPL 推荐 延迟偏高
+      - 新加坡 智识之光 IEPL 推荐
+      - 新加坡 深渊之子 IEPL 推荐
+      - 新加坡 逆鳞 IEPL 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
       - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
-      - 新加坡 时钟女仆 BGP 备用 延迟偏高
-      - 新加坡 墓园派对 BGP 稳定 延迟偏高
-      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
-      - 新加坡 吱吱 BGP 稳定 延迟偏高
-      - 日本 机甲甜心 IEPL 稳定 推荐
-      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
-      - 日本 水之灵 IEPL 延迟偏高
-      - 日本 街头大作战 IEPL 延迟偏高
+      - 新加坡 米诺斯之子 IEPL 推荐
+      - 新加坡 爆裂阎魔 IEPL 推荐
+      - 新加坡 皇族之锤 IEPL 推荐
+      - 新加坡 放逐之锤 IEPL 推荐
+      - 新加坡 金牛座 IEPL 推荐
+      - 新加坡 狂甲战牛 IEPL 推荐
+      - 新加坡 糖果巴菲 IEPL 推荐
+      - 新加坡 摇曳藤曼 IEPL 推荐
+      - 新加坡 萝莉画手 IEPL 推荐
+      - 新加坡 花好月圆 IEPL 推荐
+      - 新加坡 时钟女仆 IEPL 推荐
+      - 新加坡 墓园派对 IEPL 推荐
+      - 新加坡 睡衣派对 IEPL 推荐
+      - 新加坡 吱吱 IEPL 推荐
+      - 新加坡 熊猫武士 IEPL 推荐
+      - 日本 机甲甜心 IEPL 推荐
+      - 日本 晴天宝贝 IEPL 推荐 延迟偏高
+      - 日本 水之灵 IEPL 备用 延迟偏高
+      - 日本 街头大作战 IEPL 备用 延迟偏高
       - 日本 蒸腾幻兽 IEPL 备用
       - 日本 力量之王 IEPL 备用 延迟偏高
       - 日本 修罗斗士 IEPL 备用
       - 日本 须佐之男 IEPL 备用 延迟偏高
-      - 日本 狮子座 BGP 稳定 延迟偏高
-      - 日本 铁甲神拳 BGP 稳定 延迟偏高
-      - 日本 堕血之华 BGP 备用 延迟偏高
-      - 日本 鬼姬 BGP 稳定 延迟偏高
-      - 美国 魔法教师 IEPL 稳定
-      - 美国 圣隼 IEPL 稳定
-      - 美国 锦衣卫 IEPL 稳定
-      - 美国 灵溪居士 IEPL 稳定
-      - 美国 滑翔女爵 BGP 稳定
-      - 美国 腾蛇之翼 BGP 稳定
-      - 美国 曙光战神 BGP 稳定
-      - 美国 黑暗守护者 BGP 稳定
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 稳定
+      - 越南 坚守 IEPL 备用
       - 韩国 金钱大亨 IEPL 备用
-      - 香港 星际执政官 IEPL 稳定 推荐
-      - 香港 暗影之刃 IEPL 稳定 推荐
-      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 韩国 狮子座 IEPL 3Gbps 备用
+      - 韩国 铁甲神拳 IEPL 3Gbps 备用
+      - 韩国 堕血之华 IEPL 3Gbps 备用
+      - 韩国 鬼姬 IEPL 3Gbps 备用
+      - 韩国 血夜之刃 IEPL 3Gbps 备用
+      - 韩国 IEPL 3Gbps 备用
+      - 韩国 黑暗守护者 IEPL 3Gbps 备用
+      - 韩国 曙光战神 IPLC 备用
+      - 韩国 腾蛇之翼IPLC 备用
+      - 韩国 滑翔女爵 IPLC 备用
+      - 韩国 灵溪居士 IPLC 备用
+      - 韩国 锦衣卫 IPLC 备用
+      - 韩国 圣隼 IPLC 备用
+      - 韩国 魔法教师 IPLC 备用
+      - 香港 星际执政官 IEPL 推荐
+      - 香港 暗影之刃 IEPL 推荐
+      - 香港 刀锋魅影 IEPL 推荐
       - 香港 黑珍珠 IEPL 备用
       - 香港 彼岸花 IEPL 备用
       - 香港 深渊梦魇 IEPL 备用
       - 香港 光耀 IEPL 备用
-      - 香港 血夜之刃 BGP 稳定 延迟偏高
-      - 香港 熊猫武士 BGP 稳定 延迟偏高
-      - 香港 武僧 BGP 稳定 延迟偏高
-      - 香港 赤备突击 BGP 稳定 延迟偏高
+      - 香港 西部侠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 夏日沙滩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 枪与玫瑰 IEPL Equinix HK2 1Gbps 备用
+      - 香港 摇滚狂潮 IEPL Equinix HK2 1Gbps 备用
+      - 香港 羽球王子 IEPL Equinix HK2 1Gbps 备用
+      - 香港 幽灵猎杀者 IEPL Equinix HK2 1Gbps 备用
+      - 香港 暗影启示 IEPL Equinix HK2 1Gbps 备用
+      - 香港 都市猎人 IEPL Equinix HK2 1Gbps 备用
+      - 香港 炽焰枪豪 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣光之翼 IEPL Equinix HK2 1Gbps 备用
+      - 香港 丰饶女神 IEPL Equinix HK2 1Gbps 备用
+      - 香港 花仙女 IEPL Equinix HK2 1Gbps 备用
+      - 香港 战地天使 IEPL Equinix HK2 1Gbps 备用
+      - 香港 救世主 IEPL Equinix HK2 1Gbps 备用
+      - 香港 浮光掠星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞恋歌 IEPL Equinix HK2 1Gbps 备用
+      - 香港 闪亮之星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 飞刃之舞 IEPL Equinix HK2 1Gbps 备用
+      - 香港 青春校园 IEPL Equinix HK2 1Gbps 备用
+      - 香港 朋克女孩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 云雀 IEPL Equinix HK2 1Gbps 备用
+      - 香港 贵族骑兵 IEPL Equinix HK2 1Gbps 备用
+      - 香港 沙滩救援队 IEPL Equinix HK2 1Gbps 备用
+      - 香港 掠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞小鹿 IEPL Equinix HK2 1Gbps 备用
+      - 香港 帝国武士 IEPL Equinix HK2 1Gbps 备用
+      - 香港 信念之刃 IEPL Equinix HK2 1Gbps 备用
+      - 香港 梦幻之恋 IEPL Equinix HK2 1Gbps 备用
+      - 印度 马哈拉施特拉 红莲街霸 IPLC 推荐
+      - 印度 马哈拉施特拉 功夫熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
+      - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
+      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 澳大利亚 悉尼 街头足球 IPLC 推荐
+      - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
+      - 澳大利亚 悉尼 霹雳火 IPLC 推荐
+      - 澳大利亚 悉尼 潮流球手 IPLC 推荐
+      - 澳大利亚 悉尼 奇迹缔造者 IPLC 推荐
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -144,58 +232,102 @@ proxy-groups:
       - 台湾 广寒仙子 IEPL 备用
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
-      - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
-      - 台湾 糖果巴菲 BGP 备用 延迟偏高
-      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
-      - 台湾 萝莉画手 BGP 备用 延迟偏高
-      - 台湾 花好月圆 BGP 稳定 延迟偏高
-      - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 稳定 推荐
-      - 新加坡 逆鳞 IEPL 稳定 故障
+      - 台湾 花灵 IEPL 推荐 延迟偏高
+      - 台湾 梦幻星月 IEPL 推荐 延迟偏高
+      - 新加坡 智识之光 IEPL 推荐
+      - 新加坡 深渊之子 IEPL 推荐
+      - 新加坡 逆鳞 IEPL 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
       - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
-      - 新加坡 时钟女仆 BGP 备用 延迟偏高
-      - 新加坡 墓园派对 BGP 稳定 延迟偏高
-      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
-      - 新加坡 吱吱 BGP 稳定 延迟偏高
-      - 日本 机甲甜心 IEPL 稳定 推荐
-      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
-      - 日本 水之灵 IEPL 延迟偏高
-      - 日本 街头大作战 IEPL 延迟偏高
+      - 新加坡 米诺斯之子 IEPL 推荐
+      - 新加坡 爆裂阎魔 IEPL 推荐
+      - 新加坡 皇族之锤 IEPL 推荐
+      - 新加坡 放逐之锤 IEPL 推荐
+      - 新加坡 金牛座 IEPL 推荐
+      - 新加坡 狂甲战牛 IEPL 推荐
+      - 新加坡 糖果巴菲 IEPL 推荐
+      - 新加坡 摇曳藤曼 IEPL 推荐
+      - 新加坡 萝莉画手 IEPL 推荐
+      - 新加坡 花好月圆 IEPL 推荐
+      - 新加坡 时钟女仆 IEPL 推荐
+      - 新加坡 墓园派对 IEPL 推荐
+      - 新加坡 睡衣派对 IEPL 推荐
+      - 新加坡 吱吱 IEPL 推荐
+      - 新加坡 熊猫武士 IEPL 推荐
+      - 日本 机甲甜心 IEPL 推荐
+      - 日本 晴天宝贝 IEPL 推荐 延迟偏高
+      - 日本 水之灵 IEPL 备用 延迟偏高
+      - 日本 街头大作战 IEPL 备用 延迟偏高
       - 日本 蒸腾幻兽 IEPL 备用
       - 日本 力量之王 IEPL 备用 延迟偏高
       - 日本 修罗斗士 IEPL 备用
       - 日本 须佐之男 IEPL 备用 延迟偏高
-      - 日本 狮子座 BGP 稳定 延迟偏高
-      - 日本 铁甲神拳 BGP 稳定 延迟偏高
-      - 日本 堕血之华 BGP 备用 延迟偏高
-      - 日本 鬼姬 BGP 稳定 延迟偏高
-      - 美国 魔法教师 IEPL 稳定
-      - 美国 圣隼 IEPL 稳定
-      - 美国 锦衣卫 IEPL 稳定
-      - 美国 灵溪居士 IEPL 稳定
-      - 美国 滑翔女爵 BGP 稳定
-      - 美国 腾蛇之翼 BGP 稳定
-      - 美国 曙光战神 BGP 稳定
-      - 美国 黑暗守护者 BGP 稳定
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 稳定
+      - 越南 坚守 IEPL 备用
       - 韩国 金钱大亨 IEPL 备用
-      - 香港 星际执政官 IEPL 稳定 推荐
-      - 香港 暗影之刃 IEPL 稳定 推荐
-      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 韩国 狮子座 IEPL 3Gbps 备用
+      - 韩国 铁甲神拳 IEPL 3Gbps 备用
+      - 韩国 堕血之华 IEPL 3Gbps 备用
+      - 韩国 鬼姬 IEPL 3Gbps 备用
+      - 韩国 血夜之刃 IEPL 3Gbps 备用
+      - 韩国 IEPL 3Gbps 备用
+      - 韩国 黑暗守护者 IEPL 3Gbps 备用
+      - 韩国 曙光战神 IPLC 备用
+      - 韩国 腾蛇之翼IPLC 备用
+      - 韩国 滑翔女爵 IPLC 备用
+      - 韩国 灵溪居士 IPLC 备用
+      - 韩国 锦衣卫 IPLC 备用
+      - 韩国 圣隼 IPLC 备用
+      - 韩国 魔法教师 IPLC 备用
+      - 香港 星际执政官 IEPL 推荐
+      - 香港 暗影之刃 IEPL 推荐
+      - 香港 刀锋魅影 IEPL 推荐
       - 香港 黑珍珠 IEPL 备用
       - 香港 彼岸花 IEPL 备用
       - 香港 深渊梦魇 IEPL 备用
       - 香港 光耀 IEPL 备用
-      - 香港 血夜之刃 BGP 稳定 延迟偏高
-      - 香港 熊猫武士 BGP 稳定 延迟偏高
-      - 香港 武僧 BGP 稳定 延迟偏高
-      - 香港 赤备突击 BGP 稳定 延迟偏高
+      - 香港 西部侠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 夏日沙滩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 枪与玫瑰 IEPL Equinix HK2 1Gbps 备用
+      - 香港 摇滚狂潮 IEPL Equinix HK2 1Gbps 备用
+      - 香港 羽球王子 IEPL Equinix HK2 1Gbps 备用
+      - 香港 幽灵猎杀者 IEPL Equinix HK2 1Gbps 备用
+      - 香港 暗影启示 IEPL Equinix HK2 1Gbps 备用
+      - 香港 都市猎人 IEPL Equinix HK2 1Gbps 备用
+      - 香港 炽焰枪豪 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣光之翼 IEPL Equinix HK2 1Gbps 备用
+      - 香港 丰饶女神 IEPL Equinix HK2 1Gbps 备用
+      - 香港 花仙女 IEPL Equinix HK2 1Gbps 备用
+      - 香港 战地天使 IEPL Equinix HK2 1Gbps 备用
+      - 香港 救世主 IEPL Equinix HK2 1Gbps 备用
+      - 香港 浮光掠星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞恋歌 IEPL Equinix HK2 1Gbps 备用
+      - 香港 闪亮之星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 飞刃之舞 IEPL Equinix HK2 1Gbps 备用
+      - 香港 青春校园 IEPL Equinix HK2 1Gbps 备用
+      - 香港 朋克女孩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 云雀 IEPL Equinix HK2 1Gbps 备用
+      - 香港 贵族骑兵 IEPL Equinix HK2 1Gbps 备用
+      - 香港 沙滩救援队 IEPL Equinix HK2 1Gbps 备用
+      - 香港 掠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞小鹿 IEPL Equinix HK2 1Gbps 备用
+      - 香港 帝国武士 IEPL Equinix HK2 1Gbps 备用
+      - 香港 信念之刃 IEPL Equinix HK2 1Gbps 备用
+      - 香港 梦幻之恋 IEPL Equinix HK2 1Gbps 备用
+      - 印度 马哈拉施特拉 红莲街霸 IPLC 推荐
+      - 印度 马哈拉施特拉 功夫熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
+      - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
+      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 澳大利亚 悉尼 街头足球 IPLC 推荐
+      - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
+      - 澳大利亚 悉尼 霹雳火 IPLC 推荐
+      - 澳大利亚 悉尼 潮流球手 IPLC 推荐
+      - 澳大利亚 悉尼 奇迹缔造者 IPLC 推荐
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -210,58 +342,102 @@ proxy-groups:
       - 台湾 广寒仙子 IEPL 备用
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
-      - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
-      - 台湾 糖果巴菲 BGP 备用 延迟偏高
-      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
-      - 台湾 萝莉画手 BGP 备用 延迟偏高
-      - 台湾 花好月圆 BGP 稳定 延迟偏高
-      - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 稳定 推荐
-      - 新加坡 逆鳞 IEPL 稳定 故障
+      - 台湾 花灵 IEPL 推荐 延迟偏高
+      - 台湾 梦幻星月 IEPL 推荐 延迟偏高
+      - 新加坡 智识之光 IEPL 推荐
+      - 新加坡 深渊之子 IEPL 推荐
+      - 新加坡 逆鳞 IEPL 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
       - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
-      - 新加坡 时钟女仆 BGP 备用 延迟偏高
-      - 新加坡 墓园派对 BGP 稳定 延迟偏高
-      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
-      - 新加坡 吱吱 BGP 稳定 延迟偏高
-      - 日本 机甲甜心 IEPL 稳定 推荐
-      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
-      - 日本 水之灵 IEPL 延迟偏高
-      - 日本 街头大作战 IEPL 延迟偏高
+      - 新加坡 米诺斯之子 IEPL 推荐
+      - 新加坡 爆裂阎魔 IEPL 推荐
+      - 新加坡 皇族之锤 IEPL 推荐
+      - 新加坡 放逐之锤 IEPL 推荐
+      - 新加坡 金牛座 IEPL 推荐
+      - 新加坡 狂甲战牛 IEPL 推荐
+      - 新加坡 糖果巴菲 IEPL 推荐
+      - 新加坡 摇曳藤曼 IEPL 推荐
+      - 新加坡 萝莉画手 IEPL 推荐
+      - 新加坡 花好月圆 IEPL 推荐
+      - 新加坡 时钟女仆 IEPL 推荐
+      - 新加坡 墓园派对 IEPL 推荐
+      - 新加坡 睡衣派对 IEPL 推荐
+      - 新加坡 吱吱 IEPL 推荐
+      - 新加坡 熊猫武士 IEPL 推荐
+      - 日本 机甲甜心 IEPL 推荐
+      - 日本 晴天宝贝 IEPL 推荐 延迟偏高
+      - 日本 水之灵 IEPL 备用 延迟偏高
+      - 日本 街头大作战 IEPL 备用 延迟偏高
       - 日本 蒸腾幻兽 IEPL 备用
       - 日本 力量之王 IEPL 备用 延迟偏高
       - 日本 修罗斗士 IEPL 备用
       - 日本 须佐之男 IEPL 备用 延迟偏高
-      - 日本 狮子座 BGP 稳定 延迟偏高
-      - 日本 铁甲神拳 BGP 稳定 延迟偏高
-      - 日本 堕血之华 BGP 备用 延迟偏高
-      - 日本 鬼姬 BGP 稳定 延迟偏高
-      - 美国 魔法教师 IEPL 稳定
-      - 美国 圣隼 IEPL 稳定
-      - 美国 锦衣卫 IEPL 稳定
-      - 美国 灵溪居士 IEPL 稳定
-      - 美国 滑翔女爵 BGP 稳定
-      - 美国 腾蛇之翼 BGP 稳定
-      - 美国 曙光战神 BGP 稳定
-      - 美国 黑暗守护者 BGP 稳定
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 稳定
+      - 越南 坚守 IEPL 备用
       - 韩国 金钱大亨 IEPL 备用
-      - 香港 星际执政官 IEPL 稳定 推荐
-      - 香港 暗影之刃 IEPL 稳定 推荐
-      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 韩国 狮子座 IEPL 3Gbps 备用
+      - 韩国 铁甲神拳 IEPL 3Gbps 备用
+      - 韩国 堕血之华 IEPL 3Gbps 备用
+      - 韩国 鬼姬 IEPL 3Gbps 备用
+      - 韩国 血夜之刃 IEPL 3Gbps 备用
+      - 韩国 IEPL 3Gbps 备用
+      - 韩国 黑暗守护者 IEPL 3Gbps 备用
+      - 韩国 曙光战神 IPLC 备用
+      - 韩国 腾蛇之翼IPLC 备用
+      - 韩国 滑翔女爵 IPLC 备用
+      - 韩国 灵溪居士 IPLC 备用
+      - 韩国 锦衣卫 IPLC 备用
+      - 韩国 圣隼 IPLC 备用
+      - 韩国 魔法教师 IPLC 备用
+      - 香港 星际执政官 IEPL 推荐
+      - 香港 暗影之刃 IEPL 推荐
+      - 香港 刀锋魅影 IEPL 推荐
       - 香港 黑珍珠 IEPL 备用
       - 香港 彼岸花 IEPL 备用
       - 香港 深渊梦魇 IEPL 备用
       - 香港 光耀 IEPL 备用
-      - 香港 血夜之刃 BGP 稳定 延迟偏高
-      - 香港 熊猫武士 BGP 稳定 延迟偏高
-      - 香港 武僧 BGP 稳定 延迟偏高
-      - 香港 赤备突击 BGP 稳定 延迟偏高
+      - 香港 西部侠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 夏日沙滩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 枪与玫瑰 IEPL Equinix HK2 1Gbps 备用
+      - 香港 摇滚狂潮 IEPL Equinix HK2 1Gbps 备用
+      - 香港 羽球王子 IEPL Equinix HK2 1Gbps 备用
+      - 香港 幽灵猎杀者 IEPL Equinix HK2 1Gbps 备用
+      - 香港 暗影启示 IEPL Equinix HK2 1Gbps 备用
+      - 香港 都市猎人 IEPL Equinix HK2 1Gbps 备用
+      - 香港 炽焰枪豪 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣光之翼 IEPL Equinix HK2 1Gbps 备用
+      - 香港 丰饶女神 IEPL Equinix HK2 1Gbps 备用
+      - 香港 花仙女 IEPL Equinix HK2 1Gbps 备用
+      - 香港 战地天使 IEPL Equinix HK2 1Gbps 备用
+      - 香港 救世主 IEPL Equinix HK2 1Gbps 备用
+      - 香港 浮光掠星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞恋歌 IEPL Equinix HK2 1Gbps 备用
+      - 香港 闪亮之星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 飞刃之舞 IEPL Equinix HK2 1Gbps 备用
+      - 香港 青春校园 IEPL Equinix HK2 1Gbps 备用
+      - 香港 朋克女孩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 云雀 IEPL Equinix HK2 1Gbps 备用
+      - 香港 贵族骑兵 IEPL Equinix HK2 1Gbps 备用
+      - 香港 沙滩救援队 IEPL Equinix HK2 1Gbps 备用
+      - 香港 掠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞小鹿 IEPL Equinix HK2 1Gbps 备用
+      - 香港 帝国武士 IEPL Equinix HK2 1Gbps 备用
+      - 香港 信念之刃 IEPL Equinix HK2 1Gbps 备用
+      - 香港 梦幻之恋 IEPL Equinix HK2 1Gbps 备用
+      - 印度 马哈拉施特拉 红莲街霸 IPLC 推荐
+      - 印度 马哈拉施特拉 功夫熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
+      - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
+      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 澳大利亚 悉尼 街头足球 IPLC 推荐
+      - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
+      - 澳大利亚 悉尼 霹雳火 IPLC 推荐
+      - 澳大利亚 悉尼 潮流球手 IPLC 推荐
+      - 澳大利亚 悉尼 奇迹缔造者 IPLC 推荐
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -288,58 +464,102 @@ proxy-groups:
       - 台湾 广寒仙子 IEPL 备用
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
-      - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
-      - 台湾 糖果巴菲 BGP 备用 延迟偏高
-      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
-      - 台湾 萝莉画手 BGP 备用 延迟偏高
-      - 台湾 花好月圆 BGP 稳定 延迟偏高
-      - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 稳定 推荐
-      - 新加坡 逆鳞 IEPL 稳定 故障
+      - 台湾 花灵 IEPL 推荐 延迟偏高
+      - 台湾 梦幻星月 IEPL 推荐 延迟偏高
+      - 新加坡 智识之光 IEPL 推荐
+      - 新加坡 深渊之子 IEPL 推荐
+      - 新加坡 逆鳞 IEPL 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
       - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
-      - 新加坡 时钟女仆 BGP 备用 延迟偏高
-      - 新加坡 墓园派对 BGP 稳定 延迟偏高
-      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
-      - 新加坡 吱吱 BGP 稳定 延迟偏高
-      - 日本 机甲甜心 IEPL 稳定 推荐
-      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
-      - 日本 水之灵 IEPL 延迟偏高
-      - 日本 街头大作战 IEPL 延迟偏高
+      - 新加坡 米诺斯之子 IEPL 推荐
+      - 新加坡 爆裂阎魔 IEPL 推荐
+      - 新加坡 皇族之锤 IEPL 推荐
+      - 新加坡 放逐之锤 IEPL 推荐
+      - 新加坡 金牛座 IEPL 推荐
+      - 新加坡 狂甲战牛 IEPL 推荐
+      - 新加坡 糖果巴菲 IEPL 推荐
+      - 新加坡 摇曳藤曼 IEPL 推荐
+      - 新加坡 萝莉画手 IEPL 推荐
+      - 新加坡 花好月圆 IEPL 推荐
+      - 新加坡 时钟女仆 IEPL 推荐
+      - 新加坡 墓园派对 IEPL 推荐
+      - 新加坡 睡衣派对 IEPL 推荐
+      - 新加坡 吱吱 IEPL 推荐
+      - 新加坡 熊猫武士 IEPL 推荐
+      - 日本 机甲甜心 IEPL 推荐
+      - 日本 晴天宝贝 IEPL 推荐 延迟偏高
+      - 日本 水之灵 IEPL 备用 延迟偏高
+      - 日本 街头大作战 IEPL 备用 延迟偏高
       - 日本 蒸腾幻兽 IEPL 备用
       - 日本 力量之王 IEPL 备用 延迟偏高
       - 日本 修罗斗士 IEPL 备用
       - 日本 须佐之男 IEPL 备用 延迟偏高
-      - 日本 狮子座 BGP 稳定 延迟偏高
-      - 日本 铁甲神拳 BGP 稳定 延迟偏高
-      - 日本 堕血之华 BGP 备用 延迟偏高
-      - 日本 鬼姬 BGP 稳定 延迟偏高
-      - 美国 魔法教师 IEPL 稳定
-      - 美国 圣隼 IEPL 稳定
-      - 美国 锦衣卫 IEPL 稳定
-      - 美国 灵溪居士 IEPL 稳定
-      - 美国 滑翔女爵 BGP 稳定
-      - 美国 腾蛇之翼 BGP 稳定
-      - 美国 曙光战神 BGP 稳定
-      - 美国 黑暗守护者 BGP 稳定
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 稳定
+      - 越南 坚守 IEPL 备用
       - 韩国 金钱大亨 IEPL 备用
-      - 香港 星际执政官 IEPL 稳定 推荐
-      - 香港 暗影之刃 IEPL 稳定 推荐
-      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 韩国 狮子座 IEPL 3Gbps 备用
+      - 韩国 铁甲神拳 IEPL 3Gbps 备用
+      - 韩国 堕血之华 IEPL 3Gbps 备用
+      - 韩国 鬼姬 IEPL 3Gbps 备用
+      - 韩国 血夜之刃 IEPL 3Gbps 备用
+      - 韩国 IEPL 3Gbps 备用
+      - 韩国 黑暗守护者 IEPL 3Gbps 备用
+      - 韩国 曙光战神 IPLC 备用
+      - 韩国 腾蛇之翼IPLC 备用
+      - 韩国 滑翔女爵 IPLC 备用
+      - 韩国 灵溪居士 IPLC 备用
+      - 韩国 锦衣卫 IPLC 备用
+      - 韩国 圣隼 IPLC 备用
+      - 韩国 魔法教师 IPLC 备用
+      - 香港 星际执政官 IEPL 推荐
+      - 香港 暗影之刃 IEPL 推荐
+      - 香港 刀锋魅影 IEPL 推荐
       - 香港 黑珍珠 IEPL 备用
       - 香港 彼岸花 IEPL 备用
       - 香港 深渊梦魇 IEPL 备用
       - 香港 光耀 IEPL 备用
-      - 香港 血夜之刃 BGP 稳定 延迟偏高
-      - 香港 熊猫武士 BGP 稳定 延迟偏高
-      - 香港 武僧 BGP 稳定 延迟偏高
-      - 香港 赤备突击 BGP 稳定 延迟偏高
+      - 香港 西部侠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 夏日沙滩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 枪与玫瑰 IEPL Equinix HK2 1Gbps 备用
+      - 香港 摇滚狂潮 IEPL Equinix HK2 1Gbps 备用
+      - 香港 羽球王子 IEPL Equinix HK2 1Gbps 备用
+      - 香港 幽灵猎杀者 IEPL Equinix HK2 1Gbps 备用
+      - 香港 暗影启示 IEPL Equinix HK2 1Gbps 备用
+      - 香港 都市猎人 IEPL Equinix HK2 1Gbps 备用
+      - 香港 炽焰枪豪 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣光之翼 IEPL Equinix HK2 1Gbps 备用
+      - 香港 丰饶女神 IEPL Equinix HK2 1Gbps 备用
+      - 香港 花仙女 IEPL Equinix HK2 1Gbps 备用
+      - 香港 战地天使 IEPL Equinix HK2 1Gbps 备用
+      - 香港 救世主 IEPL Equinix HK2 1Gbps 备用
+      - 香港 浮光掠星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞恋歌 IEPL Equinix HK2 1Gbps 备用
+      - 香港 闪亮之星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 飞刃之舞 IEPL Equinix HK2 1Gbps 备用
+      - 香港 青春校园 IEPL Equinix HK2 1Gbps 备用
+      - 香港 朋克女孩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 云雀 IEPL Equinix HK2 1Gbps 备用
+      - 香港 贵族骑兵 IEPL Equinix HK2 1Gbps 备用
+      - 香港 沙滩救援队 IEPL Equinix HK2 1Gbps 备用
+      - 香港 掠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞小鹿 IEPL Equinix HK2 1Gbps 备用
+      - 香港 帝国武士 IEPL Equinix HK2 1Gbps 备用
+      - 香港 信念之刃 IEPL Equinix HK2 1Gbps 备用
+      - 香港 梦幻之恋 IEPL Equinix HK2 1Gbps 备用
+      - 印度 马哈拉施特拉 红莲街霸 IPLC 推荐
+      - 印度 马哈拉施特拉 功夫熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
+      - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
+      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 澳大利亚 悉尼 街头足球 IPLC 推荐
+      - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
+      - 澳大利亚 悉尼 霹雳火 IPLC 推荐
+      - 澳大利亚 悉尼 潮流球手 IPLC 推荐
+      - 澳大利亚 悉尼 奇迹缔造者 IPLC 推荐
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -348,23 +568,43 @@ proxy-groups:
       - 台湾 广寒仙子 IEPL 备用
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
-      - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
-      - 台湾 糖果巴菲 BGP 备用 延迟偏高
-      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
-      - 台湾 萝莉画手 BGP 备用 延迟偏高
-      - 台湾 花好月圆 BGP 稳定 延迟偏高
-      - 香港 星际执政官 IEPL 稳定 推荐
-      - 香港 暗影之刃 IEPL 稳定 推荐
-      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 台湾 花灵 IEPL 推荐 延迟偏高
+      - 台湾 梦幻星月 IEPL 推荐 延迟偏高
+      - 香港 星际执政官 IEPL 推荐
+      - 香港 暗影之刃 IEPL 推荐
+      - 香港 刀锋魅影 IEPL 推荐
       - 香港 黑珍珠 IEPL 备用
       - 香港 彼岸花 IEPL 备用
       - 香港 深渊梦魇 IEPL 备用
       - 香港 光耀 IEPL 备用
-      - 香港 血夜之刃 BGP 稳定 延迟偏高
-      - 香港 熊猫武士 BGP 稳定 延迟偏高
-      - 香港 武僧 BGP 稳定 延迟偏高
-      - 香港 赤备突击 BGP 稳定 延迟偏高
+      - 香港 西部侠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 夏日沙滩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 枪与玫瑰 IEPL Equinix HK2 1Gbps 备用
+      - 香港 摇滚狂潮 IEPL Equinix HK2 1Gbps 备用
+      - 香港 羽球王子 IEPL Equinix HK2 1Gbps 备用
+      - 香港 幽灵猎杀者 IEPL Equinix HK2 1Gbps 备用
+      - 香港 暗影启示 IEPL Equinix HK2 1Gbps 备用
+      - 香港 都市猎人 IEPL Equinix HK2 1Gbps 备用
+      - 香港 炽焰枪豪 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣光之翼 IEPL Equinix HK2 1Gbps 备用
+      - 香港 丰饶女神 IEPL Equinix HK2 1Gbps 备用
+      - 香港 花仙女 IEPL Equinix HK2 1Gbps 备用
+      - 香港 战地天使 IEPL Equinix HK2 1Gbps 备用
+      - 香港 救世主 IEPL Equinix HK2 1Gbps 备用
+      - 香港 浮光掠星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞恋歌 IEPL Equinix HK2 1Gbps 备用
+      - 香港 闪亮之星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 飞刃之舞 IEPL Equinix HK2 1Gbps 备用
+      - 香港 青春校园 IEPL Equinix HK2 1Gbps 备用
+      - 香港 朋克女孩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 云雀 IEPL Equinix HK2 1Gbps 备用
+      - 香港 贵族骑兵 IEPL Equinix HK2 1Gbps 备用
+      - 香港 沙滩救援队 IEPL Equinix HK2 1Gbps 备用
+      - 香港 掠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞小鹿 IEPL Equinix HK2 1Gbps 备用
+      - 香港 帝国武士 IEPL Equinix HK2 1Gbps 备用
+      - 香港 信念之刃 IEPL Equinix HK2 1Gbps 备用
+      - 香港 梦幻之恋 IEPL Equinix HK2 1Gbps 备用
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -379,58 +619,102 @@ proxy-groups:
       - 台湾 广寒仙子 IEPL 备用
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
-      - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
-      - 台湾 糖果巴菲 BGP 备用 延迟偏高
-      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
-      - 台湾 萝莉画手 BGP 备用 延迟偏高
-      - 台湾 花好月圆 BGP 稳定 延迟偏高
-      - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 稳定 推荐
-      - 新加坡 逆鳞 IEPL 稳定 故障
+      - 台湾 花灵 IEPL 推荐 延迟偏高
+      - 台湾 梦幻星月 IEPL 推荐 延迟偏高
+      - 新加坡 智识之光 IEPL 推荐
+      - 新加坡 深渊之子 IEPL 推荐
+      - 新加坡 逆鳞 IEPL 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
       - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
-      - 新加坡 时钟女仆 BGP 备用 延迟偏高
-      - 新加坡 墓园派对 BGP 稳定 延迟偏高
-      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
-      - 新加坡 吱吱 BGP 稳定 延迟偏高
-      - 日本 机甲甜心 IEPL 稳定 推荐
-      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
-      - 日本 水之灵 IEPL 延迟偏高
-      - 日本 街头大作战 IEPL 延迟偏高
+      - 新加坡 米诺斯之子 IEPL 推荐
+      - 新加坡 爆裂阎魔 IEPL 推荐
+      - 新加坡 皇族之锤 IEPL 推荐
+      - 新加坡 放逐之锤 IEPL 推荐
+      - 新加坡 金牛座 IEPL 推荐
+      - 新加坡 狂甲战牛 IEPL 推荐
+      - 新加坡 糖果巴菲 IEPL 推荐
+      - 新加坡 摇曳藤曼 IEPL 推荐
+      - 新加坡 萝莉画手 IEPL 推荐
+      - 新加坡 花好月圆 IEPL 推荐
+      - 新加坡 时钟女仆 IEPL 推荐
+      - 新加坡 墓园派对 IEPL 推荐
+      - 新加坡 睡衣派对 IEPL 推荐
+      - 新加坡 吱吱 IEPL 推荐
+      - 新加坡 熊猫武士 IEPL 推荐
+      - 日本 机甲甜心 IEPL 推荐
+      - 日本 晴天宝贝 IEPL 推荐 延迟偏高
+      - 日本 水之灵 IEPL 备用 延迟偏高
+      - 日本 街头大作战 IEPL 备用 延迟偏高
       - 日本 蒸腾幻兽 IEPL 备用
       - 日本 力量之王 IEPL 备用 延迟偏高
       - 日本 修罗斗士 IEPL 备用
       - 日本 须佐之男 IEPL 备用 延迟偏高
-      - 日本 狮子座 BGP 稳定 延迟偏高
-      - 日本 铁甲神拳 BGP 稳定 延迟偏高
-      - 日本 堕血之华 BGP 备用 延迟偏高
-      - 日本 鬼姬 BGP 稳定 延迟偏高
-      - 美国 魔法教师 IEPL 稳定
-      - 美国 圣隼 IEPL 稳定
-      - 美国 锦衣卫 IEPL 稳定
-      - 美国 灵溪居士 IEPL 稳定
-      - 美国 滑翔女爵 BGP 稳定
-      - 美国 腾蛇之翼 BGP 稳定
-      - 美国 曙光战神 BGP 稳定
-      - 美国 黑暗守护者 BGP 稳定
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 稳定
+      - 越南 坚守 IEPL 备用
       - 韩国 金钱大亨 IEPL 备用
-      - 香港 星际执政官 IEPL 稳定 推荐
-      - 香港 暗影之刃 IEPL 稳定 推荐
-      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 韩国 狮子座 IEPL 3Gbps 备用
+      - 韩国 铁甲神拳 IEPL 3Gbps 备用
+      - 韩国 堕血之华 IEPL 3Gbps 备用
+      - 韩国 鬼姬 IEPL 3Gbps 备用
+      - 韩国 血夜之刃 IEPL 3Gbps 备用
+      - 韩国 IEPL 3Gbps 备用
+      - 韩国 黑暗守护者 IEPL 3Gbps 备用
+      - 韩国 曙光战神 IPLC 备用
+      - 韩国 腾蛇之翼IPLC 备用
+      - 韩国 滑翔女爵 IPLC 备用
+      - 韩国 灵溪居士 IPLC 备用
+      - 韩国 锦衣卫 IPLC 备用
+      - 韩国 圣隼 IPLC 备用
+      - 韩国 魔法教师 IPLC 备用
+      - 香港 星际执政官 IEPL 推荐
+      - 香港 暗影之刃 IEPL 推荐
+      - 香港 刀锋魅影 IEPL 推荐
       - 香港 黑珍珠 IEPL 备用
       - 香港 彼岸花 IEPL 备用
       - 香港 深渊梦魇 IEPL 备用
       - 香港 光耀 IEPL 备用
-      - 香港 血夜之刃 BGP 稳定 延迟偏高
-      - 香港 熊猫武士 BGP 稳定 延迟偏高
-      - 香港 武僧 BGP 稳定 延迟偏高
-      - 香港 赤备突击 BGP 稳定 延迟偏高
+      - 香港 西部侠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 夏日沙滩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 枪与玫瑰 IEPL Equinix HK2 1Gbps 备用
+      - 香港 摇滚狂潮 IEPL Equinix HK2 1Gbps 备用
+      - 香港 羽球王子 IEPL Equinix HK2 1Gbps 备用
+      - 香港 幽灵猎杀者 IEPL Equinix HK2 1Gbps 备用
+      - 香港 暗影启示 IEPL Equinix HK2 1Gbps 备用
+      - 香港 都市猎人 IEPL Equinix HK2 1Gbps 备用
+      - 香港 炽焰枪豪 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣光之翼 IEPL Equinix HK2 1Gbps 备用
+      - 香港 丰饶女神 IEPL Equinix HK2 1Gbps 备用
+      - 香港 花仙女 IEPL Equinix HK2 1Gbps 备用
+      - 香港 战地天使 IEPL Equinix HK2 1Gbps 备用
+      - 香港 救世主 IEPL Equinix HK2 1Gbps 备用
+      - 香港 浮光掠星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞恋歌 IEPL Equinix HK2 1Gbps 备用
+      - 香港 闪亮之星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 飞刃之舞 IEPL Equinix HK2 1Gbps 备用
+      - 香港 青春校园 IEPL Equinix HK2 1Gbps 备用
+      - 香港 朋克女孩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 云雀 IEPL Equinix HK2 1Gbps 备用
+      - 香港 贵族骑兵 IEPL Equinix HK2 1Gbps 备用
+      - 香港 沙滩救援队 IEPL Equinix HK2 1Gbps 备用
+      - 香港 掠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞小鹿 IEPL Equinix HK2 1Gbps 备用
+      - 香港 帝国武士 IEPL Equinix HK2 1Gbps 备用
+      - 香港 信念之刃 IEPL Equinix HK2 1Gbps 备用
+      - 香港 梦幻之恋 IEPL Equinix HK2 1Gbps 备用
+      - 印度 马哈拉施特拉 红莲街霸 IPLC 推荐
+      - 印度 马哈拉施特拉 功夫熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
+      - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
+      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 澳大利亚 悉尼 街头足球 IPLC 推荐
+      - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
+      - 澳大利亚 悉尼 霹雳火 IPLC 推荐
+      - 澳大利亚 悉尼 潮流球手 IPLC 推荐
+      - 澳大利亚 悉尼 奇迹缔造者 IPLC 推荐
   - name: 📲 电报信息
     type: select
     proxies:
@@ -444,58 +728,102 @@ proxy-groups:
       - 台湾 广寒仙子 IEPL 备用
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
-      - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
-      - 台湾 糖果巴菲 BGP 备用 延迟偏高
-      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
-      - 台湾 萝莉画手 BGP 备用 延迟偏高
-      - 台湾 花好月圆 BGP 稳定 延迟偏高
-      - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 稳定 推荐
-      - 新加坡 逆鳞 IEPL 稳定 故障
+      - 台湾 花灵 IEPL 推荐 延迟偏高
+      - 台湾 梦幻星月 IEPL 推荐 延迟偏高
+      - 新加坡 智识之光 IEPL 推荐
+      - 新加坡 深渊之子 IEPL 推荐
+      - 新加坡 逆鳞 IEPL 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
       - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
-      - 新加坡 时钟女仆 BGP 备用 延迟偏高
-      - 新加坡 墓园派对 BGP 稳定 延迟偏高
-      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
-      - 新加坡 吱吱 BGP 稳定 延迟偏高
-      - 日本 机甲甜心 IEPL 稳定 推荐
-      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
-      - 日本 水之灵 IEPL 延迟偏高
-      - 日本 街头大作战 IEPL 延迟偏高
+      - 新加坡 米诺斯之子 IEPL 推荐
+      - 新加坡 爆裂阎魔 IEPL 推荐
+      - 新加坡 皇族之锤 IEPL 推荐
+      - 新加坡 放逐之锤 IEPL 推荐
+      - 新加坡 金牛座 IEPL 推荐
+      - 新加坡 狂甲战牛 IEPL 推荐
+      - 新加坡 糖果巴菲 IEPL 推荐
+      - 新加坡 摇曳藤曼 IEPL 推荐
+      - 新加坡 萝莉画手 IEPL 推荐
+      - 新加坡 花好月圆 IEPL 推荐
+      - 新加坡 时钟女仆 IEPL 推荐
+      - 新加坡 墓园派对 IEPL 推荐
+      - 新加坡 睡衣派对 IEPL 推荐
+      - 新加坡 吱吱 IEPL 推荐
+      - 新加坡 熊猫武士 IEPL 推荐
+      - 日本 机甲甜心 IEPL 推荐
+      - 日本 晴天宝贝 IEPL 推荐 延迟偏高
+      - 日本 水之灵 IEPL 备用 延迟偏高
+      - 日本 街头大作战 IEPL 备用 延迟偏高
       - 日本 蒸腾幻兽 IEPL 备用
       - 日本 力量之王 IEPL 备用 延迟偏高
       - 日本 修罗斗士 IEPL 备用
       - 日本 须佐之男 IEPL 备用 延迟偏高
-      - 日本 狮子座 BGP 稳定 延迟偏高
-      - 日本 铁甲神拳 BGP 稳定 延迟偏高
-      - 日本 堕血之华 BGP 备用 延迟偏高
-      - 日本 鬼姬 BGP 稳定 延迟偏高
-      - 美国 魔法教师 IEPL 稳定
-      - 美国 圣隼 IEPL 稳定
-      - 美国 锦衣卫 IEPL 稳定
-      - 美国 灵溪居士 IEPL 稳定
-      - 美国 滑翔女爵 BGP 稳定
-      - 美国 腾蛇之翼 BGP 稳定
-      - 美国 曙光战神 BGP 稳定
-      - 美国 黑暗守护者 BGP 稳定
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 稳定
+      - 越南 坚守 IEPL 备用
       - 韩国 金钱大亨 IEPL 备用
-      - 香港 星际执政官 IEPL 稳定 推荐
-      - 香港 暗影之刃 IEPL 稳定 推荐
-      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 韩国 狮子座 IEPL 3Gbps 备用
+      - 韩国 铁甲神拳 IEPL 3Gbps 备用
+      - 韩国 堕血之华 IEPL 3Gbps 备用
+      - 韩国 鬼姬 IEPL 3Gbps 备用
+      - 韩国 血夜之刃 IEPL 3Gbps 备用
+      - 韩国 IEPL 3Gbps 备用
+      - 韩国 黑暗守护者 IEPL 3Gbps 备用
+      - 韩国 曙光战神 IPLC 备用
+      - 韩国 腾蛇之翼IPLC 备用
+      - 韩国 滑翔女爵 IPLC 备用
+      - 韩国 灵溪居士 IPLC 备用
+      - 韩国 锦衣卫 IPLC 备用
+      - 韩国 圣隼 IPLC 备用
+      - 韩国 魔法教师 IPLC 备用
+      - 香港 星际执政官 IEPL 推荐
+      - 香港 暗影之刃 IEPL 推荐
+      - 香港 刀锋魅影 IEPL 推荐
       - 香港 黑珍珠 IEPL 备用
       - 香港 彼岸花 IEPL 备用
       - 香港 深渊梦魇 IEPL 备用
       - 香港 光耀 IEPL 备用
-      - 香港 血夜之刃 BGP 稳定 延迟偏高
-      - 香港 熊猫武士 BGP 稳定 延迟偏高
-      - 香港 武僧 BGP 稳定 延迟偏高
-      - 香港 赤备突击 BGP 稳定 延迟偏高
+      - 香港 西部侠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 夏日沙滩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 枪与玫瑰 IEPL Equinix HK2 1Gbps 备用
+      - 香港 摇滚狂潮 IEPL Equinix HK2 1Gbps 备用
+      - 香港 羽球王子 IEPL Equinix HK2 1Gbps 备用
+      - 香港 幽灵猎杀者 IEPL Equinix HK2 1Gbps 备用
+      - 香港 暗影启示 IEPL Equinix HK2 1Gbps 备用
+      - 香港 都市猎人 IEPL Equinix HK2 1Gbps 备用
+      - 香港 炽焰枪豪 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣光之翼 IEPL Equinix HK2 1Gbps 备用
+      - 香港 丰饶女神 IEPL Equinix HK2 1Gbps 备用
+      - 香港 花仙女 IEPL Equinix HK2 1Gbps 备用
+      - 香港 战地天使 IEPL Equinix HK2 1Gbps 备用
+      - 香港 救世主 IEPL Equinix HK2 1Gbps 备用
+      - 香港 浮光掠星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞恋歌 IEPL Equinix HK2 1Gbps 备用
+      - 香港 闪亮之星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 飞刃之舞 IEPL Equinix HK2 1Gbps 备用
+      - 香港 青春校园 IEPL Equinix HK2 1Gbps 备用
+      - 香港 朋克女孩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 云雀 IEPL Equinix HK2 1Gbps 备用
+      - 香港 贵族骑兵 IEPL Equinix HK2 1Gbps 备用
+      - 香港 沙滩救援队 IEPL Equinix HK2 1Gbps 备用
+      - 香港 掠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞小鹿 IEPL Equinix HK2 1Gbps 备用
+      - 香港 帝国武士 IEPL Equinix HK2 1Gbps 备用
+      - 香港 信念之刃 IEPL Equinix HK2 1Gbps 备用
+      - 香港 梦幻之恋 IEPL Equinix HK2 1Gbps 备用
+      - 印度 马哈拉施特拉 红莲街霸 IPLC 推荐
+      - 印度 马哈拉施特拉 功夫熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
+      - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
+      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 澳大利亚 悉尼 街头足球 IPLC 推荐
+      - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
+      - 澳大利亚 悉尼 霹雳火 IPLC 推荐
+      - 澳大利亚 悉尼 潮流球手 IPLC 推荐
+      - 澳大利亚 悉尼 奇迹缔造者 IPLC 推荐
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -510,58 +838,102 @@ proxy-groups:
       - 台湾 广寒仙子 IEPL 备用
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
-      - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
-      - 台湾 糖果巴菲 BGP 备用 延迟偏高
-      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
-      - 台湾 萝莉画手 BGP 备用 延迟偏高
-      - 台湾 花好月圆 BGP 稳定 延迟偏高
-      - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 稳定 推荐
-      - 新加坡 逆鳞 IEPL 稳定 故障
+      - 台湾 花灵 IEPL 推荐 延迟偏高
+      - 台湾 梦幻星月 IEPL 推荐 延迟偏高
+      - 新加坡 智识之光 IEPL 推荐
+      - 新加坡 深渊之子 IEPL 推荐
+      - 新加坡 逆鳞 IEPL 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
       - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
-      - 新加坡 时钟女仆 BGP 备用 延迟偏高
-      - 新加坡 墓园派对 BGP 稳定 延迟偏高
-      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
-      - 新加坡 吱吱 BGP 稳定 延迟偏高
-      - 日本 机甲甜心 IEPL 稳定 推荐
-      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
-      - 日本 水之灵 IEPL 延迟偏高
-      - 日本 街头大作战 IEPL 延迟偏高
+      - 新加坡 米诺斯之子 IEPL 推荐
+      - 新加坡 爆裂阎魔 IEPL 推荐
+      - 新加坡 皇族之锤 IEPL 推荐
+      - 新加坡 放逐之锤 IEPL 推荐
+      - 新加坡 金牛座 IEPL 推荐
+      - 新加坡 狂甲战牛 IEPL 推荐
+      - 新加坡 糖果巴菲 IEPL 推荐
+      - 新加坡 摇曳藤曼 IEPL 推荐
+      - 新加坡 萝莉画手 IEPL 推荐
+      - 新加坡 花好月圆 IEPL 推荐
+      - 新加坡 时钟女仆 IEPL 推荐
+      - 新加坡 墓园派对 IEPL 推荐
+      - 新加坡 睡衣派对 IEPL 推荐
+      - 新加坡 吱吱 IEPL 推荐
+      - 新加坡 熊猫武士 IEPL 推荐
+      - 日本 机甲甜心 IEPL 推荐
+      - 日本 晴天宝贝 IEPL 推荐 延迟偏高
+      - 日本 水之灵 IEPL 备用 延迟偏高
+      - 日本 街头大作战 IEPL 备用 延迟偏高
       - 日本 蒸腾幻兽 IEPL 备用
       - 日本 力量之王 IEPL 备用 延迟偏高
       - 日本 修罗斗士 IEPL 备用
       - 日本 须佐之男 IEPL 备用 延迟偏高
-      - 日本 狮子座 BGP 稳定 延迟偏高
-      - 日本 铁甲神拳 BGP 稳定 延迟偏高
-      - 日本 堕血之华 BGP 备用 延迟偏高
-      - 日本 鬼姬 BGP 稳定 延迟偏高
-      - 美国 魔法教师 IEPL 稳定
-      - 美国 圣隼 IEPL 稳定
-      - 美国 锦衣卫 IEPL 稳定
-      - 美国 灵溪居士 IEPL 稳定
-      - 美国 滑翔女爵 BGP 稳定
-      - 美国 腾蛇之翼 BGP 稳定
-      - 美国 曙光战神 BGP 稳定
-      - 美国 黑暗守护者 BGP 稳定
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 稳定
+      - 越南 坚守 IEPL 备用
       - 韩国 金钱大亨 IEPL 备用
-      - 香港 星际执政官 IEPL 稳定 推荐
-      - 香港 暗影之刃 IEPL 稳定 推荐
-      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 韩国 狮子座 IEPL 3Gbps 备用
+      - 韩国 铁甲神拳 IEPL 3Gbps 备用
+      - 韩国 堕血之华 IEPL 3Gbps 备用
+      - 韩国 鬼姬 IEPL 3Gbps 备用
+      - 韩国 血夜之刃 IEPL 3Gbps 备用
+      - 韩国 IEPL 3Gbps 备用
+      - 韩国 黑暗守护者 IEPL 3Gbps 备用
+      - 韩国 曙光战神 IPLC 备用
+      - 韩国 腾蛇之翼IPLC 备用
+      - 韩国 滑翔女爵 IPLC 备用
+      - 韩国 灵溪居士 IPLC 备用
+      - 韩国 锦衣卫 IPLC 备用
+      - 韩国 圣隼 IPLC 备用
+      - 韩国 魔法教师 IPLC 备用
+      - 香港 星际执政官 IEPL 推荐
+      - 香港 暗影之刃 IEPL 推荐
+      - 香港 刀锋魅影 IEPL 推荐
       - 香港 黑珍珠 IEPL 备用
       - 香港 彼岸花 IEPL 备用
       - 香港 深渊梦魇 IEPL 备用
       - 香港 光耀 IEPL 备用
-      - 香港 血夜之刃 BGP 稳定 延迟偏高
-      - 香港 熊猫武士 BGP 稳定 延迟偏高
-      - 香港 武僧 BGP 稳定 延迟偏高
-      - 香港 赤备突击 BGP 稳定 延迟偏高
+      - 香港 西部侠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 夏日沙滩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 枪与玫瑰 IEPL Equinix HK2 1Gbps 备用
+      - 香港 摇滚狂潮 IEPL Equinix HK2 1Gbps 备用
+      - 香港 羽球王子 IEPL Equinix HK2 1Gbps 备用
+      - 香港 幽灵猎杀者 IEPL Equinix HK2 1Gbps 备用
+      - 香港 暗影启示 IEPL Equinix HK2 1Gbps 备用
+      - 香港 都市猎人 IEPL Equinix HK2 1Gbps 备用
+      - 香港 炽焰枪豪 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣光之翼 IEPL Equinix HK2 1Gbps 备用
+      - 香港 丰饶女神 IEPL Equinix HK2 1Gbps 备用
+      - 香港 花仙女 IEPL Equinix HK2 1Gbps 备用
+      - 香港 战地天使 IEPL Equinix HK2 1Gbps 备用
+      - 香港 救世主 IEPL Equinix HK2 1Gbps 备用
+      - 香港 浮光掠星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞恋歌 IEPL Equinix HK2 1Gbps 备用
+      - 香港 闪亮之星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 飞刃之舞 IEPL Equinix HK2 1Gbps 备用
+      - 香港 青春校园 IEPL Equinix HK2 1Gbps 备用
+      - 香港 朋克女孩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 云雀 IEPL Equinix HK2 1Gbps 备用
+      - 香港 贵族骑兵 IEPL Equinix HK2 1Gbps 备用
+      - 香港 沙滩救援队 IEPL Equinix HK2 1Gbps 备用
+      - 香港 掠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞小鹿 IEPL Equinix HK2 1Gbps 备用
+      - 香港 帝国武士 IEPL Equinix HK2 1Gbps 备用
+      - 香港 信念之刃 IEPL Equinix HK2 1Gbps 备用
+      - 香港 梦幻之恋 IEPL Equinix HK2 1Gbps 备用
+      - 印度 马哈拉施特拉 红莲街霸 IPLC 推荐
+      - 印度 马哈拉施特拉 功夫熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
+      - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
+      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 澳大利亚 悉尼 街头足球 IPLC 推荐
+      - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
+      - 澳大利亚 悉尼 霹雳火 IPLC 推荐
+      - 澳大利亚 悉尼 潮流球手 IPLC 推荐
+      - 澳大利亚 悉尼 奇迹缔造者 IPLC 推荐
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -585,58 +957,102 @@ proxy-groups:
       - 台湾 广寒仙子 IEPL 备用
       - 台湾 上弦月 IEPL 备用
       - 台湾 血月 IEPL 备用
-      - 台湾 花灵 IEPL 稳定 延迟偏高
-      - 台湾 梦幻星月 IEPL 稳定 延迟偏高
-      - 台湾 糖果巴菲 BGP 备用 延迟偏高
-      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
-      - 台湾 萝莉画手 BGP 备用 延迟偏高
-      - 台湾 花好月圆 BGP 稳定 延迟偏高
-      - 新加坡 智识之光 IEPL 稳定 推荐
-      - 新加坡 深渊之子 IEPL 稳定 推荐
-      - 新加坡 逆鳞 IEPL 稳定 故障
+      - 台湾 花灵 IEPL 推荐 延迟偏高
+      - 台湾 梦幻星月 IEPL 推荐 延迟偏高
+      - 新加坡 智识之光 IEPL 推荐
+      - 新加坡 深渊之子 IEPL 推荐
+      - 新加坡 逆鳞 IEPL 故障
       - 新加坡 废土猎人 IEPL 备用
       - 新加坡 眼镜蛇 IEPL 备用
       - 新加坡 红莲业火 IEPL 备用
       - 新加坡 甜心猫灵 IEPL 备用
-      - 新加坡 时钟女仆 BGP 备用 延迟偏高
-      - 新加坡 墓园派对 BGP 稳定 延迟偏高
-      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
-      - 新加坡 吱吱 BGP 稳定 延迟偏高
-      - 日本 机甲甜心 IEPL 稳定 推荐
-      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
-      - 日本 水之灵 IEPL 延迟偏高
-      - 日本 街头大作战 IEPL 延迟偏高
+      - 新加坡 米诺斯之子 IEPL 推荐
+      - 新加坡 爆裂阎魔 IEPL 推荐
+      - 新加坡 皇族之锤 IEPL 推荐
+      - 新加坡 放逐之锤 IEPL 推荐
+      - 新加坡 金牛座 IEPL 推荐
+      - 新加坡 狂甲战牛 IEPL 推荐
+      - 新加坡 糖果巴菲 IEPL 推荐
+      - 新加坡 摇曳藤曼 IEPL 推荐
+      - 新加坡 萝莉画手 IEPL 推荐
+      - 新加坡 花好月圆 IEPL 推荐
+      - 新加坡 时钟女仆 IEPL 推荐
+      - 新加坡 墓园派对 IEPL 推荐
+      - 新加坡 睡衣派对 IEPL 推荐
+      - 新加坡 吱吱 IEPL 推荐
+      - 新加坡 熊猫武士 IEPL 推荐
+      - 日本 机甲甜心 IEPL 推荐
+      - 日本 晴天宝贝 IEPL 推荐 延迟偏高
+      - 日本 水之灵 IEPL 备用 延迟偏高
+      - 日本 街头大作战 IEPL 备用 延迟偏高
       - 日本 蒸腾幻兽 IEPL 备用
       - 日本 力量之王 IEPL 备用 延迟偏高
       - 日本 修罗斗士 IEPL 备用
       - 日本 须佐之男 IEPL 备用 延迟偏高
-      - 日本 狮子座 BGP 稳定 延迟偏高
-      - 日本 铁甲神拳 BGP 稳定 延迟偏高
-      - 日本 堕血之华 BGP 备用 延迟偏高
-      - 日本 鬼姬 BGP 稳定 延迟偏高
-      - 美国 魔法教师 IEPL 稳定
-      - 美国 圣隼 IEPL 稳定
-      - 美国 锦衣卫 IEPL 稳定
-      - 美国 灵溪居士 IEPL 稳定
-      - 美国 滑翔女爵 BGP 稳定
-      - 美国 腾蛇之翼 BGP 稳定
-      - 美国 曙光战神 BGP 稳定
-      - 美国 黑暗守护者 BGP 稳定
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 稳定
+      - 越南 坚守 IEPL 备用
       - 韩国 金钱大亨 IEPL 备用
-      - 香港 星际执政官 IEPL 稳定 推荐
-      - 香港 暗影之刃 IEPL 稳定 推荐
-      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 韩国 狮子座 IEPL 3Gbps 备用
+      - 韩国 铁甲神拳 IEPL 3Gbps 备用
+      - 韩国 堕血之华 IEPL 3Gbps 备用
+      - 韩国 鬼姬 IEPL 3Gbps 备用
+      - 韩国 血夜之刃 IEPL 3Gbps 备用
+      - 韩国 IEPL 3Gbps 备用
+      - 韩国 黑暗守护者 IEPL 3Gbps 备用
+      - 韩国 曙光战神 IPLC 备用
+      - 韩国 腾蛇之翼IPLC 备用
+      - 韩国 滑翔女爵 IPLC 备用
+      - 韩国 灵溪居士 IPLC 备用
+      - 韩国 锦衣卫 IPLC 备用
+      - 韩国 圣隼 IPLC 备用
+      - 韩国 魔法教师 IPLC 备用
+      - 香港 星际执政官 IEPL 推荐
+      - 香港 暗影之刃 IEPL 推荐
+      - 香港 刀锋魅影 IEPL 推荐
       - 香港 黑珍珠 IEPL 备用
       - 香港 彼岸花 IEPL 备用
       - 香港 深渊梦魇 IEPL 备用
       - 香港 光耀 IEPL 备用
-      - 香港 血夜之刃 BGP 稳定 延迟偏高
-      - 香港 熊猫武士 BGP 稳定 延迟偏高
-      - 香港 武僧 BGP 稳定 延迟偏高
-      - 香港 赤备突击 BGP 稳定 延迟偏高
+      - 香港 西部侠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 夏日沙滩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 枪与玫瑰 IEPL Equinix HK2 1Gbps 备用
+      - 香港 摇滚狂潮 IEPL Equinix HK2 1Gbps 备用
+      - 香港 羽球王子 IEPL Equinix HK2 1Gbps 备用
+      - 香港 幽灵猎杀者 IEPL Equinix HK2 1Gbps 备用
+      - 香港 暗影启示 IEPL Equinix HK2 1Gbps 备用
+      - 香港 都市猎人 IEPL Equinix HK2 1Gbps 备用
+      - 香港 炽焰枪豪 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣光之翼 IEPL Equinix HK2 1Gbps 备用
+      - 香港 丰饶女神 IEPL Equinix HK2 1Gbps 备用
+      - 香港 花仙女 IEPL Equinix HK2 1Gbps 备用
+      - 香港 战地天使 IEPL Equinix HK2 1Gbps 备用
+      - 香港 救世主 IEPL Equinix HK2 1Gbps 备用
+      - 香港 浮光掠星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞恋歌 IEPL Equinix HK2 1Gbps 备用
+      - 香港 闪亮之星 IEPL Equinix HK2 1Gbps 备用
+      - 香港 飞刃之舞 IEPL Equinix HK2 1Gbps 备用
+      - 香港 青春校园 IEPL Equinix HK2 1Gbps 备用
+      - 香港 朋克女孩 IEPL Equinix HK2 1Gbps 备用
+      - 香港 云雀 IEPL Equinix HK2 1Gbps 备用
+      - 香港 贵族骑兵 IEPL Equinix HK2 1Gbps 备用
+      - 香港 沙滩救援队 IEPL Equinix HK2 1Gbps 备用
+      - 香港 掠影 IEPL Equinix HK2 1Gbps 备用
+      - 香港 圣诞小鹿 IEPL Equinix HK2 1Gbps 备用
+      - 香港 帝国武士 IEPL Equinix HK2 1Gbps 备用
+      - 香港 信念之刃 IEPL Equinix HK2 1Gbps 备用
+      - 香港 梦幻之恋 IEPL Equinix HK2 1Gbps 备用
+      - 印度 马哈拉施特拉 红莲街霸 IPLC 推荐
+      - 印度 马哈拉施特拉 功夫熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
+      - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
+      - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
+      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 澳大利亚 悉尼 街头足球 IPLC 推荐
+      - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
+      - 澳大利亚 悉尼 霹雳火 IPLC 推荐
+      - 澳大利亚 悉尼 潮流球手 IPLC 推荐
+      - 澳大利亚 悉尼 奇迹缔造者 IPLC 推荐
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
