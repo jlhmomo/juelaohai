@@ -54,7 +54,7 @@ proxies:
   - {name: 韩国 堕血之华 IEPL 3Gbps 备用, server: kraz03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
   - {name: 韩国 鬼姬 IEPL 3Gbps 备用, server: kraz04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
   - {name: 韩国 血夜之刃 IEPL 3Gbps 备用, server: kraz05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 韩国 IEPL 3Gbps 备用, server: kraz06.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 韩国 武僧 IEPL 3Gbps 备用, server: kraz06.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
   - {name: 韩国 黑暗守护者 IEPL 3Gbps 备用, server: kraz07.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
   - {name: 韩国 曙光战神 IPLC 备用, server: kr01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
   - {name: 韩国 腾蛇之翼IPLC 备用, server: kr02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
@@ -164,7 +164,7 @@ proxy-groups:
       - 韩国 堕血之华 IEPL 3Gbps 备用
       - 韩国 鬼姬 IEPL 3Gbps 备用
       - 韩国 血夜之刃 IEPL 3Gbps 备用
-      - 韩国 IEPL 3Gbps 备用
+      - 韩国 武僧 IEPL 3Gbps 备用
       - 韩国 黑暗守护者 IEPL 3Gbps 备用
       - 韩国 曙光战神 IPLC 备用
       - 韩国 腾蛇之翼IPLC 备用
@@ -273,7 +273,7 @@ proxy-groups:
       - 韩国 堕血之华 IEPL 3Gbps 备用
       - 韩国 鬼姬 IEPL 3Gbps 备用
       - 韩国 血夜之刃 IEPL 3Gbps 备用
-      - 韩国 IEPL 3Gbps 备用
+      - 韩国 武僧 IEPL 3Gbps 备用
       - 韩国 黑暗守护者 IEPL 3Gbps 备用
       - 韩国 曙光战神 IPLC 备用
       - 韩国 腾蛇之翼IPLC 备用
@@ -383,7 +383,7 @@ proxy-groups:
       - 韩国 堕血之华 IEPL 3Gbps 备用
       - 韩国 鬼姬 IEPL 3Gbps 备用
       - 韩国 血夜之刃 IEPL 3Gbps 备用
-      - 韩国 IEPL 3Gbps 备用
+      - 韩国 武僧 IEPL 3Gbps 备用
       - 韩国 黑暗守护者 IEPL 3Gbps 备用
       - 韩国 曙光战神 IPLC 备用
       - 韩国 腾蛇之翼IPLC 备用
@@ -505,7 +505,7 @@ proxy-groups:
       - 韩国 堕血之华 IEPL 3Gbps 备用
       - 韩国 鬼姬 IEPL 3Gbps 备用
       - 韩国 血夜之刃 IEPL 3Gbps 备用
-      - 韩国 IEPL 3Gbps 备用
+      - 韩国 武僧 IEPL 3Gbps 备用
       - 韩国 黑暗守护者 IEPL 3Gbps 备用
       - 韩国 曙光战神 IPLC 备用
       - 韩国 腾蛇之翼IPLC 备用
@@ -660,7 +660,7 @@ proxy-groups:
       - 韩国 堕血之华 IEPL 3Gbps 备用
       - 韩国 鬼姬 IEPL 3Gbps 备用
       - 韩国 血夜之刃 IEPL 3Gbps 备用
-      - 韩国 IEPL 3Gbps 备用
+      - 韩国 武僧 IEPL 3Gbps 备用
       - 韩国 黑暗守护者 IEPL 3Gbps 备用
       - 韩国 曙光战神 IPLC 备用
       - 韩国 腾蛇之翼IPLC 备用
@@ -769,7 +769,7 @@ proxy-groups:
       - 韩国 堕血之华 IEPL 3Gbps 备用
       - 韩国 鬼姬 IEPL 3Gbps 备用
       - 韩国 血夜之刃 IEPL 3Gbps 备用
-      - 韩国 IEPL 3Gbps 备用
+      - 韩国 武僧 IEPL 3Gbps 备用
       - 韩国 黑暗守护者 IEPL 3Gbps 备用
       - 韩国 曙光战神 IPLC 备用
       - 韩国 腾蛇之翼IPLC 备用
@@ -879,7 +879,7 @@ proxy-groups:
       - 韩国 堕血之华 IEPL 3Gbps 备用
       - 韩国 鬼姬 IEPL 3Gbps 备用
       - 韩国 血夜之刃 IEPL 3Gbps 备用
-      - 韩国 IEPL 3Gbps 备用
+      - 韩国 武僧 IEPL 3Gbps 备用
       - 韩国 黑暗守护者 IEPL 3Gbps 备用
       - 韩国 曙光战神 IPLC 备用
       - 韩国 腾蛇之翼IPLC 备用
@@ -998,7 +998,7 @@ proxy-groups:
       - 韩国 堕血之华 IEPL 3Gbps 备用
       - 韩国 鬼姬 IEPL 3Gbps 备用
       - 韩国 血夜之刃 IEPL 3Gbps 备用
-      - 韩国 IEPL 3Gbps 备用
+      - 韩国 武僧 IEPL 3Gbps 备用
       - 韩国 黑暗守护者 IEPL 3Gbps 备用
       - 韩国 曙光战神 IPLC 备用
       - 韩国 腾蛇之翼IPLC 备用
