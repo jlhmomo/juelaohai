@@ -103,7 +103,7 @@ proxies:
   - {name: 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐, server: in03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
   - {name: 印度 马哈拉施特拉 学城守护者 IPLC 推荐, server: in04.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
   - {name: 印度 马哈拉施特拉 最佳前锋 IPLC 推荐, server: in05.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
-  - {name: 印度 马哈拉施特拉  最佳DJ IPLC 推荐, server: in06.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
+  - {name: 印度 马哈拉施特拉 最佳DJ IPLC 推荐, server: in06.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
   - {name: 澳大利亚 悉尼 街头足球 IPLC 推荐, server: au01.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
   - {name: 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐, server: au02.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
   - {name: 澳大利亚 悉尼 霹雳火 IPLC 推荐, server: au03.fjk.wtf, port: 45534, type: ss, cipher: aes-128-cfb, password: 27j2Oi}
@@ -213,7 +213,7 @@ proxy-groups:
       - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
       - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
       - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
-      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 印度 马哈拉施特拉 最佳DJ IPLC 推荐
       - 澳大利亚 悉尼 街头足球 IPLC 推荐
       - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
       - 澳大利亚 悉尼 霹雳火 IPLC 推荐
@@ -322,7 +322,7 @@ proxy-groups:
       - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
       - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
       - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
-      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 印度 马哈拉施特拉 最佳DJ IPLC 推荐
       - 澳大利亚 悉尼 街头足球 IPLC 推荐
       - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
       - 澳大利亚 悉尼 霹雳火 IPLC 推荐
@@ -432,7 +432,7 @@ proxy-groups:
       - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
       - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
       - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
-      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 印度 马哈拉施特拉 最佳DJ IPLC 推荐
       - 澳大利亚 悉尼 街头足球 IPLC 推荐
       - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
       - 澳大利亚 悉尼 霹雳火 IPLC 推荐
@@ -554,7 +554,7 @@ proxy-groups:
       - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
       - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
       - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
-      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 印度 马哈拉施特拉 最佳DJ IPLC 推荐
       - 澳大利亚 悉尼 街头足球 IPLC 推荐
       - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
       - 澳大利亚 悉尼 霹雳火 IPLC 推荐
@@ -709,7 +709,7 @@ proxy-groups:
       - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
       - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
       - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
-      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 印度 马哈拉施特拉 最佳DJ IPLC 推荐
       - 澳大利亚 悉尼 街头足球 IPLC 推荐
       - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
       - 澳大利亚 悉尼 霹雳火 IPLC 推荐
@@ -818,7 +818,7 @@ proxy-groups:
       - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
       - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
       - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
-      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 印度 马哈拉施特拉 最佳DJ IPLC 推荐
       - 澳大利亚 悉尼 街头足球 IPLC 推荐
       - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
       - 澳大利亚 悉尼 霹雳火 IPLC 推荐
@@ -928,7 +928,7 @@ proxy-groups:
       - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
       - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
       - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
-      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 印度 马哈拉施特拉 最佳DJ IPLC 推荐
       - 澳大利亚 悉尼 街头足球 IPLC 推荐
       - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
       - 澳大利亚 悉尼 霹雳火 IPLC 推荐
@@ -1047,7 +1047,7 @@ proxy-groups:
       - 印度 马哈拉施特拉 圣诞熊猫 IPLC 推荐
       - 印度 马哈拉施特拉 学城守护者 IPLC 推荐
       - 印度 马哈拉施特拉 最佳前锋 IPLC 推荐
-      - 印度 马哈拉施特拉  最佳DJ IPLC 推荐
+      - 印度 马哈拉施特拉 最佳DJ IPLC 推荐
       - 澳大利亚 悉尼 街头足球 IPLC 推荐
       - 澳大利亚 悉尼 沙漠雄鹰 IPLC 推荐
       - 澳大利亚 悉尼 霹雳火 IPLC 推荐
