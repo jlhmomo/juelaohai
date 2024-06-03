@@ -5,10 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注Telegram频道, server: 34.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
-  - {name: t.me/juelaohai, server: mi.mo.x, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
+  - {name: 关注Telegram频道, server: jue.lao.hai, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
+  - {name: t.me/juelaohai, server: jue.lao.hai, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
   - {name: 美国 2, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
-  - {name: 美国 3, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sfdgdegdh?ed=2048", headers: {Host: us.catcloud.cfd}}}
   - {name: 美国 16 解锁流媒体, server: zy.02er.com, port: 27484, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 美国 17 BGP, server: cn-sh.aseur8qwer.top, port: 16707, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 美国 18 BGP, server: cn-sh.aseur8qwer.top, port: 36465, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
@@ -17,7 +16,6 @@ proxies:
   - {name: 美国 34, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Mboxx, headers: {Host: buylas.mmaccc.top}}}
   - {name: 美国 35, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Mboxx, headers: {Host: buylas.mmaccc.top}}}
   - {name: 美国 36, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akusum.mmaccc.top}}}
-  - {name: 香港 1, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sdvsgsgsdfgh?ed=2048", headers: {Host: hk.catcloud.cfd}}}
   - {name: 香港 2, server: e55596d8b2d8c495.cdn.jiashule.com, port: 36966, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 3 解锁流媒体, server: zy.02er.com, port: 49129, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 4, server: zy.02er.com, port: 13148, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
@@ -43,14 +41,13 @@ proxies:
   - {name: 日本 18 BGP, server: cn-sh.aseur8qwer.top, port: 19991, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 19 BGP, server: cn-sh.aseur8qwer.top, port: 31009, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 20 BGP, server: cn-sh.aseur8qwer.top, port: 46964, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 23, server: hsj108k.mm-cc.top, port: 2086, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akjp1um.mmaccc.top}}}
+  - {name: 日本 21, server: hsj108k.mm-cc.top, port: 2086, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akjp1um.mmaccc.top}}}
   - {name: 韩国 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 4, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 5, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 6, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 新加坡 1, server: mi.moluo.xyz, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
   - {name: 新加坡 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
   - {name: 新加坡 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
   - {name: 新加坡 4, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
@@ -59,15 +56,12 @@ proxies:
   - {name: 新加坡 7, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
   - {name: 新加坡 8, server: e55596d8b2d8c495.cdn.jiashule.com, port: 55985, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 新加坡 9, server: e55596d8b2d8c495.cdn.jiashule.com, port: 33258, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 新加坡 10, server: ny.whatfuck.top, port: 35712, type: ss, cipher: chacha20-ietf-poly1305, password: 4e29175c-5c2e-4ec8-9b0b-4749623c0e71}
-  - {name: 新加坡 11, server: ny.whatfuck.top, port: 35712, type: ss, cipher: chacha20-ietf-poly1305, password: b1b148e6-78e9-48e4-8fca-9ca5d2344365}
   - {name: 新加坡 12 解锁流媒体, server: zy.02er.com, port: 23204, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 新加坡 13 解锁流媒体, server: zy.02er.com, port: 46538, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 新加坡 14 BGP, server: cn-hn.aseur8qwer.top, port: 9191, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 15 BGP, server: cn-hn.aseur8qwer.top, port: 9669, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 16 BGP, server: cn-hn.aseur8qwer.top, port: 48354, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 17 BGP, server: cn-hn.aseur8qwer.top, port: 18680, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 20, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sjysg.mmaccc.top}}}
   - {name: 台湾 1, server: e55596d8b2d8c495.cdn.jiashule.com, port: 51669, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 台湾 2, server: zy.02er.com, port: 45323, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 台湾 11 BGP, server: cn-gz.aseur8qwer.top, port: 7330, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
@@ -92,7 +86,6 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 2
-      - 美国 3
       - 美国 16 解锁流媒体
       - 美国 17 BGP
       - 美国 18 BGP
@@ -101,7 +94,6 @@ proxy-groups:
       - 美国 34
       - 美国 35
       - 美国 36
-      - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
@@ -127,14 +119,13 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
-      - 日本 23
+      - 日本 21
       - 韩国 1
       - 韩国 2
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
-      - 新加坡 1
       - 新加坡 2
       - 新加坡 3
       - 新加坡 4
@@ -143,15 +134,12 @@ proxy-groups:
       - 新加坡 7
       - 新加坡 8
       - 新加坡 9
-      - 新加坡 10
-      - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
       - 新加坡 14 BGP
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
-      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
@@ -175,7 +163,6 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 2
-      - 美国 3
       - 美国 16 解锁流媒体
       - 美国 17 BGP
       - 美国 18 BGP
@@ -184,7 +171,6 @@ proxy-groups:
       - 美国 34
       - 美国 35
       - 美国 36
-      - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
@@ -210,14 +196,13 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
-      - 日本 23
+      - 日本 21
       - 韩国 1
       - 韩国 2
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
-      - 新加坡 1
       - 新加坡 2
       - 新加坡 3
       - 新加坡 4
@@ -226,15 +211,12 @@ proxy-groups:
       - 新加坡 7
       - 新加坡 8
       - 新加坡 9
-      - 新加坡 10
-      - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
       - 新加坡 14 BGP
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
-      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
@@ -259,7 +241,6 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 2
-      - 美国 3
       - 美国 16 解锁流媒体
       - 美国 17 BGP
       - 美国 18 BGP
@@ -268,7 +249,6 @@ proxy-groups:
       - 美国 34
       - 美国 35
       - 美国 36
-      - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
@@ -294,14 +274,13 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
-      - 日本 23
+      - 日本 21
       - 韩国 1
       - 韩国 2
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
-      - 新加坡 1
       - 新加坡 2
       - 新加坡 3
       - 新加坡 4
@@ -310,15 +289,12 @@ proxy-groups:
       - 新加坡 7
       - 新加坡 8
       - 新加坡 9
-      - 新加坡 10
-      - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
       - 新加坡 14 BGP
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
-      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
@@ -355,7 +331,6 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 2
-      - 美国 3
       - 美国 16 解锁流媒体
       - 美国 17 BGP
       - 美国 18 BGP
@@ -364,7 +339,6 @@ proxy-groups:
       - 美国 34
       - 美国 35
       - 美国 36
-      - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
@@ -390,14 +364,13 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
-      - 日本 23
+      - 日本 21
       - 韩国 1
       - 韩国 2
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
-      - 新加坡 1
       - 新加坡 2
       - 新加坡 3
       - 新加坡 4
@@ -406,15 +379,12 @@ proxy-groups:
       - 新加坡 7
       - 新加坡 8
       - 新加坡 9
-      - 新加坡 10
-      - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
       - 新加坡 14 BGP
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
-      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
@@ -434,7 +404,6 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
@@ -461,7 +430,6 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 2
-      - 美国 3
       - 美国 16 解锁流媒体
       - 美国 17 BGP
       - 美国 18 BGP
@@ -470,7 +438,6 @@ proxy-groups:
       - 美国 34
       - 美国 35
       - 美国 36
-      - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
@@ -496,14 +463,13 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
-      - 日本 23
+      - 日本 21
       - 韩国 1
       - 韩国 2
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
-      - 新加坡 1
       - 新加坡 2
       - 新加坡 3
       - 新加坡 4
@@ -512,15 +478,12 @@ proxy-groups:
       - 新加坡 7
       - 新加坡 8
       - 新加坡 9
-      - 新加坡 10
-      - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
       - 新加坡 14 BGP
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
-      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
@@ -544,7 +507,6 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 2
-      - 美国 3
       - 美国 16 解锁流媒体
       - 美国 17 BGP
       - 美国 18 BGP
@@ -553,7 +515,6 @@ proxy-groups:
       - 美国 34
       - 美国 35
       - 美国 36
-      - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
@@ -579,14 +540,13 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
-      - 日本 23
+      - 日本 21
       - 韩国 1
       - 韩国 2
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
-      - 新加坡 1
       - 新加坡 2
       - 新加坡 3
       - 新加坡 4
@@ -595,15 +555,12 @@ proxy-groups:
       - 新加坡 7
       - 新加坡 8
       - 新加坡 9
-      - 新加坡 10
-      - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
       - 新加坡 14 BGP
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
-      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
@@ -628,7 +585,6 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 2
-      - 美国 3
       - 美国 16 解锁流媒体
       - 美国 17 BGP
       - 美国 18 BGP
@@ -637,7 +593,6 @@ proxy-groups:
       - 美国 34
       - 美国 35
       - 美国 36
-      - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
@@ -663,14 +618,13 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
-      - 日本 23
+      - 日本 21
       - 韩国 1
       - 韩国 2
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
-      - 新加坡 1
       - 新加坡 2
       - 新加坡 3
       - 新加坡 4
@@ -679,15 +633,12 @@ proxy-groups:
       - 新加坡 7
       - 新加坡 8
       - 新加坡 9
-      - 新加坡 10
-      - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
       - 新加坡 14 BGP
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
-      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
@@ -721,7 +672,6 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 2
-      - 美国 3
       - 美国 16 解锁流媒体
       - 美国 17 BGP
       - 美国 18 BGP
@@ -730,7 +680,6 @@ proxy-groups:
       - 美国 34
       - 美国 35
       - 美国 36
-      - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
       - 香港 4
@@ -756,14 +705,13 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
-      - 日本 23
+      - 日本 21
       - 韩国 1
       - 韩国 2
       - 韩国 3
       - 韩国 4
       - 韩国 5
       - 韩国 6
-      - 新加坡 1
       - 新加坡 2
       - 新加坡 3
       - 新加坡 4
@@ -772,15 +720,12 @@ proxy-groups:
       - 新加坡 7
       - 新加坡 8
       - 新加坡 9
-      - 新加坡 10
-      - 新加坡 11
       - 新加坡 12 解锁流媒体
       - 新加坡 13 解锁流媒体
       - 新加坡 14 BGP
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
-      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
