@@ -14,6 +14,11 @@ proxies:
   - {name: 美国 18 BGP, server: cn-sh.aseur8qwer.top, port: 36465, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 美国 19 BGP, server: cn-sh.aseur8qwer.top, port: 24766, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 美国 20 BGP, server: cn-sh.aseur8qwer.top, port: 23608, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国32 南方入口, server: us1.zzjq.xyz, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: a64dd332-6333-4fd4-a508-f0b452f678f2}
+  - {name: 美国33 北方入口, server: b-us1.zzjq.xyz, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: a64dd332-6333-4fd4-a508-f0b452f678f2}
+  - {name: 美国 34, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Mboxx, headers: {Host: buylas.mmaccc.top}}}
+  - {name: 美国 35, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Mboxx, headers: {Host: buylas.mmaccc.top}}}
+  - {name: 美国 36, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akusum.mmaccc.top}}}
   - {name: 香港 1, server: hk.catcloud.tech, port: 8080, type: vmess, uuid: ee93d010-f241-497a-819b-6cde6fe9c740, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sdvsgsgsdfgh?ed=2048", headers: {Host: hk.catcloud.cfd}}}
   - {name: 香港 2, server: e55596d8b2d8c495.cdn.jiashule.com, port: 36966, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 3 解锁流媒体, server: zy.02er.com, port: 49129, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
@@ -24,6 +29,8 @@ proxies:
   - {name: 香港 16 BGP, server: cn-gz.aseur8qwer.top, port: 52517, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 香港 17 BGP, server: cn-gz.aseur8qwer.top, port: 24724, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 香港 18 BGP, server: cn-gz.aseur8qwer.top, port: 42599, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港19 南方入口, server: hk1.zzjq.xyz, port: 30000, type: ss, cipher: chacha20-ietf-poly1305, password: a64dd332-6333-4fd4-a508-f0b452f678f2}
+  - {name: 香港20 北方入口, server: b-hk1.zzjq.xyz, port: 30000, type: ss, cipher: chacha20-ietf-poly1305, password: a64dd332-6333-4fd4-a508-f0b452f678f2}
   - {name: 日本 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
   - {name: 日本 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
@@ -40,6 +47,9 @@ proxies:
   - {name: 日本 18 BGP, server: cn-sh.aseur8qwer.top, port: 19991, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 19 BGP, server: cn-sh.aseur8qwer.top, port: 31009, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 20 BGP, server: cn-sh.aseur8qwer.top, port: 46964, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本21 南方入口, server: jp1.zzjq.xyz, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: a64dd332-6333-4fd4-a508-f0b452f678f2}
+  - {name: 日本22 北方入口, server: b-jp1.zzjq.xyz, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: a64dd332-6333-4fd4-a508-f0b452f678f2}
+  - {name: 日本 23, server: hsj108k.mm-cc.top, port: 2086, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akjp1um.mmaccc.top}}}
   - {name: 韩国 1, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
@@ -63,16 +73,24 @@ proxies:
   - {name: 新加坡 15 BGP, server: cn-hn.aseur8qwer.top, port: 9669, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 16 BGP, server: cn-hn.aseur8qwer.top, port: 48354, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 17 BGP, server: cn-hn.aseur8qwer.top, port: 18680, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡18 南方入口, server: sg1.zzjq.xyz, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: a64dd332-6333-4fd4-a508-f0b452f678f2}
+  - {name: 新加坡19 北方入口, server: b-sg1.zzjq.xyz, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: a64dd332-6333-4fd4-a508-f0b452f678f2}
+  - {name: 新加坡 20, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sjysg.mmaccc.top}}}
   - {name: 台湾 1, server: e55596d8b2d8c495.cdn.jiashule.com, port: 51669, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 台湾 2, server: zy.02er.com, port: 45323, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 台湾 11 BGP, server: cn-gz.aseur8qwer.top, port: 7330, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 台湾 12 BGP, server: cn-gz.aseur8qwer.top, port: 32360, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 台湾 13 BGP, server: cn-gz.aseur8qwer.top, port: 20209, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 台湾 14 BGP, server: cn-gz.aseur8qwer.top, port: 51875, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 台湾 15, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tw.mm-cc.top}}}
+  - {name: 台湾 16, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tw.mm-cc.top}}}
   - {name: 英国 1, server: e55596d8b2d8c495.cdn.jiashule.com, port: 34394, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 德国 1 法兰克福, server: zy.02er.com, port: 12466, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 澳大利亚 1, server: zy.02er.com, port: 13102, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 印度 1, server: zy.02er.com, port: 13344, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 印度 2, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: azyd.mmaccc.top}}}
+  - {name: 墨西哥 1, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: azmxc.mmaccc.top}}}
+  - {name: 法国 1, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: azfr.mmaccc.top}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -88,6 +106,11 @@ proxy-groups:
       - 美国 18 BGP
       - 美国 19 BGP
       - 美国 20 BGP
+      - 美国32 南方入口
+      - 美国33 北方入口
+      - 美国 34
+      - 美国 35
+      - 美国 36
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -98,6 +121,8 @@ proxy-groups:
       - 香港 16 BGP
       - 香港 17 BGP
       - 香港 18 BGP
+      - 香港19 南方入口
+      - 香港20 北方入口
       - 日本 1
       - 日本 2
       - 日本 3
@@ -114,6 +139,9 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
+      - 日本21 南方入口
+      - 日本22 北方入口
+      - 日本 23
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -137,16 +165,24 @@ proxy-groups:
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
+      - 新加坡18 南方入口
+      - 新加坡19 北方入口
+      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
       - 台湾 12 BGP
       - 台湾 13 BGP
       - 台湾 14 BGP
+      - 台湾 15
+      - 台湾 16
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
       - 印度 1
+      - 印度 2
+      - 墨西哥 1
+      - 法国 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -161,6 +197,11 @@ proxy-groups:
       - 美国 18 BGP
       - 美国 19 BGP
       - 美国 20 BGP
+      - 美国32 南方入口
+      - 美国33 北方入口
+      - 美国 34
+      - 美国 35
+      - 美国 36
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -171,6 +212,8 @@ proxy-groups:
       - 香港 16 BGP
       - 香港 17 BGP
       - 香港 18 BGP
+      - 香港19 南方入口
+      - 香港20 北方入口
       - 日本 1
       - 日本 2
       - 日本 3
@@ -187,6 +230,9 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
+      - 日本21 南方入口
+      - 日本22 北方入口
+      - 日本 23
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -210,16 +256,24 @@ proxy-groups:
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
+      - 新加坡18 南方入口
+      - 新加坡19 北方入口
+      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
       - 台湾 12 BGP
       - 台湾 13 BGP
       - 台湾 14 BGP
+      - 台湾 15
+      - 台湾 16
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
       - 印度 1
+      - 印度 2
+      - 墨西哥 1
+      - 法国 1
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -235,6 +289,11 @@ proxy-groups:
       - 美国 18 BGP
       - 美国 19 BGP
       - 美国 20 BGP
+      - 美国32 南方入口
+      - 美国33 北方入口
+      - 美国 34
+      - 美国 35
+      - 美国 36
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -245,6 +304,8 @@ proxy-groups:
       - 香港 16 BGP
       - 香港 17 BGP
       - 香港 18 BGP
+      - 香港19 南方入口
+      - 香港20 北方入口
       - 日本 1
       - 日本 2
       - 日本 3
@@ -261,6 +322,9 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
+      - 日本21 南方入口
+      - 日本22 北方入口
+      - 日本 23
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -284,16 +348,24 @@ proxy-groups:
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
+      - 新加坡18 南方入口
+      - 新加坡19 北方入口
+      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
       - 台湾 12 BGP
       - 台湾 13 BGP
       - 台湾 14 BGP
+      - 台湾 15
+      - 台湾 16
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
       - 印度 1
+      - 印度 2
+      - 墨西哥 1
+      - 法国 1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -321,6 +393,11 @@ proxy-groups:
       - 美国 18 BGP
       - 美国 19 BGP
       - 美国 20 BGP
+      - 美国32 南方入口
+      - 美国33 北方入口
+      - 美国 34
+      - 美国 35
+      - 美国 36
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -331,6 +408,8 @@ proxy-groups:
       - 香港 16 BGP
       - 香港 17 BGP
       - 香港 18 BGP
+      - 香港19 南方入口
+      - 香港20 北方入口
       - 日本 1
       - 日本 2
       - 日本 3
@@ -347,6 +426,9 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
+      - 日本21 南方入口
+      - 日本22 北方入口
+      - 日本 23
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -370,16 +452,24 @@ proxy-groups:
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
+      - 新加坡18 南方入口
+      - 新加坡19 北方入口
+      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
       - 台湾 12 BGP
       - 台湾 13 BGP
       - 台湾 14 BGP
+      - 台湾 15
+      - 台湾 16
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
       - 印度 1
+      - 印度 2
+      - 墨西哥 1
+      - 法国 1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -394,12 +484,16 @@ proxy-groups:
       - 香港 16 BGP
       - 香港 17 BGP
       - 香港 18 BGP
+      - 香港19 南方入口
+      - 香港20 北方入口
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
       - 台湾 12 BGP
       - 台湾 13 BGP
       - 台湾 14 BGP
+      - 台湾 15
+      - 台湾 16
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -415,6 +509,11 @@ proxy-groups:
       - 美国 18 BGP
       - 美国 19 BGP
       - 美国 20 BGP
+      - 美国32 南方入口
+      - 美国33 北方入口
+      - 美国 34
+      - 美国 35
+      - 美国 36
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -425,6 +524,8 @@ proxy-groups:
       - 香港 16 BGP
       - 香港 17 BGP
       - 香港 18 BGP
+      - 香港19 南方入口
+      - 香港20 北方入口
       - 日本 1
       - 日本 2
       - 日本 3
@@ -441,6 +542,9 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
+      - 日本21 南方入口
+      - 日本22 北方入口
+      - 日本 23
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -464,16 +568,24 @@ proxy-groups:
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
+      - 新加坡18 南方入口
+      - 新加坡19 北方入口
+      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
       - 台湾 12 BGP
       - 台湾 13 BGP
       - 台湾 14 BGP
+      - 台湾 15
+      - 台湾 16
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
       - 印度 1
+      - 印度 2
+      - 墨西哥 1
+      - 法国 1
   - name: 📲 电报信息
     type: select
     proxies:
@@ -488,6 +600,11 @@ proxy-groups:
       - 美国 18 BGP
       - 美国 19 BGP
       - 美国 20 BGP
+      - 美国32 南方入口
+      - 美国33 北方入口
+      - 美国 34
+      - 美国 35
+      - 美国 36
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -498,6 +615,8 @@ proxy-groups:
       - 香港 16 BGP
       - 香港 17 BGP
       - 香港 18 BGP
+      - 香港19 南方入口
+      - 香港20 北方入口
       - 日本 1
       - 日本 2
       - 日本 3
@@ -514,6 +633,9 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
+      - 日本21 南方入口
+      - 日本22 北方入口
+      - 日本 23
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -537,16 +659,24 @@ proxy-groups:
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
+      - 新加坡18 南方入口
+      - 新加坡19 北方入口
+      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
       - 台湾 12 BGP
       - 台湾 13 BGP
       - 台湾 14 BGP
+      - 台湾 15
+      - 台湾 16
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
       - 印度 1
+      - 印度 2
+      - 墨西哥 1
+      - 法国 1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -562,6 +692,11 @@ proxy-groups:
       - 美国 18 BGP
       - 美国 19 BGP
       - 美国 20 BGP
+      - 美国32 南方入口
+      - 美国33 北方入口
+      - 美国 34
+      - 美国 35
+      - 美国 36
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -572,6 +707,8 @@ proxy-groups:
       - 香港 16 BGP
       - 香港 17 BGP
       - 香港 18 BGP
+      - 香港19 南方入口
+      - 香港20 北方入口
       - 日本 1
       - 日本 2
       - 日本 3
@@ -588,6 +725,9 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
+      - 日本21 南方入口
+      - 日本22 北方入口
+      - 日本 23
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -611,16 +751,24 @@ proxy-groups:
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
+      - 新加坡18 南方入口
+      - 新加坡19 北方入口
+      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
       - 台湾 12 BGP
       - 台湾 13 BGP
       - 台湾 14 BGP
+      - 台湾 15
+      - 台湾 16
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
       - 印度 1
+      - 印度 2
+      - 墨西哥 1
+      - 法国 1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -645,6 +793,11 @@ proxy-groups:
       - 美国 18 BGP
       - 美国 19 BGP
       - 美国 20 BGP
+      - 美国32 南方入口
+      - 美国33 北方入口
+      - 美国 34
+      - 美国 35
+      - 美国 36
       - 香港 1
       - 香港 2
       - 香港 3 解锁流媒体
@@ -655,6 +808,8 @@ proxy-groups:
       - 香港 16 BGP
       - 香港 17 BGP
       - 香港 18 BGP
+      - 香港19 南方入口
+      - 香港20 北方入口
       - 日本 1
       - 日本 2
       - 日本 3
@@ -671,6 +826,9 @@ proxy-groups:
       - 日本 18 BGP
       - 日本 19 BGP
       - 日本 20 BGP
+      - 日本21 南方入口
+      - 日本22 北方入口
+      - 日本 23
       - 韩国 1
       - 韩国 2
       - 韩国 3
@@ -694,16 +852,24 @@ proxy-groups:
       - 新加坡 15 BGP
       - 新加坡 16 BGP
       - 新加坡 17 BGP
+      - 新加坡18 南方入口
+      - 新加坡19 北方入口
+      - 新加坡 20
       - 台湾 1
       - 台湾 2
       - 台湾 11 BGP
       - 台湾 12 BGP
       - 台湾 13 BGP
       - 台湾 14 BGP
+      - 台湾 15
+      - 台湾 16
       - 英国 1
       - 德国 1 法兰克福
       - 澳大利亚 1
       - 印度 1
+      - 印度 2
+      - 墨西哥 1
+      - 法国 1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
