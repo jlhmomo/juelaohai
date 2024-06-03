@@ -5,62 +5,66 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注Telegram频道, server: 34.s3.bu, port: 21796, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
-  - {name: t.me/juelaohai, server: i.moo.xy, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
-  - {name: 以下节点仅供游戏使用, server: 344.3.b, port: 21796, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
-  - {name: 若有其它需求可使用频道内提供的其它节点, server: j.mhho.x, port: 27301, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
-  - {name: 台湾 1 IEPL 备用, server: a.v2ray.wtf, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 台湾 2 IEPL 备用, server: a.v2ray.wtf, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 台湾 3 IEPL 备用, server: a.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 台湾 4 IEPL 备用, server: a.v2ray.wtf, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 台湾 5 IEPL 稳定 延迟偏高, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 台湾 6 IEPL 故障, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 台湾 7 BGP 备用 延迟偏高, server: cn-gz.aseur8qwer.top, port: 7330, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 8 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 32360, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 9 BGP 备用 延迟偏高, server: cn-gz.aseur8qwer.top, port: 20209, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 10 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 51875, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 1 IEPL 稳定 推荐, server: abc.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 新加坡 2 IEPL 故障, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 新加坡 3 IEPL 故障, server: abc.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 新加坡 4 IEPL 备用, server: a.v2ray.wtf, port: 30009, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 新加坡 5 IEPL 备用, server: a.v2ray.wtf, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 新加坡 6 IEPL 故障, server: a.v2ray.wtf, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 新加坡 7 IEPL 备用, server: a.v2ray.wtf, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 新加坡 8 BGP 备用 延迟偏高, server: cn-hn.aseur8qwer.top, port: 9191, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 9 BGP 稳定 延迟偏高, server: cn-hn.aseur8qwer.top, port: 9669, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 10 BGP 稳定 延迟偏高, server: cn-hn.aseur8qwer.top, port: 48354, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 11 BGP 稳定 延迟偏高, server: cn-hn.aseur8qwer.top, port: 18680, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 1 IEPL 稳定 推荐, server: abc.dggs.org, port: 10702, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 日本 2 IEPL 稳定 延迟偏高, server: abc.dggs.org, port: 10703, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 日本 3 IEPL 备用, server: a.v2ray.wtf, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 日本 4 IEPL 备用 延迟偏高, server: a.v2ray.wtf, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 日本 5 IEPL 备用, server: a.v2ray.wtf, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 日本 6 IEPL 备用 延迟偏高, server: a.v2ray.wtf, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 日本 7 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 39925, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 8 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 19991, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 9 BGP 备用 延迟偏高, server: cn-sh.aseur8qwer.top, port: 31009, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 10 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 46964, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 1 IEPL 稳定, server: abc.dggs.org, port: 10704, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 美国 2 IEPL 稳定, server: abc.dggs.org, port: 10705, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 美国 3 BGP 稳定, server: cn-sh.aseur8qwer.top, port: 16707, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 4 BGP 稳定, server: cn-sh.aseur8qwer.top, port: 36465, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 5 BGP 稳定, server: cn-sh.aseur8qwer.top, port: 24766, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 6 BGP 稳定, server: cn-sh.aseur8qwer.top, port: 23608, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 马来西亚 1 IEPL 稳定, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 泰国 1 IEPL 备用, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 越南 1 IEPL 稳定, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 韩国 1 IEPL 备用, server: a.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 香港 1 IEPL 稳定 推荐, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 香港 2 IEPL 稳定 推荐, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 香港 3 IEPL 稳定 推荐, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
-  - {name: 香港 4 IEPL 备用, server: a.v2ray.wtf, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 香港 5 IEPL 备用, server: a.v2ray.wtf, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 香港 6 IEPL 备用, server: a.v2ray.wtf, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 香港 7 IEPL 备用, server: a.v2ray.wtf, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 香港 8 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 25254, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 香港 9 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 52517, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 香港 10 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 24724, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 香港 11 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 42599, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 关注Telegram频道, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-128-gcm, password: c689d3cb-b1a8-4e02-bb1d-eabee3300d11}
+  - {name: t.me/juelaohai, server: jue.lao.hai, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
+  - {name: 以下节点仅供游戏使用, server: jue.lao.hai, port: 3333, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
+  - {name: 若有其它需求可使用频道内提供的其它节点, server: jue.lao.hai, port: 4444, type: ss, cipher: chacha20-ietf-poly1305, password: 902f5354-36db-41b5-8a11-884db261ed09}
+  - {name: 台湾 流樱之舞 IEPL 备用, server: a.v2ray.wtf, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 台湾 广寒仙子 IEPL 备用, server: a.v2ray.wtf, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 台湾 上弦月 IEPL 备用, server: a.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 台湾 血月 IEPL 备用, server: a.v2ray.wtf, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 台湾 花灵 IEPL 稳定 延迟偏高, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 台湾 梦幻星月 IEPL 故障, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 台湾 糖果巴菲 BGP 备用 延迟偏高, server: cn-gz.aseur8qwer.top, port: 7330, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 台湾 摇曳藤曼 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 32360, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 台湾 萝莉画手 BGP 备用 延迟偏高, server: cn-gz.aseur8qwer.top, port: 20209, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 台湾 花好月圆 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 51875, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡 智识之光 IEPL 稳定 推荐, server: abc.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 新加坡 深渊之子 IEPL 故障, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 新加坡 逆鳞 IEPL 故障, server: abc.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 新加坡 废土猎人 IEPL 备用, server: a.v2ray.wtf, port: 30009, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 新加坡 眼镜蛇 IEPL 备用, server: a.v2ray.wtf, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 新加坡 红莲业火 IEPL 故障, server: a.v2ray.wtf, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 新加坡 甜心猫灵 IEPL 备用, server: a.v2ray.wtf, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 新加坡 时钟女仆 BGP 备用 延迟偏高, server: cn-hn.aseur8qwer.top, port: 9191, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡 墓园派对 BGP 稳定 延迟偏高, server: cn-hn.aseur8qwer.top, port: 9669, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡 睡衣派对 BGP 稳定 延迟偏高, server: cn-hn.aseur8qwer.top, port: 48354, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡 吱吱 BGP 稳定 延迟偏高, server: cn-hn.aseur8qwer.top, port: 18680, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本 机甲甜心 IEPL 稳定 推荐, server: abc.dggs.org, port: 10702, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 日本 晴天宝贝 IEPL 稳定 延迟偏高, server: abc.dggs.org, port: 10703, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 日本 水之灵 IEPL 延迟偏高, server: abcd.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 日本 街头大作战 IEPL 延迟偏高, server: abcd.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 日本 蒸腾幻兽 IEPL 备用, server: a.v2ray.wtf, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 日本 力量之王 IEPL 备用 延迟偏高, server: a.v2ray.wtf, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 日本 修罗斗士 IEPL 备用, server: a.v2ray.wtf, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 日本 须佐之男 IEPL 备用 延迟偏高, server: a.v2ray.wtf, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 日本 狮子座 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 39925, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本 铁甲神拳 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 19991, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本 堕血之华 BGP 备用 延迟偏高, server: cn-sh.aseur8qwer.top, port: 31009, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本 鬼姬 BGP 稳定 延迟偏高, server: cn-sh.aseur8qwer.top, port: 46964, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 魔法教师 IEPL 稳定, server: abc.dggs.org, port: 10704, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 美国 圣隼 IEPL 稳定, server: abc.dggs.org, port: 10705, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 美国 锦衣卫 IEPL 稳定, server: abcd.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 美国 灵溪居士 IEPL 稳定, server: abcd.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 美国 滑翔女爵 BGP 稳定, server: cn-sh.aseur8qwer.top, port: 16707, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 腾蛇之翼 BGP 稳定, server: cn-sh.aseur8qwer.top, port: 36465, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 曙光战神 BGP 稳定, server: cn-sh.aseur8qwer.top, port: 24766, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 黑暗守护者 BGP 稳定, server: cn-sh.aseur8qwer.top, port: 23608, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 马来西亚 堕落守卫 IEPL 备用, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 泰国 屠龙 IEPL 备用, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 越南 坚守 IEPL 稳定, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 韩国 金钱大亨 IEPL 备用, server: a.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 香港 星际执政官 IEPL 稳定 推荐, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 香港 暗影之刃 IEPL 稳定 推荐, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 香港 刀锋魅影 IEPL 稳定 推荐, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
+  - {name: 香港 黑珍珠 IEPL 备用, server: a.v2ray.wtf, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 香港 彼岸花 IEPL 备用, server: a.v2ray.wtf, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 香港 深渊梦魇 IEPL 备用, server: a.v2ray.wtf, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 香港 光耀 IEPL 备用, server: a.v2ray.wtf, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 香港 血夜之刃 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 25254, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港 熊猫武士 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 52517, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港 武僧 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 24724, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港 赤备突击 BGP 稳定 延迟偏高, server: cn-gz.aseur8qwer.top, port: 42599, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -71,58 +75,62 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 1 IEPL 备用
-      - 台湾 2 IEPL 备用
-      - 台湾 3 IEPL 备用
-      - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 延迟偏高
-      - 台湾 6 IEPL 故障
-      - 台湾 7 BGP 备用 延迟偏高
-      - 台湾 8 BGP 稳定 延迟偏高
-      - 台湾 9 BGP 备用 延迟偏高
-      - 台湾 10 BGP 稳定 延迟偏高
-      - 新加坡 1 IEPL 稳定 推荐
-      - 新加坡 2 IEPL 故障
-      - 新加坡 3 IEPL 故障
-      - 新加坡 4 IEPL 备用
-      - 新加坡 5 IEPL 备用
-      - 新加坡 6 IEPL 故障
-      - 新加坡 7 IEPL 备用
-      - 新加坡 8 BGP 备用 延迟偏高
-      - 新加坡 9 BGP 稳定 延迟偏高
-      - 新加坡 10 BGP 稳定 延迟偏高
-      - 新加坡 11 BGP 稳定 延迟偏高
-      - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 延迟偏高
-      - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高
-      - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高
-      - 日本 7 BGP 稳定 延迟偏高
-      - 日本 8 BGP 稳定 延迟偏高
-      - 日本 9 BGP 备用 延迟偏高
-      - 日本 10 BGP 稳定 延迟偏高
-      - 美国 1 IEPL 稳定
-      - 美国 2 IEPL 稳定
-      - 美国 3 BGP 稳定
-      - 美国 4 BGP 稳定
-      - 美国 5 BGP 稳定
-      - 美国 6 BGP 稳定
-      - 马来西亚 1 IEPL 稳定
-      - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 备用
-      - 香港 1 IEPL 稳定 推荐
-      - 香港 2 IEPL 稳定 推荐
-      - 香港 3 IEPL 稳定 推荐
-      - 香港 4 IEPL 备用
-      - 香港 5 IEPL 备用
-      - 香港 6 IEPL 备用
-      - 香港 7 IEPL 备用
-      - 香港 8 BGP 稳定 延迟偏高
-      - 香港 9 BGP 稳定 延迟偏高
-      - 香港 10 BGP 稳定 延迟偏高
-      - 香港 11 BGP 稳定 延迟偏高
+      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 广寒仙子 IEPL 备用
+      - 台湾 上弦月 IEPL 备用
+      - 台湾 血月 IEPL 备用
+      - 台湾 花灵 IEPL 稳定 延迟偏高
+      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 糖果巴菲 BGP 备用 延迟偏高
+      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
+      - 台湾 萝莉画手 BGP 备用 延迟偏高
+      - 台湾 花好月圆 BGP 稳定 延迟偏高
+      - 新加坡 智识之光 IEPL 稳定 推荐
+      - 新加坡 深渊之子 IEPL 故障
+      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 废土猎人 IEPL 备用
+      - 新加坡 眼镜蛇 IEPL 备用
+      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 甜心猫灵 IEPL 备用
+      - 新加坡 时钟女仆 BGP 备用 延迟偏高
+      - 新加坡 墓园派对 BGP 稳定 延迟偏高
+      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
+      - 新加坡 吱吱 BGP 稳定 延迟偏高
+      - 日本 机甲甜心 IEPL 稳定 推荐
+      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
+      - 日本 水之灵 IEPL 延迟偏高
+      - 日本 街头大作战 IEPL 延迟偏高
+      - 日本 蒸腾幻兽 IEPL 备用
+      - 日本 力量之王 IEPL 备用 延迟偏高
+      - 日本 修罗斗士 IEPL 备用
+      - 日本 须佐之男 IEPL 备用 延迟偏高
+      - 日本 狮子座 BGP 稳定 延迟偏高
+      - 日本 铁甲神拳 BGP 稳定 延迟偏高
+      - 日本 堕血之华 BGP 备用 延迟偏高
+      - 日本 鬼姬 BGP 稳定 延迟偏高
+      - 美国 魔法教师 IEPL 稳定
+      - 美国 圣隼 IEPL 稳定
+      - 美国 锦衣卫 IEPL 稳定
+      - 美国 灵溪居士 IEPL 稳定
+      - 美国 滑翔女爵 BGP 稳定
+      - 美国 腾蛇之翼 BGP 稳定
+      - 美国 曙光战神 BGP 稳定
+      - 美国 黑暗守护者 BGP 稳定
+      - 马来西亚 堕落守卫 IEPL 备用
+      - 泰国 屠龙 IEPL 备用
+      - 越南 坚守 IEPL 稳定
+      - 韩国 金钱大亨 IEPL 备用
+      - 香港 星际执政官 IEPL 稳定 推荐
+      - 香港 暗影之刃 IEPL 稳定 推荐
+      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 香港 黑珍珠 IEPL 备用
+      - 香港 彼岸花 IEPL 备用
+      - 香港 深渊梦魇 IEPL 备用
+      - 香港 光耀 IEPL 备用
+      - 香港 血夜之刃 BGP 稳定 延迟偏高
+      - 香港 熊猫武士 BGP 稳定 延迟偏高
+      - 香港 武僧 BGP 稳定 延迟偏高
+      - 香港 赤备突击 BGP 稳定 延迟偏高
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -132,58 +140,62 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 1 IEPL 备用
-      - 台湾 2 IEPL 备用
-      - 台湾 3 IEPL 备用
-      - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 延迟偏高
-      - 台湾 6 IEPL 故障
-      - 台湾 7 BGP 备用 延迟偏高
-      - 台湾 8 BGP 稳定 延迟偏高
-      - 台湾 9 BGP 备用 延迟偏高
-      - 台湾 10 BGP 稳定 延迟偏高
-      - 新加坡 1 IEPL 稳定 推荐
-      - 新加坡 2 IEPL 故障
-      - 新加坡 3 IEPL 故障
-      - 新加坡 4 IEPL 备用
-      - 新加坡 5 IEPL 备用
-      - 新加坡 6 IEPL 故障
-      - 新加坡 7 IEPL 备用
-      - 新加坡 8 BGP 备用 延迟偏高
-      - 新加坡 9 BGP 稳定 延迟偏高
-      - 新加坡 10 BGP 稳定 延迟偏高
-      - 新加坡 11 BGP 稳定 延迟偏高
-      - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 延迟偏高
-      - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高
-      - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高
-      - 日本 7 BGP 稳定 延迟偏高
-      - 日本 8 BGP 稳定 延迟偏高
-      - 日本 9 BGP 备用 延迟偏高
-      - 日本 10 BGP 稳定 延迟偏高
-      - 美国 1 IEPL 稳定
-      - 美国 2 IEPL 稳定
-      - 美国 3 BGP 稳定
-      - 美国 4 BGP 稳定
-      - 美国 5 BGP 稳定
-      - 美国 6 BGP 稳定
-      - 马来西亚 1 IEPL 稳定
-      - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 备用
-      - 香港 1 IEPL 稳定 推荐
-      - 香港 2 IEPL 稳定 推荐
-      - 香港 3 IEPL 稳定 推荐
-      - 香港 4 IEPL 备用
-      - 香港 5 IEPL 备用
-      - 香港 6 IEPL 备用
-      - 香港 7 IEPL 备用
-      - 香港 8 BGP 稳定 延迟偏高
-      - 香港 9 BGP 稳定 延迟偏高
-      - 香港 10 BGP 稳定 延迟偏高
-      - 香港 11 BGP 稳定 延迟偏高
+      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 广寒仙子 IEPL 备用
+      - 台湾 上弦月 IEPL 备用
+      - 台湾 血月 IEPL 备用
+      - 台湾 花灵 IEPL 稳定 延迟偏高
+      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 糖果巴菲 BGP 备用 延迟偏高
+      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
+      - 台湾 萝莉画手 BGP 备用 延迟偏高
+      - 台湾 花好月圆 BGP 稳定 延迟偏高
+      - 新加坡 智识之光 IEPL 稳定 推荐
+      - 新加坡 深渊之子 IEPL 故障
+      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 废土猎人 IEPL 备用
+      - 新加坡 眼镜蛇 IEPL 备用
+      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 甜心猫灵 IEPL 备用
+      - 新加坡 时钟女仆 BGP 备用 延迟偏高
+      - 新加坡 墓园派对 BGP 稳定 延迟偏高
+      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
+      - 新加坡 吱吱 BGP 稳定 延迟偏高
+      - 日本 机甲甜心 IEPL 稳定 推荐
+      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
+      - 日本 水之灵 IEPL 延迟偏高
+      - 日本 街头大作战 IEPL 延迟偏高
+      - 日本 蒸腾幻兽 IEPL 备用
+      - 日本 力量之王 IEPL 备用 延迟偏高
+      - 日本 修罗斗士 IEPL 备用
+      - 日本 须佐之男 IEPL 备用 延迟偏高
+      - 日本 狮子座 BGP 稳定 延迟偏高
+      - 日本 铁甲神拳 BGP 稳定 延迟偏高
+      - 日本 堕血之华 BGP 备用 延迟偏高
+      - 日本 鬼姬 BGP 稳定 延迟偏高
+      - 美国 魔法教师 IEPL 稳定
+      - 美国 圣隼 IEPL 稳定
+      - 美国 锦衣卫 IEPL 稳定
+      - 美国 灵溪居士 IEPL 稳定
+      - 美国 滑翔女爵 BGP 稳定
+      - 美国 腾蛇之翼 BGP 稳定
+      - 美国 曙光战神 BGP 稳定
+      - 美国 黑暗守护者 BGP 稳定
+      - 马来西亚 堕落守卫 IEPL 备用
+      - 泰国 屠龙 IEPL 备用
+      - 越南 坚守 IEPL 稳定
+      - 韩国 金钱大亨 IEPL 备用
+      - 香港 星际执政官 IEPL 稳定 推荐
+      - 香港 暗影之刃 IEPL 稳定 推荐
+      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 香港 黑珍珠 IEPL 备用
+      - 香港 彼岸花 IEPL 备用
+      - 香港 深渊梦魇 IEPL 备用
+      - 香港 光耀 IEPL 备用
+      - 香港 血夜之刃 BGP 稳定 延迟偏高
+      - 香港 熊猫武士 BGP 稳定 延迟偏高
+      - 香港 武僧 BGP 稳定 延迟偏高
+      - 香港 赤备突击 BGP 稳定 延迟偏高
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -194,58 +206,62 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 1 IEPL 备用
-      - 台湾 2 IEPL 备用
-      - 台湾 3 IEPL 备用
-      - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 延迟偏高
-      - 台湾 6 IEPL 故障
-      - 台湾 7 BGP 备用 延迟偏高
-      - 台湾 8 BGP 稳定 延迟偏高
-      - 台湾 9 BGP 备用 延迟偏高
-      - 台湾 10 BGP 稳定 延迟偏高
-      - 新加坡 1 IEPL 稳定 推荐
-      - 新加坡 2 IEPL 故障
-      - 新加坡 3 IEPL 故障
-      - 新加坡 4 IEPL 备用
-      - 新加坡 5 IEPL 备用
-      - 新加坡 6 IEPL 故障
-      - 新加坡 7 IEPL 备用
-      - 新加坡 8 BGP 备用 延迟偏高
-      - 新加坡 9 BGP 稳定 延迟偏高
-      - 新加坡 10 BGP 稳定 延迟偏高
-      - 新加坡 11 BGP 稳定 延迟偏高
-      - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 延迟偏高
-      - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高
-      - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高
-      - 日本 7 BGP 稳定 延迟偏高
-      - 日本 8 BGP 稳定 延迟偏高
-      - 日本 9 BGP 备用 延迟偏高
-      - 日本 10 BGP 稳定 延迟偏高
-      - 美国 1 IEPL 稳定
-      - 美国 2 IEPL 稳定
-      - 美国 3 BGP 稳定
-      - 美国 4 BGP 稳定
-      - 美国 5 BGP 稳定
-      - 美国 6 BGP 稳定
-      - 马来西亚 1 IEPL 稳定
-      - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 备用
-      - 香港 1 IEPL 稳定 推荐
-      - 香港 2 IEPL 稳定 推荐
-      - 香港 3 IEPL 稳定 推荐
-      - 香港 4 IEPL 备用
-      - 香港 5 IEPL 备用
-      - 香港 6 IEPL 备用
-      - 香港 7 IEPL 备用
-      - 香港 8 BGP 稳定 延迟偏高
-      - 香港 9 BGP 稳定 延迟偏高
-      - 香港 10 BGP 稳定 延迟偏高
-      - 香港 11 BGP 稳定 延迟偏高
+      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 广寒仙子 IEPL 备用
+      - 台湾 上弦月 IEPL 备用
+      - 台湾 血月 IEPL 备用
+      - 台湾 花灵 IEPL 稳定 延迟偏高
+      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 糖果巴菲 BGP 备用 延迟偏高
+      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
+      - 台湾 萝莉画手 BGP 备用 延迟偏高
+      - 台湾 花好月圆 BGP 稳定 延迟偏高
+      - 新加坡 智识之光 IEPL 稳定 推荐
+      - 新加坡 深渊之子 IEPL 故障
+      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 废土猎人 IEPL 备用
+      - 新加坡 眼镜蛇 IEPL 备用
+      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 甜心猫灵 IEPL 备用
+      - 新加坡 时钟女仆 BGP 备用 延迟偏高
+      - 新加坡 墓园派对 BGP 稳定 延迟偏高
+      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
+      - 新加坡 吱吱 BGP 稳定 延迟偏高
+      - 日本 机甲甜心 IEPL 稳定 推荐
+      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
+      - 日本 水之灵 IEPL 延迟偏高
+      - 日本 街头大作战 IEPL 延迟偏高
+      - 日本 蒸腾幻兽 IEPL 备用
+      - 日本 力量之王 IEPL 备用 延迟偏高
+      - 日本 修罗斗士 IEPL 备用
+      - 日本 须佐之男 IEPL 备用 延迟偏高
+      - 日本 狮子座 BGP 稳定 延迟偏高
+      - 日本 铁甲神拳 BGP 稳定 延迟偏高
+      - 日本 堕血之华 BGP 备用 延迟偏高
+      - 日本 鬼姬 BGP 稳定 延迟偏高
+      - 美国 魔法教师 IEPL 稳定
+      - 美国 圣隼 IEPL 稳定
+      - 美国 锦衣卫 IEPL 稳定
+      - 美国 灵溪居士 IEPL 稳定
+      - 美国 滑翔女爵 BGP 稳定
+      - 美国 腾蛇之翼 BGP 稳定
+      - 美国 曙光战神 BGP 稳定
+      - 美国 黑暗守护者 BGP 稳定
+      - 马来西亚 堕落守卫 IEPL 备用
+      - 泰国 屠龙 IEPL 备用
+      - 越南 坚守 IEPL 稳定
+      - 韩国 金钱大亨 IEPL 备用
+      - 香港 星际执政官 IEPL 稳定 推荐
+      - 香港 暗影之刃 IEPL 稳定 推荐
+      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 香港 黑珍珠 IEPL 备用
+      - 香港 彼岸花 IEPL 备用
+      - 香港 深渊梦魇 IEPL 备用
+      - 香港 光耀 IEPL 备用
+      - 香港 血夜之刃 BGP 稳定 延迟偏高
+      - 香港 熊猫武士 BGP 稳定 延迟偏高
+      - 香港 武僧 BGP 稳定 延迟偏高
+      - 香港 赤备突击 BGP 稳定 延迟偏高
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -268,83 +284,87 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 1 IEPL 备用
-      - 台湾 2 IEPL 备用
-      - 台湾 3 IEPL 备用
-      - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 延迟偏高
-      - 台湾 6 IEPL 故障
-      - 台湾 7 BGP 备用 延迟偏高
-      - 台湾 8 BGP 稳定 延迟偏高
-      - 台湾 9 BGP 备用 延迟偏高
-      - 台湾 10 BGP 稳定 延迟偏高
-      - 新加坡 1 IEPL 稳定 推荐
-      - 新加坡 2 IEPL 故障
-      - 新加坡 3 IEPL 故障
-      - 新加坡 4 IEPL 备用
-      - 新加坡 5 IEPL 备用
-      - 新加坡 6 IEPL 故障
-      - 新加坡 7 IEPL 备用
-      - 新加坡 8 BGP 备用 延迟偏高
-      - 新加坡 9 BGP 稳定 延迟偏高
-      - 新加坡 10 BGP 稳定 延迟偏高
-      - 新加坡 11 BGP 稳定 延迟偏高
-      - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 延迟偏高
-      - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高
-      - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高
-      - 日本 7 BGP 稳定 延迟偏高
-      - 日本 8 BGP 稳定 延迟偏高
-      - 日本 9 BGP 备用 延迟偏高
-      - 日本 10 BGP 稳定 延迟偏高
-      - 美国 1 IEPL 稳定
-      - 美国 2 IEPL 稳定
-      - 美国 3 BGP 稳定
-      - 美国 4 BGP 稳定
-      - 美国 5 BGP 稳定
-      - 美国 6 BGP 稳定
-      - 马来西亚 1 IEPL 稳定
-      - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 备用
-      - 香港 1 IEPL 稳定 推荐
-      - 香港 2 IEPL 稳定 推荐
-      - 香港 3 IEPL 稳定 推荐
-      - 香港 4 IEPL 备用
-      - 香港 5 IEPL 备用
-      - 香港 6 IEPL 备用
-      - 香港 7 IEPL 备用
-      - 香港 8 BGP 稳定 延迟偏高
-      - 香港 9 BGP 稳定 延迟偏高
-      - 香港 10 BGP 稳定 延迟偏高
-      - 香港 11 BGP 稳定 延迟偏高
+      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 广寒仙子 IEPL 备用
+      - 台湾 上弦月 IEPL 备用
+      - 台湾 血月 IEPL 备用
+      - 台湾 花灵 IEPL 稳定 延迟偏高
+      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 糖果巴菲 BGP 备用 延迟偏高
+      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
+      - 台湾 萝莉画手 BGP 备用 延迟偏高
+      - 台湾 花好月圆 BGP 稳定 延迟偏高
+      - 新加坡 智识之光 IEPL 稳定 推荐
+      - 新加坡 深渊之子 IEPL 故障
+      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 废土猎人 IEPL 备用
+      - 新加坡 眼镜蛇 IEPL 备用
+      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 甜心猫灵 IEPL 备用
+      - 新加坡 时钟女仆 BGP 备用 延迟偏高
+      - 新加坡 墓园派对 BGP 稳定 延迟偏高
+      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
+      - 新加坡 吱吱 BGP 稳定 延迟偏高
+      - 日本 机甲甜心 IEPL 稳定 推荐
+      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
+      - 日本 水之灵 IEPL 延迟偏高
+      - 日本 街头大作战 IEPL 延迟偏高
+      - 日本 蒸腾幻兽 IEPL 备用
+      - 日本 力量之王 IEPL 备用 延迟偏高
+      - 日本 修罗斗士 IEPL 备用
+      - 日本 须佐之男 IEPL 备用 延迟偏高
+      - 日本 狮子座 BGP 稳定 延迟偏高
+      - 日本 铁甲神拳 BGP 稳定 延迟偏高
+      - 日本 堕血之华 BGP 备用 延迟偏高
+      - 日本 鬼姬 BGP 稳定 延迟偏高
+      - 美国 魔法教师 IEPL 稳定
+      - 美国 圣隼 IEPL 稳定
+      - 美国 锦衣卫 IEPL 稳定
+      - 美国 灵溪居士 IEPL 稳定
+      - 美国 滑翔女爵 BGP 稳定
+      - 美国 腾蛇之翼 BGP 稳定
+      - 美国 曙光战神 BGP 稳定
+      - 美国 黑暗守护者 BGP 稳定
+      - 马来西亚 堕落守卫 IEPL 备用
+      - 泰国 屠龙 IEPL 备用
+      - 越南 坚守 IEPL 稳定
+      - 韩国 金钱大亨 IEPL 备用
+      - 香港 星际执政官 IEPL 稳定 推荐
+      - 香港 暗影之刃 IEPL 稳定 推荐
+      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 香港 黑珍珠 IEPL 备用
+      - 香港 彼岸花 IEPL 备用
+      - 香港 深渊梦魇 IEPL 备用
+      - 香港 光耀 IEPL 备用
+      - 香港 血夜之刃 BGP 稳定 延迟偏高
+      - 香港 熊猫武士 BGP 稳定 延迟偏高
+      - 香港 武僧 BGP 稳定 延迟偏高
+      - 香港 赤备突击 BGP 稳定 延迟偏高
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾 1 IEPL 备用
-      - 台湾 2 IEPL 备用
-      - 台湾 3 IEPL 备用
-      - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 延迟偏高
-      - 台湾 6 IEPL 故障
-      - 台湾 7 BGP 备用 延迟偏高
-      - 台湾 8 BGP 稳定 延迟偏高
-      - 台湾 9 BGP 备用 延迟偏高
-      - 台湾 10 BGP 稳定 延迟偏高
-      - 香港 1 IEPL 稳定 推荐
-      - 香港 2 IEPL 稳定 推荐
-      - 香港 3 IEPL 稳定 推荐
-      - 香港 4 IEPL 备用
-      - 香港 5 IEPL 备用
-      - 香港 6 IEPL 备用
-      - 香港 7 IEPL 备用
-      - 香港 8 BGP 稳定 延迟偏高
-      - 香港 9 BGP 稳定 延迟偏高
-      - 香港 10 BGP 稳定 延迟偏高
-      - 香港 11 BGP 稳定 延迟偏高
+      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 广寒仙子 IEPL 备用
+      - 台湾 上弦月 IEPL 备用
+      - 台湾 血月 IEPL 备用
+      - 台湾 花灵 IEPL 稳定 延迟偏高
+      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 糖果巴菲 BGP 备用 延迟偏高
+      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
+      - 台湾 萝莉画手 BGP 备用 延迟偏高
+      - 台湾 花好月圆 BGP 稳定 延迟偏高
+      - 香港 星际执政官 IEPL 稳定 推荐
+      - 香港 暗影之刃 IEPL 稳定 推荐
+      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 香港 黑珍珠 IEPL 备用
+      - 香港 彼岸花 IEPL 备用
+      - 香港 深渊梦魇 IEPL 备用
+      - 香港 光耀 IEPL 备用
+      - 香港 血夜之刃 BGP 稳定 延迟偏高
+      - 香港 熊猫武士 BGP 稳定 延迟偏高
+      - 香港 武僧 BGP 稳定 延迟偏高
+      - 香港 赤备突击 BGP 稳定 延迟偏高
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -355,58 +375,62 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 1 IEPL 备用
-      - 台湾 2 IEPL 备用
-      - 台湾 3 IEPL 备用
-      - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 延迟偏高
-      - 台湾 6 IEPL 故障
-      - 台湾 7 BGP 备用 延迟偏高
-      - 台湾 8 BGP 稳定 延迟偏高
-      - 台湾 9 BGP 备用 延迟偏高
-      - 台湾 10 BGP 稳定 延迟偏高
-      - 新加坡 1 IEPL 稳定 推荐
-      - 新加坡 2 IEPL 故障
-      - 新加坡 3 IEPL 故障
-      - 新加坡 4 IEPL 备用
-      - 新加坡 5 IEPL 备用
-      - 新加坡 6 IEPL 故障
-      - 新加坡 7 IEPL 备用
-      - 新加坡 8 BGP 备用 延迟偏高
-      - 新加坡 9 BGP 稳定 延迟偏高
-      - 新加坡 10 BGP 稳定 延迟偏高
-      - 新加坡 11 BGP 稳定 延迟偏高
-      - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 延迟偏高
-      - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高
-      - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高
-      - 日本 7 BGP 稳定 延迟偏高
-      - 日本 8 BGP 稳定 延迟偏高
-      - 日本 9 BGP 备用 延迟偏高
-      - 日本 10 BGP 稳定 延迟偏高
-      - 美国 1 IEPL 稳定
-      - 美国 2 IEPL 稳定
-      - 美国 3 BGP 稳定
-      - 美国 4 BGP 稳定
-      - 美国 5 BGP 稳定
-      - 美国 6 BGP 稳定
-      - 马来西亚 1 IEPL 稳定
-      - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 备用
-      - 香港 1 IEPL 稳定 推荐
-      - 香港 2 IEPL 稳定 推荐
-      - 香港 3 IEPL 稳定 推荐
-      - 香港 4 IEPL 备用
-      - 香港 5 IEPL 备用
-      - 香港 6 IEPL 备用
-      - 香港 7 IEPL 备用
-      - 香港 8 BGP 稳定 延迟偏高
-      - 香港 9 BGP 稳定 延迟偏高
-      - 香港 10 BGP 稳定 延迟偏高
-      - 香港 11 BGP 稳定 延迟偏高
+      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 广寒仙子 IEPL 备用
+      - 台湾 上弦月 IEPL 备用
+      - 台湾 血月 IEPL 备用
+      - 台湾 花灵 IEPL 稳定 延迟偏高
+      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 糖果巴菲 BGP 备用 延迟偏高
+      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
+      - 台湾 萝莉画手 BGP 备用 延迟偏高
+      - 台湾 花好月圆 BGP 稳定 延迟偏高
+      - 新加坡 智识之光 IEPL 稳定 推荐
+      - 新加坡 深渊之子 IEPL 故障
+      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 废土猎人 IEPL 备用
+      - 新加坡 眼镜蛇 IEPL 备用
+      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 甜心猫灵 IEPL 备用
+      - 新加坡 时钟女仆 BGP 备用 延迟偏高
+      - 新加坡 墓园派对 BGP 稳定 延迟偏高
+      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
+      - 新加坡 吱吱 BGP 稳定 延迟偏高
+      - 日本 机甲甜心 IEPL 稳定 推荐
+      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
+      - 日本 水之灵 IEPL 延迟偏高
+      - 日本 街头大作战 IEPL 延迟偏高
+      - 日本 蒸腾幻兽 IEPL 备用
+      - 日本 力量之王 IEPL 备用 延迟偏高
+      - 日本 修罗斗士 IEPL 备用
+      - 日本 须佐之男 IEPL 备用 延迟偏高
+      - 日本 狮子座 BGP 稳定 延迟偏高
+      - 日本 铁甲神拳 BGP 稳定 延迟偏高
+      - 日本 堕血之华 BGP 备用 延迟偏高
+      - 日本 鬼姬 BGP 稳定 延迟偏高
+      - 美国 魔法教师 IEPL 稳定
+      - 美国 圣隼 IEPL 稳定
+      - 美国 锦衣卫 IEPL 稳定
+      - 美国 灵溪居士 IEPL 稳定
+      - 美国 滑翔女爵 BGP 稳定
+      - 美国 腾蛇之翼 BGP 稳定
+      - 美国 曙光战神 BGP 稳定
+      - 美国 黑暗守护者 BGP 稳定
+      - 马来西亚 堕落守卫 IEPL 备用
+      - 泰国 屠龙 IEPL 备用
+      - 越南 坚守 IEPL 稳定
+      - 韩国 金钱大亨 IEPL 备用
+      - 香港 星际执政官 IEPL 稳定 推荐
+      - 香港 暗影之刃 IEPL 稳定 推荐
+      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 香港 黑珍珠 IEPL 备用
+      - 香港 彼岸花 IEPL 备用
+      - 香港 深渊梦魇 IEPL 备用
+      - 香港 光耀 IEPL 备用
+      - 香港 血夜之刃 BGP 稳定 延迟偏高
+      - 香港 熊猫武士 BGP 稳定 延迟偏高
+      - 香港 武僧 BGP 稳定 延迟偏高
+      - 香港 赤备突击 BGP 稳定 延迟偏高
   - name: 📲 电报信息
     type: select
     proxies:
@@ -416,58 +440,62 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 1 IEPL 备用
-      - 台湾 2 IEPL 备用
-      - 台湾 3 IEPL 备用
-      - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 延迟偏高
-      - 台湾 6 IEPL 故障
-      - 台湾 7 BGP 备用 延迟偏高
-      - 台湾 8 BGP 稳定 延迟偏高
-      - 台湾 9 BGP 备用 延迟偏高
-      - 台湾 10 BGP 稳定 延迟偏高
-      - 新加坡 1 IEPL 稳定 推荐
-      - 新加坡 2 IEPL 故障
-      - 新加坡 3 IEPL 故障
-      - 新加坡 4 IEPL 备用
-      - 新加坡 5 IEPL 备用
-      - 新加坡 6 IEPL 故障
-      - 新加坡 7 IEPL 备用
-      - 新加坡 8 BGP 备用 延迟偏高
-      - 新加坡 9 BGP 稳定 延迟偏高
-      - 新加坡 10 BGP 稳定 延迟偏高
-      - 新加坡 11 BGP 稳定 延迟偏高
-      - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 延迟偏高
-      - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高
-      - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高
-      - 日本 7 BGP 稳定 延迟偏高
-      - 日本 8 BGP 稳定 延迟偏高
-      - 日本 9 BGP 备用 延迟偏高
-      - 日本 10 BGP 稳定 延迟偏高
-      - 美国 1 IEPL 稳定
-      - 美国 2 IEPL 稳定
-      - 美国 3 BGP 稳定
-      - 美国 4 BGP 稳定
-      - 美国 5 BGP 稳定
-      - 美国 6 BGP 稳定
-      - 马来西亚 1 IEPL 稳定
-      - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 备用
-      - 香港 1 IEPL 稳定 推荐
-      - 香港 2 IEPL 稳定 推荐
-      - 香港 3 IEPL 稳定 推荐
-      - 香港 4 IEPL 备用
-      - 香港 5 IEPL 备用
-      - 香港 6 IEPL 备用
-      - 香港 7 IEPL 备用
-      - 香港 8 BGP 稳定 延迟偏高
-      - 香港 9 BGP 稳定 延迟偏高
-      - 香港 10 BGP 稳定 延迟偏高
-      - 香港 11 BGP 稳定 延迟偏高
+      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 广寒仙子 IEPL 备用
+      - 台湾 上弦月 IEPL 备用
+      - 台湾 血月 IEPL 备用
+      - 台湾 花灵 IEPL 稳定 延迟偏高
+      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 糖果巴菲 BGP 备用 延迟偏高
+      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
+      - 台湾 萝莉画手 BGP 备用 延迟偏高
+      - 台湾 花好月圆 BGP 稳定 延迟偏高
+      - 新加坡 智识之光 IEPL 稳定 推荐
+      - 新加坡 深渊之子 IEPL 故障
+      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 废土猎人 IEPL 备用
+      - 新加坡 眼镜蛇 IEPL 备用
+      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 甜心猫灵 IEPL 备用
+      - 新加坡 时钟女仆 BGP 备用 延迟偏高
+      - 新加坡 墓园派对 BGP 稳定 延迟偏高
+      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
+      - 新加坡 吱吱 BGP 稳定 延迟偏高
+      - 日本 机甲甜心 IEPL 稳定 推荐
+      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
+      - 日本 水之灵 IEPL 延迟偏高
+      - 日本 街头大作战 IEPL 延迟偏高
+      - 日本 蒸腾幻兽 IEPL 备用
+      - 日本 力量之王 IEPL 备用 延迟偏高
+      - 日本 修罗斗士 IEPL 备用
+      - 日本 须佐之男 IEPL 备用 延迟偏高
+      - 日本 狮子座 BGP 稳定 延迟偏高
+      - 日本 铁甲神拳 BGP 稳定 延迟偏高
+      - 日本 堕血之华 BGP 备用 延迟偏高
+      - 日本 鬼姬 BGP 稳定 延迟偏高
+      - 美国 魔法教师 IEPL 稳定
+      - 美国 圣隼 IEPL 稳定
+      - 美国 锦衣卫 IEPL 稳定
+      - 美国 灵溪居士 IEPL 稳定
+      - 美国 滑翔女爵 BGP 稳定
+      - 美国 腾蛇之翼 BGP 稳定
+      - 美国 曙光战神 BGP 稳定
+      - 美国 黑暗守护者 BGP 稳定
+      - 马来西亚 堕落守卫 IEPL 备用
+      - 泰国 屠龙 IEPL 备用
+      - 越南 坚守 IEPL 稳定
+      - 韩国 金钱大亨 IEPL 备用
+      - 香港 星际执政官 IEPL 稳定 推荐
+      - 香港 暗影之刃 IEPL 稳定 推荐
+      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 香港 黑珍珠 IEPL 备用
+      - 香港 彼岸花 IEPL 备用
+      - 香港 深渊梦魇 IEPL 备用
+      - 香港 光耀 IEPL 备用
+      - 香港 血夜之刃 BGP 稳定 延迟偏高
+      - 香港 熊猫武士 BGP 稳定 延迟偏高
+      - 香港 武僧 BGP 稳定 延迟偏高
+      - 香港 赤备突击 BGP 稳定 延迟偏高
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -478,58 +506,62 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 1 IEPL 备用
-      - 台湾 2 IEPL 备用
-      - 台湾 3 IEPL 备用
-      - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 延迟偏高
-      - 台湾 6 IEPL 故障
-      - 台湾 7 BGP 备用 延迟偏高
-      - 台湾 8 BGP 稳定 延迟偏高
-      - 台湾 9 BGP 备用 延迟偏高
-      - 台湾 10 BGP 稳定 延迟偏高
-      - 新加坡 1 IEPL 稳定 推荐
-      - 新加坡 2 IEPL 故障
-      - 新加坡 3 IEPL 故障
-      - 新加坡 4 IEPL 备用
-      - 新加坡 5 IEPL 备用
-      - 新加坡 6 IEPL 故障
-      - 新加坡 7 IEPL 备用
-      - 新加坡 8 BGP 备用 延迟偏高
-      - 新加坡 9 BGP 稳定 延迟偏高
-      - 新加坡 10 BGP 稳定 延迟偏高
-      - 新加坡 11 BGP 稳定 延迟偏高
-      - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 延迟偏高
-      - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高
-      - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高
-      - 日本 7 BGP 稳定 延迟偏高
-      - 日本 8 BGP 稳定 延迟偏高
-      - 日本 9 BGP 备用 延迟偏高
-      - 日本 10 BGP 稳定 延迟偏高
-      - 美国 1 IEPL 稳定
-      - 美国 2 IEPL 稳定
-      - 美国 3 BGP 稳定
-      - 美国 4 BGP 稳定
-      - 美国 5 BGP 稳定
-      - 美国 6 BGP 稳定
-      - 马来西亚 1 IEPL 稳定
-      - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 备用
-      - 香港 1 IEPL 稳定 推荐
-      - 香港 2 IEPL 稳定 推荐
-      - 香港 3 IEPL 稳定 推荐
-      - 香港 4 IEPL 备用
-      - 香港 5 IEPL 备用
-      - 香港 6 IEPL 备用
-      - 香港 7 IEPL 备用
-      - 香港 8 BGP 稳定 延迟偏高
-      - 香港 9 BGP 稳定 延迟偏高
-      - 香港 10 BGP 稳定 延迟偏高
-      - 香港 11 BGP 稳定 延迟偏高
+      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 广寒仙子 IEPL 备用
+      - 台湾 上弦月 IEPL 备用
+      - 台湾 血月 IEPL 备用
+      - 台湾 花灵 IEPL 稳定 延迟偏高
+      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 糖果巴菲 BGP 备用 延迟偏高
+      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
+      - 台湾 萝莉画手 BGP 备用 延迟偏高
+      - 台湾 花好月圆 BGP 稳定 延迟偏高
+      - 新加坡 智识之光 IEPL 稳定 推荐
+      - 新加坡 深渊之子 IEPL 故障
+      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 废土猎人 IEPL 备用
+      - 新加坡 眼镜蛇 IEPL 备用
+      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 甜心猫灵 IEPL 备用
+      - 新加坡 时钟女仆 BGP 备用 延迟偏高
+      - 新加坡 墓园派对 BGP 稳定 延迟偏高
+      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
+      - 新加坡 吱吱 BGP 稳定 延迟偏高
+      - 日本 机甲甜心 IEPL 稳定 推荐
+      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
+      - 日本 水之灵 IEPL 延迟偏高
+      - 日本 街头大作战 IEPL 延迟偏高
+      - 日本 蒸腾幻兽 IEPL 备用
+      - 日本 力量之王 IEPL 备用 延迟偏高
+      - 日本 修罗斗士 IEPL 备用
+      - 日本 须佐之男 IEPL 备用 延迟偏高
+      - 日本 狮子座 BGP 稳定 延迟偏高
+      - 日本 铁甲神拳 BGP 稳定 延迟偏高
+      - 日本 堕血之华 BGP 备用 延迟偏高
+      - 日本 鬼姬 BGP 稳定 延迟偏高
+      - 美国 魔法教师 IEPL 稳定
+      - 美国 圣隼 IEPL 稳定
+      - 美国 锦衣卫 IEPL 稳定
+      - 美国 灵溪居士 IEPL 稳定
+      - 美国 滑翔女爵 BGP 稳定
+      - 美国 腾蛇之翼 BGP 稳定
+      - 美国 曙光战神 BGP 稳定
+      - 美国 黑暗守护者 BGP 稳定
+      - 马来西亚 堕落守卫 IEPL 备用
+      - 泰国 屠龙 IEPL 备用
+      - 越南 坚守 IEPL 稳定
+      - 韩国 金钱大亨 IEPL 备用
+      - 香港 星际执政官 IEPL 稳定 推荐
+      - 香港 暗影之刃 IEPL 稳定 推荐
+      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 香港 黑珍珠 IEPL 备用
+      - 香港 彼岸花 IEPL 备用
+      - 香港 深渊梦魇 IEPL 备用
+      - 香港 光耀 IEPL 备用
+      - 香港 血夜之刃 BGP 稳定 延迟偏高
+      - 香港 熊猫武士 BGP 稳定 延迟偏高
+      - 香港 武僧 BGP 稳定 延迟偏高
+      - 香港 赤备突击 BGP 稳定 延迟偏高
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -549,58 +581,62 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 1 IEPL 备用
-      - 台湾 2 IEPL 备用
-      - 台湾 3 IEPL 备用
-      - 台湾 4 IEPL 备用
-      - 台湾 5 IEPL 稳定 延迟偏高
-      - 台湾 6 IEPL 故障
-      - 台湾 7 BGP 备用 延迟偏高
-      - 台湾 8 BGP 稳定 延迟偏高
-      - 台湾 9 BGP 备用 延迟偏高
-      - 台湾 10 BGP 稳定 延迟偏高
-      - 新加坡 1 IEPL 稳定 推荐
-      - 新加坡 2 IEPL 故障
-      - 新加坡 3 IEPL 故障
-      - 新加坡 4 IEPL 备用
-      - 新加坡 5 IEPL 备用
-      - 新加坡 6 IEPL 故障
-      - 新加坡 7 IEPL 备用
-      - 新加坡 8 BGP 备用 延迟偏高
-      - 新加坡 9 BGP 稳定 延迟偏高
-      - 新加坡 10 BGP 稳定 延迟偏高
-      - 新加坡 11 BGP 稳定 延迟偏高
-      - 日本 1 IEPL 稳定 推荐
-      - 日本 2 IEPL 稳定 延迟偏高
-      - 日本 3 IEPL 备用
-      - 日本 4 IEPL 备用 延迟偏高
-      - 日本 5 IEPL 备用
-      - 日本 6 IEPL 备用 延迟偏高
-      - 日本 7 BGP 稳定 延迟偏高
-      - 日本 8 BGP 稳定 延迟偏高
-      - 日本 9 BGP 备用 延迟偏高
-      - 日本 10 BGP 稳定 延迟偏高
-      - 美国 1 IEPL 稳定
-      - 美国 2 IEPL 稳定
-      - 美国 3 BGP 稳定
-      - 美国 4 BGP 稳定
-      - 美国 5 BGP 稳定
-      - 美国 6 BGP 稳定
-      - 马来西亚 1 IEPL 稳定
-      - 泰国 1 IEPL 备用
-      - 越南 1 IEPL 稳定
-      - 韩国 1 IEPL 备用
-      - 香港 1 IEPL 稳定 推荐
-      - 香港 2 IEPL 稳定 推荐
-      - 香港 3 IEPL 稳定 推荐
-      - 香港 4 IEPL 备用
-      - 香港 5 IEPL 备用
-      - 香港 6 IEPL 备用
-      - 香港 7 IEPL 备用
-      - 香港 8 BGP 稳定 延迟偏高
-      - 香港 9 BGP 稳定 延迟偏高
-      - 香港 10 BGP 稳定 延迟偏高
-      - 香港 11 BGP 稳定 延迟偏高
+      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 广寒仙子 IEPL 备用
+      - 台湾 上弦月 IEPL 备用
+      - 台湾 血月 IEPL 备用
+      - 台湾 花灵 IEPL 稳定 延迟偏高
+      - 台湾 梦幻星月 IEPL 故障
+      - 台湾 糖果巴菲 BGP 备用 延迟偏高
+      - 台湾 摇曳藤曼 BGP 稳定 延迟偏高
+      - 台湾 萝莉画手 BGP 备用 延迟偏高
+      - 台湾 花好月圆 BGP 稳定 延迟偏高
+      - 新加坡 智识之光 IEPL 稳定 推荐
+      - 新加坡 深渊之子 IEPL 故障
+      - 新加坡 逆鳞 IEPL 故障
+      - 新加坡 废土猎人 IEPL 备用
+      - 新加坡 眼镜蛇 IEPL 备用
+      - 新加坡 红莲业火 IEPL 故障
+      - 新加坡 甜心猫灵 IEPL 备用
+      - 新加坡 时钟女仆 BGP 备用 延迟偏高
+      - 新加坡 墓园派对 BGP 稳定 延迟偏高
+      - 新加坡 睡衣派对 BGP 稳定 延迟偏高
+      - 新加坡 吱吱 BGP 稳定 延迟偏高
+      - 日本 机甲甜心 IEPL 稳定 推荐
+      - 日本 晴天宝贝 IEPL 稳定 延迟偏高
+      - 日本 水之灵 IEPL 延迟偏高
+      - 日本 街头大作战 IEPL 延迟偏高
+      - 日本 蒸腾幻兽 IEPL 备用
+      - 日本 力量之王 IEPL 备用 延迟偏高
+      - 日本 修罗斗士 IEPL 备用
+      - 日本 须佐之男 IEPL 备用 延迟偏高
+      - 日本 狮子座 BGP 稳定 延迟偏高
+      - 日本 铁甲神拳 BGP 稳定 延迟偏高
+      - 日本 堕血之华 BGP 备用 延迟偏高
+      - 日本 鬼姬 BGP 稳定 延迟偏高
+      - 美国 魔法教师 IEPL 稳定
+      - 美国 圣隼 IEPL 稳定
+      - 美国 锦衣卫 IEPL 稳定
+      - 美国 灵溪居士 IEPL 稳定
+      - 美国 滑翔女爵 BGP 稳定
+      - 美国 腾蛇之翼 BGP 稳定
+      - 美国 曙光战神 BGP 稳定
+      - 美国 黑暗守护者 BGP 稳定
+      - 马来西亚 堕落守卫 IEPL 备用
+      - 泰国 屠龙 IEPL 备用
+      - 越南 坚守 IEPL 稳定
+      - 韩国 金钱大亨 IEPL 备用
+      - 香港 星际执政官 IEPL 稳定 推荐
+      - 香港 暗影之刃 IEPL 稳定 推荐
+      - 香港 刀锋魅影 IEPL 稳定 推荐
+      - 香港 黑珍珠 IEPL 备用
+      - 香港 彼岸花 IEPL 备用
+      - 香港 深渊梦魇 IEPL 备用
+      - 香港 光耀 IEPL 备用
+      - 香港 血夜之刃 BGP 稳定 延迟偏高
+      - 香港 熊猫武士 BGP 稳定 延迟偏高
+      - 香港 武僧 BGP 稳定 延迟偏高
+      - 香港 赤备突击 BGP 稳定 延迟偏高
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
