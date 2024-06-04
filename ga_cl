@@ -9,9 +9,9 @@ proxies:
   - {name: t.me/juelaohai, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: t.me/juelaohai}
   - {name: 以下节点仅供游戏使用, server: jue.lao.hai, port: 3333, type: ss, cipher: aes-256-gcm, password: t.me/juelaohai}
   - {name: 若有其它需求可使用频道内提供的其它节点, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: t.me/juelaohai}
-  - {name: 台湾 流樱之舞 IEPL 备用, server: a.v2ray.wtf, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 台湾 流樱之舞 IEPL 推荐, server: a.v2ray.wtf, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 台湾 广寒仙子 IEPL 故障, server: a.v2ray.wtf, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 台湾 上弦月 IEPL 备用, server: a.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
+  - {name: 台湾 上弦月 IEPL 故障, server: a.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 台湾 血月 IEPL 故障, server: a.v2ray.wtf, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 台湾 花灵 IEPL 推荐 延迟偏高, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 台湾 梦幻星月 IEPL 推荐 延迟偏高, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
@@ -119,9 +119,9 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 流樱之舞 IEPL 推荐
       - 台湾 广寒仙子 IEPL 故障
-      - 台湾 上弦月 IEPL 备用
+      - 台湾 上弦月 IEPL 故障
       - 台湾 血月 IEPL 故障
       - 台湾 花灵 IEPL 推荐 延迟偏高
       - 台湾 梦幻星月 IEPL 推荐 延迟偏高
@@ -228,9 +228,9 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 流樱之舞 IEPL 推荐
       - 台湾 广寒仙子 IEPL 故障
-      - 台湾 上弦月 IEPL 备用
+      - 台湾 上弦月 IEPL 故障
       - 台湾 血月 IEPL 故障
       - 台湾 花灵 IEPL 推荐 延迟偏高
       - 台湾 梦幻星月 IEPL 推荐 延迟偏高
@@ -338,9 +338,9 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 流樱之舞 IEPL 推荐
       - 台湾 广寒仙子 IEPL 故障
-      - 台湾 上弦月 IEPL 备用
+      - 台湾 上弦月 IEPL 故障
       - 台湾 血月 IEPL 故障
       - 台湾 花灵 IEPL 推荐 延迟偏高
       - 台湾 梦幻星月 IEPL 推荐 延迟偏高
@@ -460,9 +460,9 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 流樱之舞 IEPL 推荐
       - 台湾 广寒仙子 IEPL 故障
-      - 台湾 上弦月 IEPL 备用
+      - 台湾 上弦月 IEPL 故障
       - 台湾 血月 IEPL 故障
       - 台湾 花灵 IEPL 推荐 延迟偏高
       - 台湾 梦幻星月 IEPL 推荐 延迟偏高
@@ -564,9 +564,9 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 流樱之舞 IEPL 推荐
       - 台湾 广寒仙子 IEPL 故障
-      - 台湾 上弦月 IEPL 备用
+      - 台湾 上弦月 IEPL 故障
       - 台湾 血月 IEPL 故障
       - 台湾 花灵 IEPL 推荐 延迟偏高
       - 台湾 梦幻星月 IEPL 推荐 延迟偏高
@@ -615,9 +615,9 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 流樱之舞 IEPL 推荐
       - 台湾 广寒仙子 IEPL 故障
-      - 台湾 上弦月 IEPL 备用
+      - 台湾 上弦月 IEPL 故障
       - 台湾 血月 IEPL 故障
       - 台湾 花灵 IEPL 推荐 延迟偏高
       - 台湾 梦幻星月 IEPL 推荐 延迟偏高
@@ -724,9 +724,9 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 流樱之舞 IEPL 推荐
       - 台湾 广寒仙子 IEPL 故障
-      - 台湾 上弦月 IEPL 备用
+      - 台湾 上弦月 IEPL 故障
       - 台湾 血月 IEPL 故障
       - 台湾 花灵 IEPL 推荐 延迟偏高
       - 台湾 梦幻星月 IEPL 推荐 延迟偏高
@@ -834,9 +834,9 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 流樱之舞 IEPL 推荐
       - 台湾 广寒仙子 IEPL 故障
-      - 台湾 上弦月 IEPL 备用
+      - 台湾 上弦月 IEPL 故障
       - 台湾 血月 IEPL 故障
       - 台湾 花灵 IEPL 推荐 延迟偏高
       - 台湾 梦幻星月 IEPL 推荐 延迟偏高
@@ -953,9 +953,9 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
-      - 台湾 流樱之舞 IEPL 备用
+      - 台湾 流樱之舞 IEPL 推荐
       - 台湾 广寒仙子 IEPL 故障
-      - 台湾 上弦月 IEPL 备用
+      - 台湾 上弦月 IEPL 故障
       - 台湾 血月 IEPL 故障
       - 台湾 花灵 IEPL 推荐 延迟偏高
       - 台湾 梦幻星月 IEPL 推荐 延迟偏高
