@@ -8,7 +8,7 @@ proxies:
   - {name: 关注Telegram频道, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: t.me/juelaohai, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 美国 花好月圆, server: zy.02er.com, port: 49041, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 美国 萝莉画手 解锁流媒体, server: zy.02er.com, port: 27484, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 美国 萝莉画手, server: zy.02er.com, port: 27484, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 美国 时钟女仆, server: e55596d8b2d8c495.cdn.jiashule.com, port: 25980, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 美国 圣诞恋歌, server: us03.thomasinahalbert.online, port: 80, type: vmess, uuid: 4fa41006-0f0c-40a3-b631-1b00277c121b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us03.thomasinahalbert.online}}}
   - {name: 美国 闪亮之星, server: us04.thomasinahalbert.online, port: 80, type: vmess, uuid: 4fa41006-0f0c-40a3-b631-1b00277c121b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us04.thomasinahalbert.online}}}
@@ -19,7 +19,7 @@ proxies:
   - {name: 美国 怒焰猎魔者 BGP, server: cn-sh.aseur8qwer.top, port: 23608, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 美国 街头篮球 BGP, server: cn-sh.aseur8qwer.top, port: 36465, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 香港 街头足球, server: zy.02er.com, port: 32810, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 香港 最佳前锋 解锁流媒体, server: zy.02er.com, port: 37575, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 香港 最佳前锋, server: zy.02er.com, port: 37575, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 最佳DJ, server: zy.02er.com, port: 31646, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 战地天使, server: hk04.thomasinahalbert.online, port: 80, type: vmess, uuid: 4fa41006-0f0c-40a3-b631-1b00277c121b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk04.thomasinahalbert.online}}}
   - {name: 香港 圣光之翼, server: hk01.thomasinahalbert.online, port: 80, type: vmess, uuid: 4fa41006-0f0c-40a3-b631-1b00277c121b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk01.thomasinahalbert.online}}}
@@ -29,11 +29,11 @@ proxies:
   - {name: 香港 独裁者 BGP, server: cn-gz.aseur8qwer.top, port: 42599, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 香港 深海巨怪 BGP, server: cn-gz.aseur8qwer.top, port: 24724, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 香港 冻海之王 BGP, server: cn-gz.aseur8qwer.top, port: 25254, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 爆裂阎魔 流媒体解锁, server: zy.02er.com, port: 12039, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 日本 爆裂阎魔, server: zy.02er.com, port: 12039, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 东京 狂甲战牛, server: zy.02er.com, port: 28470, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 东京 糖果巴菲, server: zy.02er.com, port: 42705, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 放逐之锤, server: zy.02er.com, port: 20168, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 日本 皇族之锤 解锁流媒体, server: e55596d8b2d8c495.cdn.jiashule.com, port: 56198, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 日本 皇族之锤, server: e55596d8b2d8c495.cdn.jiashule.com, port: 56198, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 金牛座, server: zy.02er.com, port: 13125, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 青春校园, server: jp02.thomasinahalbert.online, port: 80, type: vmess, uuid: 4fa41006-0f0c-40a3-b631-1b00277c121b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.thomasinahalbert.online}}}
   - {name: 日本 朋克女孩, server: jp04.thomasinahalbert.online, port: 80, type: vmess, uuid: 4fa41006-0f0c-40a3-b631-1b00277c121b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp04.thomasinahalbert.online}}}
@@ -48,8 +48,8 @@ proxies:
   - {name: 韩国 梦幻之恋, server: kr04.thomasinahalbert.online, port: 80, type: vmess, uuid: 4fa41006-0f0c-40a3-b631-1b00277c121b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr04.thomasinahalbert.online}}}
   - {name: 韩国 帝国武士, server: kr02.thomasinahalbert.online, port: 80, type: vmess, uuid: 4fa41006-0f0c-40a3-b631-1b00277c121b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr02.thomasinahalbert.online}}}
   - {name: 新加坡 潮流球手, server: zy.02er.com, port: 20746, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 新加坡 霹雳火 流媒体解锁, server: zy.02er.com, port: 46538, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 新加坡 沙漠雄鹰 流媒体解锁, server: zy.02er.com, port: 23204, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 新加坡 霹雳火, server: zy.02er.com, port: 46538, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 新加坡 沙漠雄鹰, server: zy.02er.com, port: 23204, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 新加坡 云雀, server: sg01.thomasinahalbert.online, port: 80, type: vmess, uuid: 4fa41006-0f0c-40a3-b631-1b00277c121b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg01.thomasinahalbert.online}}}
   - {name: 新加坡 沙滩救援队, server: sg03.thomasinahalbert.online, port: 80, type: vmess, uuid: 4fa41006-0f0c-40a3-b631-1b00277c121b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg03.thomasinahalbert.online}}}
   - {name: 新加坡 掠影, server: sg04.thomasinahalbert.online, port: 80, type: vmess, uuid: 4fa41006-0f0c-40a3-b631-1b00277c121b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg04.thomasinahalbert.online}}}
@@ -81,7 +81,7 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 花好月圆
-      - 美国 萝莉画手 解锁流媒体
+      - 美国 萝莉画手
       - 美国 时钟女仆
       - 美国 圣诞恋歌
       - 美国 闪亮之星
@@ -92,7 +92,7 @@ proxy-groups:
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
       - 香港 街头足球
-      - 香港 最佳前锋 解锁流媒体
+      - 香港 最佳前锋
       - 香港 最佳DJ
       - 香港 战地天使
       - 香港 圣光之翼
@@ -102,11 +102,11 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
-      - 日本 爆裂阎魔 流媒体解锁
+      - 日本 爆裂阎魔
       - 日本 东京 狂甲战牛
       - 日本 东京 糖果巴菲
       - 日本 放逐之锤
-      - 日本 皇族之锤 解锁流媒体
+      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 青春校园
       - 日本 朋克女孩
@@ -121,8 +121,8 @@ proxy-groups:
       - 韩国 梦幻之恋
       - 韩国 帝国武士
       - 新加坡 潮流球手
-      - 新加坡 霹雳火 流媒体解锁
-      - 新加坡 沙漠雄鹰 流媒体解锁
+      - 新加坡 霹雳火
+      - 新加坡 沙漠雄鹰
       - 新加坡 云雀
       - 新加坡 沙滩救援队
       - 新加坡 掠影
@@ -153,7 +153,7 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 花好月圆
-      - 美国 萝莉画手 解锁流媒体
+      - 美国 萝莉画手
       - 美国 时钟女仆
       - 美国 圣诞恋歌
       - 美国 闪亮之星
@@ -164,7 +164,7 @@ proxy-groups:
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
       - 香港 街头足球
-      - 香港 最佳前锋 解锁流媒体
+      - 香港 最佳前锋
       - 香港 最佳DJ
       - 香港 战地天使
       - 香港 圣光之翼
@@ -174,11 +174,11 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
-      - 日本 爆裂阎魔 流媒体解锁
+      - 日本 爆裂阎魔
       - 日本 东京 狂甲战牛
       - 日本 东京 糖果巴菲
       - 日本 放逐之锤
-      - 日本 皇族之锤 解锁流媒体
+      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 青春校园
       - 日本 朋克女孩
@@ -193,8 +193,8 @@ proxy-groups:
       - 韩国 梦幻之恋
       - 韩国 帝国武士
       - 新加坡 潮流球手
-      - 新加坡 霹雳火 流媒体解锁
-      - 新加坡 沙漠雄鹰 流媒体解锁
+      - 新加坡 霹雳火
+      - 新加坡 沙漠雄鹰
       - 新加坡 云雀
       - 新加坡 沙滩救援队
       - 新加坡 掠影
@@ -226,7 +226,7 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 花好月圆
-      - 美国 萝莉画手 解锁流媒体
+      - 美国 萝莉画手
       - 美国 时钟女仆
       - 美国 圣诞恋歌
       - 美国 闪亮之星
@@ -237,7 +237,7 @@ proxy-groups:
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
       - 香港 街头足球
-      - 香港 最佳前锋 解锁流媒体
+      - 香港 最佳前锋
       - 香港 最佳DJ
       - 香港 战地天使
       - 香港 圣光之翼
@@ -247,11 +247,11 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
-      - 日本 爆裂阎魔 流媒体解锁
+      - 日本 爆裂阎魔
       - 日本 东京 狂甲战牛
       - 日本 东京 糖果巴菲
       - 日本 放逐之锤
-      - 日本 皇族之锤 解锁流媒体
+      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 青春校园
       - 日本 朋克女孩
@@ -266,8 +266,8 @@ proxy-groups:
       - 韩国 梦幻之恋
       - 韩国 帝国武士
       - 新加坡 潮流球手
-      - 新加坡 霹雳火 流媒体解锁
-      - 新加坡 沙漠雄鹰 流媒体解锁
+      - 新加坡 霹雳火
+      - 新加坡 沙漠雄鹰
       - 新加坡 云雀
       - 新加坡 沙滩救援队
       - 新加坡 掠影
@@ -311,7 +311,7 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 花好月圆
-      - 美国 萝莉画手 解锁流媒体
+      - 美国 萝莉画手
       - 美国 时钟女仆
       - 美国 圣诞恋歌
       - 美国 闪亮之星
@@ -322,7 +322,7 @@ proxy-groups:
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
       - 香港 街头足球
-      - 香港 最佳前锋 解锁流媒体
+      - 香港 最佳前锋
       - 香港 最佳DJ
       - 香港 战地天使
       - 香港 圣光之翼
@@ -332,11 +332,11 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
-      - 日本 爆裂阎魔 流媒体解锁
+      - 日本 爆裂阎魔
       - 日本 东京 狂甲战牛
       - 日本 东京 糖果巴菲
       - 日本 放逐之锤
-      - 日本 皇族之锤 解锁流媒体
+      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 青春校园
       - 日本 朋克女孩
@@ -351,8 +351,8 @@ proxy-groups:
       - 韩国 梦幻之恋
       - 韩国 帝国武士
       - 新加坡 潮流球手
-      - 新加坡 霹雳火 流媒体解锁
-      - 新加坡 沙漠雄鹰 流媒体解锁
+      - 新加坡 霹雳火
+      - 新加坡 沙漠雄鹰
       - 新加坡 云雀
       - 新加坡 沙滩救援队
       - 新加坡 掠影
@@ -380,7 +380,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 香港 街头足球
-      - 香港 最佳前锋 解锁流媒体
+      - 香港 最佳前锋
       - 香港 最佳DJ
       - 香港 战地天使
       - 香港 圣光之翼
@@ -405,7 +405,7 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 花好月圆
-      - 美国 萝莉画手 解锁流媒体
+      - 美国 萝莉画手
       - 美国 时钟女仆
       - 美国 圣诞恋歌
       - 美国 闪亮之星
@@ -416,7 +416,7 @@ proxy-groups:
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
       - 香港 街头足球
-      - 香港 最佳前锋 解锁流媒体
+      - 香港 最佳前锋
       - 香港 最佳DJ
       - 香港 战地天使
       - 香港 圣光之翼
@@ -426,11 +426,11 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
-      - 日本 爆裂阎魔 流媒体解锁
+      - 日本 爆裂阎魔
       - 日本 东京 狂甲战牛
       - 日本 东京 糖果巴菲
       - 日本 放逐之锤
-      - 日本 皇族之锤 解锁流媒体
+      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 青春校园
       - 日本 朋克女孩
@@ -445,8 +445,8 @@ proxy-groups:
       - 韩国 梦幻之恋
       - 韩国 帝国武士
       - 新加坡 潮流球手
-      - 新加坡 霹雳火 流媒体解锁
-      - 新加坡 沙漠雄鹰 流媒体解锁
+      - 新加坡 霹雳火
+      - 新加坡 沙漠雄鹰
       - 新加坡 云雀
       - 新加坡 沙滩救援队
       - 新加坡 掠影
@@ -477,7 +477,7 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 花好月圆
-      - 美国 萝莉画手 解锁流媒体
+      - 美国 萝莉画手
       - 美国 时钟女仆
       - 美国 圣诞恋歌
       - 美国 闪亮之星
@@ -488,7 +488,7 @@ proxy-groups:
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
       - 香港 街头足球
-      - 香港 最佳前锋 解锁流媒体
+      - 香港 最佳前锋
       - 香港 最佳DJ
       - 香港 战地天使
       - 香港 圣光之翼
@@ -498,11 +498,11 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
-      - 日本 爆裂阎魔 流媒体解锁
+      - 日本 爆裂阎魔
       - 日本 东京 狂甲战牛
       - 日本 东京 糖果巴菲
       - 日本 放逐之锤
-      - 日本 皇族之锤 解锁流媒体
+      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 青春校园
       - 日本 朋克女孩
@@ -517,8 +517,8 @@ proxy-groups:
       - 韩国 梦幻之恋
       - 韩国 帝国武士
       - 新加坡 潮流球手
-      - 新加坡 霹雳火 流媒体解锁
-      - 新加坡 沙漠雄鹰 流媒体解锁
+      - 新加坡 霹雳火
+      - 新加坡 沙漠雄鹰
       - 新加坡 云雀
       - 新加坡 沙滩救援队
       - 新加坡 掠影
@@ -550,7 +550,7 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 花好月圆
-      - 美国 萝莉画手 解锁流媒体
+      - 美国 萝莉画手
       - 美国 时钟女仆
       - 美国 圣诞恋歌
       - 美国 闪亮之星
@@ -561,7 +561,7 @@ proxy-groups:
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
       - 香港 街头足球
-      - 香港 最佳前锋 解锁流媒体
+      - 香港 最佳前锋
       - 香港 最佳DJ
       - 香港 战地天使
       - 香港 圣光之翼
@@ -571,11 +571,11 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
-      - 日本 爆裂阎魔 流媒体解锁
+      - 日本 爆裂阎魔
       - 日本 东京 狂甲战牛
       - 日本 东京 糖果巴菲
       - 日本 放逐之锤
-      - 日本 皇族之锤 解锁流媒体
+      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 青春校园
       - 日本 朋克女孩
@@ -590,8 +590,8 @@ proxy-groups:
       - 韩国 梦幻之恋
       - 韩国 帝国武士
       - 新加坡 潮流球手
-      - 新加坡 霹雳火 流媒体解锁
-      - 新加坡 沙漠雄鹰 流媒体解锁
+      - 新加坡 霹雳火
+      - 新加坡 沙漠雄鹰
       - 新加坡 云雀
       - 新加坡 沙滩救援队
       - 新加坡 掠影
@@ -632,7 +632,7 @@ proxy-groups:
       - 关注Telegram频道
       - t.me/juelaohai
       - 美国 花好月圆
-      - 美国 萝莉画手 解锁流媒体
+      - 美国 萝莉画手
       - 美国 时钟女仆
       - 美国 圣诞恋歌
       - 美国 闪亮之星
@@ -643,7 +643,7 @@ proxy-groups:
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
       - 香港 街头足球
-      - 香港 最佳前锋 解锁流媒体
+      - 香港 最佳前锋
       - 香港 最佳DJ
       - 香港 战地天使
       - 香港 圣光之翼
@@ -653,11 +653,11 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
-      - 日本 爆裂阎魔 流媒体解锁
+      - 日本 爆裂阎魔
       - 日本 东京 狂甲战牛
       - 日本 东京 糖果巴菲
       - 日本 放逐之锤
-      - 日本 皇族之锤 解锁流媒体
+      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 青春校园
       - 日本 朋克女孩
@@ -672,8 +672,8 @@ proxy-groups:
       - 韩国 梦幻之恋
       - 韩国 帝国武士
       - 新加坡 潮流球手
-      - 新加坡 霹雳火 流媒体解锁
-      - 新加坡 沙漠雄鹰 流媒体解锁
+      - 新加坡 霹雳火
+      - 新加坡 沙漠雄鹰
       - 新加坡 云雀
       - 新加坡 沙滩救援队
       - 新加坡 掠影
