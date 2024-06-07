@@ -5,10 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注Telegram频道, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-256-gcm, password: t.me/juelaohai}
-  - {name: t.me/juelaohai, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: t.me/juelaohai}
-  - {name: 以下节点仅供游戏使用, server: jue.lao.hai, port: 3333, type: ss, cipher: aes-256-gcm, password: t.me/juelaohai}
-  - {name: 若有其它需求可使用频道内提供的其它节点, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: t.me/juelaohai}
+  - {name: 关注Telegram频道, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-256-gcm, password: juelaohai}
+  - {name: t.me/juelaohai, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: juelaohai}
+  - {name: 以下节点仅供游戏使用, server: jue.lao.hai, port: 3333, type: ss, cipher: aes-256-gcm, password: juelaohai}
+  - {name: 若有其它需求可使用频道内提供的其它节点, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 台湾 流樱之舞 IEPL 推荐, server: a.v2ray.wtf, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 台湾 广寒仙子 IEPL 推荐, server: a.v2ray.wtf, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 台湾 上弦月 IEPL 推荐, server: c.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
@@ -32,7 +32,6 @@ proxies:
   - {name: 日本 须佐之男 IEPL 备用 延迟偏高, server: c.v2ray.wtf, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 马来西亚 堕落守卫 IEPL 备用, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 泰国 屠龙 IEPL 备用, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
-  - {name: 越南 坚守 IEPL 故障, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 韩国 金钱大亨 IEPL 备用, server: a.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: 853cec83-350c-4486-a821-8c99ea88eec2}
   - {name: 香港 星际执政官 IEPL 推荐, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
   - {name: 香港 暗影之刃 IEPL 推荐, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: b3a49fa2-3593-43bf-9416-c27adf0dca91}
@@ -74,7 +73,6 @@ proxy-groups:
       - 日本 须佐之男 IEPL 备用 延迟偏高
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 故障
       - 韩国 金钱大亨 IEPL 备用
       - 香港 星际执政官 IEPL 推荐
       - 香港 暗影之刃 IEPL 推荐
@@ -115,7 +113,6 @@ proxy-groups:
       - 日本 须佐之男 IEPL 备用 延迟偏高
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 故障
       - 韩国 金钱大亨 IEPL 备用
       - 香港 星际执政官 IEPL 推荐
       - 香港 暗影之刃 IEPL 推荐
@@ -157,7 +154,6 @@ proxy-groups:
       - 日本 须佐之男 IEPL 备用 延迟偏高
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 故障
       - 韩国 金钱大亨 IEPL 备用
       - 香港 星际执政官 IEPL 推荐
       - 香港 暗影之刃 IEPL 推荐
@@ -211,7 +207,6 @@ proxy-groups:
       - 日本 须佐之男 IEPL 备用 延迟偏高
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 故障
       - 韩国 金钱大亨 IEPL 备用
       - 香港 星际执政官 IEPL 推荐
       - 香港 暗影之刃 IEPL 推荐
@@ -270,7 +265,6 @@ proxy-groups:
       - 日本 须佐之男 IEPL 备用 延迟偏高
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 故障
       - 韩国 金钱大亨 IEPL 备用
       - 香港 星际执政官 IEPL 推荐
       - 香港 暗影之刃 IEPL 推荐
@@ -311,7 +305,6 @@ proxy-groups:
       - 日本 须佐之男 IEPL 备用 延迟偏高
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 故障
       - 韩国 金钱大亨 IEPL 备用
       - 香港 星际执政官 IEPL 推荐
       - 香港 暗影之刃 IEPL 推荐
@@ -353,7 +346,6 @@ proxy-groups:
       - 日本 须佐之男 IEPL 备用 延迟偏高
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 故障
       - 韩国 金钱大亨 IEPL 备用
       - 香港 星际执政官 IEPL 推荐
       - 香港 暗影之刃 IEPL 推荐
@@ -404,7 +396,6 @@ proxy-groups:
       - 日本 须佐之男 IEPL 备用 延迟偏高
       - 马来西亚 堕落守卫 IEPL 备用
       - 泰国 屠龙 IEPL 备用
-      - 越南 坚守 IEPL 故障
       - 韩国 金钱大亨 IEPL 备用
       - 香港 星际执政官 IEPL 推荐
       - 香港 暗影之刃 IEPL 推荐
