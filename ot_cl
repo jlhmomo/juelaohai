@@ -5,78 +5,34 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注Telegram频道, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-256-gcm, password: t.me/juelaohai}
-  - {name: t.me/juelaohai, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: t.me/juelaohai}
-  - {name: 美国 炙热之弓, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c6393ec6-141f-4c93-a3ce-dccb85261355}
-  - {name: 美国 蛮荒猎人 解锁流媒体, server: zy.02er.com, port: 27484, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 关注Telegram频道, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-256-gcm, password: juelaohai}
+  - {name: t.me/juelaohai, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 美国 远古山神 BGP, server: cn-sh.aseur8qwer.top, port: 16707, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 街头篮球 BGP, server: cn-sh.aseur8qwer.top, port: 36465, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 美国 生化改造人 BGP, server: cn-sh.aseur8qwer.top, port: 24766, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 美国 怒焰猎魔者 BGP, server: cn-sh.aseur8qwer.top, port: 23608, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 地狱烈火, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Mboxx, headers: {Host: buylas.mmaccc.top}}}
-  - {name: 美国 降临之子, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Mboxx, headers: {Host: buylas.mmaccc.top}}}
-  - {name: 美国 暗夜伯爵, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akusum.mmaccc.top}}}
-  - {name: 香港 浪漫幻想, server: e55596d8b2d8c495.cdn.jiashule.com, port: 36966, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 香港 黑曜 解锁流媒体, server: zy.02er.com, port: 49129, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 香港 帝国特工, server: zy.02er.com, port: 13148, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 香港 强袭, server: e55596d8b2d8c495.cdn.jiashule.com, port: 16106, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 香港 第六天王 解锁流媒体, server: zy.02er.com, port: 37575, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 香港 冻海之王 BGP, server: cn-gz.aseur8qwer.top, port: 25254, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 街头篮球 BGP, server: cn-sh.aseur8qwer.top, port: 36465, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 香港 古堡男爵 BGP, server: cn-gz.aseur8qwer.top, port: 52517, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 香港 深海巨怪 BGP, server: cn-gz.aseur8qwer.top, port: 24724, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 香港 独裁者 BGP, server: cn-gz.aseur8qwer.top, port: 42599, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 加特林教父, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
-  - {name: 日本 魔神武装, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
+  - {name: 香港 深海巨怪 BGP, server: cn-gz.aseur8qwer.top, port: 24724, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港 冻海之王 BGP, server: cn-gz.aseur8qwer.top, port: 25254, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 破晓惊雷, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
-  - {name: 日本 烈焰红唇, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
+  - {name: 日本 加特林教父, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本 翡翠妖姬, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
-  - {name: 日本 星际远航, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
-  - {name: 日本 猩红女爵 东京, server: zy.02er.com, port: 28470, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 日本 龙影神枪 东京, server: e55596d8b2d8c495.cdn.jiashule.com, port: 18749, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 日本 勇冠三军 日本东部, server: zy.02er.com, port: 13555, type: vmess, uuid: 0cf8499e-5409-438d-abe8-396d9fef3cfd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: zy.02er.com}}}
-  - {name: 日本 常胜将军, server: zy.02er.com, port: 20168, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 日本 东方侠客, server: zy.02er.com, port: 13125, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 日本 碧蓝海浪 解锁流媒体, server: zy.02er.com, port: 12039, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 日本 逍遥枪圣 BGP, server: cn-sh.aseur8qwer.top, port: 39925, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 逐风之影 BGP, server: cn-sh.aseur8qwer.top, port: 19991, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本 逍遥枪圣 BGP, server: cn-sh.aseur8qwer.top, port: 39925, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 祥龙瑞火 BGP, server: cn-sh.aseur8qwer.top, port: 31009, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 魔能枪手 BGP, server: cn-sh.aseur8qwer.top, port: 46964, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 绿色闪光, server: hsj108k.mm-cc.top, port: 2086, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akjp1um.mmaccc.top}}}
-  - {name: 韩国 兔宝贝, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
-  - {name: 韩国 炮与玫瑰, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 韩国 彩虹闪光, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
-  - {name: 韩国 经典魔能炮手, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 韩国 破坏者, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
-  - {name: 韩国 炽红之枪, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 新加坡 黎明之枪, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
-  - {name: 新加坡 暗影舞会, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
-  - {name: 新加坡 赤色之影, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
   - {name: 新加坡 时空之影, server: usus.diao.icu, port: 2052, type: vmess, uuid: 5c0e23a4-bd98-4fca-b9a6-1ac44c37bfc6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
-  - {name: 新加坡 未来战警, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
   - {name: 新加坡 板前魂, server: usus.diao.icu, port: 2052, type: vmess, uuid: feb40415-1ae9-42ae-ac06-9e7c0a569e72, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
-  - {name: 新加坡 寄生装甲, server: e55596d8b2d8c495.cdn.jiashule.com, port: 55985, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 新加坡 天煞之影, server: e55596d8b2d8c495.cdn.jiashule.com, port: 33258, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 新加坡 生化武器 解锁流媒体, server: zy.02er.com, port: 23204, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 新加坡 修罗 解锁流媒体, server: zy.02er.com, port: 46538, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 新加坡 光能战士 BGP, server: cn-hn.aseur8qwer.top, port: 9191, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡 暗影舞会, server: usus.diao.icu, port: 2052, type: vmess, uuid: b02b6df6-af5b-427e-aacc-142023e5e65e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
   - {name: 新加坡 银翼凶兵 BGP, server: cn-hn.aseur8qwer.top, port: 9669, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 鬼武统领 BGP, server: cn-hn.aseur8qwer.top, port: 48354, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 枭龙 BGP, server: cn-hn.aseur8qwer.top, port: 18680, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 海魂, server: e55596d8b2d8c495.cdn.jiashule.com, port: 51669, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 台湾 铁血战神, server: zy.02er.com, port: 45323, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 台湾 炽焰圣裁 BGP, server: cn-gz.aseur8qwer.top, port: 7330, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 暗夜之果 BGP, server: cn-gz.aseur8qwer.top, port: 32360, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡 鬼武统领 BGP, server: cn-hn.aseur8qwer.top, port: 48354, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 新加坡 光能战士 BGP, server: cn-hn.aseur8qwer.top, port: 9191, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 台湾 天鹅公主 BGP, server: cn-gz.aseur8qwer.top, port: 20209, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 台湾 黑天鹅 BGP, server: cn-gz.aseur8qwer.top, port: 51875, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 圣诞派对, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tw.mm-cc.top}}}
-  - {name: 台湾 人鱼姬, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tw.mm-cc.top}}}
-  - {name: 英国 凤蝶, server: e55596d8b2d8c495.cdn.jiashule.com, port: 34394, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 德国 皇家火枪手 法兰克福, server: zy.02er.com, port: 12466, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 澳大利亚 圣枪, server: zy.02er.com, port: 13102, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 印度 飞蛾扑火, server: zy.02er.com, port: 13344, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 印度 魅影罗刹, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: azyd.mmaccc.top}}}
-  - {name: 墨西哥 特工密令, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: azmxc.mmaccc.top}}}
-  - {name: 法国 青鸾耀世, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: azfr.mmaccc.top}}}
+  - {name: 台湾 炽焰圣裁 BGP, server: cn-gz.aseur8qwer.top, port: 7330, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 台湾 暗夜之果 BGP, server: cn-gz.aseur8qwer.top, port: 32360, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -85,76 +41,32 @@ proxy-groups:
       - 🎯 全球直连
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 炙热之弓
-      - 美国 蛮荒猎人 解锁流媒体
       - 美国 远古山神 BGP
-      - 美国 街头篮球 BGP
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
-      - 美国 地狱烈火
-      - 美国 降临之子
-      - 美国 暗夜伯爵
-      - 香港 浪漫幻想
-      - 香港 黑曜 解锁流媒体
-      - 香港 帝国特工
-      - 香港 强袭
-      - 香港 第六天王 解锁流媒体
-      - 香港 冻海之王 BGP
+      - 美国 街头篮球 BGP
       - 香港 古堡男爵 BGP
-      - 香港 深海巨怪 BGP
       - 香港 独裁者 BGP
-      - 日本 加特林教父
-      - 日本 魔神武装
+      - 香港 深海巨怪 BGP
+      - 香港 冻海之王 BGP
       - 日本 破晓惊雷
-      - 日本 烈焰红唇
+      - 日本 加特林教父
       - 日本 翡翠妖姬
-      - 日本 星际远航
-      - 日本 猩红女爵 东京
-      - 日本 龙影神枪 东京
-      - 日本 勇冠三军 日本东部
-      - 日本 常胜将军
-      - 日本 东方侠客
-      - 日本 碧蓝海浪 解锁流媒体
-      - 日本 逍遥枪圣 BGP
       - 日本 逐风之影 BGP
+      - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
-      - 日本 绿色闪光
-      - 韩国 兔宝贝
-      - 韩国 炮与玫瑰
-      - 韩国 彩虹闪光
-      - 韩国 经典魔能炮手
-      - 韩国 破坏者
-      - 韩国 炽红之枪
-      - 新加坡 黎明之枪
-      - 新加坡 暗影舞会
-      - 新加坡 赤色之影
       - 新加坡 时空之影
-      - 新加坡 未来战警
       - 新加坡 板前魂
-      - 新加坡 寄生装甲
-      - 新加坡 天煞之影
-      - 新加坡 生化武器 解锁流媒体
-      - 新加坡 修罗 解锁流媒体
-      - 新加坡 光能战士 BGP
+      - 新加坡 暗影舞会
       - 新加坡 银翼凶兵 BGP
-      - 新加坡 鬼武统领 BGP
       - 新加坡 枭龙 BGP
-      - 台湾 海魂
-      - 台湾 铁血战神
-      - 台湾 炽焰圣裁 BGP
-      - 台湾 暗夜之果 BGP
+      - 新加坡 鬼武统领 BGP
+      - 新加坡 光能战士 BGP
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
-      - 台湾 圣诞派对
-      - 台湾 人鱼姬
-      - 英国 凤蝶
-      - 德国 皇家火枪手 法兰克福
-      - 澳大利亚 圣枪
-      - 印度 飞蛾扑火
-      - 印度 魅影罗刹
-      - 墨西哥 特工密令
-      - 法国 青鸾耀世
+      - 台湾 炽焰圣裁 BGP
+      - 台湾 暗夜之果 BGP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -162,76 +74,32 @@ proxy-groups:
     proxies:
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 炙热之弓
-      - 美国 蛮荒猎人 解锁流媒体
       - 美国 远古山神 BGP
-      - 美国 街头篮球 BGP
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
-      - 美国 地狱烈火
-      - 美国 降临之子
-      - 美国 暗夜伯爵
-      - 香港 浪漫幻想
-      - 香港 黑曜 解锁流媒体
-      - 香港 帝国特工
-      - 香港 强袭
-      - 香港 第六天王 解锁流媒体
-      - 香港 冻海之王 BGP
+      - 美国 街头篮球 BGP
       - 香港 古堡男爵 BGP
-      - 香港 深海巨怪 BGP
       - 香港 独裁者 BGP
-      - 日本 加特林教父
-      - 日本 魔神武装
+      - 香港 深海巨怪 BGP
+      - 香港 冻海之王 BGP
       - 日本 破晓惊雷
-      - 日本 烈焰红唇
+      - 日本 加特林教父
       - 日本 翡翠妖姬
-      - 日本 星际远航
-      - 日本 猩红女爵 东京
-      - 日本 龙影神枪 东京
-      - 日本 勇冠三军 日本东部
-      - 日本 常胜将军
-      - 日本 东方侠客
-      - 日本 碧蓝海浪 解锁流媒体
-      - 日本 逍遥枪圣 BGP
       - 日本 逐风之影 BGP
+      - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
-      - 日本 绿色闪光
-      - 韩国 兔宝贝
-      - 韩国 炮与玫瑰
-      - 韩国 彩虹闪光
-      - 韩国 经典魔能炮手
-      - 韩国 破坏者
-      - 韩国 炽红之枪
-      - 新加坡 黎明之枪
-      - 新加坡 暗影舞会
-      - 新加坡 赤色之影
       - 新加坡 时空之影
-      - 新加坡 未来战警
       - 新加坡 板前魂
-      - 新加坡 寄生装甲
-      - 新加坡 天煞之影
-      - 新加坡 生化武器 解锁流媒体
-      - 新加坡 修罗 解锁流媒体
-      - 新加坡 光能战士 BGP
+      - 新加坡 暗影舞会
       - 新加坡 银翼凶兵 BGP
-      - 新加坡 鬼武统领 BGP
       - 新加坡 枭龙 BGP
-      - 台湾 海魂
-      - 台湾 铁血战神
-      - 台湾 炽焰圣裁 BGP
-      - 台湾 暗夜之果 BGP
+      - 新加坡 鬼武统领 BGP
+      - 新加坡 光能战士 BGP
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
-      - 台湾 圣诞派对
-      - 台湾 人鱼姬
-      - 英国 凤蝶
-      - 德国 皇家火枪手 法兰克福
-      - 澳大利亚 圣枪
-      - 印度 飞蛾扑火
-      - 印度 魅影罗刹
-      - 墨西哥 特工密令
-      - 法国 青鸾耀世
+      - 台湾 炽焰圣裁 BGP
+      - 台湾 暗夜之果 BGP
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -240,76 +108,32 @@ proxy-groups:
       - 🎯 全球直连
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 炙热之弓
-      - 美国 蛮荒猎人 解锁流媒体
       - 美国 远古山神 BGP
-      - 美国 街头篮球 BGP
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
-      - 美国 地狱烈火
-      - 美国 降临之子
-      - 美国 暗夜伯爵
-      - 香港 浪漫幻想
-      - 香港 黑曜 解锁流媒体
-      - 香港 帝国特工
-      - 香港 强袭
-      - 香港 第六天王 解锁流媒体
-      - 香港 冻海之王 BGP
+      - 美国 街头篮球 BGP
       - 香港 古堡男爵 BGP
-      - 香港 深海巨怪 BGP
       - 香港 独裁者 BGP
-      - 日本 加特林教父
-      - 日本 魔神武装
+      - 香港 深海巨怪 BGP
+      - 香港 冻海之王 BGP
       - 日本 破晓惊雷
-      - 日本 烈焰红唇
+      - 日本 加特林教父
       - 日本 翡翠妖姬
-      - 日本 星际远航
-      - 日本 猩红女爵 东京
-      - 日本 龙影神枪 东京
-      - 日本 勇冠三军 日本东部
-      - 日本 常胜将军
-      - 日本 东方侠客
-      - 日本 碧蓝海浪 解锁流媒体
-      - 日本 逍遥枪圣 BGP
       - 日本 逐风之影 BGP
+      - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
-      - 日本 绿色闪光
-      - 韩国 兔宝贝
-      - 韩国 炮与玫瑰
-      - 韩国 彩虹闪光
-      - 韩国 经典魔能炮手
-      - 韩国 破坏者
-      - 韩国 炽红之枪
-      - 新加坡 黎明之枪
-      - 新加坡 暗影舞会
-      - 新加坡 赤色之影
       - 新加坡 时空之影
-      - 新加坡 未来战警
       - 新加坡 板前魂
-      - 新加坡 寄生装甲
-      - 新加坡 天煞之影
-      - 新加坡 生化武器 解锁流媒体
-      - 新加坡 修罗 解锁流媒体
-      - 新加坡 光能战士 BGP
+      - 新加坡 暗影舞会
       - 新加坡 银翼凶兵 BGP
-      - 新加坡 鬼武统领 BGP
       - 新加坡 枭龙 BGP
-      - 台湾 海魂
-      - 台湾 铁血战神
-      - 台湾 炽焰圣裁 BGP
-      - 台湾 暗夜之果 BGP
+      - 新加坡 鬼武统领 BGP
+      - 新加坡 光能战士 BGP
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
-      - 台湾 圣诞派对
-      - 台湾 人鱼姬
-      - 英国 凤蝶
-      - 德国 皇家火枪手 法兰克福
-      - 澳大利亚 圣枪
-      - 印度 飞蛾扑火
-      - 印度 魅影罗刹
-      - 墨西哥 特工密令
-      - 法国 青鸾耀世
+      - 台湾 炽焰圣裁 BGP
+      - 台湾 暗夜之果 BGP
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -330,97 +154,44 @@ proxy-groups:
       - 🎯 全球直连
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 炙热之弓
-      - 美国 蛮荒猎人 解锁流媒体
       - 美国 远古山神 BGP
-      - 美国 街头篮球 BGP
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
-      - 美国 地狱烈火
-      - 美国 降临之子
-      - 美国 暗夜伯爵
-      - 香港 浪漫幻想
-      - 香港 黑曜 解锁流媒体
-      - 香港 帝国特工
-      - 香港 强袭
-      - 香港 第六天王 解锁流媒体
-      - 香港 冻海之王 BGP
+      - 美国 街头篮球 BGP
       - 香港 古堡男爵 BGP
-      - 香港 深海巨怪 BGP
       - 香港 独裁者 BGP
-      - 日本 加特林教父
-      - 日本 魔神武装
+      - 香港 深海巨怪 BGP
+      - 香港 冻海之王 BGP
       - 日本 破晓惊雷
-      - 日本 烈焰红唇
+      - 日本 加特林教父
       - 日本 翡翠妖姬
-      - 日本 星际远航
-      - 日本 猩红女爵 东京
-      - 日本 龙影神枪 东京
-      - 日本 勇冠三军 日本东部
-      - 日本 常胜将军
-      - 日本 东方侠客
-      - 日本 碧蓝海浪 解锁流媒体
-      - 日本 逍遥枪圣 BGP
       - 日本 逐风之影 BGP
+      - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
-      - 日本 绿色闪光
-      - 韩国 兔宝贝
-      - 韩国 炮与玫瑰
-      - 韩国 彩虹闪光
-      - 韩国 经典魔能炮手
-      - 韩国 破坏者
-      - 韩国 炽红之枪
-      - 新加坡 黎明之枪
-      - 新加坡 暗影舞会
-      - 新加坡 赤色之影
       - 新加坡 时空之影
-      - 新加坡 未来战警
       - 新加坡 板前魂
-      - 新加坡 寄生装甲
-      - 新加坡 天煞之影
-      - 新加坡 生化武器 解锁流媒体
-      - 新加坡 修罗 解锁流媒体
-      - 新加坡 光能战士 BGP
+      - 新加坡 暗影舞会
       - 新加坡 银翼凶兵 BGP
-      - 新加坡 鬼武统领 BGP
       - 新加坡 枭龙 BGP
-      - 台湾 海魂
-      - 台湾 铁血战神
-      - 台湾 炽焰圣裁 BGP
-      - 台湾 暗夜之果 BGP
+      - 新加坡 鬼武统领 BGP
+      - 新加坡 光能战士 BGP
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
-      - 台湾 圣诞派对
-      - 台湾 人鱼姬
-      - 英国 凤蝶
-      - 德国 皇家火枪手 法兰克福
-      - 澳大利亚 圣枪
-      - 印度 飞蛾扑火
-      - 印度 魅影罗刹
-      - 墨西哥 特工密令
-      - 法国 青鸾耀世
+      - 台湾 炽焰圣裁 BGP
+      - 台湾 暗夜之果 BGP
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 浪漫幻想
-      - 香港 黑曜 解锁流媒体
-      - 香港 帝国特工
-      - 香港 强袭
-      - 香港 第六天王 解锁流媒体
-      - 香港 冻海之王 BGP
       - 香港 古堡男爵 BGP
-      - 香港 深海巨怪 BGP
       - 香港 独裁者 BGP
-      - 台湾 海魂
-      - 台湾 铁血战神
-      - 台湾 炽焰圣裁 BGP
-      - 台湾 暗夜之果 BGP
+      - 香港 深海巨怪 BGP
+      - 香港 冻海之王 BGP
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
-      - 台湾 圣诞派对
-      - 台湾 人鱼姬
+      - 台湾 炽焰圣裁 BGP
+      - 台湾 暗夜之果 BGP
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -429,76 +200,32 @@ proxy-groups:
       - 🔰 节点选择
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 炙热之弓
-      - 美国 蛮荒猎人 解锁流媒体
       - 美国 远古山神 BGP
-      - 美国 街头篮球 BGP
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
-      - 美国 地狱烈火
-      - 美国 降临之子
-      - 美国 暗夜伯爵
-      - 香港 浪漫幻想
-      - 香港 黑曜 解锁流媒体
-      - 香港 帝国特工
-      - 香港 强袭
-      - 香港 第六天王 解锁流媒体
-      - 香港 冻海之王 BGP
+      - 美国 街头篮球 BGP
       - 香港 古堡男爵 BGP
-      - 香港 深海巨怪 BGP
       - 香港 独裁者 BGP
-      - 日本 加特林教父
-      - 日本 魔神武装
+      - 香港 深海巨怪 BGP
+      - 香港 冻海之王 BGP
       - 日本 破晓惊雷
-      - 日本 烈焰红唇
+      - 日本 加特林教父
       - 日本 翡翠妖姬
-      - 日本 星际远航
-      - 日本 猩红女爵 东京
-      - 日本 龙影神枪 东京
-      - 日本 勇冠三军 日本东部
-      - 日本 常胜将军
-      - 日本 东方侠客
-      - 日本 碧蓝海浪 解锁流媒体
-      - 日本 逍遥枪圣 BGP
       - 日本 逐风之影 BGP
+      - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
-      - 日本 绿色闪光
-      - 韩国 兔宝贝
-      - 韩国 炮与玫瑰
-      - 韩国 彩虹闪光
-      - 韩国 经典魔能炮手
-      - 韩国 破坏者
-      - 韩国 炽红之枪
-      - 新加坡 黎明之枪
-      - 新加坡 暗影舞会
-      - 新加坡 赤色之影
       - 新加坡 时空之影
-      - 新加坡 未来战警
       - 新加坡 板前魂
-      - 新加坡 寄生装甲
-      - 新加坡 天煞之影
-      - 新加坡 生化武器 解锁流媒体
-      - 新加坡 修罗 解锁流媒体
-      - 新加坡 光能战士 BGP
+      - 新加坡 暗影舞会
       - 新加坡 银翼凶兵 BGP
-      - 新加坡 鬼武统领 BGP
       - 新加坡 枭龙 BGP
-      - 台湾 海魂
-      - 台湾 铁血战神
-      - 台湾 炽焰圣裁 BGP
-      - 台湾 暗夜之果 BGP
+      - 新加坡 鬼武统领 BGP
+      - 新加坡 光能战士 BGP
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
-      - 台湾 圣诞派对
-      - 台湾 人鱼姬
-      - 英国 凤蝶
-      - 德国 皇家火枪手 法兰克福
-      - 澳大利亚 圣枪
-      - 印度 飞蛾扑火
-      - 印度 魅影罗刹
-      - 墨西哥 特工密令
-      - 法国 青鸾耀世
+      - 台湾 炽焰圣裁 BGP
+      - 台湾 暗夜之果 BGP
   - name: 📲 电报信息
     type: select
     proxies:
@@ -506,76 +233,32 @@ proxy-groups:
       - 🎯 全球直连
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 炙热之弓
-      - 美国 蛮荒猎人 解锁流媒体
       - 美国 远古山神 BGP
-      - 美国 街头篮球 BGP
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
-      - 美国 地狱烈火
-      - 美国 降临之子
-      - 美国 暗夜伯爵
-      - 香港 浪漫幻想
-      - 香港 黑曜 解锁流媒体
-      - 香港 帝国特工
-      - 香港 强袭
-      - 香港 第六天王 解锁流媒体
-      - 香港 冻海之王 BGP
+      - 美国 街头篮球 BGP
       - 香港 古堡男爵 BGP
-      - 香港 深海巨怪 BGP
       - 香港 独裁者 BGP
-      - 日本 加特林教父
-      - 日本 魔神武装
+      - 香港 深海巨怪 BGP
+      - 香港 冻海之王 BGP
       - 日本 破晓惊雷
-      - 日本 烈焰红唇
+      - 日本 加特林教父
       - 日本 翡翠妖姬
-      - 日本 星际远航
-      - 日本 猩红女爵 东京
-      - 日本 龙影神枪 东京
-      - 日本 勇冠三军 日本东部
-      - 日本 常胜将军
-      - 日本 东方侠客
-      - 日本 碧蓝海浪 解锁流媒体
-      - 日本 逍遥枪圣 BGP
       - 日本 逐风之影 BGP
+      - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
-      - 日本 绿色闪光
-      - 韩国 兔宝贝
-      - 韩国 炮与玫瑰
-      - 韩国 彩虹闪光
-      - 韩国 经典魔能炮手
-      - 韩国 破坏者
-      - 韩国 炽红之枪
-      - 新加坡 黎明之枪
-      - 新加坡 暗影舞会
-      - 新加坡 赤色之影
       - 新加坡 时空之影
-      - 新加坡 未来战警
       - 新加坡 板前魂
-      - 新加坡 寄生装甲
-      - 新加坡 天煞之影
-      - 新加坡 生化武器 解锁流媒体
-      - 新加坡 修罗 解锁流媒体
-      - 新加坡 光能战士 BGP
+      - 新加坡 暗影舞会
       - 新加坡 银翼凶兵 BGP
-      - 新加坡 鬼武统领 BGP
       - 新加坡 枭龙 BGP
-      - 台湾 海魂
-      - 台湾 铁血战神
-      - 台湾 炽焰圣裁 BGP
-      - 台湾 暗夜之果 BGP
+      - 新加坡 鬼武统领 BGP
+      - 新加坡 光能战士 BGP
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
-      - 台湾 圣诞派对
-      - 台湾 人鱼姬
-      - 英国 凤蝶
-      - 德国 皇家火枪手 法兰克福
-      - 澳大利亚 圣枪
-      - 印度 飞蛾扑火
-      - 印度 魅影罗刹
-      - 墨西哥 特工密令
-      - 法国 青鸾耀世
+      - 台湾 炽焰圣裁 BGP
+      - 台湾 暗夜之果 BGP
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -584,76 +267,32 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 炙热之弓
-      - 美国 蛮荒猎人 解锁流媒体
       - 美国 远古山神 BGP
-      - 美国 街头篮球 BGP
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
-      - 美国 地狱烈火
-      - 美国 降临之子
-      - 美国 暗夜伯爵
-      - 香港 浪漫幻想
-      - 香港 黑曜 解锁流媒体
-      - 香港 帝国特工
-      - 香港 强袭
-      - 香港 第六天王 解锁流媒体
-      - 香港 冻海之王 BGP
+      - 美国 街头篮球 BGP
       - 香港 古堡男爵 BGP
-      - 香港 深海巨怪 BGP
       - 香港 独裁者 BGP
-      - 日本 加特林教父
-      - 日本 魔神武装
+      - 香港 深海巨怪 BGP
+      - 香港 冻海之王 BGP
       - 日本 破晓惊雷
-      - 日本 烈焰红唇
+      - 日本 加特林教父
       - 日本 翡翠妖姬
-      - 日本 星际远航
-      - 日本 猩红女爵 东京
-      - 日本 龙影神枪 东京
-      - 日本 勇冠三军 日本东部
-      - 日本 常胜将军
-      - 日本 东方侠客
-      - 日本 碧蓝海浪 解锁流媒体
-      - 日本 逍遥枪圣 BGP
       - 日本 逐风之影 BGP
+      - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
-      - 日本 绿色闪光
-      - 韩国 兔宝贝
-      - 韩国 炮与玫瑰
-      - 韩国 彩虹闪光
-      - 韩国 经典魔能炮手
-      - 韩国 破坏者
-      - 韩国 炽红之枪
-      - 新加坡 黎明之枪
-      - 新加坡 暗影舞会
-      - 新加坡 赤色之影
       - 新加坡 时空之影
-      - 新加坡 未来战警
       - 新加坡 板前魂
-      - 新加坡 寄生装甲
-      - 新加坡 天煞之影
-      - 新加坡 生化武器 解锁流媒体
-      - 新加坡 修罗 解锁流媒体
-      - 新加坡 光能战士 BGP
+      - 新加坡 暗影舞会
       - 新加坡 银翼凶兵 BGP
-      - 新加坡 鬼武统领 BGP
       - 新加坡 枭龙 BGP
-      - 台湾 海魂
-      - 台湾 铁血战神
-      - 台湾 炽焰圣裁 BGP
-      - 台湾 暗夜之果 BGP
+      - 新加坡 鬼武统领 BGP
+      - 新加坡 光能战士 BGP
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
-      - 台湾 圣诞派对
-      - 台湾 人鱼姬
-      - 英国 凤蝶
-      - 德国 皇家火枪手 法兰克福
-      - 澳大利亚 圣枪
-      - 印度 飞蛾扑火
-      - 印度 魅影罗刹
-      - 墨西哥 特工密令
-      - 法国 青鸾耀世
+      - 台湾 炽焰圣裁 BGP
+      - 台湾 暗夜之果 BGP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -671,76 +310,32 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注Telegram频道
       - t.me/juelaohai
-      - 美国 炙热之弓
-      - 美国 蛮荒猎人 解锁流媒体
       - 美国 远古山神 BGP
-      - 美国 街头篮球 BGP
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
-      - 美国 地狱烈火
-      - 美国 降临之子
-      - 美国 暗夜伯爵
-      - 香港 浪漫幻想
-      - 香港 黑曜 解锁流媒体
-      - 香港 帝国特工
-      - 香港 强袭
-      - 香港 第六天王 解锁流媒体
-      - 香港 冻海之王 BGP
+      - 美国 街头篮球 BGP
       - 香港 古堡男爵 BGP
-      - 香港 深海巨怪 BGP
       - 香港 独裁者 BGP
-      - 日本 加特林教父
-      - 日本 魔神武装
+      - 香港 深海巨怪 BGP
+      - 香港 冻海之王 BGP
       - 日本 破晓惊雷
-      - 日本 烈焰红唇
+      - 日本 加特林教父
       - 日本 翡翠妖姬
-      - 日本 星际远航
-      - 日本 猩红女爵 东京
-      - 日本 龙影神枪 东京
-      - 日本 勇冠三军 日本东部
-      - 日本 常胜将军
-      - 日本 东方侠客
-      - 日本 碧蓝海浪 解锁流媒体
-      - 日本 逍遥枪圣 BGP
       - 日本 逐风之影 BGP
+      - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
-      - 日本 绿色闪光
-      - 韩国 兔宝贝
-      - 韩国 炮与玫瑰
-      - 韩国 彩虹闪光
-      - 韩国 经典魔能炮手
-      - 韩国 破坏者
-      - 韩国 炽红之枪
-      - 新加坡 黎明之枪
-      - 新加坡 暗影舞会
-      - 新加坡 赤色之影
       - 新加坡 时空之影
-      - 新加坡 未来战警
       - 新加坡 板前魂
-      - 新加坡 寄生装甲
-      - 新加坡 天煞之影
-      - 新加坡 生化武器 解锁流媒体
-      - 新加坡 修罗 解锁流媒体
-      - 新加坡 光能战士 BGP
+      - 新加坡 暗影舞会
       - 新加坡 银翼凶兵 BGP
-      - 新加坡 鬼武统领 BGP
       - 新加坡 枭龙 BGP
-      - 台湾 海魂
-      - 台湾 铁血战神
-      - 台湾 炽焰圣裁 BGP
-      - 台湾 暗夜之果 BGP
+      - 新加坡 鬼武统领 BGP
+      - 新加坡 光能战士 BGP
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
-      - 台湾 圣诞派对
-      - 台湾 人鱼姬
-      - 英国 凤蝶
-      - 德国 皇家火枪手 法兰克福
-      - 澳大利亚 圣枪
-      - 印度 飞蛾扑火
-      - 印度 魅影罗刹
-      - 墨西哥 特工密令
-      - 法国 青鸾耀世
+      - 台湾 炽焰圣裁 BGP
+      - 台湾 暗夜之果 BGP
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
