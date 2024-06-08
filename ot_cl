@@ -11,6 +11,11 @@ proxies:
   - {name: 美国 生化改造人 BGP, server: cn-sh.aseur8qwer.top, port: 24766, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 美国 怒焰猎魔者 BGP, server: cn-sh.aseur8qwer.top, port: 23608, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 美国 街头篮球 BGP, server: cn-sh.aseur8qwer.top, port: 36465, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 美国 强袭 IPLC, server: microsoft-snjx1zn6iz3ad3j-us.xjnode.com, port: 50351, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 美国 龙影神枪 IPLC, server: microsoft-snjx1zn6iz3ad3j-us.xjnode.com, port: 50352, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 美国 寄生装甲 IPLC, server: microsoft-snjx1zn6iz3ad3j-us.xjnode.com, port: 50353, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 美国 天煞之影 IPLC, server: microsoft-snjx1zn6iz3ad3j-us.xjnode.com, port: 50354, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 美国 海魂 IPLC, server: microsoft-snjx1zn6iz3ad3j-us.xjnode.com, port: 50355, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
   - {name: 香港 街头足球, server: zy.02er.com, port: 32810, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 最佳前锋, server: zy.02er.com, port: 37575, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 香港 最佳DJ, server: zy.02er.com, port: 31646, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
@@ -18,13 +23,27 @@ proxies:
   - {name: 香港 独裁者 BGP, server: cn-gz.aseur8qwer.top, port: 42599, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 香港 深海巨怪 BGP, server: cn-gz.aseur8qwer.top, port: 24724, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 香港 冻海之王 BGP, server: cn-gz.aseur8qwer.top, port: 25254, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 香港 狂甲战牛 IPLC, server: microsoft-snjx1zn6iz3ad3j-hk.xjnode.com, port: 50301, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 香港 糖果巴菲 IPLC, server: microsoft-snjx1zn6iz3ad3j-hk.xjnode.com, port: 50302, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 香港 摇曳藤曼 IPLC, server: microsoft-snjx1zn6iz3ad3j-hk.xjnode.com, port: 50303, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 香港 萝莉画手 IPLC, server: microsoft-snjx1zn6iz3ad3j-hk.xjnode.com, port: 50304, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 香港 花好月圆 IPLC, server: microsoft-snjx1zn6iz3ad3j-hk.xjnode.com, port: 50305, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 香港 时钟女仆 IPLC, server: microsoft-snjx1zn6iz3ad3j-hk.xjnode.com, port: 50306, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 香港 墓园派对 IPLC, server: microsoft-snjx1zn6iz3ad3j-hk.xjnode.com, port: 50307, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 香港 睡衣派对 IPLC, server: microsoft-snjx1zn6iz3ad3j-hk.xjnode.com, port: 50308, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 香港 吱吱 IPLC, server: microsoft-snjx1zn6iz3ad3j-hk.xjnode.com, port: 50309, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 香港 熊猫骑士 IPLC, server: microsoft-snjx1zn6iz3ad3j-hk.xjnode.com, port: 50310, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
   - {name: 日本 爆裂阎魔, server: zy.02er.com, port: 12039, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
-  - {name: 日本 皇族之锤, server: e55596d8b2d8c495.cdn.jiashule.com, port: 56198, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 金牛座, server: zy.02er.com, port: 13125, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 日本 逐风之影 BGP, server: cn-sh.aseur8qwer.top, port: 19991, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 逍遥枪圣 BGP, server: cn-sh.aseur8qwer.top, port: 39925, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 祥龙瑞火 BGP, server: cn-sh.aseur8qwer.top, port: 31009, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 魔能枪手 BGP, server: cn-sh.aseur8qwer.top, port: 46964, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 日本 灵溪居士 IPLC, server: microsoft-snjx1zn6iz3ad3j-jp.xjnode.com, port: 50341, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 日本 锦衣卫 IPLC, server: microsoft-snjx1zn6iz3ad3j-jp.xjnode.com, port: 50342, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 日本 圣隼 IPLC, server: microsoft-snjx1zn6iz3ad3j-jp.xjnode.com, port: 50343, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 日本 魔法教师 IPLC, server: microsoft-snjx1zn6iz3ad3j-jp.xjnode.com, port: 50344, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 日本 浪漫幻想 IPLC, server: microsoft-snjx1zn6iz3ad3j-jp.xjnode.com, port: 50345, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
   - {name: 新加坡 潮流球手, server: zy.02er.com, port: 20746, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 新加坡 霹雳火, server: zy.02er.com, port: 46538, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
   - {name: 新加坡 沙漠雄鹰, server: zy.02er.com, port: 23204, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
@@ -32,11 +51,34 @@ proxies:
   - {name: 新加坡 枭龙 BGP, server: cn-hn.aseur8qwer.top, port: 18680, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 鬼武统领 BGP, server: cn-hn.aseur8qwer.top, port: 48354, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 光能战士 BGP, server: cn-hn.aseur8qwer.top, port: 9191, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 奇迹缔造者, server: e55596d8b2d8c495.cdn.jiashule.com, port: 51669, type: ss, cipher: chacha20-ietf-poly1305, password: 0cf8499e-5409-438d-abe8-396d9fef3cfd}
+  - {name: 新加坡 武僧 IPLC, server: microsoft-snjx1zn6iz3ad3j-sg.xjnode.com, port: 50331, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 新加坡 黑暗守护者 IPLC, server: microsoft-snjx1zn6iz3ad3j-sg.xjnode.com, port: 50332, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 新加坡 曙光战神 IPLC, server: microsoft-snjx1zn6iz3ad3j-sg.xjnode.com, port: 50333, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 新加坡 腾蛇之翼 IPLC, server: microsoft-snjx1zn6iz3ad3j-sg.xjnode.com, port: 50334, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 新加坡 滑翔女爵 IPLC, server: microsoft-snjx1zn6iz3ad3j-sg.xjnode.com, port: 50335, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
   - {name: 台湾 天鹅公主 BGP, server: cn-gz.aseur8qwer.top, port: 20209, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 台湾 黑天鹅 BGP, server: cn-gz.aseur8qwer.top, port: 51875, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 台湾 炽焰圣裁 BGP, server: cn-gz.aseur8qwer.top, port: 7330, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 台湾 暗夜之果 BGP, server: cn-gz.aseur8qwer.top, port: 32360, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
+  - {name: 台湾 狮子座 IPLC, server: microsoft-snjx1zn6iz3ad3j-tw.xjnode.com, port: 50321, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 台湾 铁甲神拳 IPLC, server: microsoft-snjx1zn6iz3ad3j-tw.xjnode.com, port: 50322, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 台湾 堕血之华 IPLC, server: microsoft-snjx1zn6iz3ad3j-tw.xjnode.com, port: 50323, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 台湾 鬼姬 IPLC, server: microsoft-snjx1zn6iz3ad3j-tw.xjnode.com, port: 50324, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 台湾 血夜之刃 IPLC, server: microsoft-snjx1zn6iz3ad3j-tw.xjnode.com, port: 50325, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 英国 猩红女爵 IPLC, server: microsoft-snjx1zn6iz3ad3j-uk.xjnode.com, port: 50371, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 英国 勇冠三军 IPLC, server: microsoft-snjx1zn6iz3ad3j-uk.xjnode.com, port: 50372, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 英国 常胜将军 IPLC, server: microsoft-snjx1zn6iz3ad3j-uk.xjnode.com, port: 50373, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 英国 东方侠客 IPLC, server: microsoft-snjx1zn6iz3ad3j-uk.xjnode.com, port: 50374, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 英国 碧蓝海浪 IPLC, server: microsoft-snjx1zn6iz3ad3j-uk.xjnode.com, port: 50375, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 马来西亚 凤蝶 IPLC, server: microsoft-snjx1zn6iz3ad3j-my.xjnode.com, port: 50366, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 马来西亚 蛮荒猎人 IPLC, server: microsoft-snjx1zn6iz3ad3j-my.xjnode.com, port: 50367, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 马来西亚 黑曜 IPLC, server: microsoft-snjx1zn6iz3ad3j-my.xjnode.com, port: 50368, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 马来西亚 帝国特工 IPLC, server: microsoft-snjx1zn6iz3ad3j-my.xjnode.com, port: 50369, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 马来西亚 第六天王 IPLC, server: microsoft-snjx1zn6iz3ad3j-my.xjnode.com, port: 50370, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 土耳其 生化武器 IPLC, server: microsoft-snjx1zn6iz3ad3j-tr.xjnode.com, port: 50384, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 土耳其 修罗 IPLC, server: microsoft-snjx1zn6iz3ad3j-tr.xjnode.com, port: 50385, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 阿根廷 铁血战神 IPLC, server: microsoft-snjx1zn6iz3ad3j-ar.xjnode.com, port: 50388, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
+  - {name: 阿根廷 皇家火枪手 IPLC, server: microsoft-snjx1zn6iz3ad3j-ar.xjnode.com, port: 50389, type: trojan, password: 25a103c2-8b98-4aae-b0a2-845ba6cd8b47}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -49,6 +91,11 @@ proxy-groups:
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
+      - 美国 强袭 IPLC
+      - 美国 龙影神枪 IPLC
+      - 美国 寄生装甲 IPLC
+      - 美国 天煞之影 IPLC
+      - 美国 海魂 IPLC
       - 香港 街头足球
       - 香港 最佳前锋
       - 香港 最佳DJ
@@ -56,13 +103,27 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
+      - 香港 狂甲战牛 IPLC
+      - 香港 糖果巴菲 IPLC
+      - 香港 摇曳藤曼 IPLC
+      - 香港 萝莉画手 IPLC
+      - 香港 花好月圆 IPLC
+      - 香港 时钟女仆 IPLC
+      - 香港 墓园派对 IPLC
+      - 香港 睡衣派对 IPLC
+      - 香港 吱吱 IPLC
+      - 香港 熊猫骑士 IPLC
       - 日本 爆裂阎魔
-      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 逐风之影 BGP
       - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
+      - 日本 灵溪居士 IPLC
+      - 日本 锦衣卫 IPLC
+      - 日本 圣隼 IPLC
+      - 日本 魔法教师 IPLC
+      - 日本 浪漫幻想 IPLC
       - 新加坡 潮流球手
       - 新加坡 霹雳火
       - 新加坡 沙漠雄鹰
@@ -70,11 +131,34 @@ proxy-groups:
       - 新加坡 枭龙 BGP
       - 新加坡 鬼武统领 BGP
       - 新加坡 光能战士 BGP
-      - 台湾 奇迹缔造者
+      - 新加坡 武僧 IPLC
+      - 新加坡 黑暗守护者 IPLC
+      - 新加坡 曙光战神 IPLC
+      - 新加坡 腾蛇之翼 IPLC
+      - 新加坡 滑翔女爵 IPLC
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
       - 台湾 炽焰圣裁 BGP
       - 台湾 暗夜之果 BGP
+      - 台湾 狮子座 IPLC
+      - 台湾 铁甲神拳 IPLC
+      - 台湾 堕血之华 IPLC
+      - 台湾 鬼姬 IPLC
+      - 台湾 血夜之刃 IPLC
+      - 英国 猩红女爵 IPLC
+      - 英国 勇冠三军 IPLC
+      - 英国 常胜将军 IPLC
+      - 英国 东方侠客 IPLC
+      - 英国 碧蓝海浪 IPLC
+      - 马来西亚 凤蝶 IPLC
+      - 马来西亚 蛮荒猎人 IPLC
+      - 马来西亚 黑曜 IPLC
+      - 马来西亚 帝国特工 IPLC
+      - 马来西亚 第六天王 IPLC
+      - 土耳其 生化武器 IPLC
+      - 土耳其 修罗 IPLC
+      - 阿根廷 铁血战神 IPLC
+      - 阿根廷 皇家火枪手 IPLC
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -86,6 +170,11 @@ proxy-groups:
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
+      - 美国 强袭 IPLC
+      - 美国 龙影神枪 IPLC
+      - 美国 寄生装甲 IPLC
+      - 美国 天煞之影 IPLC
+      - 美国 海魂 IPLC
       - 香港 街头足球
       - 香港 最佳前锋
       - 香港 最佳DJ
@@ -93,13 +182,27 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
+      - 香港 狂甲战牛 IPLC
+      - 香港 糖果巴菲 IPLC
+      - 香港 摇曳藤曼 IPLC
+      - 香港 萝莉画手 IPLC
+      - 香港 花好月圆 IPLC
+      - 香港 时钟女仆 IPLC
+      - 香港 墓园派对 IPLC
+      - 香港 睡衣派对 IPLC
+      - 香港 吱吱 IPLC
+      - 香港 熊猫骑士 IPLC
       - 日本 爆裂阎魔
-      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 逐风之影 BGP
       - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
+      - 日本 灵溪居士 IPLC
+      - 日本 锦衣卫 IPLC
+      - 日本 圣隼 IPLC
+      - 日本 魔法教师 IPLC
+      - 日本 浪漫幻想 IPLC
       - 新加坡 潮流球手
       - 新加坡 霹雳火
       - 新加坡 沙漠雄鹰
@@ -107,11 +210,34 @@ proxy-groups:
       - 新加坡 枭龙 BGP
       - 新加坡 鬼武统领 BGP
       - 新加坡 光能战士 BGP
-      - 台湾 奇迹缔造者
+      - 新加坡 武僧 IPLC
+      - 新加坡 黑暗守护者 IPLC
+      - 新加坡 曙光战神 IPLC
+      - 新加坡 腾蛇之翼 IPLC
+      - 新加坡 滑翔女爵 IPLC
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
       - 台湾 炽焰圣裁 BGP
       - 台湾 暗夜之果 BGP
+      - 台湾 狮子座 IPLC
+      - 台湾 铁甲神拳 IPLC
+      - 台湾 堕血之华 IPLC
+      - 台湾 鬼姬 IPLC
+      - 台湾 血夜之刃 IPLC
+      - 英国 猩红女爵 IPLC
+      - 英国 勇冠三军 IPLC
+      - 英国 常胜将军 IPLC
+      - 英国 东方侠客 IPLC
+      - 英国 碧蓝海浪 IPLC
+      - 马来西亚 凤蝶 IPLC
+      - 马来西亚 蛮荒猎人 IPLC
+      - 马来西亚 黑曜 IPLC
+      - 马来西亚 帝国特工 IPLC
+      - 马来西亚 第六天王 IPLC
+      - 土耳其 生化武器 IPLC
+      - 土耳其 修罗 IPLC
+      - 阿根廷 铁血战神 IPLC
+      - 阿根廷 皇家火枪手 IPLC
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -124,6 +250,11 @@ proxy-groups:
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
+      - 美国 强袭 IPLC
+      - 美国 龙影神枪 IPLC
+      - 美国 寄生装甲 IPLC
+      - 美国 天煞之影 IPLC
+      - 美国 海魂 IPLC
       - 香港 街头足球
       - 香港 最佳前锋
       - 香港 最佳DJ
@@ -131,13 +262,27 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
+      - 香港 狂甲战牛 IPLC
+      - 香港 糖果巴菲 IPLC
+      - 香港 摇曳藤曼 IPLC
+      - 香港 萝莉画手 IPLC
+      - 香港 花好月圆 IPLC
+      - 香港 时钟女仆 IPLC
+      - 香港 墓园派对 IPLC
+      - 香港 睡衣派对 IPLC
+      - 香港 吱吱 IPLC
+      - 香港 熊猫骑士 IPLC
       - 日本 爆裂阎魔
-      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 逐风之影 BGP
       - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
+      - 日本 灵溪居士 IPLC
+      - 日本 锦衣卫 IPLC
+      - 日本 圣隼 IPLC
+      - 日本 魔法教师 IPLC
+      - 日本 浪漫幻想 IPLC
       - 新加坡 潮流球手
       - 新加坡 霹雳火
       - 新加坡 沙漠雄鹰
@@ -145,11 +290,34 @@ proxy-groups:
       - 新加坡 枭龙 BGP
       - 新加坡 鬼武统领 BGP
       - 新加坡 光能战士 BGP
-      - 台湾 奇迹缔造者
+      - 新加坡 武僧 IPLC
+      - 新加坡 黑暗守护者 IPLC
+      - 新加坡 曙光战神 IPLC
+      - 新加坡 腾蛇之翼 IPLC
+      - 新加坡 滑翔女爵 IPLC
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
       - 台湾 炽焰圣裁 BGP
       - 台湾 暗夜之果 BGP
+      - 台湾 狮子座 IPLC
+      - 台湾 铁甲神拳 IPLC
+      - 台湾 堕血之华 IPLC
+      - 台湾 鬼姬 IPLC
+      - 台湾 血夜之刃 IPLC
+      - 英国 猩红女爵 IPLC
+      - 英国 勇冠三军 IPLC
+      - 英国 常胜将军 IPLC
+      - 英国 东方侠客 IPLC
+      - 英国 碧蓝海浪 IPLC
+      - 马来西亚 凤蝶 IPLC
+      - 马来西亚 蛮荒猎人 IPLC
+      - 马来西亚 黑曜 IPLC
+      - 马来西亚 帝国特工 IPLC
+      - 马来西亚 第六天王 IPLC
+      - 土耳其 生化武器 IPLC
+      - 土耳其 修罗 IPLC
+      - 阿根廷 铁血战神 IPLC
+      - 阿根廷 皇家火枪手 IPLC
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -174,6 +342,11 @@ proxy-groups:
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
+      - 美国 强袭 IPLC
+      - 美国 龙影神枪 IPLC
+      - 美国 寄生装甲 IPLC
+      - 美国 天煞之影 IPLC
+      - 美国 海魂 IPLC
       - 香港 街头足球
       - 香港 最佳前锋
       - 香港 最佳DJ
@@ -181,13 +354,27 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
+      - 香港 狂甲战牛 IPLC
+      - 香港 糖果巴菲 IPLC
+      - 香港 摇曳藤曼 IPLC
+      - 香港 萝莉画手 IPLC
+      - 香港 花好月圆 IPLC
+      - 香港 时钟女仆 IPLC
+      - 香港 墓园派对 IPLC
+      - 香港 睡衣派对 IPLC
+      - 香港 吱吱 IPLC
+      - 香港 熊猫骑士 IPLC
       - 日本 爆裂阎魔
-      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 逐风之影 BGP
       - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
+      - 日本 灵溪居士 IPLC
+      - 日本 锦衣卫 IPLC
+      - 日本 圣隼 IPLC
+      - 日本 魔法教师 IPLC
+      - 日本 浪漫幻想 IPLC
       - 新加坡 潮流球手
       - 新加坡 霹雳火
       - 新加坡 沙漠雄鹰
@@ -195,11 +382,34 @@ proxy-groups:
       - 新加坡 枭龙 BGP
       - 新加坡 鬼武统领 BGP
       - 新加坡 光能战士 BGP
-      - 台湾 奇迹缔造者
+      - 新加坡 武僧 IPLC
+      - 新加坡 黑暗守护者 IPLC
+      - 新加坡 曙光战神 IPLC
+      - 新加坡 腾蛇之翼 IPLC
+      - 新加坡 滑翔女爵 IPLC
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
       - 台湾 炽焰圣裁 BGP
       - 台湾 暗夜之果 BGP
+      - 台湾 狮子座 IPLC
+      - 台湾 铁甲神拳 IPLC
+      - 台湾 堕血之华 IPLC
+      - 台湾 鬼姬 IPLC
+      - 台湾 血夜之刃 IPLC
+      - 英国 猩红女爵 IPLC
+      - 英国 勇冠三军 IPLC
+      - 英国 常胜将军 IPLC
+      - 英国 东方侠客 IPLC
+      - 英国 碧蓝海浪 IPLC
+      - 马来西亚 凤蝶 IPLC
+      - 马来西亚 蛮荒猎人 IPLC
+      - 马来西亚 黑曜 IPLC
+      - 马来西亚 帝国特工 IPLC
+      - 马来西亚 第六天王 IPLC
+      - 土耳其 生化武器 IPLC
+      - 土耳其 修罗 IPLC
+      - 阿根廷 铁血战神 IPLC
+      - 阿根廷 皇家火枪手 IPLC
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -211,11 +421,25 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
-      - 台湾 奇迹缔造者
+      - 香港 狂甲战牛 IPLC
+      - 香港 糖果巴菲 IPLC
+      - 香港 摇曳藤曼 IPLC
+      - 香港 萝莉画手 IPLC
+      - 香港 花好月圆 IPLC
+      - 香港 时钟女仆 IPLC
+      - 香港 墓园派对 IPLC
+      - 香港 睡衣派对 IPLC
+      - 香港 吱吱 IPLC
+      - 香港 熊猫骑士 IPLC
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
       - 台湾 炽焰圣裁 BGP
       - 台湾 暗夜之果 BGP
+      - 台湾 狮子座 IPLC
+      - 台湾 铁甲神拳 IPLC
+      - 台湾 堕血之华 IPLC
+      - 台湾 鬼姬 IPLC
+      - 台湾 血夜之刃 IPLC
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -228,6 +452,11 @@ proxy-groups:
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
+      - 美国 强袭 IPLC
+      - 美国 龙影神枪 IPLC
+      - 美国 寄生装甲 IPLC
+      - 美国 天煞之影 IPLC
+      - 美国 海魂 IPLC
       - 香港 街头足球
       - 香港 最佳前锋
       - 香港 最佳DJ
@@ -235,13 +464,27 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
+      - 香港 狂甲战牛 IPLC
+      - 香港 糖果巴菲 IPLC
+      - 香港 摇曳藤曼 IPLC
+      - 香港 萝莉画手 IPLC
+      - 香港 花好月圆 IPLC
+      - 香港 时钟女仆 IPLC
+      - 香港 墓园派对 IPLC
+      - 香港 睡衣派对 IPLC
+      - 香港 吱吱 IPLC
+      - 香港 熊猫骑士 IPLC
       - 日本 爆裂阎魔
-      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 逐风之影 BGP
       - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
+      - 日本 灵溪居士 IPLC
+      - 日本 锦衣卫 IPLC
+      - 日本 圣隼 IPLC
+      - 日本 魔法教师 IPLC
+      - 日本 浪漫幻想 IPLC
       - 新加坡 潮流球手
       - 新加坡 霹雳火
       - 新加坡 沙漠雄鹰
@@ -249,11 +492,34 @@ proxy-groups:
       - 新加坡 枭龙 BGP
       - 新加坡 鬼武统领 BGP
       - 新加坡 光能战士 BGP
-      - 台湾 奇迹缔造者
+      - 新加坡 武僧 IPLC
+      - 新加坡 黑暗守护者 IPLC
+      - 新加坡 曙光战神 IPLC
+      - 新加坡 腾蛇之翼 IPLC
+      - 新加坡 滑翔女爵 IPLC
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
       - 台湾 炽焰圣裁 BGP
       - 台湾 暗夜之果 BGP
+      - 台湾 狮子座 IPLC
+      - 台湾 铁甲神拳 IPLC
+      - 台湾 堕血之华 IPLC
+      - 台湾 鬼姬 IPLC
+      - 台湾 血夜之刃 IPLC
+      - 英国 猩红女爵 IPLC
+      - 英国 勇冠三军 IPLC
+      - 英国 常胜将军 IPLC
+      - 英国 东方侠客 IPLC
+      - 英国 碧蓝海浪 IPLC
+      - 马来西亚 凤蝶 IPLC
+      - 马来西亚 蛮荒猎人 IPLC
+      - 马来西亚 黑曜 IPLC
+      - 马来西亚 帝国特工 IPLC
+      - 马来西亚 第六天王 IPLC
+      - 土耳其 生化武器 IPLC
+      - 土耳其 修罗 IPLC
+      - 阿根廷 铁血战神 IPLC
+      - 阿根廷 皇家火枪手 IPLC
   - name: 📲 电报信息
     type: select
     proxies:
@@ -265,6 +531,11 @@ proxy-groups:
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
+      - 美国 强袭 IPLC
+      - 美国 龙影神枪 IPLC
+      - 美国 寄生装甲 IPLC
+      - 美国 天煞之影 IPLC
+      - 美国 海魂 IPLC
       - 香港 街头足球
       - 香港 最佳前锋
       - 香港 最佳DJ
@@ -272,13 +543,27 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
+      - 香港 狂甲战牛 IPLC
+      - 香港 糖果巴菲 IPLC
+      - 香港 摇曳藤曼 IPLC
+      - 香港 萝莉画手 IPLC
+      - 香港 花好月圆 IPLC
+      - 香港 时钟女仆 IPLC
+      - 香港 墓园派对 IPLC
+      - 香港 睡衣派对 IPLC
+      - 香港 吱吱 IPLC
+      - 香港 熊猫骑士 IPLC
       - 日本 爆裂阎魔
-      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 逐风之影 BGP
       - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
+      - 日本 灵溪居士 IPLC
+      - 日本 锦衣卫 IPLC
+      - 日本 圣隼 IPLC
+      - 日本 魔法教师 IPLC
+      - 日本 浪漫幻想 IPLC
       - 新加坡 潮流球手
       - 新加坡 霹雳火
       - 新加坡 沙漠雄鹰
@@ -286,11 +571,34 @@ proxy-groups:
       - 新加坡 枭龙 BGP
       - 新加坡 鬼武统领 BGP
       - 新加坡 光能战士 BGP
-      - 台湾 奇迹缔造者
+      - 新加坡 武僧 IPLC
+      - 新加坡 黑暗守护者 IPLC
+      - 新加坡 曙光战神 IPLC
+      - 新加坡 腾蛇之翼 IPLC
+      - 新加坡 滑翔女爵 IPLC
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
       - 台湾 炽焰圣裁 BGP
       - 台湾 暗夜之果 BGP
+      - 台湾 狮子座 IPLC
+      - 台湾 铁甲神拳 IPLC
+      - 台湾 堕血之华 IPLC
+      - 台湾 鬼姬 IPLC
+      - 台湾 血夜之刃 IPLC
+      - 英国 猩红女爵 IPLC
+      - 英国 勇冠三军 IPLC
+      - 英国 常胜将军 IPLC
+      - 英国 东方侠客 IPLC
+      - 英国 碧蓝海浪 IPLC
+      - 马来西亚 凤蝶 IPLC
+      - 马来西亚 蛮荒猎人 IPLC
+      - 马来西亚 黑曜 IPLC
+      - 马来西亚 帝国特工 IPLC
+      - 马来西亚 第六天王 IPLC
+      - 土耳其 生化武器 IPLC
+      - 土耳其 修罗 IPLC
+      - 阿根廷 铁血战神 IPLC
+      - 阿根廷 皇家火枪手 IPLC
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -303,6 +611,11 @@ proxy-groups:
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
+      - 美国 强袭 IPLC
+      - 美国 龙影神枪 IPLC
+      - 美国 寄生装甲 IPLC
+      - 美国 天煞之影 IPLC
+      - 美国 海魂 IPLC
       - 香港 街头足球
       - 香港 最佳前锋
       - 香港 最佳DJ
@@ -310,13 +623,27 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
+      - 香港 狂甲战牛 IPLC
+      - 香港 糖果巴菲 IPLC
+      - 香港 摇曳藤曼 IPLC
+      - 香港 萝莉画手 IPLC
+      - 香港 花好月圆 IPLC
+      - 香港 时钟女仆 IPLC
+      - 香港 墓园派对 IPLC
+      - 香港 睡衣派对 IPLC
+      - 香港 吱吱 IPLC
+      - 香港 熊猫骑士 IPLC
       - 日本 爆裂阎魔
-      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 逐风之影 BGP
       - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
+      - 日本 灵溪居士 IPLC
+      - 日本 锦衣卫 IPLC
+      - 日本 圣隼 IPLC
+      - 日本 魔法教师 IPLC
+      - 日本 浪漫幻想 IPLC
       - 新加坡 潮流球手
       - 新加坡 霹雳火
       - 新加坡 沙漠雄鹰
@@ -324,11 +651,34 @@ proxy-groups:
       - 新加坡 枭龙 BGP
       - 新加坡 鬼武统领 BGP
       - 新加坡 光能战士 BGP
-      - 台湾 奇迹缔造者
+      - 新加坡 武僧 IPLC
+      - 新加坡 黑暗守护者 IPLC
+      - 新加坡 曙光战神 IPLC
+      - 新加坡 腾蛇之翼 IPLC
+      - 新加坡 滑翔女爵 IPLC
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
       - 台湾 炽焰圣裁 BGP
       - 台湾 暗夜之果 BGP
+      - 台湾 狮子座 IPLC
+      - 台湾 铁甲神拳 IPLC
+      - 台湾 堕血之华 IPLC
+      - 台湾 鬼姬 IPLC
+      - 台湾 血夜之刃 IPLC
+      - 英国 猩红女爵 IPLC
+      - 英国 勇冠三军 IPLC
+      - 英国 常胜将军 IPLC
+      - 英国 东方侠客 IPLC
+      - 英国 碧蓝海浪 IPLC
+      - 马来西亚 凤蝶 IPLC
+      - 马来西亚 蛮荒猎人 IPLC
+      - 马来西亚 黑曜 IPLC
+      - 马来西亚 帝国特工 IPLC
+      - 马来西亚 第六天王 IPLC
+      - 土耳其 生化武器 IPLC
+      - 土耳其 修罗 IPLC
+      - 阿根廷 铁血战神 IPLC
+      - 阿根廷 皇家火枪手 IPLC
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -350,6 +700,11 @@ proxy-groups:
       - 美国 生化改造人 BGP
       - 美国 怒焰猎魔者 BGP
       - 美国 街头篮球 BGP
+      - 美国 强袭 IPLC
+      - 美国 龙影神枪 IPLC
+      - 美国 寄生装甲 IPLC
+      - 美国 天煞之影 IPLC
+      - 美国 海魂 IPLC
       - 香港 街头足球
       - 香港 最佳前锋
       - 香港 最佳DJ
@@ -357,13 +712,27 @@ proxy-groups:
       - 香港 独裁者 BGP
       - 香港 深海巨怪 BGP
       - 香港 冻海之王 BGP
+      - 香港 狂甲战牛 IPLC
+      - 香港 糖果巴菲 IPLC
+      - 香港 摇曳藤曼 IPLC
+      - 香港 萝莉画手 IPLC
+      - 香港 花好月圆 IPLC
+      - 香港 时钟女仆 IPLC
+      - 香港 墓园派对 IPLC
+      - 香港 睡衣派对 IPLC
+      - 香港 吱吱 IPLC
+      - 香港 熊猫骑士 IPLC
       - 日本 爆裂阎魔
-      - 日本 皇族之锤
       - 日本 金牛座
       - 日本 逐风之影 BGP
       - 日本 逍遥枪圣 BGP
       - 日本 祥龙瑞火 BGP
       - 日本 魔能枪手 BGP
+      - 日本 灵溪居士 IPLC
+      - 日本 锦衣卫 IPLC
+      - 日本 圣隼 IPLC
+      - 日本 魔法教师 IPLC
+      - 日本 浪漫幻想 IPLC
       - 新加坡 潮流球手
       - 新加坡 霹雳火
       - 新加坡 沙漠雄鹰
@@ -371,11 +740,34 @@ proxy-groups:
       - 新加坡 枭龙 BGP
       - 新加坡 鬼武统领 BGP
       - 新加坡 光能战士 BGP
-      - 台湾 奇迹缔造者
+      - 新加坡 武僧 IPLC
+      - 新加坡 黑暗守护者 IPLC
+      - 新加坡 曙光战神 IPLC
+      - 新加坡 腾蛇之翼 IPLC
+      - 新加坡 滑翔女爵 IPLC
       - 台湾 天鹅公主 BGP
       - 台湾 黑天鹅 BGP
       - 台湾 炽焰圣裁 BGP
       - 台湾 暗夜之果 BGP
+      - 台湾 狮子座 IPLC
+      - 台湾 铁甲神拳 IPLC
+      - 台湾 堕血之华 IPLC
+      - 台湾 鬼姬 IPLC
+      - 台湾 血夜之刃 IPLC
+      - 英国 猩红女爵 IPLC
+      - 英国 勇冠三军 IPLC
+      - 英国 常胜将军 IPLC
+      - 英国 东方侠客 IPLC
+      - 英国 碧蓝海浪 IPLC
+      - 马来西亚 凤蝶 IPLC
+      - 马来西亚 蛮荒猎人 IPLC
+      - 马来西亚 黑曜 IPLC
+      - 马来西亚 帝国特工 IPLC
+      - 马来西亚 第六天王 IPLC
+      - 土耳其 生化武器 IPLC
+      - 土耳其 修罗 IPLC
+      - 阿根廷 铁血战神 IPLC
+      - 阿根廷 皇家火枪手 IPLC
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
