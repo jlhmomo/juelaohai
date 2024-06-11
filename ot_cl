@@ -5,6 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 美国 学城守护者, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
+  - {name: 美国 圣诞熊猫, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
+  - {name: 美国 冻海勇士, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
+  - {name: 美国 狂甲战牛, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
   - {name: 美国 BGP 远古山神, server: cn-sh.aseur8qwer.top, port: 16707, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 美国 BGP 生化改造人, server: cn-sh.aseur8qwer.top, port: 24766, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 美国 BGP 怒焰猎魔者, server: cn-sh.aseur8qwer.top, port: 23608, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
@@ -39,6 +43,10 @@ proxies:
   - {name: 香港 IEPL Eons 飞蛾扑火, server: a.v2ray.wtf, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
   - {name: 香港 IEPL Eons 暗夜伯爵, server: c.v2ray.wtf, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
   - {name: 香港 IEPL Eons 绿色闪光, server: c.v2ray.wtf, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
+  - {name: 日本 圣诞小鹿, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
+  - {name: 日本 梦幻之恋, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
+  - {name: 日本 救世主, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
+  - {name: 日本 浮光掠星, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
   - {name: 日本 BGP 逐风之影, server: cn-sh.aseur8qwer.top, port: 19991, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 BGP 逍遥枪圣, server: cn-sh.aseur8qwer.top, port: 39925, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 BGP 祥龙瑞火, server: cn-sh.aseur8qwer.top, port: 31009, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
@@ -56,10 +64,18 @@ proxies:
   - {name: 日本 IEPL Akari 兔宝贝, server: a.v2ray.wtf, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
   - {name: 日本 IEPL Akari 彩虹闪光, server: c.v2ray.wtf, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
   - {name: 日本 IEPL Akari 破坏者, server: c.v2ray.wtf, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
+  - {name: 韩国 云雀, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
+  - {name: 韩国 沙滩救援队, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
+  - {name: 韩国 圣诞派对, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
+  - {name: 韩国 荣耀, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 IEPL Google LLC 黎明之枪, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
   - {name: 韩国 IEPL Google LLC 赤色之影, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
   - {name: 韩国 IEPL Google LLC 炮与玫瑰, server: c.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
   - {name: 韩国 IEPL Google LLC 经典魔能炮手, server: c.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
+  - {name: 新加坡 掠影, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
+  - {name: 新加坡 贵族骑兵, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
+  - {name: 新加坡 荆棘上尉, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
+  - {name: 新加坡 特级厨师, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
   - {name: 新加坡 BGP 银翼凶兵, server: cn-hn.aseur8qwer.top, port: 19669, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 BGP 枭龙, server: cn-hn.aseur8qwer.top, port: 18680, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 新加坡 BGP 鬼武统领, server: cn-hn.aseur8qwer.top, port: 48354, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
@@ -110,6 +126,10 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国 学城守护者
+      - 美国 圣诞熊猫
+      - 美国 冻海勇士
+      - 美国 狂甲战牛
       - 美国 BGP 远古山神
       - 美国 BGP 生化改造人
       - 美国 BGP 怒焰猎魔者
@@ -144,6 +164,10 @@ proxy-groups:
       - 香港 IEPL Eons 飞蛾扑火
       - 香港 IEPL Eons 暗夜伯爵
       - 香港 IEPL Eons 绿色闪光
+      - 日本 圣诞小鹿
+      - 日本 梦幻之恋
+      - 日本 救世主
+      - 日本 浮光掠星
       - 日本 BGP 逐风之影
       - 日本 BGP 逍遥枪圣
       - 日本 BGP 祥龙瑞火
@@ -161,10 +185,18 @@ proxy-groups:
       - 日本 IEPL Akari 兔宝贝
       - 日本 IEPL Akari 彩虹闪光
       - 日本 IEPL Akari 破坏者
+      - 韩国 云雀
+      - 韩国 沙滩救援队
+      - 韩国 圣诞派对
+      - 韩国 荣耀
       - 韩国 IEPL Google LLC 黎明之枪
       - 韩国 IEPL Google LLC 赤色之影
       - 韩国 IEPL Google LLC 炮与玫瑰
       - 韩国 IEPL Google LLC 经典魔能炮手
+      - 新加坡 掠影
+      - 新加坡 贵族骑兵
+      - 新加坡 荆棘上尉
+      - 新加坡 特级厨师
       - 新加坡 BGP 银翼凶兵
       - 新加坡 BGP 枭龙
       - 新加坡 BGP 鬼武统领
@@ -214,6 +246,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 美国 学城守护者
+      - 美国 圣诞熊猫
+      - 美国 冻海勇士
+      - 美国 狂甲战牛
       - 美国 BGP 远古山神
       - 美国 BGP 生化改造人
       - 美国 BGP 怒焰猎魔者
@@ -248,6 +284,10 @@ proxy-groups:
       - 香港 IEPL Eons 飞蛾扑火
       - 香港 IEPL Eons 暗夜伯爵
       - 香港 IEPL Eons 绿色闪光
+      - 日本 圣诞小鹿
+      - 日本 梦幻之恋
+      - 日本 救世主
+      - 日本 浮光掠星
       - 日本 BGP 逐风之影
       - 日本 BGP 逍遥枪圣
       - 日本 BGP 祥龙瑞火
@@ -265,10 +305,18 @@ proxy-groups:
       - 日本 IEPL Akari 兔宝贝
       - 日本 IEPL Akari 彩虹闪光
       - 日本 IEPL Akari 破坏者
+      - 韩国 云雀
+      - 韩国 沙滩救援队
+      - 韩国 圣诞派对
+      - 韩国 荣耀
       - 韩国 IEPL Google LLC 黎明之枪
       - 韩国 IEPL Google LLC 赤色之影
       - 韩国 IEPL Google LLC 炮与玫瑰
       - 韩国 IEPL Google LLC 经典魔能炮手
+      - 新加坡 掠影
+      - 新加坡 贵族骑兵
+      - 新加坡 荆棘上尉
+      - 新加坡 特级厨师
       - 新加坡 BGP 银翼凶兵
       - 新加坡 BGP 枭龙
       - 新加坡 BGP 鬼武统领
@@ -319,6 +367,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国 学城守护者
+      - 美国 圣诞熊猫
+      - 美国 冻海勇士
+      - 美国 狂甲战牛
       - 美国 BGP 远古山神
       - 美国 BGP 生化改造人
       - 美国 BGP 怒焰猎魔者
@@ -353,6 +405,10 @@ proxy-groups:
       - 香港 IEPL Eons 飞蛾扑火
       - 香港 IEPL Eons 暗夜伯爵
       - 香港 IEPL Eons 绿色闪光
+      - 日本 圣诞小鹿
+      - 日本 梦幻之恋
+      - 日本 救世主
+      - 日本 浮光掠星
       - 日本 BGP 逐风之影
       - 日本 BGP 逍遥枪圣
       - 日本 BGP 祥龙瑞火
@@ -370,10 +426,18 @@ proxy-groups:
       - 日本 IEPL Akari 兔宝贝
       - 日本 IEPL Akari 彩虹闪光
       - 日本 IEPL Akari 破坏者
+      - 韩国 云雀
+      - 韩国 沙滩救援队
+      - 韩国 圣诞派对
+      - 韩国 荣耀
       - 韩国 IEPL Google LLC 黎明之枪
       - 韩国 IEPL Google LLC 赤色之影
       - 韩国 IEPL Google LLC 炮与玫瑰
       - 韩国 IEPL Google LLC 经典魔能炮手
+      - 新加坡 掠影
+      - 新加坡 贵族骑兵
+      - 新加坡 荆棘上尉
+      - 新加坡 特级厨师
       - 新加坡 BGP 银翼凶兵
       - 新加坡 BGP 枭龙
       - 新加坡 BGP 鬼武统领
@@ -436,6 +500,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国 学城守护者
+      - 美国 圣诞熊猫
+      - 美国 冻海勇士
+      - 美国 狂甲战牛
       - 美国 BGP 远古山神
       - 美国 BGP 生化改造人
       - 美国 BGP 怒焰猎魔者
@@ -470,6 +538,10 @@ proxy-groups:
       - 香港 IEPL Eons 飞蛾扑火
       - 香港 IEPL Eons 暗夜伯爵
       - 香港 IEPL Eons 绿色闪光
+      - 日本 圣诞小鹿
+      - 日本 梦幻之恋
+      - 日本 救世主
+      - 日本 浮光掠星
       - 日本 BGP 逐风之影
       - 日本 BGP 逍遥枪圣
       - 日本 BGP 祥龙瑞火
@@ -487,10 +559,18 @@ proxy-groups:
       - 日本 IEPL Akari 兔宝贝
       - 日本 IEPL Akari 彩虹闪光
       - 日本 IEPL Akari 破坏者
+      - 韩国 云雀
+      - 韩国 沙滩救援队
+      - 韩国 圣诞派对
+      - 韩国 荣耀
       - 韩国 IEPL Google LLC 黎明之枪
       - 韩国 IEPL Google LLC 赤色之影
       - 韩国 IEPL Google LLC 炮与玫瑰
       - 韩国 IEPL Google LLC 经典魔能炮手
+      - 新加坡 掠影
+      - 新加坡 贵族骑兵
+      - 新加坡 荆棘上尉
+      - 新加坡 特级厨师
       - 新加坡 BGP 银翼凶兵
       - 新加坡 BGP 枭龙
       - 新加坡 BGP 鬼武统领
@@ -581,6 +661,10 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 美国 学城守护者
+      - 美国 圣诞熊猫
+      - 美国 冻海勇士
+      - 美国 狂甲战牛
       - 美国 BGP 远古山神
       - 美国 BGP 生化改造人
       - 美国 BGP 怒焰猎魔者
@@ -615,6 +699,10 @@ proxy-groups:
       - 香港 IEPL Eons 飞蛾扑火
       - 香港 IEPL Eons 暗夜伯爵
       - 香港 IEPL Eons 绿色闪光
+      - 日本 圣诞小鹿
+      - 日本 梦幻之恋
+      - 日本 救世主
+      - 日本 浮光掠星
       - 日本 BGP 逐风之影
       - 日本 BGP 逍遥枪圣
       - 日本 BGP 祥龙瑞火
@@ -632,10 +720,18 @@ proxy-groups:
       - 日本 IEPL Akari 兔宝贝
       - 日本 IEPL Akari 彩虹闪光
       - 日本 IEPL Akari 破坏者
+      - 韩国 云雀
+      - 韩国 沙滩救援队
+      - 韩国 圣诞派对
+      - 韩国 荣耀
       - 韩国 IEPL Google LLC 黎明之枪
       - 韩国 IEPL Google LLC 赤色之影
       - 韩国 IEPL Google LLC 炮与玫瑰
       - 韩国 IEPL Google LLC 经典魔能炮手
+      - 新加坡 掠影
+      - 新加坡 贵族骑兵
+      - 新加坡 荆棘上尉
+      - 新加坡 特级厨师
       - 新加坡 BGP 银翼凶兵
       - 新加坡 BGP 枭龙
       - 新加坡 BGP 鬼武统领
@@ -685,6 +781,10 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 美国 学城守护者
+      - 美国 圣诞熊猫
+      - 美国 冻海勇士
+      - 美国 狂甲战牛
       - 美国 BGP 远古山神
       - 美国 BGP 生化改造人
       - 美国 BGP 怒焰猎魔者
@@ -719,6 +819,10 @@ proxy-groups:
       - 香港 IEPL Eons 飞蛾扑火
       - 香港 IEPL Eons 暗夜伯爵
       - 香港 IEPL Eons 绿色闪光
+      - 日本 圣诞小鹿
+      - 日本 梦幻之恋
+      - 日本 救世主
+      - 日本 浮光掠星
       - 日本 BGP 逐风之影
       - 日本 BGP 逍遥枪圣
       - 日本 BGP 祥龙瑞火
@@ -736,10 +840,18 @@ proxy-groups:
       - 日本 IEPL Akari 兔宝贝
       - 日本 IEPL Akari 彩虹闪光
       - 日本 IEPL Akari 破坏者
+      - 韩国 云雀
+      - 韩国 沙滩救援队
+      - 韩国 圣诞派对
+      - 韩国 荣耀
       - 韩国 IEPL Google LLC 黎明之枪
       - 韩国 IEPL Google LLC 赤色之影
       - 韩国 IEPL Google LLC 炮与玫瑰
       - 韩国 IEPL Google LLC 经典魔能炮手
+      - 新加坡 掠影
+      - 新加坡 贵族骑兵
+      - 新加坡 荆棘上尉
+      - 新加坡 特级厨师
       - 新加坡 BGP 银翼凶兵
       - 新加坡 BGP 枭龙
       - 新加坡 BGP 鬼武统领
@@ -790,6 +902,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国 学城守护者
+      - 美国 圣诞熊猫
+      - 美国 冻海勇士
+      - 美国 狂甲战牛
       - 美国 BGP 远古山神
       - 美国 BGP 生化改造人
       - 美国 BGP 怒焰猎魔者
@@ -824,6 +940,10 @@ proxy-groups:
       - 香港 IEPL Eons 飞蛾扑火
       - 香港 IEPL Eons 暗夜伯爵
       - 香港 IEPL Eons 绿色闪光
+      - 日本 圣诞小鹿
+      - 日本 梦幻之恋
+      - 日本 救世主
+      - 日本 浮光掠星
       - 日本 BGP 逐风之影
       - 日本 BGP 逍遥枪圣
       - 日本 BGP 祥龙瑞火
@@ -841,10 +961,18 @@ proxy-groups:
       - 日本 IEPL Akari 兔宝贝
       - 日本 IEPL Akari 彩虹闪光
       - 日本 IEPL Akari 破坏者
+      - 韩国 云雀
+      - 韩国 沙滩救援队
+      - 韩国 圣诞派对
+      - 韩国 荣耀
       - 韩国 IEPL Google LLC 黎明之枪
       - 韩国 IEPL Google LLC 赤色之影
       - 韩国 IEPL Google LLC 炮与玫瑰
       - 韩国 IEPL Google LLC 经典魔能炮手
+      - 新加坡 掠影
+      - 新加坡 贵族骑兵
+      - 新加坡 荆棘上尉
+      - 新加坡 特级厨师
       - 新加坡 BGP 银翼凶兵
       - 新加坡 BGP 枭龙
       - 新加坡 BGP 鬼武统领
@@ -904,6 +1032,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国 学城守护者
+      - 美国 圣诞熊猫
+      - 美国 冻海勇士
+      - 美国 狂甲战牛
       - 美国 BGP 远古山神
       - 美国 BGP 生化改造人
       - 美国 BGP 怒焰猎魔者
@@ -938,6 +1070,10 @@ proxy-groups:
       - 香港 IEPL Eons 飞蛾扑火
       - 香港 IEPL Eons 暗夜伯爵
       - 香港 IEPL Eons 绿色闪光
+      - 日本 圣诞小鹿
+      - 日本 梦幻之恋
+      - 日本 救世主
+      - 日本 浮光掠星
       - 日本 BGP 逐风之影
       - 日本 BGP 逍遥枪圣
       - 日本 BGP 祥龙瑞火
@@ -955,10 +1091,18 @@ proxy-groups:
       - 日本 IEPL Akari 兔宝贝
       - 日本 IEPL Akari 彩虹闪光
       - 日本 IEPL Akari 破坏者
+      - 韩国 云雀
+      - 韩国 沙滩救援队
+      - 韩国 圣诞派对
+      - 韩国 荣耀
       - 韩国 IEPL Google LLC 黎明之枪
       - 韩国 IEPL Google LLC 赤色之影
       - 韩国 IEPL Google LLC 炮与玫瑰
       - 韩国 IEPL Google LLC 经典魔能炮手
+      - 新加坡 掠影
+      - 新加坡 贵族骑兵
+      - 新加坡 荆棘上尉
+      - 新加坡 特级厨师
       - 新加坡 BGP 银翼凶兵
       - 新加坡 BGP 枭龙
       - 新加坡 BGP 鬼武统领
