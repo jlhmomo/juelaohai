@@ -9,42 +9,25 @@ proxies:
   - {name: t.me/juelaohai, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 以下节点仅供游戏使用, server: jue.lao.hai, port: 3333, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 若有其它需求可使用频道内提供的其它节点, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: juelaohai}
+  - {name: 台湾 IEPL Akari 暗影舞会, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
+  - {name: 台湾 IEPL HiNet 破晓惊雷, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
+  - {name: 台湾 IEPL Akari 月光射手, server: 120.232.170.172, port: 18672, type: ss, cipher: aes-128-gcm, password: fd1b1169-4a89-4176-85f3-d71814a7466d}
+  - {name: 香港 IEPL Eons 炽红之枪, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
+  - {name: 香港 IEPL Eons 时空之影, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
+  - {name: 香港 IEPL DMIT 板前魂, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
+  - {name: 香港 IEPL Misaka 追忆之刃, server: 120.232.170.172, port: 18669, type: ss, cipher: aes-128-gcm, password: fd1b1169-4a89-4176-85f3-d71814a7466d}
   - {name: 新加坡 IEPL Amazon 加特林教父, server: abc.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 新加坡 IEPL Amazon 翡翠妖姬, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 新加坡 IEPL Akari 摇滚狂潮, server: abc.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
-  - {name: 新加坡 IEPL Akari 降临之子, server: a.v2ray.wtf, port: 30009, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 新加坡 IEPL Akari 炙热之弓, server: a.v2ray.wtf, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 新加坡 IEPL Akari 魔神武装, server: c.v2ray.wtf, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 新加坡 IEPL Akari 烈焰红唇, server: c.v2ray.wtf, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 台湾 IEPL Akari 暗影舞会, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
-  - {name: 台湾 IEPL HiNet 破晓惊雷, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
-  - {name: 台湾 IEPL Akari 圣诞派对, server: a.v2ray.wtf, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 台湾 IEPL Akari 魅影罗刹, server: a.v2ray.wtf, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 台湾 IEPL Akari 特工密令, server: c.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 台湾 IEPL Akari 青鸾耀世, server: c.v2ray.wtf, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
   - {name: 日本 IEPL Amazon 战地天使, server: abcd.dggs.org, port: 10702, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 日本 IEPL Amazon 圣光之翼, server: abcd.dggs.org, port: 10703, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 日本 IEPL Oracle 花仙女, server: abcd.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 日本 IEPL Oracle 丰饶女神, server: abcd.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
-  - {name: 日本 IEPL MIKU 星际远航, server: a.v2ray.wtf, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 日本 IEPL Akari 兔宝贝, server: a.v2ray.wtf, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 日本 IEPL Akari 彩虹闪光, server: c.v2ray.wtf, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 日本 IEPL Akari 破坏者, server: c.v2ray.wtf, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 韩国 IEPL Google LLC 黎明之枪, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 韩国 IEPL Google LLC 赤色之影, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 韩国 IEPL Google LLC 炮与玫瑰, server: c.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 韩国 IEPL Google LLC 经典魔能炮手, server: c.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
+  - {name: 日本 IEPL Misaka 源力武士, server: 42.157.161.166, port: 38686, type: ss, cipher: aes-128-gcm, password: fd1b1169-4a89-4176-85f3-d71814a7466d}
   - {name: 美国 IEPL Amazon 青春校园, server: abcd.dggs.org, port: 10704, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 美国 IEPL Amazon 朋克女孩, server: abcd.dggs.org, port: 10705, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 美国 IEPL Catixs 飞刃之舞, server: abcd.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 美国 IEPL Catixs 信念之刃, server: abcd.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
-  - {name: 香港 IEPL Eons 炽红之枪, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
-  - {name: 香港 IEPL Eons 时空之影, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
-  - {name: 香港 IEPL DMIT 板前魂, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
-  - {name: 香港 IEPL Eons 圣枪, server: a.v2ray.wtf, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 香港 IEPL Eons 飞蛾扑火, server: a.v2ray.wtf, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 香港 IEPL Eons 暗夜伯爵, server: c.v2ray.wtf, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
-  - {name: 香港 IEPL Eons 绿色闪光, server: c.v2ray.wtf, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: bbda8391-ed2e-4163-a651-ed0dc63fe7a4}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -55,42 +38,25 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
+      - 台湾 IEPL Akari 暗影舞会
+      - 台湾 IEPL HiNet 破晓惊雷
+      - 台湾 IEPL Akari 月光射手
+      - 香港 IEPL Eons 炽红之枪
+      - 香港 IEPL Eons 时空之影
+      - 香港 IEPL DMIT 板前魂
+      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
-      - 新加坡 IEPL Akari 降临之子
-      - 新加坡 IEPL Akari 炙热之弓
-      - 新加坡 IEPL Akari 魔神武装
-      - 新加坡 IEPL Akari 烈焰红唇
-      - 台湾 IEPL Akari 暗影舞会
-      - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 圣诞派对
-      - 台湾 IEPL Akari 魅影罗刹
-      - 台湾 IEPL Akari 特工密令
-      - 台湾 IEPL Akari 青鸾耀世
       - 日本 IEPL Amazon 战地天使
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL MIKU 星际远航
-      - 日本 IEPL Akari 兔宝贝
-      - 日本 IEPL Akari 彩虹闪光
-      - 日本 IEPL Akari 破坏者
-      - 韩国 IEPL Google LLC 黎明之枪
-      - 韩国 IEPL Google LLC 赤色之影
-      - 韩国 IEPL Google LLC 炮与玫瑰
-      - 韩国 IEPL Google LLC 经典魔能炮手
+      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
       - 美国 IEPL Catixs 信念之刃
-      - 香港 IEPL Eons 炽红之枪
-      - 香港 IEPL Eons 时空之影
-      - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Eons 圣枪
-      - 香港 IEPL Eons 飞蛾扑火
-      - 香港 IEPL Eons 暗夜伯爵
-      - 香港 IEPL Eons 绿色闪光
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -100,42 +66,25 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
+      - 台湾 IEPL Akari 暗影舞会
+      - 台湾 IEPL HiNet 破晓惊雷
+      - 台湾 IEPL Akari 月光射手
+      - 香港 IEPL Eons 炽红之枪
+      - 香港 IEPL Eons 时空之影
+      - 香港 IEPL DMIT 板前魂
+      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
-      - 新加坡 IEPL Akari 降临之子
-      - 新加坡 IEPL Akari 炙热之弓
-      - 新加坡 IEPL Akari 魔神武装
-      - 新加坡 IEPL Akari 烈焰红唇
-      - 台湾 IEPL Akari 暗影舞会
-      - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 圣诞派对
-      - 台湾 IEPL Akari 魅影罗刹
-      - 台湾 IEPL Akari 特工密令
-      - 台湾 IEPL Akari 青鸾耀世
       - 日本 IEPL Amazon 战地天使
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL MIKU 星际远航
-      - 日本 IEPL Akari 兔宝贝
-      - 日本 IEPL Akari 彩虹闪光
-      - 日本 IEPL Akari 破坏者
-      - 韩国 IEPL Google LLC 黎明之枪
-      - 韩国 IEPL Google LLC 赤色之影
-      - 韩国 IEPL Google LLC 炮与玫瑰
-      - 韩国 IEPL Google LLC 经典魔能炮手
+      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
       - 美国 IEPL Catixs 信念之刃
-      - 香港 IEPL Eons 炽红之枪
-      - 香港 IEPL Eons 时空之影
-      - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Eons 圣枪
-      - 香港 IEPL Eons 飞蛾扑火
-      - 香港 IEPL Eons 暗夜伯爵
-      - 香港 IEPL Eons 绿色闪光
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -146,42 +95,25 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
+      - 台湾 IEPL Akari 暗影舞会
+      - 台湾 IEPL HiNet 破晓惊雷
+      - 台湾 IEPL Akari 月光射手
+      - 香港 IEPL Eons 炽红之枪
+      - 香港 IEPL Eons 时空之影
+      - 香港 IEPL DMIT 板前魂
+      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
-      - 新加坡 IEPL Akari 降临之子
-      - 新加坡 IEPL Akari 炙热之弓
-      - 新加坡 IEPL Akari 魔神武装
-      - 新加坡 IEPL Akari 烈焰红唇
-      - 台湾 IEPL Akari 暗影舞会
-      - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 圣诞派对
-      - 台湾 IEPL Akari 魅影罗刹
-      - 台湾 IEPL Akari 特工密令
-      - 台湾 IEPL Akari 青鸾耀世
       - 日本 IEPL Amazon 战地天使
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL MIKU 星际远航
-      - 日本 IEPL Akari 兔宝贝
-      - 日本 IEPL Akari 彩虹闪光
-      - 日本 IEPL Akari 破坏者
-      - 韩国 IEPL Google LLC 黎明之枪
-      - 韩国 IEPL Google LLC 赤色之影
-      - 韩国 IEPL Google LLC 炮与玫瑰
-      - 韩国 IEPL Google LLC 经典魔能炮手
+      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
       - 美国 IEPL Catixs 信念之刃
-      - 香港 IEPL Eons 炽红之枪
-      - 香港 IEPL Eons 时空之影
-      - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Eons 圣枪
-      - 香港 IEPL Eons 飞蛾扑火
-      - 香港 IEPL Eons 暗夜伯爵
-      - 香港 IEPL Eons 绿色闪光
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -204,59 +136,36 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
+      - 台湾 IEPL Akari 暗影舞会
+      - 台湾 IEPL HiNet 破晓惊雷
+      - 台湾 IEPL Akari 月光射手
+      - 香港 IEPL Eons 炽红之枪
+      - 香港 IEPL Eons 时空之影
+      - 香港 IEPL DMIT 板前魂
+      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
-      - 新加坡 IEPL Akari 降临之子
-      - 新加坡 IEPL Akari 炙热之弓
-      - 新加坡 IEPL Akari 魔神武装
-      - 新加坡 IEPL Akari 烈焰红唇
-      - 台湾 IEPL Akari 暗影舞会
-      - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 圣诞派对
-      - 台湾 IEPL Akari 魅影罗刹
-      - 台湾 IEPL Akari 特工密令
-      - 台湾 IEPL Akari 青鸾耀世
       - 日本 IEPL Amazon 战地天使
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL MIKU 星际远航
-      - 日本 IEPL Akari 兔宝贝
-      - 日本 IEPL Akari 彩虹闪光
-      - 日本 IEPL Akari 破坏者
-      - 韩国 IEPL Google LLC 黎明之枪
-      - 韩国 IEPL Google LLC 赤色之影
-      - 韩国 IEPL Google LLC 炮与玫瑰
-      - 韩国 IEPL Google LLC 经典魔能炮手
+      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
       - 美国 IEPL Catixs 信念之刃
-      - 香港 IEPL Eons 炽红之枪
-      - 香港 IEPL Eons 时空之影
-      - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Eons 圣枪
-      - 香港 IEPL Eons 飞蛾扑火
-      - 香港 IEPL Eons 暗夜伯爵
-      - 香港 IEPL Eons 绿色闪光
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 圣诞派对
-      - 台湾 IEPL Akari 魅影罗刹
-      - 台湾 IEPL Akari 特工密令
-      - 台湾 IEPL Akari 青鸾耀世
+      - 台湾 IEPL Akari 月光射手
       - 香港 IEPL Eons 炽红之枪
       - 香港 IEPL Eons 时空之影
       - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Eons 圣枪
-      - 香港 IEPL Eons 飞蛾扑火
-      - 香港 IEPL Eons 暗夜伯爵
-      - 香港 IEPL Eons 绿色闪光
+      - 香港 IEPL Misaka 追忆之刃
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -267,42 +176,25 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
+      - 台湾 IEPL Akari 暗影舞会
+      - 台湾 IEPL HiNet 破晓惊雷
+      - 台湾 IEPL Akari 月光射手
+      - 香港 IEPL Eons 炽红之枪
+      - 香港 IEPL Eons 时空之影
+      - 香港 IEPL DMIT 板前魂
+      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
-      - 新加坡 IEPL Akari 降临之子
-      - 新加坡 IEPL Akari 炙热之弓
-      - 新加坡 IEPL Akari 魔神武装
-      - 新加坡 IEPL Akari 烈焰红唇
-      - 台湾 IEPL Akari 暗影舞会
-      - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 圣诞派对
-      - 台湾 IEPL Akari 魅影罗刹
-      - 台湾 IEPL Akari 特工密令
-      - 台湾 IEPL Akari 青鸾耀世
       - 日本 IEPL Amazon 战地天使
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL MIKU 星际远航
-      - 日本 IEPL Akari 兔宝贝
-      - 日本 IEPL Akari 彩虹闪光
-      - 日本 IEPL Akari 破坏者
-      - 韩国 IEPL Google LLC 黎明之枪
-      - 韩国 IEPL Google LLC 赤色之影
-      - 韩国 IEPL Google LLC 炮与玫瑰
-      - 韩国 IEPL Google LLC 经典魔能炮手
+      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
       - 美国 IEPL Catixs 信念之刃
-      - 香港 IEPL Eons 炽红之枪
-      - 香港 IEPL Eons 时空之影
-      - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Eons 圣枪
-      - 香港 IEPL Eons 飞蛾扑火
-      - 香港 IEPL Eons 暗夜伯爵
-      - 香港 IEPL Eons 绿色闪光
   - name: 📲 电报信息
     type: select
     proxies:
@@ -312,42 +204,25 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
+      - 台湾 IEPL Akari 暗影舞会
+      - 台湾 IEPL HiNet 破晓惊雷
+      - 台湾 IEPL Akari 月光射手
+      - 香港 IEPL Eons 炽红之枪
+      - 香港 IEPL Eons 时空之影
+      - 香港 IEPL DMIT 板前魂
+      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
-      - 新加坡 IEPL Akari 降临之子
-      - 新加坡 IEPL Akari 炙热之弓
-      - 新加坡 IEPL Akari 魔神武装
-      - 新加坡 IEPL Akari 烈焰红唇
-      - 台湾 IEPL Akari 暗影舞会
-      - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 圣诞派对
-      - 台湾 IEPL Akari 魅影罗刹
-      - 台湾 IEPL Akari 特工密令
-      - 台湾 IEPL Akari 青鸾耀世
       - 日本 IEPL Amazon 战地天使
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL MIKU 星际远航
-      - 日本 IEPL Akari 兔宝贝
-      - 日本 IEPL Akari 彩虹闪光
-      - 日本 IEPL Akari 破坏者
-      - 韩国 IEPL Google LLC 黎明之枪
-      - 韩国 IEPL Google LLC 赤色之影
-      - 韩国 IEPL Google LLC 炮与玫瑰
-      - 韩国 IEPL Google LLC 经典魔能炮手
+      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
       - 美国 IEPL Catixs 信念之刃
-      - 香港 IEPL Eons 炽红之枪
-      - 香港 IEPL Eons 时空之影
-      - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Eons 圣枪
-      - 香港 IEPL Eons 飞蛾扑火
-      - 香港 IEPL Eons 暗夜伯爵
-      - 香港 IEPL Eons 绿色闪光
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -358,42 +233,25 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
+      - 台湾 IEPL Akari 暗影舞会
+      - 台湾 IEPL HiNet 破晓惊雷
+      - 台湾 IEPL Akari 月光射手
+      - 香港 IEPL Eons 炽红之枪
+      - 香港 IEPL Eons 时空之影
+      - 香港 IEPL DMIT 板前魂
+      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
-      - 新加坡 IEPL Akari 降临之子
-      - 新加坡 IEPL Akari 炙热之弓
-      - 新加坡 IEPL Akari 魔神武装
-      - 新加坡 IEPL Akari 烈焰红唇
-      - 台湾 IEPL Akari 暗影舞会
-      - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 圣诞派对
-      - 台湾 IEPL Akari 魅影罗刹
-      - 台湾 IEPL Akari 特工密令
-      - 台湾 IEPL Akari 青鸾耀世
       - 日本 IEPL Amazon 战地天使
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL MIKU 星际远航
-      - 日本 IEPL Akari 兔宝贝
-      - 日本 IEPL Akari 彩虹闪光
-      - 日本 IEPL Akari 破坏者
-      - 韩国 IEPL Google LLC 黎明之枪
-      - 韩国 IEPL Google LLC 赤色之影
-      - 韩国 IEPL Google LLC 炮与玫瑰
-      - 韩国 IEPL Google LLC 经典魔能炮手
+      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
       - 美国 IEPL Catixs 信念之刃
-      - 香港 IEPL Eons 炽红之枪
-      - 香港 IEPL Eons 时空之影
-      - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Eons 圣枪
-      - 香港 IEPL Eons 飞蛾扑火
-      - 香港 IEPL Eons 暗夜伯爵
-      - 香港 IEPL Eons 绿色闪光
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -413,42 +271,25 @@ proxy-groups:
       - t.me/juelaohai
       - 以下节点仅供游戏使用
       - 若有其它需求可使用频道内提供的其它节点
+      - 台湾 IEPL Akari 暗影舞会
+      - 台湾 IEPL HiNet 破晓惊雷
+      - 台湾 IEPL Akari 月光射手
+      - 香港 IEPL Eons 炽红之枪
+      - 香港 IEPL Eons 时空之影
+      - 香港 IEPL DMIT 板前魂
+      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
-      - 新加坡 IEPL Akari 降临之子
-      - 新加坡 IEPL Akari 炙热之弓
-      - 新加坡 IEPL Akari 魔神武装
-      - 新加坡 IEPL Akari 烈焰红唇
-      - 台湾 IEPL Akari 暗影舞会
-      - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 圣诞派对
-      - 台湾 IEPL Akari 魅影罗刹
-      - 台湾 IEPL Akari 特工密令
-      - 台湾 IEPL Akari 青鸾耀世
       - 日本 IEPL Amazon 战地天使
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL MIKU 星际远航
-      - 日本 IEPL Akari 兔宝贝
-      - 日本 IEPL Akari 彩虹闪光
-      - 日本 IEPL Akari 破坏者
-      - 韩国 IEPL Google LLC 黎明之枪
-      - 韩国 IEPL Google LLC 赤色之影
-      - 韩国 IEPL Google LLC 炮与玫瑰
-      - 韩国 IEPL Google LLC 经典魔能炮手
+      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
       - 美国 IEPL Catixs 信念之刃
-      - 香港 IEPL Eons 炽红之枪
-      - 香港 IEPL Eons 时空之影
-      - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Eons 圣枪
-      - 香港 IEPL Eons 飞蛾扑火
-      - 香港 IEPL Eons 暗夜伯爵
-      - 香港 IEPL Eons 绿色闪光
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
