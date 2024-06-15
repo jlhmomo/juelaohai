@@ -5,10 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注Telegram频道, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-256-gcm, password: juelaohai}
-  - {name: t.me/juelaohai, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: juelaohai}
-  - {name: 以下节点仅供游戏使用, server: jue.lao.hai, port: 3333, type: ss, cipher: aes-256-gcm, password: juelaohai}
-  - {name: 若有其它需求可使用频道内提供的其它节点, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: juelaohai}
+  - {name: 流量有限 仅提供给频道内的成员使用 请勿公开, server: jue.lao.hai, port: 3333, type: ss, cipher: aes-256-gcm, password: juelaohai}
+  - {name: 禁止在中国大陆平台分享订阅 节点 配置教程, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: juelaohai}
+  - {name: 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-256-gcm, password: juelaohai}
+  - {name: 如果想要更好的体验建议购买频道内推荐的机场订阅, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 台湾 IEPL Akari 暗影舞会, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 台湾 IEPL HiNet 破晓惊雷, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 台湾 IEPL Akari 月光射手, server: 120.232.170.172, port: 18672, type: ss, cipher: aes-128-gcm, password: fd1b1169-4a89-4176-85f3-d71814a7466d}
@@ -34,10 +34,10 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 关注Telegram频道
-      - t.me/juelaohai
-      - 以下节点仅供游戏使用
-      - 若有其它需求可使用频道内提供的其它节点
+      - 流量有限 仅提供给频道内的成员使用 请勿公开
+      - 禁止在中国大陆平台分享订阅、节点、配置教程
+      - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
+      - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
       - 台湾 IEPL Akari 月光射手
@@ -62,10 +62,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 关注Telegram频道
-      - t.me/juelaohai
-      - 以下节点仅供游戏使用
-      - 若有其它需求可使用频道内提供的其它节点
+      - 流量有限 仅提供给频道内的成员使用 请勿公开
+      - 禁止在中国大陆平台分享订阅、节点、配置教程
+      - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
+      - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
       - 台湾 IEPL Akari 月光射手
@@ -91,10 +91,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 关注Telegram频道
-      - t.me/juelaohai
-      - 以下节点仅供游戏使用
-      - 若有其它需求可使用频道内提供的其它节点
+      - 流量有限 仅提供给频道内的成员使用 请勿公开
+      - 禁止在中国大陆平台分享订阅、节点、配置教程
+      - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
+      - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
       - 台湾 IEPL Akari 月光射手
@@ -132,10 +132,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 关注Telegram频道
-      - t.me/juelaohai
-      - 以下节点仅供游戏使用
-      - 若有其它需求可使用频道内提供的其它节点
+      - 流量有限 仅提供给频道内的成员使用 请勿公开
+      - 禁止在中国大陆平台分享订阅、节点、配置教程
+      - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
+      - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
       - 台湾 IEPL Akari 月光射手
@@ -159,6 +159,8 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 禁止在中国大陆平台分享订阅、节点、配置教程
+      - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
       - 台湾 IEPL Akari 月光射手
@@ -172,10 +174,10 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 关注Telegram频道
-      - t.me/juelaohai
-      - 以下节点仅供游戏使用
-      - 若有其它需求可使用频道内提供的其它节点
+      - 流量有限 仅提供给频道内的成员使用 请勿公开
+      - 禁止在中国大陆平台分享订阅、节点、配置教程
+      - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
+      - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
       - 台湾 IEPL Akari 月光射手
@@ -200,10 +202,10 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 关注Telegram频道
-      - t.me/juelaohai
-      - 以下节点仅供游戏使用
-      - 若有其它需求可使用频道内提供的其它节点
+      - 流量有限 仅提供给频道内的成员使用 请勿公开
+      - 禁止在中国大陆平台分享订阅、节点、配置教程
+      - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
+      - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
       - 台湾 IEPL Akari 月光射手
@@ -229,10 +231,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 关注Telegram频道
-      - t.me/juelaohai
-      - 以下节点仅供游戏使用
-      - 若有其它需求可使用频道内提供的其它节点
+      - 流量有限 仅提供给频道内的成员使用 请勿公开
+      - 禁止在中国大陆平台分享订阅、节点、配置教程
+      - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
+      - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
       - 台湾 IEPL Akari 月光射手
@@ -267,10 +269,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 关注Telegram频道
-      - t.me/juelaohai
-      - 以下节点仅供游戏使用
-      - 若有其它需求可使用频道内提供的其它节点
+      - 流量有限 仅提供给频道内的成员使用 请勿公开
+      - 禁止在中国大陆平台分享订阅、节点、配置教程
+      - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
+      - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
       - 台湾 IEPL Akari 月光射手
