@@ -11,11 +11,9 @@ proxies:
   - {name: 如果想要更好的体验建议购买频道内推荐的机场订阅, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 台湾 IEPL Akari 暗影舞会, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 台湾 IEPL HiNet 破晓惊雷, server: abc.dggs.org, port: 10711, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
-  - {name: 台湾 IEPL Akari 月光射手, server: 120.232.170.172, port: 18672, type: ss, cipher: aes-128-gcm, password: fd1b1169-4a89-4176-85f3-d71814a7466d}
   - {name: 香港 IEPL Eons 炽红之枪, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 香港 IEPL Eons 时空之影, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 香港 IEPL DMIT 板前魂, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
-  - {name: 香港 IEPL Misaka 追忆之刃, server: 211.99.100.250, port: 51234, type: ss, cipher: aes-128-gcm, password: fd1b1169-4a89-4176-85f3-d71814a7466d}
   - {name: 新加坡 IEPL Amazon 加特林教父, server: abc.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 新加坡 IEPL Amazon 翡翠妖姬, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 新加坡 IEPL Akari 摇滚狂潮, server: abc.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
@@ -23,7 +21,6 @@ proxies:
   - {name: 日本 IEPL Amazon 圣光之翼, server: abcd.dggs.org, port: 10703, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 日本 IEPL Oracle 花仙女, server: abcd.dggs.org, port: 10709, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 日本 IEPL Oracle 丰饶女神, server: abcd.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
-  - {name: 日本 IEPL Misaka 源力武士, server: 42.157.161.166, port: 38686, type: ss, cipher: aes-128-gcm, password: fd1b1169-4a89-4176-85f3-d71814a7466d}
   - {name: 美国 IEPL Amazon 青春校园, server: abcd.dggs.org, port: 10704, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 美国 IEPL Amazon 朋克女孩, server: abcd.dggs.org, port: 10705, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
   - {name: 美国 IEPL Catixs 飞刃之舞, server: abcd.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: 21d008cc-036c-41bb-b898-8199c1550079}
@@ -40,11 +37,9 @@ proxy-groups:
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 月光射手
       - 香港 IEPL Eons 炽红之枪
       - 香港 IEPL Eons 时空之影
       - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
@@ -52,7 +47,6 @@ proxy-groups:
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
@@ -68,11 +62,9 @@ proxy-groups:
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 月光射手
       - 香港 IEPL Eons 炽红之枪
       - 香港 IEPL Eons 时空之影
       - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
@@ -80,7 +72,6 @@ proxy-groups:
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
@@ -97,11 +88,9 @@ proxy-groups:
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 月光射手
       - 香港 IEPL Eons 炽红之枪
       - 香港 IEPL Eons 时空之影
       - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
@@ -109,7 +98,6 @@ proxy-groups:
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
@@ -138,11 +126,9 @@ proxy-groups:
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 月光射手
       - 香港 IEPL Eons 炽红之枪
       - 香港 IEPL Eons 时空之影
       - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
@@ -150,7 +136,6 @@ proxy-groups:
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
@@ -163,11 +148,9 @@ proxy-groups:
       - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 月光射手
       - 香港 IEPL Eons 炽红之枪
       - 香港 IEPL Eons 时空之影
       - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Misaka 追忆之刃
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -180,11 +163,9 @@ proxy-groups:
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 月光射手
       - 香港 IEPL Eons 炽红之枪
       - 香港 IEPL Eons 时空之影
       - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
@@ -192,7 +173,6 @@ proxy-groups:
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
@@ -208,11 +188,9 @@ proxy-groups:
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 月光射手
       - 香港 IEPL Eons 炽红之枪
       - 香港 IEPL Eons 时空之影
       - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
@@ -220,7 +198,6 @@ proxy-groups:
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
@@ -237,11 +214,9 @@ proxy-groups:
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 月光射手
       - 香港 IEPL Eons 炽红之枪
       - 香港 IEPL Eons 时空之影
       - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
@@ -249,7 +224,6 @@ proxy-groups:
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
@@ -275,11 +249,9 @@ proxy-groups:
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 暗影舞会
       - 台湾 IEPL HiNet 破晓惊雷
-      - 台湾 IEPL Akari 月光射手
       - 香港 IEPL Eons 炽红之枪
       - 香港 IEPL Eons 时空之影
       - 香港 IEPL DMIT 板前魂
-      - 香港 IEPL Misaka 追忆之刃
       - 新加坡 IEPL Amazon 加特林教父
       - 新加坡 IEPL Amazon 翡翠妖姬
       - 新加坡 IEPL Akari 摇滚狂潮
@@ -287,7 +259,6 @@ proxy-groups:
       - 日本 IEPL Amazon 圣光之翼
       - 日本 IEPL Oracle 花仙女
       - 日本 IEPL Oracle 丰饶女神
-      - 日本 IEPL Misaka 源力武士
       - 美国 IEPL Amazon 青春校园
       - 美国 IEPL Amazon 朋克女孩
       - 美国 IEPL Catixs 飞刃之舞
