@@ -10,7 +10,9 @@ proxies:
   - {name: 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 如果想要更好的体验建议购买频道内推荐的机场订阅, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 台湾 IEPL Akari 源力武士, server: 211.99.100.250, port: 51236, type: ss, cipher: aes-128-gcm, password: 3c7624a3-ffde-487c-bcbd-5e76823ffbc0}
+  - {name: 台湾 IEPL Akari 备用, server: 120.232.170.172, port: 18672, type: ss, cipher: aes-128-gcm, password: 3c7624a3-ffde-487c-bcbd-5e76823ffbc0}
   - {name: 香港 IEPL Misaka 追忆之刃, server: 211.99.100.250, port: 51234, type: ss, cipher: aes-128-gcm, password: 3c7624a3-ffde-487c-bcbd-5e76823ffbc0}
+  - {name: 香港 IEPL Misaka 备用, server: 120.232.170.172, port: 18669, type: ss, cipher: aes-128-gcm, password: 3c7624a3-ffde-487c-bcbd-5e76823ffbc0}
   - {name: 日本 IEPL Misaka 月光射手, server: 42.157.161.166, port: 38686, type: ss, cipher: aes-128-gcm, password: 3c7624a3-ffde-487c-bcbd-5e76823ffbc0}
 proxy-groups:
   - name: 🔰 节点选择
@@ -23,7 +25,9 @@ proxy-groups:
       - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 源力武士
+      - 台湾 IEPL Akari 备用
       - 香港 IEPL Misaka 追忆之刃
+      - 香港 IEPL Misaka 备用
       - 日本 IEPL Misaka 月光射手
   - name: ♻️ 自动选择
     type: url-test
@@ -35,7 +39,9 @@ proxy-groups:
       - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 源力武士
+      - 台湾 IEPL Akari 备用
       - 香港 IEPL Misaka 追忆之刃
+      - 香港 IEPL Misaka 备用
       - 日本 IEPL Misaka 月光射手
   - name: 🎥 NETFLIX
     type: select
@@ -48,7 +54,9 @@ proxy-groups:
       - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 源力武士
+      - 台湾 IEPL Akari 备用
       - 香港 IEPL Misaka 追忆之刃
+      - 香港 IEPL Misaka 备用
       - 日本 IEPL Misaka 月光射手
   - name: ⛔️ 广告拦截
     type: select
@@ -73,7 +81,9 @@ proxy-groups:
       - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 源力武士
+      - 台湾 IEPL Akari 备用
       - 香港 IEPL Misaka 追忆之刃
+      - 香港 IEPL Misaka 备用
       - 日本 IEPL Misaka 月光射手
   - name: 🌏 国内媒体
     type: select
@@ -82,7 +92,9 @@ proxy-groups:
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
       - 台湾 IEPL Akari 源力武士
+      - 台湾 IEPL Akari 备用
       - 香港 IEPL Misaka 追忆之刃
+      - 香港 IEPL Misaka 备用
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -94,7 +106,9 @@ proxy-groups:
       - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 源力武士
+      - 台湾 IEPL Akari 备用
       - 香港 IEPL Misaka 追忆之刃
+      - 香港 IEPL Misaka 备用
       - 日本 IEPL Misaka 月光射手
   - name: 📲 电报信息
     type: select
@@ -106,7 +120,9 @@ proxy-groups:
       - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 源力武士
+      - 台湾 IEPL Akari 备用
       - 香港 IEPL Misaka 追忆之刃
+      - 香港 IEPL Misaka 备用
       - 日本 IEPL Misaka 月光射手
   - name: 🍎 苹果服务
     type: select
@@ -119,7 +135,9 @@ proxy-groups:
       - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 源力武士
+      - 台湾 IEPL Akari 备用
       - 香港 IEPL Misaka 追忆之刃
+      - 香港 IEPL Misaka 备用
       - 日本 IEPL Misaka 月光射手
   - name: 🎯 全球直连
     type: select
@@ -141,7 +159,9 @@ proxy-groups:
       - 用台湾节点进入游戏后再断开或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
       - 台湾 IEPL Akari 源力武士
+      - 台湾 IEPL Akari 备用
       - 香港 IEPL Misaka 追忆之刃
+      - 香港 IEPL Misaka 备用
       - 日本 IEPL Misaka 月光射手
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
