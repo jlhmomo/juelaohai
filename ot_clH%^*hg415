@@ -12,20 +12,10 @@ proxies:
   - {name: 美国 圣诞熊猫, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
   - {name: 美国 冻海勇士, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
   - {name: 美国 狂甲战牛, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 美国 BGP 远古山神, server: cn-sh.aseur8qwer.top, port: 16707, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 BGP 生化改造人, server: cn-sh.aseur8qwer.top, port: 24766, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 BGP 怒焰猎魔者, server: cn-sh.aseur8qwer.top, port: 23608, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 美国 BGP 街头篮球, server: cn-sh.aseur8qwer.top, port: 36465, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 香港 BGP 古堡男爵, server: cn-gz.aseur8qwer.top, port: 52517, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 香港 BGP 冻海之王, server: cn-gz.aseur8qwer.top, port: 25254, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 日本 圣诞小鹿, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本 梦幻之恋, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
   - {name: 日本 救世主, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本 浮光掠星, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
-  - {name: 日本 BGP 逐风之影, server: cn-sh.aseur8qwer.top, port: 19991, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 BGP 逍遥枪圣, server: cn-sh.aseur8qwer.top, port: 39925, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 BGP 祥龙瑞火, server: cn-sh.aseur8qwer.top, port: 31009, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 日本 BGP 魔能枪手, server: cn-sh.aseur8qwer.top, port: 46964, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
   - {name: 韩国 云雀, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 沙滩救援队, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 圣诞派对, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
@@ -34,14 +24,6 @@ proxies:
   - {name: 新加坡 贵族骑兵, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
   - {name: 新加坡 荆棘上尉, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
   - {name: 新加坡 特级厨师, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
-  - {name: 新加坡 BGP 银翼凶兵, server: cn-hn.aseur8qwer.top, port: 19669, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 BGP 枭龙, server: cn-hn.aseur8qwer.top, port: 18680, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 BGP 鬼武统领, server: cn-hn.aseur8qwer.top, port: 48354, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 新加坡 BGP 光能战士, server: cn-hn.aseur8qwer.top, port: 19191, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 BGP 天鹅公主, server: cn-gz.aseur8qwer.top, port: 20209, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 BGP 黑天鹅, server: cn-gz.aseur8qwer.top, port: 51875, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 BGP 炽焰圣裁, server: cn-gz.aseur8qwer.top, port: 17330, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
-  - {name: 台湾 BGP 暗夜之果, server: cn-gz.aseur8qwer.top, port: 33647, type: ss, cipher: aes-128-gcm, password: 3d05ea4b-97a7-4e61-a3ca-ff3afa99ec74}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -55,20 +37,10 @@ proxy-groups:
       - 美国 圣诞熊猫
       - 美国 冻海勇士
       - 美国 狂甲战牛
-      - 美国 BGP 远古山神
-      - 美国 BGP 生化改造人
-      - 美国 BGP 怒焰猎魔者
-      - 美国 BGP 街头篮球
-      - 香港 BGP 古堡男爵
-      - 香港 BGP 冻海之王
       - 日本 圣诞小鹿
       - 日本 梦幻之恋
       - 日本 救世主
       - 日本 浮光掠星
-      - 日本 BGP 逐风之影
-      - 日本 BGP 逍遥枪圣
-      - 日本 BGP 祥龙瑞火
-      - 日本 BGP 魔能枪手
       - 韩国 云雀
       - 韩国 沙滩救援队
       - 韩国 圣诞派对
@@ -77,14 +49,6 @@ proxy-groups:
       - 新加坡 贵族骑兵
       - 新加坡 荆棘上尉
       - 新加坡 特级厨师
-      - 新加坡 BGP 银翼凶兵
-      - 新加坡 BGP 枭龙
-      - 新加坡 BGP 鬼武统领
-      - 新加坡 BGP 光能战士
-      - 台湾 BGP 天鹅公主
-      - 台湾 BGP 黑天鹅
-      - 台湾 BGP 炽焰圣裁
-      - 台湾 BGP 暗夜之果
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -97,20 +61,10 @@ proxy-groups:
       - 美国 圣诞熊猫
       - 美国 冻海勇士
       - 美国 狂甲战牛
-      - 美国 BGP 远古山神
-      - 美国 BGP 生化改造人
-      - 美国 BGP 怒焰猎魔者
-      - 美国 BGP 街头篮球
-      - 香港 BGP 古堡男爵
-      - 香港 BGP 冻海之王
       - 日本 圣诞小鹿
       - 日本 梦幻之恋
       - 日本 救世主
       - 日本 浮光掠星
-      - 日本 BGP 逐风之影
-      - 日本 BGP 逍遥枪圣
-      - 日本 BGP 祥龙瑞火
-      - 日本 BGP 魔能枪手
       - 韩国 云雀
       - 韩国 沙滩救援队
       - 韩国 圣诞派对
@@ -119,14 +73,6 @@ proxy-groups:
       - 新加坡 贵族骑兵
       - 新加坡 荆棘上尉
       - 新加坡 特级厨师
-      - 新加坡 BGP 银翼凶兵
-      - 新加坡 BGP 枭龙
-      - 新加坡 BGP 鬼武统领
-      - 新加坡 BGP 光能战士
-      - 台湾 BGP 天鹅公主
-      - 台湾 BGP 黑天鹅
-      - 台湾 BGP 炽焰圣裁
-      - 台湾 BGP 暗夜之果
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -140,20 +86,10 @@ proxy-groups:
       - 美国 圣诞熊猫
       - 美国 冻海勇士
       - 美国 狂甲战牛
-      - 美国 BGP 远古山神
-      - 美国 BGP 生化改造人
-      - 美国 BGP 怒焰猎魔者
-      - 美国 BGP 街头篮球
-      - 香港 BGP 古堡男爵
-      - 香港 BGP 冻海之王
       - 日本 圣诞小鹿
       - 日本 梦幻之恋
       - 日本 救世主
       - 日本 浮光掠星
-      - 日本 BGP 逐风之影
-      - 日本 BGP 逍遥枪圣
-      - 日本 BGP 祥龙瑞火
-      - 日本 BGP 魔能枪手
       - 韩国 云雀
       - 韩国 沙滩救援队
       - 韩国 圣诞派对
@@ -162,14 +98,6 @@ proxy-groups:
       - 新加坡 贵族骑兵
       - 新加坡 荆棘上尉
       - 新加坡 特级厨师
-      - 新加坡 BGP 银翼凶兵
-      - 新加坡 BGP 枭龙
-      - 新加坡 BGP 鬼武统领
-      - 新加坡 BGP 光能战士
-      - 台湾 BGP 天鹅公主
-      - 台湾 BGP 黑天鹅
-      - 台湾 BGP 炽焰圣裁
-      - 台湾 BGP 暗夜之果
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -195,20 +123,10 @@ proxy-groups:
       - 美国 圣诞熊猫
       - 美国 冻海勇士
       - 美国 狂甲战牛
-      - 美国 BGP 远古山神
-      - 美国 BGP 生化改造人
-      - 美国 BGP 怒焰猎魔者
-      - 美国 BGP 街头篮球
-      - 香港 BGP 古堡男爵
-      - 香港 BGP 冻海之王
       - 日本 圣诞小鹿
       - 日本 梦幻之恋
       - 日本 救世主
       - 日本 浮光掠星
-      - 日本 BGP 逐风之影
-      - 日本 BGP 逍遥枪圣
-      - 日本 BGP 祥龙瑞火
-      - 日本 BGP 魔能枪手
       - 韩国 云雀
       - 韩国 沙滩救援队
       - 韩国 圣诞派对
@@ -217,25 +135,11 @@ proxy-groups:
       - 新加坡 贵族骑兵
       - 新加坡 荆棘上尉
       - 新加坡 特级厨师
-      - 新加坡 BGP 银翼凶兵
-      - 新加坡 BGP 枭龙
-      - 新加坡 BGP 鬼武统领
-      - 新加坡 BGP 光能战士
-      - 台湾 BGP 天鹅公主
-      - 台湾 BGP 黑天鹅
-      - 台湾 BGP 炽焰圣裁
-      - 台湾 BGP 暗夜之果
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 禁止在中国大陆平台分享订阅 节点 配置教程
-      - 香港 BGP 古堡男爵
-      - 香港 BGP 冻海之王
-      - 台湾 BGP 天鹅公主
-      - 台湾 BGP 黑天鹅
-      - 台湾 BGP 炽焰圣裁
-      - 台湾 BGP 暗夜之果
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -249,20 +153,10 @@ proxy-groups:
       - 美国 圣诞熊猫
       - 美国 冻海勇士
       - 美国 狂甲战牛
-      - 美国 BGP 远古山神
-      - 美国 BGP 生化改造人
-      - 美国 BGP 怒焰猎魔者
-      - 美国 BGP 街头篮球
-      - 香港 BGP 古堡男爵
-      - 香港 BGP 冻海之王
       - 日本 圣诞小鹿
       - 日本 梦幻之恋
       - 日本 救世主
       - 日本 浮光掠星
-      - 日本 BGP 逐风之影
-      - 日本 BGP 逍遥枪圣
-      - 日本 BGP 祥龙瑞火
-      - 日本 BGP 魔能枪手
       - 韩国 云雀
       - 韩国 沙滩救援队
       - 韩国 圣诞派对
@@ -271,14 +165,6 @@ proxy-groups:
       - 新加坡 贵族骑兵
       - 新加坡 荆棘上尉
       - 新加坡 特级厨师
-      - 新加坡 BGP 银翼凶兵
-      - 新加坡 BGP 枭龙
-      - 新加坡 BGP 鬼武统领
-      - 新加坡 BGP 光能战士
-      - 台湾 BGP 天鹅公主
-      - 台湾 BGP 黑天鹅
-      - 台湾 BGP 炽焰圣裁
-      - 台湾 BGP 暗夜之果
   - name: 📲 电报信息
     type: select
     proxies:
@@ -291,20 +177,10 @@ proxy-groups:
       - 美国 圣诞熊猫
       - 美国 冻海勇士
       - 美国 狂甲战牛
-      - 美国 BGP 远古山神
-      - 美国 BGP 生化改造人
-      - 美国 BGP 怒焰猎魔者
-      - 美国 BGP 街头篮球
-      - 香港 BGP 古堡男爵
-      - 香港 BGP 冻海之王
       - 日本 圣诞小鹿
       - 日本 梦幻之恋
       - 日本 救世主
       - 日本 浮光掠星
-      - 日本 BGP 逐风之影
-      - 日本 BGP 逍遥枪圣
-      - 日本 BGP 祥龙瑞火
-      - 日本 BGP 魔能枪手
       - 韩国 云雀
       - 韩国 沙滩救援队
       - 韩国 圣诞派对
@@ -313,14 +189,6 @@ proxy-groups:
       - 新加坡 贵族骑兵
       - 新加坡 荆棘上尉
       - 新加坡 特级厨师
-      - 新加坡 BGP 银翼凶兵
-      - 新加坡 BGP 枭龙
-      - 新加坡 BGP 鬼武统领
-      - 新加坡 BGP 光能战士
-      - 台湾 BGP 天鹅公主
-      - 台湾 BGP 黑天鹅
-      - 台湾 BGP 炽焰圣裁
-      - 台湾 BGP 暗夜之果
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -334,20 +202,10 @@ proxy-groups:
       - 美国 圣诞熊猫
       - 美国 冻海勇士
       - 美国 狂甲战牛
-      - 美国 BGP 远古山神
-      - 美国 BGP 生化改造人
-      - 美国 BGP 怒焰猎魔者
-      - 美国 BGP 街头篮球
-      - 香港 BGP 古堡男爵
-      - 香港 BGP 冻海之王
       - 日本 圣诞小鹿
       - 日本 梦幻之恋
       - 日本 救世主
       - 日本 浮光掠星
-      - 日本 BGP 逐风之影
-      - 日本 BGP 逍遥枪圣
-      - 日本 BGP 祥龙瑞火
-      - 日本 BGP 魔能枪手
       - 韩国 云雀
       - 韩国 沙滩救援队
       - 韩国 圣诞派对
@@ -356,14 +214,6 @@ proxy-groups:
       - 新加坡 贵族骑兵
       - 新加坡 荆棘上尉
       - 新加坡 特级厨师
-      - 新加坡 BGP 银翼凶兵
-      - 新加坡 BGP 枭龙
-      - 新加坡 BGP 鬼武统领
-      - 新加坡 BGP 光能战士
-      - 台湾 BGP 天鹅公主
-      - 台湾 BGP 黑天鹅
-      - 台湾 BGP 炽焰圣裁
-      - 台湾 BGP 暗夜之果
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -386,20 +236,10 @@ proxy-groups:
       - 美国 圣诞熊猫
       - 美国 冻海勇士
       - 美国 狂甲战牛
-      - 美国 BGP 远古山神
-      - 美国 BGP 生化改造人
-      - 美国 BGP 怒焰猎魔者
-      - 美国 BGP 街头篮球
-      - 香港 BGP 古堡男爵
-      - 香港 BGP 冻海之王
       - 日本 圣诞小鹿
       - 日本 梦幻之恋
       - 日本 救世主
       - 日本 浮光掠星
-      - 日本 BGP 逐风之影
-      - 日本 BGP 逍遥枪圣
-      - 日本 BGP 祥龙瑞火
-      - 日本 BGP 魔能枪手
       - 韩国 云雀
       - 韩国 沙滩救援队
       - 韩国 圣诞派对
@@ -408,14 +248,6 @@ proxy-groups:
       - 新加坡 贵族骑兵
       - 新加坡 荆棘上尉
       - 新加坡 特级厨师
-      - 新加坡 BGP 银翼凶兵
-      - 新加坡 BGP 枭龙
-      - 新加坡 BGP 鬼武统领
-      - 新加坡 BGP 光能战士
-      - 台湾 BGP 天鹅公主
-      - 台湾 BGP 黑天鹅
-      - 台湾 BGP 炽焰圣裁
-      - 台湾 BGP 暗夜之果
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
