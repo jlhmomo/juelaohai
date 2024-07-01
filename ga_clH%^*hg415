@@ -9,8 +9,19 @@ proxies:
   - {name: 禁止在中国大陆平台分享订阅 节点 配置教程, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 如果想要更好的体验建议购买频道内推荐的机场订阅, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: juelaohai}
-  - {name: 台湾 Akari 仅登陆游戏用, server: b6d2466a15tw.e5865f69dee0.xyz, port: 58674, type: ss, cipher: aes-128-gcm, password: 3c7624a3-ffde-487c-bcbd-5e76823ffbc0}
-  - {name: 香港 IEPL HKT 追忆之刃, server: 211.99.100.250, port: 51234, type: ss, cipher: aes-128-gcm, password: 3c7624a3-ffde-487c-bcbd-5e76823ffbc0}
+  - {name: 台湾 IEPL Akari 月神祭祀, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
+  - {name: 台湾 Akari 原始之力, server: b6d2466a15tw.e5865f69dee0.xyz, port: 58674, type: ss, cipher: aes-128-gcm, password: 3c7624a3-ffde-487c-bcbd-5e76823ffbc0}
+  - {name: 香港 IEPL Eons 银之刃风, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
+  - {name: 香港 IEPL Eons 全金属浪人, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
+  - {name: 香港 IEPL DMIT 魔物猎人, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
+  - {name: 新加坡 IEPL Amazon 甜蜜幻想, server: abc.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
+  - {name: 新加坡 IEPL Amazon 花灵, server: abc.dggs.org, port: 10707, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
+  - {name: 日本 IEPL Amazon 梦幻星月, server: abcd.dggs.org, port: 10702, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
+  - {name: 日本 IEPL Amazon 流樱之舞, server: abcd.dggs.org, port: 10703, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
+  - {name: 日本 IEPL Oracle 广寒仙子, server: abcd.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
+  - {name: 美国 IEPL Amazon 上弦月, server: abcd.dggs.org, port: 10704, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
+  - {name: 美国 IEPL Amazon 血月, server: abcd.dggs.org, port: 10705, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
+  - {name: 美国 IEPL PoloCloud 智识之光, server: abcd.dggs.org, port: 10706, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -21,8 +32,19 @@ proxy-groups:
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 台湾 Akari 仅登陆游戏用
-      - 香港 IEPL HKT 追忆之刃
+      - 台湾 IEPL Akari 月神祭祀
+      - 台湾 Akari 原始之力
+      - 香港 IEPL Eons 银之刃风
+      - 香港 IEPL Eons 全金属浪人
+      - 香港 IEPL DMIT 魔物猎人
+      - 新加坡 IEPL Amazon 甜蜜幻想
+      - 新加坡 IEPL Amazon 花灵
+      - 日本 IEPL Amazon 梦幻星月
+      - 日本 IEPL Amazon 流樱之舞
+      - 日本 IEPL Oracle 广寒仙子
+      - 美国 IEPL Amazon 上弦月
+      - 美国 IEPL Amazon 血月
+      - 美国 IEPL PoloCloud 智识之光
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -32,8 +54,19 @@ proxy-groups:
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 台湾 Akari 仅登陆游戏用
-      - 香港 IEPL HKT 追忆之刃
+      - 台湾 IEPL Akari 月神祭祀
+      - 台湾 Akari 原始之力
+      - 香港 IEPL Eons 银之刃风
+      - 香港 IEPL Eons 全金属浪人
+      - 香港 IEPL DMIT 魔物猎人
+      - 新加坡 IEPL Amazon 甜蜜幻想
+      - 新加坡 IEPL Amazon 花灵
+      - 日本 IEPL Amazon 梦幻星月
+      - 日本 IEPL Amazon 流樱之舞
+      - 日本 IEPL Oracle 广寒仙子
+      - 美国 IEPL Amazon 上弦月
+      - 美国 IEPL Amazon 血月
+      - 美国 IEPL PoloCloud 智识之光
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -44,8 +77,19 @@ proxy-groups:
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 台湾 Akari 仅登陆游戏用
-      - 香港 IEPL HKT 追忆之刃
+      - 台湾 IEPL Akari 月神祭祀
+      - 台湾 Akari 原始之力
+      - 香港 IEPL Eons 银之刃风
+      - 香港 IEPL Eons 全金属浪人
+      - 香港 IEPL DMIT 魔物猎人
+      - 新加坡 IEPL Amazon 甜蜜幻想
+      - 新加坡 IEPL Amazon 花灵
+      - 日本 IEPL Amazon 梦幻星月
+      - 日本 IEPL Amazon 流樱之舞
+      - 日本 IEPL Oracle 广寒仙子
+      - 美国 IEPL Amazon 上弦月
+      - 美国 IEPL Amazon 血月
+      - 美国 IEPL PoloCloud 智识之光
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,16 +112,30 @@ proxy-groups:
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 台湾 Akari 仅登陆游戏用
-      - 香港 IEPL HKT 追忆之刃
+      - 台湾 IEPL Akari 月神祭祀
+      - 台湾 Akari 原始之力
+      - 香港 IEPL Eons 银之刃风
+      - 香港 IEPL Eons 全金属浪人
+      - 香港 IEPL DMIT 魔物猎人
+      - 新加坡 IEPL Amazon 甜蜜幻想
+      - 新加坡 IEPL Amazon 花灵
+      - 日本 IEPL Amazon 梦幻星月
+      - 日本 IEPL Amazon 流樱之舞
+      - 日本 IEPL Oracle 广寒仙子
+      - 美国 IEPL Amazon 上弦月
+      - 美国 IEPL Amazon 血月
+      - 美国 IEPL PoloCloud 智识之光
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟
-      - 台湾 Akari 仅登陆游戏用
-      - 香港 IEPL HKT 追忆之刃
+      - 台湾 IEPL Akari 月神祭祀
+      - 台湾 Akari 原始之力
+      - 香港 IEPL Eons 银之刃风
+      - 香港 IEPL Eons 全金属浪人
+      - 香港 IEPL DMIT 魔物猎人
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -88,8 +146,19 @@ proxy-groups:
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 台湾 Akari 仅登陆游戏用
-      - 香港 IEPL HKT 追忆之刃
+      - 台湾 IEPL Akari 月神祭祀
+      - 台湾 Akari 原始之力
+      - 香港 IEPL Eons 银之刃风
+      - 香港 IEPL Eons 全金属浪人
+      - 香港 IEPL DMIT 魔物猎人
+      - 新加坡 IEPL Amazon 甜蜜幻想
+      - 新加坡 IEPL Amazon 花灵
+      - 日本 IEPL Amazon 梦幻星月
+      - 日本 IEPL Amazon 流樱之舞
+      - 日本 IEPL Oracle 广寒仙子
+      - 美国 IEPL Amazon 上弦月
+      - 美国 IEPL Amazon 血月
+      - 美国 IEPL PoloCloud 智识之光
   - name: 📲 电报信息
     type: select
     proxies:
@@ -99,8 +168,19 @@ proxy-groups:
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 台湾 Akari 仅登陆游戏用
-      - 香港 IEPL HKT 追忆之刃
+      - 台湾 IEPL Akari 月神祭祀
+      - 台湾 Akari 原始之力
+      - 香港 IEPL Eons 银之刃风
+      - 香港 IEPL Eons 全金属浪人
+      - 香港 IEPL DMIT 魔物猎人
+      - 新加坡 IEPL Amazon 甜蜜幻想
+      - 新加坡 IEPL Amazon 花灵
+      - 日本 IEPL Amazon 梦幻星月
+      - 日本 IEPL Amazon 流樱之舞
+      - 日本 IEPL Oracle 广寒仙子
+      - 美国 IEPL Amazon 上弦月
+      - 美国 IEPL Amazon 血月
+      - 美国 IEPL PoloCloud 智识之光
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -111,8 +191,19 @@ proxy-groups:
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 台湾 Akari 仅登陆游戏用
-      - 香港 IEPL HKT 追忆之刃
+      - 台湾 IEPL Akari 月神祭祀
+      - 台湾 Akari 原始之力
+      - 香港 IEPL Eons 银之刃风
+      - 香港 IEPL Eons 全金属浪人
+      - 香港 IEPL DMIT 魔物猎人
+      - 新加坡 IEPL Amazon 甜蜜幻想
+      - 新加坡 IEPL Amazon 花灵
+      - 日本 IEPL Amazon 梦幻星月
+      - 日本 IEPL Amazon 流樱之舞
+      - 日本 IEPL Oracle 广寒仙子
+      - 美国 IEPL Amazon 上弦月
+      - 美国 IEPL Amazon 血月
+      - 美国 IEPL PoloCloud 智识之光
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,8 +223,19 @@ proxy-groups:
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 台湾 Akari 仅登陆游戏用
-      - 香港 IEPL HKT 追忆之刃
+      - 台湾 IEPL Akari 月神祭祀
+      - 台湾 Akari 原始之力
+      - 香港 IEPL Eons 银之刃风
+      - 香港 IEPL Eons 全金属浪人
+      - 香港 IEPL DMIT 魔物猎人
+      - 新加坡 IEPL Amazon 甜蜜幻想
+      - 新加坡 IEPL Amazon 花灵
+      - 日本 IEPL Amazon 梦幻星月
+      - 日本 IEPL Amazon 流樱之舞
+      - 日本 IEPL Oracle 广寒仙子
+      - 美国 IEPL Amazon 上弦月
+      - 美国 IEPL Amazon 血月
+      - 美国 IEPL PoloCloud 智识之光
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
