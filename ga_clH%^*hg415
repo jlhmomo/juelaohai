@@ -10,7 +10,6 @@ proxies:
   - {name: 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 如果想要更好的体验建议购买频道内推荐的机场订阅, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 台湾 IEPL Akari 月神祭祀 @cutexiaxia 赞助, server: abc.dggs.org, port: 10708, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
-  - {name: 台湾 Akari 原始之力 @cutexiaxia 赞助, server: b6d2466a15tw.e5865f69dee0.xyz, port: 58674, type: ss, cipher: aes-128-gcm, password: 3c7624a3-ffde-487c-bcbd-5e76823ffbc0}
   - {name: 香港 IEPL Eons 银之刃风 @cutexiaxia 赞助, server: abc.dggs.org, port: 10700, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
   - {name: 香港 IEPL Eons 全金属浪人 @cutexiaxia 赞助, server: abc.dggs.org, port: 10701, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
   - {name: 香港 IEPL DMIT 魔物猎人 @cutexiaxia 赞助, server: abc.dggs.org, port: 10710, type: ss, cipher: aes-256-gcm, password: 1b6c7f2d-27c1-48c9-b518-cb92e62bbafa}
