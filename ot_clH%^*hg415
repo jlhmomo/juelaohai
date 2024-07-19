@@ -20,14 +20,32 @@ proxies:
   - {name: 美国 @cutexiaxia 赞助 10, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
   - {name: 美国 @cutexiaxia 赞助 11, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: 美国 @cutexiaxia 赞助 12, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
+  - {name: 美国阿什本 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: rvywqn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: rvywqn.freefly.pp.ua}}}
+  - {name: 美国阿什本 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: smgrkf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: smgrkf.freefly.pp.ua}}}
+  - {name: 美国阿什本 @cutexiaxia 赞助 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: jxvspk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jxvspk.freefly.pp.ua}}}
+  - {name: 美国阿什本 @cutexiaxia 赞助 4, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: tuubuc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tuubuc.freefly.pp.ua}}}
+  - {name: 美国阿什本 @cutexiaxia 赞助 5, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: sagflax.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: sagflax.freefly.pp.ua}}}
+  - {name: 美国纽约 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: hvztsa.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hvztsa.freefly.pp.ua}}}
+  - {name: 美国凤凰城 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: cbjsfp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: cbjsfp.freefly.pp.ua}}}
+  - {name: 美国凤凰城 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: hxgmnz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hxgmnz.freefly.pp.ua}}}
   - {name: 日本 @cutexiaxia 赞助, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本 @cutexiaxia 赞助 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
   - {name: 日本 @cutexiaxia 赞助 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本 @cutexiaxia 赞助 4, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
+  - {name: 日本 @cutexiaxia 赞助 5, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: whwdcj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: whwdcj.freefly.pp.ua}}}
+  - {name: 日本 @cutexiaxia 赞助 6, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: swjfgz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: swjfgz.freefly.pp.ua}}}
+  - {name: 日本 @cutexiaxia 赞助 7, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: vfbypb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vfbypb.freefly.pp.ua}}}
+  - {name: 日本 @cutexiaxia 赞助 8, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: vcanfr.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vcanfr.freefly.pp.ua}}}
+  - {name: 日本 @cutexiaxia 赞助 9, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: tbneve.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tbneve.freefly.pp.ua}}}
+  - {name: 日本东京 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: beutwb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: beutwb.freefly.pp.ua}}}
   - {name: 韩国 @cutexiaxia 赞助, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 @cutexiaxia 赞助 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
   - {name: 韩国 @cutexiaxia 赞助 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
   - {name: 韩国 @cutexiaxia 赞助 4, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
+  - {name: 韩国春川 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: rnmnpb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: rnmnpb.freefly.pp.ua}}}
+  - {name: 韩国春川 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: nrvejj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: nrvejj.freefly.pp.ua}}}
+  - {name: 韩国春川 @cutexiaxia 赞助 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: gvvhvm.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: gvvhvm.freefly.pp.ua}}}
+  - {name: 韩国春川 @cutexiaxia 赞助 4, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: uhmpbc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: uhmpbc.freefly.pp.ua}}}
   - {name: 新加坡 @cutexiaxia 赞助, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
   - {name: 新加坡 @cutexiaxia 赞助 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
   - {name: 新加坡 @cutexiaxia 赞助 3, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
@@ -36,6 +54,60 @@ proxies:
   - {name: 新加坡 @cutexiaxia 赞助 6, server: cu.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
   - {name: 泰国 @cutexiaxia 赞助, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: th.niaoba.top}}}
   - {name: 泰国 @cutexiaxia 赞助 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: th.niaoba.top}}}
+  - {name: 印度海得拉巴 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: utxxpy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: utxxpy.freefly.pp.ua}}}
+  - {name: 印度海得拉巴 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: nmgqhy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: nmgqhy.freefly.pp.ua}}}
+  - {name: 印度海得拉巴 @cutexiaxia 赞助 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: vkervf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vkervf.freefly.pp.ua}}}
+  - {name: 印度海得拉巴 @cutexiaxia 赞助 4, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: yzvcts.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: yzvcts.freefly.pp.ua}}}
+  - {name: 印度海得拉巴 @cutexiaxia 赞助 5, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: dumzmb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: dumzmb.freefly.pp.ua}}}
+  - {name: 印度海得拉巴 @cutexiaxia 赞助 6, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: cxhsxe.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: cxhsxe.freefly.pp.ua}}}
+  - {name: 印度海得拉巴 @cutexiaxia 赞助 7, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: xwdxxc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xwdxxc.freefly.pp.ua}}}
+  - {name: 印度孟买 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: dfby.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: dfby.freefly.pp.ua}}}
+  - {name: 澳大利亚墨尔本 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: qshsbq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: qshsbq.freefly.pp.ua}}}
+  - {name: 澳大利亚墨尔本 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: fwvgau.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: fwvgau.freefly.pp.ua}}}
+  - {name: 加拿大 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: nqevcj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: nqevcj.freefly.pp.ua}}}
+  - {name: 加拿大 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: qqkyhm.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: qqkyhm.freefly.pp.ua}}}
+  - {name: 巴西 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: kkvfvh.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: kkvfvh.freefly.pp.ua}}}
+  - {name: 巴西 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: ucjvqd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ucjvqd.freefly.pp.ua}}}
+  - {name: 巴西 @cutexiaxia 赞助 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: jazwsc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jazwsc.freefly.pp.ua}}}
+  - {name: 巴西 @cutexiaxia 赞助 4, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: xkpkra.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xkpkra.freefly.pp.ua}}}
+  - {name: 巴西 @cutexiaxia 赞助 5, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: ugdeey.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ugdeey.freefly.pp.ua}}}
+  - {name: 巴西 @cutexiaxia 赞助 6, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: xpfzpk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xpfzpk.freefly.pp.ua}}}
+  - {name: 巴西 @cutexiaxia 赞助 7, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: vdnycf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vdnycf.freefly.pp.ua}}}
+  - {name: 巴西维涅杜 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: vtydet.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vtydet.freefly.pp.ua}}}
+  - {name: 巴西维涅杜 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: vcpexk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vcpexk.freefly.pp.ua}}}
+  - {name: 巴西维涅杜 @cutexiaxia 赞助 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: ybhhkx.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ybhhkx.freefly.pp.ua}}}
+  - {name: 巴西维涅杜 @cutexiaxia 赞助 4, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: gvjmwn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: gvjmwn.freefly.pp.ua}}}
+  - {name: 英国 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: hvgnrn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hvgnrn.freefly.pp.ua}}}
+  - {name: 英国 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: htfrbg.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: htfrbg.freefly.pp.ua}}}
+  - {name: 英国 @cutexiaxia 赞助 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: ynrwkq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ynrwkq.freefly.pp.ua}}}
+  - {name: 法国 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: xuxnug.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xuxnug.freefly.pp.ua}}}
+  - {name: 法国 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: maebwj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: maebwj.freefly.pp.ua}}}
+  - {name: 法国 @cutexiaxia 赞助 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: ykftfb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ykftfb.freefly.pp.ua}}}
+  - {name: 法国 @cutexiaxia 赞助 4, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: ftsxkc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ftsxkc.freefly.pp.ua}}}
+  - {name: 荷兰 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: xxanrw.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xxanrw.freefly.pp.ua}}}
+  - {name: 荷兰 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: akrmjk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: akrmjk.freefly.pp.ua}}}
+  - {name: 荷兰 @cutexiaxia 赞助 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: jgmkbc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jgmkbc.freefly.pp.ua}}}
+  - {name: 荷兰 @cutexiaxia 赞助 4, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: xuczge.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xuczge.freefly.pp.ua}}}
+  - {name: 荷兰 @cutexiaxia 赞助 5, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: ddbtfk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ddbtfk.freefly.pp.ua}}}
+  - {name: 荷兰 @cutexiaxia 赞助 6, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: hspdmv.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hspdmv.freefly.pp.ua}}}
+  - {name: 德国 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: fncmkf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: fncmkf.freefly.pp.ua}}}
+  - {name: 德国 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: xradcy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xradcy.freefly.pp.ua}}}
+  - {name: 德国 @cutexiaxia 赞助 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: swutyp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: swutyp.freefly.pp.ua}}}
+  - {name: 德国 @cutexiaxia 赞助 4, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: dknycp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: dknycp.freefly.pp.ua}}}
+  - {name: 德国 @cutexiaxia 赞助 5, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: xrdtfd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xrdtfd.freefly.pp.ua}}}
+  - {name: 南非 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: asxgek.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: asxgek.freefly.pp.ua}}}
+  - {name: 南非 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: tcmspq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tcmspq.freefly.pp.ua}}}
+  - {name: 智利 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: qkrzrp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: qkrzrp.freefly.pp.ua}}}
+  - {name: 智利 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: tpevxd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tpevxd.freefly.pp.ua}}}
+  - {name: 哥伦比亚 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: xgbfdh.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xgbfdh.freefly.pp.ua}}}
+  - {name: 哥伦比亚 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: hvekpu.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hvekpu.freefly.pp.ua}}}
+  - {name: 哥伦比亚 @cutexiaxia 赞助 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: ehxgmc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ehxgmc.freefly.pp.ua}}}
+  - {name: 哥伦比亚 @cutexiaxia 赞助 4, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: jyxefz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jyxefz.freefly.pp.ua}}}
+  - {name: 墨西哥 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: vexrex.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vexrex.freefly.pp.ua}}}
+  - {name: 西班牙 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: pkwxek.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: pkwxek.freefly.pp.ua}}}
+  - {name: 沙特阿拉伯 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: wvzyxk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: wvzyxk.freefly.pp.ua}}}
+  - {name: 沙特阿拉伯 @cutexiaxia 赞助 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: zutyrd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: zutyrd.freefly.pp.ua}}}
+  - {name: 瑞典 @cutexiaxia 赞助, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 6efd23dc-4628-4db9-af02-546191a083bf, alterId: 0, cipher: auto, tls: true, servername: zutyrd.rapidssl.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: zutyrd.rapidssl.pp.ua}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -57,14 +129,32 @@ proxy-groups:
       - 美国 @cutexiaxia 赞助 10
       - 美国 @cutexiaxia 赞助 11
       - 美国 @cutexiaxia 赞助 12
+      - 美国阿什本 @cutexiaxia 赞助
+      - 美国阿什本 @cutexiaxia 赞助 2
+      - 美国阿什本 @cutexiaxia 赞助 3
+      - 美国阿什本 @cutexiaxia 赞助 4
+      - 美国阿什本 @cutexiaxia 赞助 5
+      - 美国纽约 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助
       - 日本 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助 3
       - 日本 @cutexiaxia 赞助 4
+      - 日本 @cutexiaxia 赞助 5
+      - 日本 @cutexiaxia 赞助 6
+      - 日本 @cutexiaxia 赞助 7
+      - 日本 @cutexiaxia 赞助 8
+      - 日本 @cutexiaxia 赞助 9
+      - 日本东京 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助 2
       - 韩国 @cutexiaxia 赞助 3
       - 韩国 @cutexiaxia 赞助 4
+      - 韩国春川 @cutexiaxia 赞助
+      - 韩国春川 @cutexiaxia 赞助 2
+      - 韩国春川 @cutexiaxia 赞助 3
+      - 韩国春川 @cutexiaxia 赞助 4
       - 新加坡 @cutexiaxia 赞助
       - 新加坡 @cutexiaxia 赞助 2
       - 新加坡 @cutexiaxia 赞助 3
@@ -73,6 +163,60 @@ proxy-groups:
       - 新加坡 @cutexiaxia 赞助 6
       - 泰国 @cutexiaxia 赞助
       - 泰国 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助
+      - 印度海得拉巴 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助 3
+      - 印度海得拉巴 @cutexiaxia 赞助 4
+      - 印度海得拉巴 @cutexiaxia 赞助 5
+      - 印度海得拉巴 @cutexiaxia 赞助 6
+      - 印度海得拉巴 @cutexiaxia 赞助 7
+      - 印度孟买 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助 2
+      - 加拿大 @cutexiaxia 赞助
+      - 加拿大 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助
+      - 巴西 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助 3
+      - 巴西 @cutexiaxia 赞助 4
+      - 巴西 @cutexiaxia 赞助 5
+      - 巴西 @cutexiaxia 赞助 6
+      - 巴西 @cutexiaxia 赞助 7
+      - 巴西维涅杜 @cutexiaxia 赞助
+      - 巴西维涅杜 @cutexiaxia 赞助 2
+      - 巴西维涅杜 @cutexiaxia 赞助 3
+      - 巴西维涅杜 @cutexiaxia 赞助 4
+      - 英国 @cutexiaxia 赞助
+      - 英国 @cutexiaxia 赞助 2
+      - 英国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助
+      - 法国 @cutexiaxia 赞助 2
+      - 法国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助
+      - 荷兰 @cutexiaxia 赞助 2
+      - 荷兰 @cutexiaxia 赞助 3
+      - 荷兰 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助 5
+      - 荷兰 @cutexiaxia 赞助 6
+      - 德国 @cutexiaxia 赞助
+      - 德国 @cutexiaxia 赞助 2
+      - 德国 @cutexiaxia 赞助 3
+      - 德国 @cutexiaxia 赞助 4
+      - 德国 @cutexiaxia 赞助 5
+      - 南非 @cutexiaxia 赞助
+      - 南非 @cutexiaxia 赞助 2
+      - 智利 @cutexiaxia 赞助
+      - 智利 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助
+      - 哥伦比亚 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助 3
+      - 哥伦比亚 @cutexiaxia 赞助 4
+      - 墨西哥 @cutexiaxia 赞助
+      - 西班牙 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助 2
+      - 瑞典 @cutexiaxia 赞助
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -93,14 +237,32 @@ proxy-groups:
       - 美国 @cutexiaxia 赞助 10
       - 美国 @cutexiaxia 赞助 11
       - 美国 @cutexiaxia 赞助 12
+      - 美国阿什本 @cutexiaxia 赞助
+      - 美国阿什本 @cutexiaxia 赞助 2
+      - 美国阿什本 @cutexiaxia 赞助 3
+      - 美国阿什本 @cutexiaxia 赞助 4
+      - 美国阿什本 @cutexiaxia 赞助 5
+      - 美国纽约 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助
       - 日本 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助 3
       - 日本 @cutexiaxia 赞助 4
+      - 日本 @cutexiaxia 赞助 5
+      - 日本 @cutexiaxia 赞助 6
+      - 日本 @cutexiaxia 赞助 7
+      - 日本 @cutexiaxia 赞助 8
+      - 日本 @cutexiaxia 赞助 9
+      - 日本东京 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助 2
       - 韩国 @cutexiaxia 赞助 3
       - 韩国 @cutexiaxia 赞助 4
+      - 韩国春川 @cutexiaxia 赞助
+      - 韩国春川 @cutexiaxia 赞助 2
+      - 韩国春川 @cutexiaxia 赞助 3
+      - 韩国春川 @cutexiaxia 赞助 4
       - 新加坡 @cutexiaxia 赞助
       - 新加坡 @cutexiaxia 赞助 2
       - 新加坡 @cutexiaxia 赞助 3
@@ -109,6 +271,60 @@ proxy-groups:
       - 新加坡 @cutexiaxia 赞助 6
       - 泰国 @cutexiaxia 赞助
       - 泰国 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助
+      - 印度海得拉巴 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助 3
+      - 印度海得拉巴 @cutexiaxia 赞助 4
+      - 印度海得拉巴 @cutexiaxia 赞助 5
+      - 印度海得拉巴 @cutexiaxia 赞助 6
+      - 印度海得拉巴 @cutexiaxia 赞助 7
+      - 印度孟买 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助 2
+      - 加拿大 @cutexiaxia 赞助
+      - 加拿大 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助
+      - 巴西 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助 3
+      - 巴西 @cutexiaxia 赞助 4
+      - 巴西 @cutexiaxia 赞助 5
+      - 巴西 @cutexiaxia 赞助 6
+      - 巴西 @cutexiaxia 赞助 7
+      - 巴西维涅杜 @cutexiaxia 赞助
+      - 巴西维涅杜 @cutexiaxia 赞助 2
+      - 巴西维涅杜 @cutexiaxia 赞助 3
+      - 巴西维涅杜 @cutexiaxia 赞助 4
+      - 英国 @cutexiaxia 赞助
+      - 英国 @cutexiaxia 赞助 2
+      - 英国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助
+      - 法国 @cutexiaxia 赞助 2
+      - 法国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助
+      - 荷兰 @cutexiaxia 赞助 2
+      - 荷兰 @cutexiaxia 赞助 3
+      - 荷兰 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助 5
+      - 荷兰 @cutexiaxia 赞助 6
+      - 德国 @cutexiaxia 赞助
+      - 德国 @cutexiaxia 赞助 2
+      - 德国 @cutexiaxia 赞助 3
+      - 德国 @cutexiaxia 赞助 4
+      - 德国 @cutexiaxia 赞助 5
+      - 南非 @cutexiaxia 赞助
+      - 南非 @cutexiaxia 赞助 2
+      - 智利 @cutexiaxia 赞助
+      - 智利 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助
+      - 哥伦比亚 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助 3
+      - 哥伦比亚 @cutexiaxia 赞助 4
+      - 墨西哥 @cutexiaxia 赞助
+      - 西班牙 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助 2
+      - 瑞典 @cutexiaxia 赞助
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -130,14 +346,32 @@ proxy-groups:
       - 美国 @cutexiaxia 赞助 10
       - 美国 @cutexiaxia 赞助 11
       - 美国 @cutexiaxia 赞助 12
+      - 美国阿什本 @cutexiaxia 赞助
+      - 美国阿什本 @cutexiaxia 赞助 2
+      - 美国阿什本 @cutexiaxia 赞助 3
+      - 美国阿什本 @cutexiaxia 赞助 4
+      - 美国阿什本 @cutexiaxia 赞助 5
+      - 美国纽约 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助
       - 日本 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助 3
       - 日本 @cutexiaxia 赞助 4
+      - 日本 @cutexiaxia 赞助 5
+      - 日本 @cutexiaxia 赞助 6
+      - 日本 @cutexiaxia 赞助 7
+      - 日本 @cutexiaxia 赞助 8
+      - 日本 @cutexiaxia 赞助 9
+      - 日本东京 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助 2
       - 韩国 @cutexiaxia 赞助 3
       - 韩国 @cutexiaxia 赞助 4
+      - 韩国春川 @cutexiaxia 赞助
+      - 韩国春川 @cutexiaxia 赞助 2
+      - 韩国春川 @cutexiaxia 赞助 3
+      - 韩国春川 @cutexiaxia 赞助 4
       - 新加坡 @cutexiaxia 赞助
       - 新加坡 @cutexiaxia 赞助 2
       - 新加坡 @cutexiaxia 赞助 3
@@ -146,6 +380,60 @@ proxy-groups:
       - 新加坡 @cutexiaxia 赞助 6
       - 泰国 @cutexiaxia 赞助
       - 泰国 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助
+      - 印度海得拉巴 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助 3
+      - 印度海得拉巴 @cutexiaxia 赞助 4
+      - 印度海得拉巴 @cutexiaxia 赞助 5
+      - 印度海得拉巴 @cutexiaxia 赞助 6
+      - 印度海得拉巴 @cutexiaxia 赞助 7
+      - 印度孟买 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助 2
+      - 加拿大 @cutexiaxia 赞助
+      - 加拿大 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助
+      - 巴西 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助 3
+      - 巴西 @cutexiaxia 赞助 4
+      - 巴西 @cutexiaxia 赞助 5
+      - 巴西 @cutexiaxia 赞助 6
+      - 巴西 @cutexiaxia 赞助 7
+      - 巴西维涅杜 @cutexiaxia 赞助
+      - 巴西维涅杜 @cutexiaxia 赞助 2
+      - 巴西维涅杜 @cutexiaxia 赞助 3
+      - 巴西维涅杜 @cutexiaxia 赞助 4
+      - 英国 @cutexiaxia 赞助
+      - 英国 @cutexiaxia 赞助 2
+      - 英国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助
+      - 法国 @cutexiaxia 赞助 2
+      - 法国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助
+      - 荷兰 @cutexiaxia 赞助 2
+      - 荷兰 @cutexiaxia 赞助 3
+      - 荷兰 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助 5
+      - 荷兰 @cutexiaxia 赞助 6
+      - 德国 @cutexiaxia 赞助
+      - 德国 @cutexiaxia 赞助 2
+      - 德国 @cutexiaxia 赞助 3
+      - 德国 @cutexiaxia 赞助 4
+      - 德国 @cutexiaxia 赞助 5
+      - 南非 @cutexiaxia 赞助
+      - 南非 @cutexiaxia 赞助 2
+      - 智利 @cutexiaxia 赞助
+      - 智利 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助
+      - 哥伦比亚 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助 3
+      - 哥伦比亚 @cutexiaxia 赞助 4
+      - 墨西哥 @cutexiaxia 赞助
+      - 西班牙 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助 2
+      - 瑞典 @cutexiaxia 赞助
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -179,14 +467,32 @@ proxy-groups:
       - 美国 @cutexiaxia 赞助 10
       - 美国 @cutexiaxia 赞助 11
       - 美国 @cutexiaxia 赞助 12
+      - 美国阿什本 @cutexiaxia 赞助
+      - 美国阿什本 @cutexiaxia 赞助 2
+      - 美国阿什本 @cutexiaxia 赞助 3
+      - 美国阿什本 @cutexiaxia 赞助 4
+      - 美国阿什本 @cutexiaxia 赞助 5
+      - 美国纽约 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助
       - 日本 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助 3
       - 日本 @cutexiaxia 赞助 4
+      - 日本 @cutexiaxia 赞助 5
+      - 日本 @cutexiaxia 赞助 6
+      - 日本 @cutexiaxia 赞助 7
+      - 日本 @cutexiaxia 赞助 8
+      - 日本 @cutexiaxia 赞助 9
+      - 日本东京 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助 2
       - 韩国 @cutexiaxia 赞助 3
       - 韩国 @cutexiaxia 赞助 4
+      - 韩国春川 @cutexiaxia 赞助
+      - 韩国春川 @cutexiaxia 赞助 2
+      - 韩国春川 @cutexiaxia 赞助 3
+      - 韩国春川 @cutexiaxia 赞助 4
       - 新加坡 @cutexiaxia 赞助
       - 新加坡 @cutexiaxia 赞助 2
       - 新加坡 @cutexiaxia 赞助 3
@@ -195,6 +501,60 @@ proxy-groups:
       - 新加坡 @cutexiaxia 赞助 6
       - 泰国 @cutexiaxia 赞助
       - 泰国 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助
+      - 印度海得拉巴 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助 3
+      - 印度海得拉巴 @cutexiaxia 赞助 4
+      - 印度海得拉巴 @cutexiaxia 赞助 5
+      - 印度海得拉巴 @cutexiaxia 赞助 6
+      - 印度海得拉巴 @cutexiaxia 赞助 7
+      - 印度孟买 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助 2
+      - 加拿大 @cutexiaxia 赞助
+      - 加拿大 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助
+      - 巴西 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助 3
+      - 巴西 @cutexiaxia 赞助 4
+      - 巴西 @cutexiaxia 赞助 5
+      - 巴西 @cutexiaxia 赞助 6
+      - 巴西 @cutexiaxia 赞助 7
+      - 巴西维涅杜 @cutexiaxia 赞助
+      - 巴西维涅杜 @cutexiaxia 赞助 2
+      - 巴西维涅杜 @cutexiaxia 赞助 3
+      - 巴西维涅杜 @cutexiaxia 赞助 4
+      - 英国 @cutexiaxia 赞助
+      - 英国 @cutexiaxia 赞助 2
+      - 英国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助
+      - 法国 @cutexiaxia 赞助 2
+      - 法国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助
+      - 荷兰 @cutexiaxia 赞助 2
+      - 荷兰 @cutexiaxia 赞助 3
+      - 荷兰 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助 5
+      - 荷兰 @cutexiaxia 赞助 6
+      - 德国 @cutexiaxia 赞助
+      - 德国 @cutexiaxia 赞助 2
+      - 德国 @cutexiaxia 赞助 3
+      - 德国 @cutexiaxia 赞助 4
+      - 德国 @cutexiaxia 赞助 5
+      - 南非 @cutexiaxia 赞助
+      - 南非 @cutexiaxia 赞助 2
+      - 智利 @cutexiaxia 赞助
+      - 智利 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助
+      - 哥伦比亚 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助 3
+      - 哥伦比亚 @cutexiaxia 赞助 4
+      - 墨西哥 @cutexiaxia 赞助
+      - 西班牙 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助 2
+      - 瑞典 @cutexiaxia 赞助
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -221,14 +581,32 @@ proxy-groups:
       - 美国 @cutexiaxia 赞助 10
       - 美国 @cutexiaxia 赞助 11
       - 美国 @cutexiaxia 赞助 12
+      - 美国阿什本 @cutexiaxia 赞助
+      - 美国阿什本 @cutexiaxia 赞助 2
+      - 美国阿什本 @cutexiaxia 赞助 3
+      - 美国阿什本 @cutexiaxia 赞助 4
+      - 美国阿什本 @cutexiaxia 赞助 5
+      - 美国纽约 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助
       - 日本 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助 3
       - 日本 @cutexiaxia 赞助 4
+      - 日本 @cutexiaxia 赞助 5
+      - 日本 @cutexiaxia 赞助 6
+      - 日本 @cutexiaxia 赞助 7
+      - 日本 @cutexiaxia 赞助 8
+      - 日本 @cutexiaxia 赞助 9
+      - 日本东京 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助 2
       - 韩国 @cutexiaxia 赞助 3
       - 韩国 @cutexiaxia 赞助 4
+      - 韩国春川 @cutexiaxia 赞助
+      - 韩国春川 @cutexiaxia 赞助 2
+      - 韩国春川 @cutexiaxia 赞助 3
+      - 韩国春川 @cutexiaxia 赞助 4
       - 新加坡 @cutexiaxia 赞助
       - 新加坡 @cutexiaxia 赞助 2
       - 新加坡 @cutexiaxia 赞助 3
@@ -237,6 +615,60 @@ proxy-groups:
       - 新加坡 @cutexiaxia 赞助 6
       - 泰国 @cutexiaxia 赞助
       - 泰国 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助
+      - 印度海得拉巴 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助 3
+      - 印度海得拉巴 @cutexiaxia 赞助 4
+      - 印度海得拉巴 @cutexiaxia 赞助 5
+      - 印度海得拉巴 @cutexiaxia 赞助 6
+      - 印度海得拉巴 @cutexiaxia 赞助 7
+      - 印度孟买 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助 2
+      - 加拿大 @cutexiaxia 赞助
+      - 加拿大 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助
+      - 巴西 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助 3
+      - 巴西 @cutexiaxia 赞助 4
+      - 巴西 @cutexiaxia 赞助 5
+      - 巴西 @cutexiaxia 赞助 6
+      - 巴西 @cutexiaxia 赞助 7
+      - 巴西维涅杜 @cutexiaxia 赞助
+      - 巴西维涅杜 @cutexiaxia 赞助 2
+      - 巴西维涅杜 @cutexiaxia 赞助 3
+      - 巴西维涅杜 @cutexiaxia 赞助 4
+      - 英国 @cutexiaxia 赞助
+      - 英国 @cutexiaxia 赞助 2
+      - 英国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助
+      - 法国 @cutexiaxia 赞助 2
+      - 法国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助
+      - 荷兰 @cutexiaxia 赞助 2
+      - 荷兰 @cutexiaxia 赞助 3
+      - 荷兰 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助 5
+      - 荷兰 @cutexiaxia 赞助 6
+      - 德国 @cutexiaxia 赞助
+      - 德国 @cutexiaxia 赞助 2
+      - 德国 @cutexiaxia 赞助 3
+      - 德国 @cutexiaxia 赞助 4
+      - 德国 @cutexiaxia 赞助 5
+      - 南非 @cutexiaxia 赞助
+      - 南非 @cutexiaxia 赞助 2
+      - 智利 @cutexiaxia 赞助
+      - 智利 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助
+      - 哥伦比亚 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助 3
+      - 哥伦比亚 @cutexiaxia 赞助 4
+      - 墨西哥 @cutexiaxia 赞助
+      - 西班牙 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助 2
+      - 瑞典 @cutexiaxia 赞助
   - name: 📲 电报信息
     type: select
     proxies:
@@ -257,14 +689,32 @@ proxy-groups:
       - 美国 @cutexiaxia 赞助 10
       - 美国 @cutexiaxia 赞助 11
       - 美国 @cutexiaxia 赞助 12
+      - 美国阿什本 @cutexiaxia 赞助
+      - 美国阿什本 @cutexiaxia 赞助 2
+      - 美国阿什本 @cutexiaxia 赞助 3
+      - 美国阿什本 @cutexiaxia 赞助 4
+      - 美国阿什本 @cutexiaxia 赞助 5
+      - 美国纽约 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助
       - 日本 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助 3
       - 日本 @cutexiaxia 赞助 4
+      - 日本 @cutexiaxia 赞助 5
+      - 日本 @cutexiaxia 赞助 6
+      - 日本 @cutexiaxia 赞助 7
+      - 日本 @cutexiaxia 赞助 8
+      - 日本 @cutexiaxia 赞助 9
+      - 日本东京 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助 2
       - 韩国 @cutexiaxia 赞助 3
       - 韩国 @cutexiaxia 赞助 4
+      - 韩国春川 @cutexiaxia 赞助
+      - 韩国春川 @cutexiaxia 赞助 2
+      - 韩国春川 @cutexiaxia 赞助 3
+      - 韩国春川 @cutexiaxia 赞助 4
       - 新加坡 @cutexiaxia 赞助
       - 新加坡 @cutexiaxia 赞助 2
       - 新加坡 @cutexiaxia 赞助 3
@@ -273,6 +723,60 @@ proxy-groups:
       - 新加坡 @cutexiaxia 赞助 6
       - 泰国 @cutexiaxia 赞助
       - 泰国 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助
+      - 印度海得拉巴 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助 3
+      - 印度海得拉巴 @cutexiaxia 赞助 4
+      - 印度海得拉巴 @cutexiaxia 赞助 5
+      - 印度海得拉巴 @cutexiaxia 赞助 6
+      - 印度海得拉巴 @cutexiaxia 赞助 7
+      - 印度孟买 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助 2
+      - 加拿大 @cutexiaxia 赞助
+      - 加拿大 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助
+      - 巴西 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助 3
+      - 巴西 @cutexiaxia 赞助 4
+      - 巴西 @cutexiaxia 赞助 5
+      - 巴西 @cutexiaxia 赞助 6
+      - 巴西 @cutexiaxia 赞助 7
+      - 巴西维涅杜 @cutexiaxia 赞助
+      - 巴西维涅杜 @cutexiaxia 赞助 2
+      - 巴西维涅杜 @cutexiaxia 赞助 3
+      - 巴西维涅杜 @cutexiaxia 赞助 4
+      - 英国 @cutexiaxia 赞助
+      - 英国 @cutexiaxia 赞助 2
+      - 英国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助
+      - 法国 @cutexiaxia 赞助 2
+      - 法国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助
+      - 荷兰 @cutexiaxia 赞助 2
+      - 荷兰 @cutexiaxia 赞助 3
+      - 荷兰 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助 5
+      - 荷兰 @cutexiaxia 赞助 6
+      - 德国 @cutexiaxia 赞助
+      - 德国 @cutexiaxia 赞助 2
+      - 德国 @cutexiaxia 赞助 3
+      - 德国 @cutexiaxia 赞助 4
+      - 德国 @cutexiaxia 赞助 5
+      - 南非 @cutexiaxia 赞助
+      - 南非 @cutexiaxia 赞助 2
+      - 智利 @cutexiaxia 赞助
+      - 智利 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助
+      - 哥伦比亚 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助 3
+      - 哥伦比亚 @cutexiaxia 赞助 4
+      - 墨西哥 @cutexiaxia 赞助
+      - 西班牙 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助 2
+      - 瑞典 @cutexiaxia 赞助
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -294,14 +798,32 @@ proxy-groups:
       - 美国 @cutexiaxia 赞助 10
       - 美国 @cutexiaxia 赞助 11
       - 美国 @cutexiaxia 赞助 12
+      - 美国阿什本 @cutexiaxia 赞助
+      - 美国阿什本 @cutexiaxia 赞助 2
+      - 美国阿什本 @cutexiaxia 赞助 3
+      - 美国阿什本 @cutexiaxia 赞助 4
+      - 美国阿什本 @cutexiaxia 赞助 5
+      - 美国纽约 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助
       - 日本 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助 3
       - 日本 @cutexiaxia 赞助 4
+      - 日本 @cutexiaxia 赞助 5
+      - 日本 @cutexiaxia 赞助 6
+      - 日本 @cutexiaxia 赞助 7
+      - 日本 @cutexiaxia 赞助 8
+      - 日本 @cutexiaxia 赞助 9
+      - 日本东京 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助 2
       - 韩国 @cutexiaxia 赞助 3
       - 韩国 @cutexiaxia 赞助 4
+      - 韩国春川 @cutexiaxia 赞助
+      - 韩国春川 @cutexiaxia 赞助 2
+      - 韩国春川 @cutexiaxia 赞助 3
+      - 韩国春川 @cutexiaxia 赞助 4
       - 新加坡 @cutexiaxia 赞助
       - 新加坡 @cutexiaxia 赞助 2
       - 新加坡 @cutexiaxia 赞助 3
@@ -310,6 +832,60 @@ proxy-groups:
       - 新加坡 @cutexiaxia 赞助 6
       - 泰国 @cutexiaxia 赞助
       - 泰国 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助
+      - 印度海得拉巴 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助 3
+      - 印度海得拉巴 @cutexiaxia 赞助 4
+      - 印度海得拉巴 @cutexiaxia 赞助 5
+      - 印度海得拉巴 @cutexiaxia 赞助 6
+      - 印度海得拉巴 @cutexiaxia 赞助 7
+      - 印度孟买 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助 2
+      - 加拿大 @cutexiaxia 赞助
+      - 加拿大 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助
+      - 巴西 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助 3
+      - 巴西 @cutexiaxia 赞助 4
+      - 巴西 @cutexiaxia 赞助 5
+      - 巴西 @cutexiaxia 赞助 6
+      - 巴西 @cutexiaxia 赞助 7
+      - 巴西维涅杜 @cutexiaxia 赞助
+      - 巴西维涅杜 @cutexiaxia 赞助 2
+      - 巴西维涅杜 @cutexiaxia 赞助 3
+      - 巴西维涅杜 @cutexiaxia 赞助 4
+      - 英国 @cutexiaxia 赞助
+      - 英国 @cutexiaxia 赞助 2
+      - 英国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助
+      - 法国 @cutexiaxia 赞助 2
+      - 法国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助
+      - 荷兰 @cutexiaxia 赞助 2
+      - 荷兰 @cutexiaxia 赞助 3
+      - 荷兰 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助 5
+      - 荷兰 @cutexiaxia 赞助 6
+      - 德国 @cutexiaxia 赞助
+      - 德国 @cutexiaxia 赞助 2
+      - 德国 @cutexiaxia 赞助 3
+      - 德国 @cutexiaxia 赞助 4
+      - 德国 @cutexiaxia 赞助 5
+      - 南非 @cutexiaxia 赞助
+      - 南非 @cutexiaxia 赞助 2
+      - 智利 @cutexiaxia 赞助
+      - 智利 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助
+      - 哥伦比亚 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助 3
+      - 哥伦比亚 @cutexiaxia 赞助 4
+      - 墨西哥 @cutexiaxia 赞助
+      - 西班牙 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助 2
+      - 瑞典 @cutexiaxia 赞助
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -340,14 +916,32 @@ proxy-groups:
       - 美国 @cutexiaxia 赞助 10
       - 美国 @cutexiaxia 赞助 11
       - 美国 @cutexiaxia 赞助 12
+      - 美国阿什本 @cutexiaxia 赞助
+      - 美国阿什本 @cutexiaxia 赞助 2
+      - 美国阿什本 @cutexiaxia 赞助 3
+      - 美国阿什本 @cutexiaxia 赞助 4
+      - 美国阿什本 @cutexiaxia 赞助 5
+      - 美国纽约 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助
+      - 美国凤凰城 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助
       - 日本 @cutexiaxia 赞助 2
       - 日本 @cutexiaxia 赞助 3
       - 日本 @cutexiaxia 赞助 4
+      - 日本 @cutexiaxia 赞助 5
+      - 日本 @cutexiaxia 赞助 6
+      - 日本 @cutexiaxia 赞助 7
+      - 日本 @cutexiaxia 赞助 8
+      - 日本 @cutexiaxia 赞助 9
+      - 日本东京 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助
       - 韩国 @cutexiaxia 赞助 2
       - 韩国 @cutexiaxia 赞助 3
       - 韩国 @cutexiaxia 赞助 4
+      - 韩国春川 @cutexiaxia 赞助
+      - 韩国春川 @cutexiaxia 赞助 2
+      - 韩国春川 @cutexiaxia 赞助 3
+      - 韩国春川 @cutexiaxia 赞助 4
       - 新加坡 @cutexiaxia 赞助
       - 新加坡 @cutexiaxia 赞助 2
       - 新加坡 @cutexiaxia 赞助 3
@@ -356,6 +950,60 @@ proxy-groups:
       - 新加坡 @cutexiaxia 赞助 6
       - 泰国 @cutexiaxia 赞助
       - 泰国 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助
+      - 印度海得拉巴 @cutexiaxia 赞助 2
+      - 印度海得拉巴 @cutexiaxia 赞助 3
+      - 印度海得拉巴 @cutexiaxia 赞助 4
+      - 印度海得拉巴 @cutexiaxia 赞助 5
+      - 印度海得拉巴 @cutexiaxia 赞助 6
+      - 印度海得拉巴 @cutexiaxia 赞助 7
+      - 印度孟买 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助
+      - 澳大利亚墨尔本 @cutexiaxia 赞助 2
+      - 加拿大 @cutexiaxia 赞助
+      - 加拿大 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助
+      - 巴西 @cutexiaxia 赞助 2
+      - 巴西 @cutexiaxia 赞助 3
+      - 巴西 @cutexiaxia 赞助 4
+      - 巴西 @cutexiaxia 赞助 5
+      - 巴西 @cutexiaxia 赞助 6
+      - 巴西 @cutexiaxia 赞助 7
+      - 巴西维涅杜 @cutexiaxia 赞助
+      - 巴西维涅杜 @cutexiaxia 赞助 2
+      - 巴西维涅杜 @cutexiaxia 赞助 3
+      - 巴西维涅杜 @cutexiaxia 赞助 4
+      - 英国 @cutexiaxia 赞助
+      - 英国 @cutexiaxia 赞助 2
+      - 英国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助
+      - 法国 @cutexiaxia 赞助 2
+      - 法国 @cutexiaxia 赞助 3
+      - 法国 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助
+      - 荷兰 @cutexiaxia 赞助 2
+      - 荷兰 @cutexiaxia 赞助 3
+      - 荷兰 @cutexiaxia 赞助 4
+      - 荷兰 @cutexiaxia 赞助 5
+      - 荷兰 @cutexiaxia 赞助 6
+      - 德国 @cutexiaxia 赞助
+      - 德国 @cutexiaxia 赞助 2
+      - 德国 @cutexiaxia 赞助 3
+      - 德国 @cutexiaxia 赞助 4
+      - 德国 @cutexiaxia 赞助 5
+      - 南非 @cutexiaxia 赞助
+      - 南非 @cutexiaxia 赞助 2
+      - 智利 @cutexiaxia 赞助
+      - 智利 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助
+      - 哥伦比亚 @cutexiaxia 赞助 2
+      - 哥伦比亚 @cutexiaxia 赞助 3
+      - 哥伦比亚 @cutexiaxia 赞助 4
+      - 墨西哥 @cutexiaxia 赞助
+      - 西班牙 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助
+      - 沙特阿拉伯 @cutexiaxia 赞助 2
+      - 瑞典 @cutexiaxia 赞助
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
