@@ -8,37 +8,34 @@ proxies:
   - {name: 流量和共享位有限 仅提供给频道内的成员使用 请勿公开, server: jue.lao.hai, port: 3333, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 禁止在中国大陆平台分享订阅 节点 配置教程, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: juelaohai}
   - {name: 如果想要更好的体验建议购买频道内推荐的机场订阅, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: juelaohai}
-  - {name: 美国 机甲甜心, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
-  - {name: 美国 晴天宝贝, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 美国 黑珍珠, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
-  - {name: 美国 彼岸花, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 日本 麦田梦魇, server: js1.chuanping.wang, port: 10466, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 日本 火车头, server: js1.chuanping.wang, port: 10467, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 日本 炽红之腕, server: js1.chuanping.wang, port: 10468, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 日本 奥丁之魂, server: js1.chuanping.wang, port: 10469, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 日本 深渊之子, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
-  - {name: 日本 逆鳞, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
-  - {name: 日本 堕落守卫, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
-  - {name: 日本 屠龙, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
-  - {name: 日本 麦田梦魇 2, server: js1.chuanping.wang, port: 10466, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 日本 火车头 2, server: js1.chuanping.wang, port: 10467, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 日本 炽红之腕 2, server: js1.chuanping.wang, port: 10468, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 日本 奥丁之魂 2, server: js1.chuanping.wang, port: 10469, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 韩国 废土猎人, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
-  - {name: 韩国 眼镜蛇, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 韩国 金钱大亨, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
-  - {name: 韩国 星际执政官, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
-  - {name: 新加坡 红莲业火, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
-  - {name: 新加坡 甜心猫灵, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
-  - {name: 新加坡 暗影之刃, server: usus.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
-  - {name: 新加坡 刀锋魅影, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 8c9c2fe2-6dcc-4f5f-9472-ed272542eda2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
-  - {name: 新加坡 耀银枪骑兵, server: gd1.chuanping.wang, port: 10596, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 新加坡 长坂坡, server: gd3.chuanping.wang, port: 10519, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 新加坡 圣诞狂欢, server: gd1.chuanping.wang, port: 10598, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 新加坡 血色蔷薇, server: gd2.chuanping.wang, port: 10573, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 香港 铃姬, server: gd2.chuanping.wang, port: 10571, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 香港 碎骨之锤, server: gd3.chuanping.wang, port: 10556, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: 香港 末世囚徒, server: gd2.chuanping.wang, port: 10574, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
+  - {name: 美国 @cutexiaxia 赞助, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
+  - {name: 美国 @cutexiaxia 赞助 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
+  - {name: 美国 @cutexiaxia 赞助 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
+  - {name: 美国 @cutexiaxia 赞助 4, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
+  - {name: 美国 @cutexiaxia 赞助 5, server: ct.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
+  - {name: 美国 @cutexiaxia 赞助 6, server: ct.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
+  - {name: 美国 @cutexiaxia 赞助 7, server: ct.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
+  - {name: 美国 @cutexiaxia 赞助 8, server: ct.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
+  - {name: 美国 @cutexiaxia 赞助 9, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
+  - {name: 美国 @cutexiaxia 赞助 10, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
+  - {name: 美国 @cutexiaxia 赞助 11, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
+  - {name: 美国 @cutexiaxia 赞助 12, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
+  - {name: 日本 @cutexiaxia 赞助, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
+  - {name: 日本 @cutexiaxia 赞助 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
+  - {name: 日本 @cutexiaxia 赞助 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
+  - {name: 日本 @cutexiaxia 赞助 4, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
+  - {name: 韩国 @cutexiaxia 赞助, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
+  - {name: 韩国 @cutexiaxia 赞助 2, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
+  - {name: 韩国 @cutexiaxia 赞助 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
+  - {name: 韩国 @cutexiaxia 赞助 4, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr2.diao.icu}}}
+  - {name: 新加坡 @cutexiaxia 赞助, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
+  - {name: 新加坡 @cutexiaxia 赞助 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
+  - {name: 新加坡 @cutexiaxia 赞助 3, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.diao.icu}}}
+  - {name: 新加坡 @cutexiaxia 赞助 4, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
+  - {name: 新加坡 @cutexiaxia 赞助 5, server: cu.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
+  - {name: 新加坡 @cutexiaxia 赞助 6, server: cu.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
+  - {name: 泰国 @cutexiaxia 赞助, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: th.niaoba.top}}}
+  - {name: 泰国 @cutexiaxia 赞助 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: th.niaoba.top}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -48,37 +45,34 @@ proxy-groups:
       - 流量和共享位有限 仅提供给频道内的成员使用 请勿公开
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 美国 机甲甜心
-      - 美国 晴天宝贝
-      - 美国 黑珍珠
-      - 美国 彼岸花
-      - 日本 麦田梦魇
-      - 日本 火车头
-      - 日本 炽红之腕
-      - 日本 奥丁之魂
-      - 日本 深渊之子
-      - 日本 逆鳞
-      - 日本 堕落守卫
-      - 日本 屠龙
-      - 日本 麦田梦魇 2
-      - 日本 火车头 2
-      - 日本 炽红之腕 2
-      - 日本 奥丁之魂 2
-      - 韩国 废土猎人
-      - 韩国 眼镜蛇
-      - 韩国 金钱大亨
-      - 韩国 星际执政官
-      - 新加坡 红莲业火
-      - 新加坡 甜心猫灵
-      - 新加坡 暗影之刃
-      - 新加坡 刀锋魅影
-      - 新加坡 耀银枪骑兵
-      - 新加坡 长坂坡
-      - 新加坡 圣诞狂欢
-      - 新加坡 血色蔷薇
-      - 香港 铃姬
-      - 香港 碎骨之锤
-      - 香港 末世囚徒
+      - 美国 @cutexiaxia 赞助
+      - 美国 @cutexiaxia 赞助 2
+      - 美国 @cutexiaxia 赞助 3
+      - 美国 @cutexiaxia 赞助 4
+      - 美国 @cutexiaxia 赞助 5
+      - 美国 @cutexiaxia 赞助 6
+      - 美国 @cutexiaxia 赞助 7
+      - 美国 @cutexiaxia 赞助 8
+      - 美国 @cutexiaxia 赞助 9
+      - 美国 @cutexiaxia 赞助 10
+      - 美国 @cutexiaxia 赞助 11
+      - 美国 @cutexiaxia 赞助 12
+      - 日本 @cutexiaxia 赞助
+      - 日本 @cutexiaxia 赞助 2
+      - 日本 @cutexiaxia 赞助 3
+      - 日本 @cutexiaxia 赞助 4
+      - 韩国 @cutexiaxia 赞助
+      - 韩国 @cutexiaxia 赞助 2
+      - 韩国 @cutexiaxia 赞助 3
+      - 韩国 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助
+      - 新加坡 @cutexiaxia 赞助 2
+      - 新加坡 @cutexiaxia 赞助 3
+      - 新加坡 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助 5
+      - 新加坡 @cutexiaxia 赞助 6
+      - 泰国 @cutexiaxia 赞助
+      - 泰国 @cutexiaxia 赞助 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -87,37 +81,34 @@ proxy-groups:
       - 流量和共享位有限 仅提供给频道内的成员使用 请勿公开
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 美国 机甲甜心
-      - 美国 晴天宝贝
-      - 美国 黑珍珠
-      - 美国 彼岸花
-      - 日本 麦田梦魇
-      - 日本 火车头
-      - 日本 炽红之腕
-      - 日本 奥丁之魂
-      - 日本 深渊之子
-      - 日本 逆鳞
-      - 日本 堕落守卫
-      - 日本 屠龙
-      - 日本 麦田梦魇 2
-      - 日本 火车头 2
-      - 日本 炽红之腕 2
-      - 日本 奥丁之魂 2
-      - 韩国 废土猎人
-      - 韩国 眼镜蛇
-      - 韩国 金钱大亨
-      - 韩国 星际执政官
-      - 新加坡 红莲业火
-      - 新加坡 甜心猫灵
-      - 新加坡 暗影之刃
-      - 新加坡 刀锋魅影
-      - 新加坡 耀银枪骑兵
-      - 新加坡 长坂坡
-      - 新加坡 圣诞狂欢
-      - 新加坡 血色蔷薇
-      - 香港 铃姬
-      - 香港 碎骨之锤
-      - 香港 末世囚徒
+      - 美国 @cutexiaxia 赞助
+      - 美国 @cutexiaxia 赞助 2
+      - 美国 @cutexiaxia 赞助 3
+      - 美国 @cutexiaxia 赞助 4
+      - 美国 @cutexiaxia 赞助 5
+      - 美国 @cutexiaxia 赞助 6
+      - 美国 @cutexiaxia 赞助 7
+      - 美国 @cutexiaxia 赞助 8
+      - 美国 @cutexiaxia 赞助 9
+      - 美国 @cutexiaxia 赞助 10
+      - 美国 @cutexiaxia 赞助 11
+      - 美国 @cutexiaxia 赞助 12
+      - 日本 @cutexiaxia 赞助
+      - 日本 @cutexiaxia 赞助 2
+      - 日本 @cutexiaxia 赞助 3
+      - 日本 @cutexiaxia 赞助 4
+      - 韩国 @cutexiaxia 赞助
+      - 韩国 @cutexiaxia 赞助 2
+      - 韩国 @cutexiaxia 赞助 3
+      - 韩国 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助
+      - 新加坡 @cutexiaxia 赞助 2
+      - 新加坡 @cutexiaxia 赞助 3
+      - 新加坡 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助 5
+      - 新加坡 @cutexiaxia 赞助 6
+      - 泰国 @cutexiaxia 赞助
+      - 泰国 @cutexiaxia 赞助 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -127,37 +118,34 @@ proxy-groups:
       - 流量和共享位有限 仅提供给频道内的成员使用 请勿公开
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 美国 机甲甜心
-      - 美国 晴天宝贝
-      - 美国 黑珍珠
-      - 美国 彼岸花
-      - 日本 麦田梦魇
-      - 日本 火车头
-      - 日本 炽红之腕
-      - 日本 奥丁之魂
-      - 日本 深渊之子
-      - 日本 逆鳞
-      - 日本 堕落守卫
-      - 日本 屠龙
-      - 日本 麦田梦魇 2
-      - 日本 火车头 2
-      - 日本 炽红之腕 2
-      - 日本 奥丁之魂 2
-      - 韩国 废土猎人
-      - 韩国 眼镜蛇
-      - 韩国 金钱大亨
-      - 韩国 星际执政官
-      - 新加坡 红莲业火
-      - 新加坡 甜心猫灵
-      - 新加坡 暗影之刃
-      - 新加坡 刀锋魅影
-      - 新加坡 耀银枪骑兵
-      - 新加坡 长坂坡
-      - 新加坡 圣诞狂欢
-      - 新加坡 血色蔷薇
-      - 香港 铃姬
-      - 香港 碎骨之锤
-      - 香港 末世囚徒
+      - 美国 @cutexiaxia 赞助
+      - 美国 @cutexiaxia 赞助 2
+      - 美国 @cutexiaxia 赞助 3
+      - 美国 @cutexiaxia 赞助 4
+      - 美国 @cutexiaxia 赞助 5
+      - 美国 @cutexiaxia 赞助 6
+      - 美国 @cutexiaxia 赞助 7
+      - 美国 @cutexiaxia 赞助 8
+      - 美国 @cutexiaxia 赞助 9
+      - 美国 @cutexiaxia 赞助 10
+      - 美国 @cutexiaxia 赞助 11
+      - 美国 @cutexiaxia 赞助 12
+      - 日本 @cutexiaxia 赞助
+      - 日本 @cutexiaxia 赞助 2
+      - 日本 @cutexiaxia 赞助 3
+      - 日本 @cutexiaxia 赞助 4
+      - 韩国 @cutexiaxia 赞助
+      - 韩国 @cutexiaxia 赞助 2
+      - 韩国 @cutexiaxia 赞助 3
+      - 韩国 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助
+      - 新加坡 @cutexiaxia 赞助 2
+      - 新加坡 @cutexiaxia 赞助 3
+      - 新加坡 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助 5
+      - 新加坡 @cutexiaxia 赞助 6
+      - 泰国 @cutexiaxia 赞助
+      - 泰国 @cutexiaxia 赞助 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -179,45 +167,39 @@ proxy-groups:
       - 流量和共享位有限 仅提供给频道内的成员使用 请勿公开
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 美国 机甲甜心
-      - 美国 晴天宝贝
-      - 美国 黑珍珠
-      - 美国 彼岸花
-      - 日本 麦田梦魇
-      - 日本 火车头
-      - 日本 炽红之腕
-      - 日本 奥丁之魂
-      - 日本 深渊之子
-      - 日本 逆鳞
-      - 日本 堕落守卫
-      - 日本 屠龙
-      - 日本 麦田梦魇 2
-      - 日本 火车头 2
-      - 日本 炽红之腕 2
-      - 日本 奥丁之魂 2
-      - 韩国 废土猎人
-      - 韩国 眼镜蛇
-      - 韩国 金钱大亨
-      - 韩国 星际执政官
-      - 新加坡 红莲业火
-      - 新加坡 甜心猫灵
-      - 新加坡 暗影之刃
-      - 新加坡 刀锋魅影
-      - 新加坡 耀银枪骑兵
-      - 新加坡 长坂坡
-      - 新加坡 圣诞狂欢
-      - 新加坡 血色蔷薇
-      - 香港 铃姬
-      - 香港 碎骨之锤
-      - 香港 末世囚徒
+      - 美国 @cutexiaxia 赞助
+      - 美国 @cutexiaxia 赞助 2
+      - 美国 @cutexiaxia 赞助 3
+      - 美国 @cutexiaxia 赞助 4
+      - 美国 @cutexiaxia 赞助 5
+      - 美国 @cutexiaxia 赞助 6
+      - 美国 @cutexiaxia 赞助 7
+      - 美国 @cutexiaxia 赞助 8
+      - 美国 @cutexiaxia 赞助 9
+      - 美国 @cutexiaxia 赞助 10
+      - 美国 @cutexiaxia 赞助 11
+      - 美国 @cutexiaxia 赞助 12
+      - 日本 @cutexiaxia 赞助
+      - 日本 @cutexiaxia 赞助 2
+      - 日本 @cutexiaxia 赞助 3
+      - 日本 @cutexiaxia 赞助 4
+      - 韩国 @cutexiaxia 赞助
+      - 韩国 @cutexiaxia 赞助 2
+      - 韩国 @cutexiaxia 赞助 3
+      - 韩国 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助
+      - 新加坡 @cutexiaxia 赞助 2
+      - 新加坡 @cutexiaxia 赞助 3
+      - 新加坡 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助 5
+      - 新加坡 @cutexiaxia 赞助 6
+      - 泰国 @cutexiaxia 赞助
+      - 泰国 @cutexiaxia 赞助 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 禁止在中国大陆平台分享订阅 节点 配置教程
-      - 香港 铃姬
-      - 香港 碎骨之锤
-      - 香港 末世囚徒
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -227,37 +209,34 @@ proxy-groups:
       - 流量和共享位有限 仅提供给频道内的成员使用 请勿公开
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 美国 机甲甜心
-      - 美国 晴天宝贝
-      - 美国 黑珍珠
-      - 美国 彼岸花
-      - 日本 麦田梦魇
-      - 日本 火车头
-      - 日本 炽红之腕
-      - 日本 奥丁之魂
-      - 日本 深渊之子
-      - 日本 逆鳞
-      - 日本 堕落守卫
-      - 日本 屠龙
-      - 日本 麦田梦魇 2
-      - 日本 火车头 2
-      - 日本 炽红之腕 2
-      - 日本 奥丁之魂 2
-      - 韩国 废土猎人
-      - 韩国 眼镜蛇
-      - 韩国 金钱大亨
-      - 韩国 星际执政官
-      - 新加坡 红莲业火
-      - 新加坡 甜心猫灵
-      - 新加坡 暗影之刃
-      - 新加坡 刀锋魅影
-      - 新加坡 耀银枪骑兵
-      - 新加坡 长坂坡
-      - 新加坡 圣诞狂欢
-      - 新加坡 血色蔷薇
-      - 香港 铃姬
-      - 香港 碎骨之锤
-      - 香港 末世囚徒
+      - 美国 @cutexiaxia 赞助
+      - 美国 @cutexiaxia 赞助 2
+      - 美国 @cutexiaxia 赞助 3
+      - 美国 @cutexiaxia 赞助 4
+      - 美国 @cutexiaxia 赞助 5
+      - 美国 @cutexiaxia 赞助 6
+      - 美国 @cutexiaxia 赞助 7
+      - 美国 @cutexiaxia 赞助 8
+      - 美国 @cutexiaxia 赞助 9
+      - 美国 @cutexiaxia 赞助 10
+      - 美国 @cutexiaxia 赞助 11
+      - 美国 @cutexiaxia 赞助 12
+      - 日本 @cutexiaxia 赞助
+      - 日本 @cutexiaxia 赞助 2
+      - 日本 @cutexiaxia 赞助 3
+      - 日本 @cutexiaxia 赞助 4
+      - 韩国 @cutexiaxia 赞助
+      - 韩国 @cutexiaxia 赞助 2
+      - 韩国 @cutexiaxia 赞助 3
+      - 韩国 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助
+      - 新加坡 @cutexiaxia 赞助 2
+      - 新加坡 @cutexiaxia 赞助 3
+      - 新加坡 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助 5
+      - 新加坡 @cutexiaxia 赞助 6
+      - 泰国 @cutexiaxia 赞助
+      - 泰国 @cutexiaxia 赞助 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -266,37 +245,34 @@ proxy-groups:
       - 流量和共享位有限 仅提供给频道内的成员使用 请勿公开
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 美国 机甲甜心
-      - 美国 晴天宝贝
-      - 美国 黑珍珠
-      - 美国 彼岸花
-      - 日本 麦田梦魇
-      - 日本 火车头
-      - 日本 炽红之腕
-      - 日本 奥丁之魂
-      - 日本 深渊之子
-      - 日本 逆鳞
-      - 日本 堕落守卫
-      - 日本 屠龙
-      - 日本 麦田梦魇 2
-      - 日本 火车头 2
-      - 日本 炽红之腕 2
-      - 日本 奥丁之魂 2
-      - 韩国 废土猎人
-      - 韩国 眼镜蛇
-      - 韩国 金钱大亨
-      - 韩国 星际执政官
-      - 新加坡 红莲业火
-      - 新加坡 甜心猫灵
-      - 新加坡 暗影之刃
-      - 新加坡 刀锋魅影
-      - 新加坡 耀银枪骑兵
-      - 新加坡 长坂坡
-      - 新加坡 圣诞狂欢
-      - 新加坡 血色蔷薇
-      - 香港 铃姬
-      - 香港 碎骨之锤
-      - 香港 末世囚徒
+      - 美国 @cutexiaxia 赞助
+      - 美国 @cutexiaxia 赞助 2
+      - 美国 @cutexiaxia 赞助 3
+      - 美国 @cutexiaxia 赞助 4
+      - 美国 @cutexiaxia 赞助 5
+      - 美国 @cutexiaxia 赞助 6
+      - 美国 @cutexiaxia 赞助 7
+      - 美国 @cutexiaxia 赞助 8
+      - 美国 @cutexiaxia 赞助 9
+      - 美国 @cutexiaxia 赞助 10
+      - 美国 @cutexiaxia 赞助 11
+      - 美国 @cutexiaxia 赞助 12
+      - 日本 @cutexiaxia 赞助
+      - 日本 @cutexiaxia 赞助 2
+      - 日本 @cutexiaxia 赞助 3
+      - 日本 @cutexiaxia 赞助 4
+      - 韩国 @cutexiaxia 赞助
+      - 韩国 @cutexiaxia 赞助 2
+      - 韩国 @cutexiaxia 赞助 3
+      - 韩国 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助
+      - 新加坡 @cutexiaxia 赞助 2
+      - 新加坡 @cutexiaxia 赞助 3
+      - 新加坡 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助 5
+      - 新加坡 @cutexiaxia 赞助 6
+      - 泰国 @cutexiaxia 赞助
+      - 泰国 @cutexiaxia 赞助 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -306,37 +282,34 @@ proxy-groups:
       - 流量和共享位有限 仅提供给频道内的成员使用 请勿公开
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 美国 机甲甜心
-      - 美国 晴天宝贝
-      - 美国 黑珍珠
-      - 美国 彼岸花
-      - 日本 麦田梦魇
-      - 日本 火车头
-      - 日本 炽红之腕
-      - 日本 奥丁之魂
-      - 日本 深渊之子
-      - 日本 逆鳞
-      - 日本 堕落守卫
-      - 日本 屠龙
-      - 日本 麦田梦魇 2
-      - 日本 火车头 2
-      - 日本 炽红之腕 2
-      - 日本 奥丁之魂 2
-      - 韩国 废土猎人
-      - 韩国 眼镜蛇
-      - 韩国 金钱大亨
-      - 韩国 星际执政官
-      - 新加坡 红莲业火
-      - 新加坡 甜心猫灵
-      - 新加坡 暗影之刃
-      - 新加坡 刀锋魅影
-      - 新加坡 耀银枪骑兵
-      - 新加坡 长坂坡
-      - 新加坡 圣诞狂欢
-      - 新加坡 血色蔷薇
-      - 香港 铃姬
-      - 香港 碎骨之锤
-      - 香港 末世囚徒
+      - 美国 @cutexiaxia 赞助
+      - 美国 @cutexiaxia 赞助 2
+      - 美国 @cutexiaxia 赞助 3
+      - 美国 @cutexiaxia 赞助 4
+      - 美国 @cutexiaxia 赞助 5
+      - 美国 @cutexiaxia 赞助 6
+      - 美国 @cutexiaxia 赞助 7
+      - 美国 @cutexiaxia 赞助 8
+      - 美国 @cutexiaxia 赞助 9
+      - 美国 @cutexiaxia 赞助 10
+      - 美国 @cutexiaxia 赞助 11
+      - 美国 @cutexiaxia 赞助 12
+      - 日本 @cutexiaxia 赞助
+      - 日本 @cutexiaxia 赞助 2
+      - 日本 @cutexiaxia 赞助 3
+      - 日本 @cutexiaxia 赞助 4
+      - 韩国 @cutexiaxia 赞助
+      - 韩国 @cutexiaxia 赞助 2
+      - 韩国 @cutexiaxia 赞助 3
+      - 韩国 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助
+      - 新加坡 @cutexiaxia 赞助 2
+      - 新加坡 @cutexiaxia 赞助 3
+      - 新加坡 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助 5
+      - 新加坡 @cutexiaxia 赞助 6
+      - 泰国 @cutexiaxia 赞助
+      - 泰国 @cutexiaxia 赞助 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -355,37 +328,34 @@ proxy-groups:
       - 流量和共享位有限 仅提供给频道内的成员使用 请勿公开
       - 禁止在中国大陆平台分享订阅 节点 配置教程
       - 如果想要更好的体验建议购买频道内推荐的机场订阅
-      - 美国 机甲甜心
-      - 美国 晴天宝贝
-      - 美国 黑珍珠
-      - 美国 彼岸花
-      - 日本 麦田梦魇
-      - 日本 火车头
-      - 日本 炽红之腕
-      - 日本 奥丁之魂
-      - 日本 深渊之子
-      - 日本 逆鳞
-      - 日本 堕落守卫
-      - 日本 屠龙
-      - 日本 麦田梦魇 2
-      - 日本 火车头 2
-      - 日本 炽红之腕 2
-      - 日本 奥丁之魂 2
-      - 韩国 废土猎人
-      - 韩国 眼镜蛇
-      - 韩国 金钱大亨
-      - 韩国 星际执政官
-      - 新加坡 红莲业火
-      - 新加坡 甜心猫灵
-      - 新加坡 暗影之刃
-      - 新加坡 刀锋魅影
-      - 新加坡 耀银枪骑兵
-      - 新加坡 长坂坡
-      - 新加坡 圣诞狂欢
-      - 新加坡 血色蔷薇
-      - 香港 铃姬
-      - 香港 碎骨之锤
-      - 香港 末世囚徒
+      - 美国 @cutexiaxia 赞助
+      - 美国 @cutexiaxia 赞助 2
+      - 美国 @cutexiaxia 赞助 3
+      - 美国 @cutexiaxia 赞助 4
+      - 美国 @cutexiaxia 赞助 5
+      - 美国 @cutexiaxia 赞助 6
+      - 美国 @cutexiaxia 赞助 7
+      - 美国 @cutexiaxia 赞助 8
+      - 美国 @cutexiaxia 赞助 9
+      - 美国 @cutexiaxia 赞助 10
+      - 美国 @cutexiaxia 赞助 11
+      - 美国 @cutexiaxia 赞助 12
+      - 日本 @cutexiaxia 赞助
+      - 日本 @cutexiaxia 赞助 2
+      - 日本 @cutexiaxia 赞助 3
+      - 日本 @cutexiaxia 赞助 4
+      - 韩国 @cutexiaxia 赞助
+      - 韩国 @cutexiaxia 赞助 2
+      - 韩国 @cutexiaxia 赞助 3
+      - 韩国 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助
+      - 新加坡 @cutexiaxia 赞助 2
+      - 新加坡 @cutexiaxia 赞助 3
+      - 新加坡 @cutexiaxia 赞助 4
+      - 新加坡 @cutexiaxia 赞助 5
+      - 新加坡 @cutexiaxia 赞助 6
+      - 泰国 @cutexiaxia 赞助
+      - 泰国 @cutexiaxia 赞助 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
