@@ -5,9 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 流量和共享位有限 仅提供给频道内的成员使用 请勿公开, server: jue.lao.hai, port: 3333, type: ss, cipher: aes-256-gcm, password: juelaohai}
-  - {name: 禁止在中国大陆平台分享订阅 节点 配置教程, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: juelaohai}
-  - {name: 如果想要更好的体验建议购买频道内推荐的机场订阅, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: juelaohai}
+  - {name: 流量和共享位有限 仅提供给频道内的成员使用 请勿公开, server: 111, port: 111, type: ss, cipher: aes-256-gcm, password: !<str> 111}
+  - {name: 禁止在中国大陆平台分享订阅 节点 配置教程, server: 222, port: 222, type: ss, cipher: aes-256-gcm, password: !<str> 222}
+  - {name: 如果想要更好的体验建议购买频道内推荐的机场订阅, server: 333, port: 333, type: ss, cipher: aes-256-gcm, password: !<str> 333}
   - {name: 美国 @cutexiaxia 赞助, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
   - {name: 美国 @cutexiaxia 赞助 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
   - {name: 美国 @cutexiaxia 赞助 3, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
