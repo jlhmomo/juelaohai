@@ -5,10 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 流量和共享位有限 仅提供给频道内的成员使用 请勿公开, server: jue.lao.hai, port: 3333, type: ss, cipher: aes-256-gcm, password: juelaohai}
-  - {name: 禁止在中国大陆平台分享订阅 节点 配置教程, server: jue.lao.hai, port: 2222, type: ss, cipher: aes-256-gcm, password: juelaohai}
-  - {name: 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟, server: jue.lao.hai, port: 1111, type: ss, cipher: aes-256-gcm, password: juelaohai}
-  - {name: 如果想要更好的体验建议购买频道内推荐的机场订阅, server: jue.lao.hai, port: 4444, type: ss, cipher: aes-256-gcm, password: juelaohai}
+  - {name: 流量和共享位有限 仅提供给频道内的成员使用 请勿公开, server: 111, port: 111, type: ss, cipher: aes-256-gcm, password: !<str> 111}
+  - {name: 禁止在中国大陆平台分享订阅 节点 配置教程, server: 222, port: 222, type: ss, cipher: aes-256-gcm, password: !<str> 222}
+  - {name: 用台湾节点进入游戏后再直接断开 或切换为香港节点即为正常延迟, server: 333, port: 333, type: ss, cipher: aes-256-gcm, password: !<str> 333}
+  - {name: 如果想要更好的体验建议购买频道内推荐的机场订阅, server: 444, port: 444, type: ss, cipher: aes-256-gcm, password: !<str> 444}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
