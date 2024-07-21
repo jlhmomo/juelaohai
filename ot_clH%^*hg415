@@ -37,6 +37,225 @@ proxies:
   - {name: CF | 美国US2 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
   - {name: CF | 美国US3 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: CF | 美国US4 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
+  - {name: 日本A-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: whwdcj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: whwdcj.freefly.pp.ua}}}
+  - {name: 日本B-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: swjfgz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: swjfgz.freefly.pp.ua}}}
+  - {name: 日本1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: vfbypb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vfbypb.freefly.pp.ua}}}
+  - {name: 日本2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: vcanfr.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vcanfr.freefly.pp.ua}}}
+  - {name: 日本3-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: tbneve.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tbneve.freefly.pp.ua}}}
+  - {name: 日本东京1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: beutwb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: beutwb.freefly.pp.ua}}}
+  - {name: 韩国春川1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: rnmnpb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: rnmnpb.freefly.pp.ua}}}
+  - {name: 韩国春川2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: nrvejj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: nrvejj.freefly.pp.ua}}}
+  - {name: 韩国春川3-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: gvvhvm.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: gvvhvm.freefly.pp.ua}}}
+  - {name: 韩国春川4-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: uhmpbc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: uhmpbc.freefly.pp.ua}}}
+  - {name: 印度1-海得拉巴-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: utxxpy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: utxxpy.freefly.pp.ua}}}
+  - {name: 印度2-海得拉巴-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: nmgqhy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: nmgqhy.freefly.pp.ua}}}
+  - {name: 印度3-海得拉巴-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: vkervf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vkervf.freefly.pp.ua}}}
+  - {name: 印度4-海得拉巴-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: yzvcts.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: yzvcts.freefly.pp.ua}}}
+  - {name: 印度5-海得拉巴-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: dumzmb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: dumzmb.freefly.pp.ua}}}
+  - {name: 印度6-海得拉巴-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: cxhsxe.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: cxhsxe.freefly.pp.ua}}}
+  - {name: 印度7-海得拉巴-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: xwdxxc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xwdxxc.freefly.pp.ua}}}
+  - {name: 印度1-孟买-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: dfby.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: dfby.freefly.pp.ua}}}
+  - {name: 澳大利亚-墨尔本1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: qshsbq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: qshsbq.freefly.pp.ua}}}
+  - {name: 澳大利亚-墨尔本2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: fwvgau.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: fwvgau.freefly.pp.ua}}}
+  - {name: 美国东部阿什本1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: rvywqn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: rvywqn.freefly.pp.ua}}}
+  - {name: 美国东部阿什本2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: smgrkf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: smgrkf.freefly.pp.ua}}}
+  - {name: 美国东部阿什本3-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: jxvspk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jxvspk.freefly.pp.ua}}}
+  - {name: 美国西部洛杉矶1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: tuubuc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tuubuc.freefly.pp.ua}}}
+  - {name: 美国西部洛杉矶2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: sagflax.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: sagflax.freefly.pp.ua}}}
+  - {name: 美国东部纽约1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: hvztsa.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hvztsa.freefly.pp.ua}}}
+  - {name: 美国西部凤凰城1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: cbjsfp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: cbjsfp.freefly.pp.ua}}}
+  - {name: 美国西部凤凰城2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: hxgmnz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hxgmnz.freefly.pp.ua}}}
+  - {name: 加拿大1-蒙特利尔-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: nqevcj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: nqevcj.freefly.pp.ua}}}
+  - {name: 加拿大2-蒙特利尔-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: qqkyhm.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: qqkyhm.freefly.pp.ua}}}
+  - {name: 加拿大1-多伦多-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: fdvb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: fdvb.freefly.pp.ua}}}
+  - {name: 巴西1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: kkvfvh.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: kkvfvh.freefly.pp.ua}}}
+  - {name: 巴西2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: ucjvqd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ucjvqd.freefly.pp.ua}}}
+  - {name: 巴西3-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: jazwsc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jazwsc.freefly.pp.ua}}}
+  - {name: 巴西4-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: xkpkra.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xkpkra.freefly.pp.ua}}}
+  - {name: 巴西5-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: ugdeey.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ugdeey.freefly.pp.ua}}}
+  - {name: 巴西6-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: xpfzpk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xpfzpk.freefly.pp.ua}}}
+  - {name: 巴西7-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: vdnycf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vdnycf.freefly.pp.ua}}}
+  - {name: 巴西-维涅杜1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: vtydet.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vtydet.freefly.pp.ua}}}
+  - {name: 巴西-维涅杜2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: vcpexk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vcpexk.freefly.pp.ua}}}
+  - {name: 巴西-维涅杜3-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: ybhhkx.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ybhhkx.freefly.pp.ua}}}
+  - {name: 巴西-维涅杜4-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: gvjmwn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: gvjmwn.freefly.pp.ua}}}
+  - {name: 英国1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: hvgnrn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hvgnrn.freefly.pp.ua}}}
+  - {name: 英国2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: htfrbg.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: htfrbg.freefly.pp.ua}}}
+  - {name: 英国3-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: ynrwkq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ynrwkq.freefly.pp.ua}}}
+  - {name: 法国1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: xuxnug.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xuxnug.freefly.pp.ua}}}
+  - {name: 法国2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: maebwj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: maebwj.freefly.pp.ua}}}
+  - {name: 法国3-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: ykftfb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ykftfb.freefly.pp.ua}}}
+  - {name: 法国4-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: ftsxkc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ftsxkc.freefly.pp.ua}}}
+  - {name: 荷兰1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: xxanrw.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xxanrw.freefly.pp.ua}}}
+  - {name: 荷兰2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: akrmjk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: akrmjk.freefly.pp.ua}}}
+  - {name: 荷兰3-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: jgmkbc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jgmkbc.freefly.pp.ua}}}
+  - {name: 荷兰4-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: xuczge.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xuczge.freefly.pp.ua}}}
+  - {name: 荷兰5-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: ddbtfk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ddbtfk.freefly.pp.ua}}}
+  - {name: 荷兰6-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: hspdmv.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hspdmv.freefly.pp.ua}}}
+  - {name: 德国1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: fncmkf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: fncmkf.freefly.pp.ua}}}
+  - {name: 德国2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: xradcy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xradcy.freefly.pp.ua}}}
+  - {name: 德国3-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: swutyp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: swutyp.freefly.pp.ua}}}
+  - {name: 德国4-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: dknycp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: dknycp.freefly.pp.ua}}}
+  - {name: 德国5-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: xrdtfd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xrdtfd.freefly.pp.ua}}}
+  - {name: 南非1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: asxgek.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: asxgek.freefly.pp.ua}}}
+  - {name: 南非2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: tcmspq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tcmspq.freefly.pp.ua}}}
+  - {name: 智利1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: qkrzrp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: qkrzrp.freefly.pp.ua}}}
+  - {name: 智利2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: tpevxd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tpevxd.freefly.pp.ua}}}
+  - {name: 哥伦比亚1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: xgbfdh.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xgbfdh.freefly.pp.ua}}}
+  - {name: 哥伦比亚2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: hvekpu.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hvekpu.freefly.pp.ua}}}
+  - {name: 哥伦比亚3-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: ehxgmc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ehxgmc.freefly.pp.ua}}}
+  - {name: 哥伦比亚4-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: jyxefz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jyxefz.freefly.pp.ua}}}
+  - {name: 墨西哥1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: vexrex.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vexrex.freefly.pp.ua}}}
+  - {name: 西班牙1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: pkwxek.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: pkwxek.freefly.pp.ua}}}
+  - {name: 沙特阿拉伯1-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: wvzyxk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: wvzyxk.freefly.pp.ua}}}
+  - {name: 沙特阿拉伯2-CDN | 1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: zutyrd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: zutyrd.freefly.pp.ua}}}
+  - {name: 瑞典临时公用-100Mbps | 0.1x, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: a97d42e2-d947-436e-9ede-0d4e38af8e9b, alterId: 0, cipher: auto, tls: true, servername: zutyrd.rapidssl.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: zutyrd.rapidssl.pp.ua}}}
+  - {name: 日本A-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: whwdcj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: whwdcj.freefly.pp.ua}}}
+  - {name: 日本B-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: swjfgz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: swjfgz.freefly.pp.ua}}}
+  - {name: 日本1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: vfbypb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vfbypb.freefly.pp.ua}}}
+  - {name: 日本2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: vcanfr.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vcanfr.freefly.pp.ua}}}
+  - {name: 日本3-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: tbneve.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tbneve.freefly.pp.ua}}}
+  - {name: 日本东京1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: beutwb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: beutwb.freefly.pp.ua}}}
+  - {name: 韩国春川1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: rnmnpb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: rnmnpb.freefly.pp.ua}}}
+  - {name: 韩国春川2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: nrvejj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: nrvejj.freefly.pp.ua}}}
+  - {name: 韩国春川3-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: gvvhvm.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: gvvhvm.freefly.pp.ua}}}
+  - {name: 韩国春川4-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: uhmpbc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: uhmpbc.freefly.pp.ua}}}
+  - {name: 印度1-海得拉巴-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: utxxpy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: utxxpy.freefly.pp.ua}}}
+  - {name: 印度2-海得拉巴-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: nmgqhy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: nmgqhy.freefly.pp.ua}}}
+  - {name: 印度3-海得拉巴-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: vkervf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vkervf.freefly.pp.ua}}}
+  - {name: 印度4-海得拉巴-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: yzvcts.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: yzvcts.freefly.pp.ua}}}
+  - {name: 印度5-海得拉巴-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: dumzmb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: dumzmb.freefly.pp.ua}}}
+  - {name: 印度6-海得拉巴-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: cxhsxe.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: cxhsxe.freefly.pp.ua}}}
+  - {name: 印度7-海得拉巴-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: xwdxxc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xwdxxc.freefly.pp.ua}}}
+  - {name: 印度1-孟买-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: dfby.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: dfby.freefly.pp.ua}}}
+  - {name: 澳大利亚-墨尔本1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: qshsbq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: qshsbq.freefly.pp.ua}}}
+  - {name: 澳大利亚-墨尔本2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: fwvgau.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: fwvgau.freefly.pp.ua}}}
+  - {name: 美国东部阿什本1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: rvywqn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: rvywqn.freefly.pp.ua}}}
+  - {name: 美国东部阿什本2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: smgrkf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: smgrkf.freefly.pp.ua}}}
+  - {name: 美国东部阿什本3-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: jxvspk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jxvspk.freefly.pp.ua}}}
+  - {name: 美国西部洛杉矶1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: tuubuc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tuubuc.freefly.pp.ua}}}
+  - {name: 美国西部洛杉矶2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: sagflax.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: sagflax.freefly.pp.ua}}}
+  - {name: 美国东部纽约1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: hvztsa.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hvztsa.freefly.pp.ua}}}
+  - {name: 美国西部凤凰城1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: cbjsfp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: cbjsfp.freefly.pp.ua}}}
+  - {name: 美国西部凤凰城2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: hxgmnz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hxgmnz.freefly.pp.ua}}}
+  - {name: 加拿大1-蒙特利尔-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: nqevcj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: nqevcj.freefly.pp.ua}}}
+  - {name: 加拿大2-蒙特利尔-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: qqkyhm.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: qqkyhm.freefly.pp.ua}}}
+  - {name: 加拿大1-多伦多-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: fdvb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: fdvb.freefly.pp.ua}}}
+  - {name: 巴西1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: kkvfvh.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: kkvfvh.freefly.pp.ua}}}
+  - {name: 巴西2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: ucjvqd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ucjvqd.freefly.pp.ua}}}
+  - {name: 巴西3-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: jazwsc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jazwsc.freefly.pp.ua}}}
+  - {name: 巴西4-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: xkpkra.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xkpkra.freefly.pp.ua}}}
+  - {name: 巴西5-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: ugdeey.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ugdeey.freefly.pp.ua}}}
+  - {name: 巴西6-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: xpfzpk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xpfzpk.freefly.pp.ua}}}
+  - {name: 巴西7-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: vdnycf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vdnycf.freefly.pp.ua}}}
+  - {name: 巴西-维涅杜1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: vtydet.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vtydet.freefly.pp.ua}}}
+  - {name: 巴西-维涅杜2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: vcpexk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vcpexk.freefly.pp.ua}}}
+  - {name: 巴西-维涅杜3-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: ybhhkx.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ybhhkx.freefly.pp.ua}}}
+  - {name: 巴西-维涅杜4-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: gvjmwn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: gvjmwn.freefly.pp.ua}}}
+  - {name: 英国1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: hvgnrn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hvgnrn.freefly.pp.ua}}}
+  - {name: 英国2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: htfrbg.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: htfrbg.freefly.pp.ua}}}
+  - {name: 英国3-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: ynrwkq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ynrwkq.freefly.pp.ua}}}
+  - {name: 法国1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: xuxnug.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xuxnug.freefly.pp.ua}}}
+  - {name: 法国2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: maebwj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: maebwj.freefly.pp.ua}}}
+  - {name: 法国3-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: ykftfb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ykftfb.freefly.pp.ua}}}
+  - {name: 法国4-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: ftsxkc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ftsxkc.freefly.pp.ua}}}
+  - {name: 荷兰1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: xxanrw.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xxanrw.freefly.pp.ua}}}
+  - {name: 荷兰2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: akrmjk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: akrmjk.freefly.pp.ua}}}
+  - {name: 荷兰3-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: jgmkbc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jgmkbc.freefly.pp.ua}}}
+  - {name: 荷兰4-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: xuczge.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xuczge.freefly.pp.ua}}}
+  - {name: 荷兰5-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: ddbtfk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ddbtfk.freefly.pp.ua}}}
+  - {name: 荷兰6-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: hspdmv.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hspdmv.freefly.pp.ua}}}
+  - {name: 德国1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: fncmkf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: fncmkf.freefly.pp.ua}}}
+  - {name: 德国2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: xradcy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xradcy.freefly.pp.ua}}}
+  - {name: 德国3-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: swutyp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: swutyp.freefly.pp.ua}}}
+  - {name: 德国4-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: dknycp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: dknycp.freefly.pp.ua}}}
+  - {name: 德国5-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: xrdtfd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xrdtfd.freefly.pp.ua}}}
+  - {name: 南非1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: asxgek.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: asxgek.freefly.pp.ua}}}
+  - {name: 南非2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: tcmspq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tcmspq.freefly.pp.ua}}}
+  - {name: 智利1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: qkrzrp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: qkrzrp.freefly.pp.ua}}}
+  - {name: 智利2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: tpevxd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tpevxd.freefly.pp.ua}}}
+  - {name: 哥伦比亚1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: xgbfdh.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xgbfdh.freefly.pp.ua}}}
+  - {name: 哥伦比亚2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: hvekpu.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hvekpu.freefly.pp.ua}}}
+  - {name: 哥伦比亚3-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: ehxgmc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ehxgmc.freefly.pp.ua}}}
+  - {name: 哥伦比亚4-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: jyxefz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jyxefz.freefly.pp.ua}}}
+  - {name: 墨西哥1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: vexrex.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vexrex.freefly.pp.ua}}}
+  - {name: 西班牙1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: pkwxek.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: pkwxek.freefly.pp.ua}}}
+  - {name: 沙特阿拉伯1-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: wvzyxk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: wvzyxk.freefly.pp.ua}}}
+  - {name: 沙特阿拉伯2-CDN | 1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: zutyrd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: zutyrd.freefly.pp.ua}}}
+  - {name: 瑞典临时公用-100Mbps | 0.1x 2, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: 42e3127e-e1c3-4f3b-9a82-81d76cef7b0a, alterId: 0, cipher: auto, tls: true, servername: zutyrd.rapidssl.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: zutyrd.rapidssl.pp.ua}}}
+  - {name: 日本A-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: whwdcj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: whwdcj.freefly.pp.ua}}}
+  - {name: 日本B-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: swjfgz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: swjfgz.freefly.pp.ua}}}
+  - {name: 日本1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: vfbypb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vfbypb.freefly.pp.ua}}}
+  - {name: 日本2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: vcanfr.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vcanfr.freefly.pp.ua}}}
+  - {name: 日本3-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: tbneve.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tbneve.freefly.pp.ua}}}
+  - {name: 日本东京1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: beutwb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: beutwb.freefly.pp.ua}}}
+  - {name: 韩国春川1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: rnmnpb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: rnmnpb.freefly.pp.ua}}}
+  - {name: 韩国春川2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: nrvejj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: nrvejj.freefly.pp.ua}}}
+  - {name: 韩国春川3-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: gvvhvm.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: gvvhvm.freefly.pp.ua}}}
+  - {name: 韩国春川4-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: uhmpbc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: uhmpbc.freefly.pp.ua}}}
+  - {name: 印度1-海得拉巴-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: utxxpy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: utxxpy.freefly.pp.ua}}}
+  - {name: 印度2-海得拉巴-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: nmgqhy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: nmgqhy.freefly.pp.ua}}}
+  - {name: 印度3-海得拉巴-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: vkervf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vkervf.freefly.pp.ua}}}
+  - {name: 印度4-海得拉巴-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: yzvcts.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: yzvcts.freefly.pp.ua}}}
+  - {name: 印度5-海得拉巴-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: dumzmb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: dumzmb.freefly.pp.ua}}}
+  - {name: 印度6-海得拉巴-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: cxhsxe.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: cxhsxe.freefly.pp.ua}}}
+  - {name: 印度7-海得拉巴-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: xwdxxc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xwdxxc.freefly.pp.ua}}}
+  - {name: 印度1-孟买-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: dfby.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: dfby.freefly.pp.ua}}}
+  - {name: 澳大利亚-墨尔本1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: qshsbq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: qshsbq.freefly.pp.ua}}}
+  - {name: 澳大利亚-墨尔本2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: fwvgau.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: fwvgau.freefly.pp.ua}}}
+  - {name: 美国东部阿什本1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: rvywqn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: rvywqn.freefly.pp.ua}}}
+  - {name: 美国东部阿什本2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: smgrkf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: smgrkf.freefly.pp.ua}}}
+  - {name: 美国东部阿什本3-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: jxvspk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jxvspk.freefly.pp.ua}}}
+  - {name: 美国西部洛杉矶1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: tuubuc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tuubuc.freefly.pp.ua}}}
+  - {name: 美国西部洛杉矶2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: sagflax.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: sagflax.freefly.pp.ua}}}
+  - {name: 美国东部纽约1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: hvztsa.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hvztsa.freefly.pp.ua}}}
+  - {name: 美国西部凤凰城1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: cbjsfp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: cbjsfp.freefly.pp.ua}}}
+  - {name: 美国西部凤凰城2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: hxgmnz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hxgmnz.freefly.pp.ua}}}
+  - {name: 加拿大1-蒙特利尔-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: nqevcj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: nqevcj.freefly.pp.ua}}}
+  - {name: 加拿大2-蒙特利尔-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: qqkyhm.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: qqkyhm.freefly.pp.ua}}}
+  - {name: 加拿大1-多伦多-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: fdvb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: fdvb.freefly.pp.ua}}}
+  - {name: 巴西1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: kkvfvh.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: kkvfvh.freefly.pp.ua}}}
+  - {name: 巴西2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: ucjvqd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ucjvqd.freefly.pp.ua}}}
+  - {name: 巴西3-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: jazwsc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jazwsc.freefly.pp.ua}}}
+  - {name: 巴西4-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: xkpkra.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xkpkra.freefly.pp.ua}}}
+  - {name: 巴西5-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: ugdeey.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ugdeey.freefly.pp.ua}}}
+  - {name: 巴西6-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: xpfzpk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xpfzpk.freefly.pp.ua}}}
+  - {name: 巴西7-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: vdnycf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vdnycf.freefly.pp.ua}}}
+  - {name: 巴西-维涅杜1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: vtydet.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vtydet.freefly.pp.ua}}}
+  - {name: 巴西-维涅杜2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: vcpexk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vcpexk.freefly.pp.ua}}}
+  - {name: 巴西-维涅杜3-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: ybhhkx.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ybhhkx.freefly.pp.ua}}}
+  - {name: 巴西-维涅杜4-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: gvjmwn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: gvjmwn.freefly.pp.ua}}}
+  - {name: 英国1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: hvgnrn.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hvgnrn.freefly.pp.ua}}}
+  - {name: 英国2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: htfrbg.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: htfrbg.freefly.pp.ua}}}
+  - {name: 英国3-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: ynrwkq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ynrwkq.freefly.pp.ua}}}
+  - {name: 法国1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: xuxnug.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xuxnug.freefly.pp.ua}}}
+  - {name: 法国2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: maebwj.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: maebwj.freefly.pp.ua}}}
+  - {name: 法国3-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: ykftfb.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ykftfb.freefly.pp.ua}}}
+  - {name: 法国4-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: ftsxkc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ftsxkc.freefly.pp.ua}}}
+  - {name: 荷兰1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: xxanrw.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xxanrw.freefly.pp.ua}}}
+  - {name: 荷兰2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: akrmjk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: akrmjk.freefly.pp.ua}}}
+  - {name: 荷兰3-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: jgmkbc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jgmkbc.freefly.pp.ua}}}
+  - {name: 荷兰4-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: xuczge.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xuczge.freefly.pp.ua}}}
+  - {name: 荷兰5-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: ddbtfk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ddbtfk.freefly.pp.ua}}}
+  - {name: 荷兰6-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: hspdmv.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hspdmv.freefly.pp.ua}}}
+  - {name: 德国1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: fncmkf.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: fncmkf.freefly.pp.ua}}}
+  - {name: 德国2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: xradcy.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xradcy.freefly.pp.ua}}}
+  - {name: 德国3-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: swutyp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: swutyp.freefly.pp.ua}}}
+  - {name: 德国4-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: dknycp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: dknycp.freefly.pp.ua}}}
+  - {name: 德国5-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: xrdtfd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xrdtfd.freefly.pp.ua}}}
+  - {name: 南非1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: asxgek.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: asxgek.freefly.pp.ua}}}
+  - {name: 南非2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: tcmspq.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tcmspq.freefly.pp.ua}}}
+  - {name: 智利1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: qkrzrp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: qkrzrp.freefly.pp.ua}}}
+  - {name: 智利2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: tpevxd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: tpevxd.freefly.pp.ua}}}
+  - {name: 哥伦比亚1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: xgbfdh.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: xgbfdh.freefly.pp.ua}}}
+  - {name: 哥伦比亚2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: hvekpu.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: hvekpu.freefly.pp.ua}}}
+  - {name: 哥伦比亚3-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: ehxgmc.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: ehxgmc.freefly.pp.ua}}}
+  - {name: 哥伦比亚4-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: jyxefz.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: jyxefz.freefly.pp.ua}}}
+  - {name: 墨西哥1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: vexrex.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vexrex.freefly.pp.ua}}}
+  - {name: 西班牙1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: pkwxek.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: pkwxek.freefly.pp.ua}}}
+  - {name: 沙特阿拉伯1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: wvzyxk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: wvzyxk.freefly.pp.ua}}}
+  - {name: 沙特阿拉伯2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: zutyrd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: zutyrd.freefly.pp.ua}}}
+  - {name: 瑞典临时公用-100Mbps | 0.1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: zutyrd.rapidssl.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: zutyrd.rapidssl.pp.ua}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -75,6 +294,225 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
+      - 日本A-CDN | 1x
+      - 日本B-CDN | 1x
+      - 日本1-CDN | 1x
+      - 日本2-CDN | 1x
+      - 日本3-CDN | 1x
+      - 日本东京1-CDN | 1x
+      - 韩国春川1-CDN | 1x
+      - 韩国春川2-CDN | 1x
+      - 韩国春川3-CDN | 1x
+      - 韩国春川4-CDN | 1x
+      - 印度1-海得拉巴-CDN | 1x
+      - 印度2-海得拉巴-CDN | 1x
+      - 印度3-海得拉巴-CDN | 1x
+      - 印度4-海得拉巴-CDN | 1x
+      - 印度5-海得拉巴-CDN | 1x
+      - 印度6-海得拉巴-CDN | 1x
+      - 印度7-海得拉巴-CDN | 1x
+      - 印度1-孟买-CDN | 1x
+      - 澳大利亚-墨尔本1-CDN | 1x
+      - 澳大利亚-墨尔本2-CDN | 1x
+      - 美国东部阿什本1-CDN | 1x
+      - 美国东部阿什本2-CDN | 1x
+      - 美国东部阿什本3-CDN | 1x
+      - 美国西部洛杉矶1-CDN | 1x
+      - 美国西部洛杉矶2-CDN | 1x
+      - 美国东部纽约1-CDN | 1x
+      - 美国西部凤凰城1-CDN | 1x
+      - 美国西部凤凰城2-CDN | 1x
+      - 加拿大1-蒙特利尔-CDN | 1x
+      - 加拿大2-蒙特利尔-CDN | 1x
+      - 加拿大1-多伦多-CDN | 1x
+      - 巴西1-CDN | 1x
+      - 巴西2-CDN | 1x
+      - 巴西3-CDN | 1x
+      - 巴西4-CDN | 1x
+      - 巴西5-CDN | 1x
+      - 巴西6-CDN | 1x
+      - 巴西7-CDN | 1x
+      - 巴西-维涅杜1-CDN | 1x
+      - 巴西-维涅杜2-CDN | 1x
+      - 巴西-维涅杜3-CDN | 1x
+      - 巴西-维涅杜4-CDN | 1x
+      - 英国1-CDN | 1x
+      - 英国2-CDN | 1x
+      - 英国3-CDN | 1x
+      - 法国1-CDN | 1x
+      - 法国2-CDN | 1x
+      - 法国3-CDN | 1x
+      - 法国4-CDN | 1x
+      - 荷兰1-CDN | 1x
+      - 荷兰2-CDN | 1x
+      - 荷兰3-CDN | 1x
+      - 荷兰4-CDN | 1x
+      - 荷兰5-CDN | 1x
+      - 荷兰6-CDN | 1x
+      - 德国1-CDN | 1x
+      - 德国2-CDN | 1x
+      - 德国3-CDN | 1x
+      - 德国4-CDN | 1x
+      - 德国5-CDN | 1x
+      - 南非1-CDN | 1x
+      - 南非2-CDN | 1x
+      - 智利1-CDN | 1x
+      - 智利2-CDN | 1x
+      - 哥伦比亚1-CDN | 1x
+      - 哥伦比亚2-CDN | 1x
+      - 哥伦比亚3-CDN | 1x
+      - 哥伦比亚4-CDN | 1x
+      - 墨西哥1-CDN | 1x
+      - 西班牙1-CDN | 1x
+      - 沙特阿拉伯1-CDN | 1x
+      - 沙特阿拉伯2-CDN | 1x
+      - 瑞典临时公用-100Mbps | 0.1x
+      - 日本A-CDN | 1x 2
+      - 日本B-CDN | 1x 2
+      - 日本1-CDN | 1x 2
+      - 日本2-CDN | 1x 2
+      - 日本3-CDN | 1x 2
+      - 日本东京1-CDN | 1x 2
+      - 韩国春川1-CDN | 1x 2
+      - 韩国春川2-CDN | 1x 2
+      - 韩国春川3-CDN | 1x 2
+      - 韩国春川4-CDN | 1x 2
+      - 印度1-海得拉巴-CDN | 1x 2
+      - 印度2-海得拉巴-CDN | 1x 2
+      - 印度3-海得拉巴-CDN | 1x 2
+      - 印度4-海得拉巴-CDN | 1x 2
+      - 印度5-海得拉巴-CDN | 1x 2
+      - 印度6-海得拉巴-CDN | 1x 2
+      - 印度7-海得拉巴-CDN | 1x 2
+      - 印度1-孟买-CDN | 1x 2
+      - 澳大利亚-墨尔本1-CDN | 1x 2
+      - 澳大利亚-墨尔本2-CDN | 1x 2
+      - 美国东部阿什本1-CDN | 1x 2
+      - 美国东部阿什本2-CDN | 1x 2
+      - 美国东部阿什本3-CDN | 1x 2
+      - 美国西部洛杉矶1-CDN | 1x 2
+      - 美国西部洛杉矶2-CDN | 1x 2
+      - 美国东部纽约1-CDN | 1x 2
+      - 美国西部凤凰城1-CDN | 1x 2
+      - 美国西部凤凰城2-CDN | 1x 2
+      - 加拿大1-蒙特利尔-CDN | 1x 2
+      - 加拿大2-蒙特利尔-CDN | 1x 2
+      - 加拿大1-多伦多-CDN | 1x 2
+      - 巴西1-CDN | 1x 2
+      - 巴西2-CDN | 1x 2
+      - 巴西3-CDN | 1x 2
+      - 巴西4-CDN | 1x 2
+      - 巴西5-CDN | 1x 2
+      - 巴西6-CDN | 1x 2
+      - 巴西7-CDN | 1x 2
+      - 巴西-维涅杜1-CDN | 1x 2
+      - 巴西-维涅杜2-CDN | 1x 2
+      - 巴西-维涅杜3-CDN | 1x 2
+      - 巴西-维涅杜4-CDN | 1x 2
+      - 英国1-CDN | 1x 2
+      - 英国2-CDN | 1x 2
+      - 英国3-CDN | 1x 2
+      - 法国1-CDN | 1x 2
+      - 法国2-CDN | 1x 2
+      - 法国3-CDN | 1x 2
+      - 法国4-CDN | 1x 2
+      - 荷兰1-CDN | 1x 2
+      - 荷兰2-CDN | 1x 2
+      - 荷兰3-CDN | 1x 2
+      - 荷兰4-CDN | 1x 2
+      - 荷兰5-CDN | 1x 2
+      - 荷兰6-CDN | 1x 2
+      - 德国1-CDN | 1x 2
+      - 德国2-CDN | 1x 2
+      - 德国3-CDN | 1x 2
+      - 德国4-CDN | 1x 2
+      - 德国5-CDN | 1x 2
+      - 南非1-CDN | 1x 2
+      - 南非2-CDN | 1x 2
+      - 智利1-CDN | 1x 2
+      - 智利2-CDN | 1x 2
+      - 哥伦比亚1-CDN | 1x 2
+      - 哥伦比亚2-CDN | 1x 2
+      - 哥伦比亚3-CDN | 1x 2
+      - 哥伦比亚4-CDN | 1x 2
+      - 墨西哥1-CDN | 1x 2
+      - 西班牙1-CDN | 1x 2
+      - 沙特阿拉伯1-CDN | 1x 2
+      - 沙特阿拉伯2-CDN | 1x 2
+      - 瑞典临时公用-100Mbps | 0.1x 2
+      - 日本A-CDN | 1x 3
+      - 日本B-CDN | 1x 3
+      - 日本1-CDN | 1x 3
+      - 日本2-CDN | 1x 3
+      - 日本3-CDN | 1x 3
+      - 日本东京1-CDN | 1x 3
+      - 韩国春川1-CDN | 1x 3
+      - 韩国春川2-CDN | 1x 3
+      - 韩国春川3-CDN | 1x 3
+      - 韩国春川4-CDN | 1x 3
+      - 印度1-海得拉巴-CDN | 1x 3
+      - 印度2-海得拉巴-CDN | 1x 3
+      - 印度3-海得拉巴-CDN | 1x 3
+      - 印度4-海得拉巴-CDN | 1x 3
+      - 印度5-海得拉巴-CDN | 1x 3
+      - 印度6-海得拉巴-CDN | 1x 3
+      - 印度7-海得拉巴-CDN | 1x 3
+      - 印度1-孟买-CDN | 1x 3
+      - 澳大利亚-墨尔本1-CDN | 1x 3
+      - 澳大利亚-墨尔本2-CDN | 1x 3
+      - 美国东部阿什本1-CDN | 1x 3
+      - 美国东部阿什本2-CDN | 1x 3
+      - 美国东部阿什本3-CDN | 1x 3
+      - 美国西部洛杉矶1-CDN | 1x 3
+      - 美国西部洛杉矶2-CDN | 1x 3
+      - 美国东部纽约1-CDN | 1x 3
+      - 美国西部凤凰城1-CDN | 1x 3
+      - 美国西部凤凰城2-CDN | 1x 3
+      - 加拿大1-蒙特利尔-CDN | 1x 3
+      - 加拿大2-蒙特利尔-CDN | 1x 3
+      - 加拿大1-多伦多-CDN | 1x 3
+      - 巴西1-CDN | 1x 3
+      - 巴西2-CDN | 1x 3
+      - 巴西3-CDN | 1x 3
+      - 巴西4-CDN | 1x 3
+      - 巴西5-CDN | 1x 3
+      - 巴西6-CDN | 1x 3
+      - 巴西7-CDN | 1x 3
+      - 巴西-维涅杜1-CDN | 1x 3
+      - 巴西-维涅杜2-CDN | 1x 3
+      - 巴西-维涅杜3-CDN | 1x 3
+      - 巴西-维涅杜4-CDN | 1x 3
+      - 英国1-CDN | 1x 3
+      - 英国2-CDN | 1x 3
+      - 英国3-CDN | 1x 3
+      - 法国1-CDN | 1x 3
+      - 法国2-CDN | 1x 3
+      - 法国3-CDN | 1x 3
+      - 法国4-CDN | 1x 3
+      - 荷兰1-CDN | 1x 3
+      - 荷兰2-CDN | 1x 3
+      - 荷兰3-CDN | 1x 3
+      - 荷兰4-CDN | 1x 3
+      - 荷兰5-CDN | 1x 3
+      - 荷兰6-CDN | 1x 3
+      - 德国1-CDN | 1x 3
+      - 德国2-CDN | 1x 3
+      - 德国3-CDN | 1x 3
+      - 德国4-CDN | 1x 3
+      - 德国5-CDN | 1x 3
+      - 南非1-CDN | 1x 3
+      - 南非2-CDN | 1x 3
+      - 智利1-CDN | 1x 3
+      - 智利2-CDN | 1x 3
+      - 哥伦比亚1-CDN | 1x 3
+      - 哥伦比亚2-CDN | 1x 3
+      - 哥伦比亚3-CDN | 1x 3
+      - 哥伦比亚4-CDN | 1x 3
+      - 墨西哥1-CDN | 1x 3
+      - 西班牙1-CDN | 1x 3
+      - 沙特阿拉伯1-CDN | 1x 3
+      - 沙特阿拉伯2-CDN | 1x 3
+      - 瑞典临时公用-100Mbps | 0.1x 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -112,6 +550,225 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
+      - 日本A-CDN | 1x
+      - 日本B-CDN | 1x
+      - 日本1-CDN | 1x
+      - 日本2-CDN | 1x
+      - 日本3-CDN | 1x
+      - 日本东京1-CDN | 1x
+      - 韩国春川1-CDN | 1x
+      - 韩国春川2-CDN | 1x
+      - 韩国春川3-CDN | 1x
+      - 韩国春川4-CDN | 1x
+      - 印度1-海得拉巴-CDN | 1x
+      - 印度2-海得拉巴-CDN | 1x
+      - 印度3-海得拉巴-CDN | 1x
+      - 印度4-海得拉巴-CDN | 1x
+      - 印度5-海得拉巴-CDN | 1x
+      - 印度6-海得拉巴-CDN | 1x
+      - 印度7-海得拉巴-CDN | 1x
+      - 印度1-孟买-CDN | 1x
+      - 澳大利亚-墨尔本1-CDN | 1x
+      - 澳大利亚-墨尔本2-CDN | 1x
+      - 美国东部阿什本1-CDN | 1x
+      - 美国东部阿什本2-CDN | 1x
+      - 美国东部阿什本3-CDN | 1x
+      - 美国西部洛杉矶1-CDN | 1x
+      - 美国西部洛杉矶2-CDN | 1x
+      - 美国东部纽约1-CDN | 1x
+      - 美国西部凤凰城1-CDN | 1x
+      - 美国西部凤凰城2-CDN | 1x
+      - 加拿大1-蒙特利尔-CDN | 1x
+      - 加拿大2-蒙特利尔-CDN | 1x
+      - 加拿大1-多伦多-CDN | 1x
+      - 巴西1-CDN | 1x
+      - 巴西2-CDN | 1x
+      - 巴西3-CDN | 1x
+      - 巴西4-CDN | 1x
+      - 巴西5-CDN | 1x
+      - 巴西6-CDN | 1x
+      - 巴西7-CDN | 1x
+      - 巴西-维涅杜1-CDN | 1x
+      - 巴西-维涅杜2-CDN | 1x
+      - 巴西-维涅杜3-CDN | 1x
+      - 巴西-维涅杜4-CDN | 1x
+      - 英国1-CDN | 1x
+      - 英国2-CDN | 1x
+      - 英国3-CDN | 1x
+      - 法国1-CDN | 1x
+      - 法国2-CDN | 1x
+      - 法国3-CDN | 1x
+      - 法国4-CDN | 1x
+      - 荷兰1-CDN | 1x
+      - 荷兰2-CDN | 1x
+      - 荷兰3-CDN | 1x
+      - 荷兰4-CDN | 1x
+      - 荷兰5-CDN | 1x
+      - 荷兰6-CDN | 1x
+      - 德国1-CDN | 1x
+      - 德国2-CDN | 1x
+      - 德国3-CDN | 1x
+      - 德国4-CDN | 1x
+      - 德国5-CDN | 1x
+      - 南非1-CDN | 1x
+      - 南非2-CDN | 1x
+      - 智利1-CDN | 1x
+      - 智利2-CDN | 1x
+      - 哥伦比亚1-CDN | 1x
+      - 哥伦比亚2-CDN | 1x
+      - 哥伦比亚3-CDN | 1x
+      - 哥伦比亚4-CDN | 1x
+      - 墨西哥1-CDN | 1x
+      - 西班牙1-CDN | 1x
+      - 沙特阿拉伯1-CDN | 1x
+      - 沙特阿拉伯2-CDN | 1x
+      - 瑞典临时公用-100Mbps | 0.1x
+      - 日本A-CDN | 1x 2
+      - 日本B-CDN | 1x 2
+      - 日本1-CDN | 1x 2
+      - 日本2-CDN | 1x 2
+      - 日本3-CDN | 1x 2
+      - 日本东京1-CDN | 1x 2
+      - 韩国春川1-CDN | 1x 2
+      - 韩国春川2-CDN | 1x 2
+      - 韩国春川3-CDN | 1x 2
+      - 韩国春川4-CDN | 1x 2
+      - 印度1-海得拉巴-CDN | 1x 2
+      - 印度2-海得拉巴-CDN | 1x 2
+      - 印度3-海得拉巴-CDN | 1x 2
+      - 印度4-海得拉巴-CDN | 1x 2
+      - 印度5-海得拉巴-CDN | 1x 2
+      - 印度6-海得拉巴-CDN | 1x 2
+      - 印度7-海得拉巴-CDN | 1x 2
+      - 印度1-孟买-CDN | 1x 2
+      - 澳大利亚-墨尔本1-CDN | 1x 2
+      - 澳大利亚-墨尔本2-CDN | 1x 2
+      - 美国东部阿什本1-CDN | 1x 2
+      - 美国东部阿什本2-CDN | 1x 2
+      - 美国东部阿什本3-CDN | 1x 2
+      - 美国西部洛杉矶1-CDN | 1x 2
+      - 美国西部洛杉矶2-CDN | 1x 2
+      - 美国东部纽约1-CDN | 1x 2
+      - 美国西部凤凰城1-CDN | 1x 2
+      - 美国西部凤凰城2-CDN | 1x 2
+      - 加拿大1-蒙特利尔-CDN | 1x 2
+      - 加拿大2-蒙特利尔-CDN | 1x 2
+      - 加拿大1-多伦多-CDN | 1x 2
+      - 巴西1-CDN | 1x 2
+      - 巴西2-CDN | 1x 2
+      - 巴西3-CDN | 1x 2
+      - 巴西4-CDN | 1x 2
+      - 巴西5-CDN | 1x 2
+      - 巴西6-CDN | 1x 2
+      - 巴西7-CDN | 1x 2
+      - 巴西-维涅杜1-CDN | 1x 2
+      - 巴西-维涅杜2-CDN | 1x 2
+      - 巴西-维涅杜3-CDN | 1x 2
+      - 巴西-维涅杜4-CDN | 1x 2
+      - 英国1-CDN | 1x 2
+      - 英国2-CDN | 1x 2
+      - 英国3-CDN | 1x 2
+      - 法国1-CDN | 1x 2
+      - 法国2-CDN | 1x 2
+      - 法国3-CDN | 1x 2
+      - 法国4-CDN | 1x 2
+      - 荷兰1-CDN | 1x 2
+      - 荷兰2-CDN | 1x 2
+      - 荷兰3-CDN | 1x 2
+      - 荷兰4-CDN | 1x 2
+      - 荷兰5-CDN | 1x 2
+      - 荷兰6-CDN | 1x 2
+      - 德国1-CDN | 1x 2
+      - 德国2-CDN | 1x 2
+      - 德国3-CDN | 1x 2
+      - 德国4-CDN | 1x 2
+      - 德国5-CDN | 1x 2
+      - 南非1-CDN | 1x 2
+      - 南非2-CDN | 1x 2
+      - 智利1-CDN | 1x 2
+      - 智利2-CDN | 1x 2
+      - 哥伦比亚1-CDN | 1x 2
+      - 哥伦比亚2-CDN | 1x 2
+      - 哥伦比亚3-CDN | 1x 2
+      - 哥伦比亚4-CDN | 1x 2
+      - 墨西哥1-CDN | 1x 2
+      - 西班牙1-CDN | 1x 2
+      - 沙特阿拉伯1-CDN | 1x 2
+      - 沙特阿拉伯2-CDN | 1x 2
+      - 瑞典临时公用-100Mbps | 0.1x 2
+      - 日本A-CDN | 1x 3
+      - 日本B-CDN | 1x 3
+      - 日本1-CDN | 1x 3
+      - 日本2-CDN | 1x 3
+      - 日本3-CDN | 1x 3
+      - 日本东京1-CDN | 1x 3
+      - 韩国春川1-CDN | 1x 3
+      - 韩国春川2-CDN | 1x 3
+      - 韩国春川3-CDN | 1x 3
+      - 韩国春川4-CDN | 1x 3
+      - 印度1-海得拉巴-CDN | 1x 3
+      - 印度2-海得拉巴-CDN | 1x 3
+      - 印度3-海得拉巴-CDN | 1x 3
+      - 印度4-海得拉巴-CDN | 1x 3
+      - 印度5-海得拉巴-CDN | 1x 3
+      - 印度6-海得拉巴-CDN | 1x 3
+      - 印度7-海得拉巴-CDN | 1x 3
+      - 印度1-孟买-CDN | 1x 3
+      - 澳大利亚-墨尔本1-CDN | 1x 3
+      - 澳大利亚-墨尔本2-CDN | 1x 3
+      - 美国东部阿什本1-CDN | 1x 3
+      - 美国东部阿什本2-CDN | 1x 3
+      - 美国东部阿什本3-CDN | 1x 3
+      - 美国西部洛杉矶1-CDN | 1x 3
+      - 美国西部洛杉矶2-CDN | 1x 3
+      - 美国东部纽约1-CDN | 1x 3
+      - 美国西部凤凰城1-CDN | 1x 3
+      - 美国西部凤凰城2-CDN | 1x 3
+      - 加拿大1-蒙特利尔-CDN | 1x 3
+      - 加拿大2-蒙特利尔-CDN | 1x 3
+      - 加拿大1-多伦多-CDN | 1x 3
+      - 巴西1-CDN | 1x 3
+      - 巴西2-CDN | 1x 3
+      - 巴西3-CDN | 1x 3
+      - 巴西4-CDN | 1x 3
+      - 巴西5-CDN | 1x 3
+      - 巴西6-CDN | 1x 3
+      - 巴西7-CDN | 1x 3
+      - 巴西-维涅杜1-CDN | 1x 3
+      - 巴西-维涅杜2-CDN | 1x 3
+      - 巴西-维涅杜3-CDN | 1x 3
+      - 巴西-维涅杜4-CDN | 1x 3
+      - 英国1-CDN | 1x 3
+      - 英国2-CDN | 1x 3
+      - 英国3-CDN | 1x 3
+      - 法国1-CDN | 1x 3
+      - 法国2-CDN | 1x 3
+      - 法国3-CDN | 1x 3
+      - 法国4-CDN | 1x 3
+      - 荷兰1-CDN | 1x 3
+      - 荷兰2-CDN | 1x 3
+      - 荷兰3-CDN | 1x 3
+      - 荷兰4-CDN | 1x 3
+      - 荷兰5-CDN | 1x 3
+      - 荷兰6-CDN | 1x 3
+      - 德国1-CDN | 1x 3
+      - 德国2-CDN | 1x 3
+      - 德国3-CDN | 1x 3
+      - 德国4-CDN | 1x 3
+      - 德国5-CDN | 1x 3
+      - 南非1-CDN | 1x 3
+      - 南非2-CDN | 1x 3
+      - 智利1-CDN | 1x 3
+      - 智利2-CDN | 1x 3
+      - 哥伦比亚1-CDN | 1x 3
+      - 哥伦比亚2-CDN | 1x 3
+      - 哥伦比亚3-CDN | 1x 3
+      - 哥伦比亚4-CDN | 1x 3
+      - 墨西哥1-CDN | 1x 3
+      - 西班牙1-CDN | 1x 3
+      - 沙特阿拉伯1-CDN | 1x 3
+      - 沙特阿拉伯2-CDN | 1x 3
+      - 瑞典临时公用-100Mbps | 0.1x 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -150,6 +807,225 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
+      - 日本A-CDN | 1x
+      - 日本B-CDN | 1x
+      - 日本1-CDN | 1x
+      - 日本2-CDN | 1x
+      - 日本3-CDN | 1x
+      - 日本东京1-CDN | 1x
+      - 韩国春川1-CDN | 1x
+      - 韩国春川2-CDN | 1x
+      - 韩国春川3-CDN | 1x
+      - 韩国春川4-CDN | 1x
+      - 印度1-海得拉巴-CDN | 1x
+      - 印度2-海得拉巴-CDN | 1x
+      - 印度3-海得拉巴-CDN | 1x
+      - 印度4-海得拉巴-CDN | 1x
+      - 印度5-海得拉巴-CDN | 1x
+      - 印度6-海得拉巴-CDN | 1x
+      - 印度7-海得拉巴-CDN | 1x
+      - 印度1-孟买-CDN | 1x
+      - 澳大利亚-墨尔本1-CDN | 1x
+      - 澳大利亚-墨尔本2-CDN | 1x
+      - 美国东部阿什本1-CDN | 1x
+      - 美国东部阿什本2-CDN | 1x
+      - 美国东部阿什本3-CDN | 1x
+      - 美国西部洛杉矶1-CDN | 1x
+      - 美国西部洛杉矶2-CDN | 1x
+      - 美国东部纽约1-CDN | 1x
+      - 美国西部凤凰城1-CDN | 1x
+      - 美国西部凤凰城2-CDN | 1x
+      - 加拿大1-蒙特利尔-CDN | 1x
+      - 加拿大2-蒙特利尔-CDN | 1x
+      - 加拿大1-多伦多-CDN | 1x
+      - 巴西1-CDN | 1x
+      - 巴西2-CDN | 1x
+      - 巴西3-CDN | 1x
+      - 巴西4-CDN | 1x
+      - 巴西5-CDN | 1x
+      - 巴西6-CDN | 1x
+      - 巴西7-CDN | 1x
+      - 巴西-维涅杜1-CDN | 1x
+      - 巴西-维涅杜2-CDN | 1x
+      - 巴西-维涅杜3-CDN | 1x
+      - 巴西-维涅杜4-CDN | 1x
+      - 英国1-CDN | 1x
+      - 英国2-CDN | 1x
+      - 英国3-CDN | 1x
+      - 法国1-CDN | 1x
+      - 法国2-CDN | 1x
+      - 法国3-CDN | 1x
+      - 法国4-CDN | 1x
+      - 荷兰1-CDN | 1x
+      - 荷兰2-CDN | 1x
+      - 荷兰3-CDN | 1x
+      - 荷兰4-CDN | 1x
+      - 荷兰5-CDN | 1x
+      - 荷兰6-CDN | 1x
+      - 德国1-CDN | 1x
+      - 德国2-CDN | 1x
+      - 德国3-CDN | 1x
+      - 德国4-CDN | 1x
+      - 德国5-CDN | 1x
+      - 南非1-CDN | 1x
+      - 南非2-CDN | 1x
+      - 智利1-CDN | 1x
+      - 智利2-CDN | 1x
+      - 哥伦比亚1-CDN | 1x
+      - 哥伦比亚2-CDN | 1x
+      - 哥伦比亚3-CDN | 1x
+      - 哥伦比亚4-CDN | 1x
+      - 墨西哥1-CDN | 1x
+      - 西班牙1-CDN | 1x
+      - 沙特阿拉伯1-CDN | 1x
+      - 沙特阿拉伯2-CDN | 1x
+      - 瑞典临时公用-100Mbps | 0.1x
+      - 日本A-CDN | 1x 2
+      - 日本B-CDN | 1x 2
+      - 日本1-CDN | 1x 2
+      - 日本2-CDN | 1x 2
+      - 日本3-CDN | 1x 2
+      - 日本东京1-CDN | 1x 2
+      - 韩国春川1-CDN | 1x 2
+      - 韩国春川2-CDN | 1x 2
+      - 韩国春川3-CDN | 1x 2
+      - 韩国春川4-CDN | 1x 2
+      - 印度1-海得拉巴-CDN | 1x 2
+      - 印度2-海得拉巴-CDN | 1x 2
+      - 印度3-海得拉巴-CDN | 1x 2
+      - 印度4-海得拉巴-CDN | 1x 2
+      - 印度5-海得拉巴-CDN | 1x 2
+      - 印度6-海得拉巴-CDN | 1x 2
+      - 印度7-海得拉巴-CDN | 1x 2
+      - 印度1-孟买-CDN | 1x 2
+      - 澳大利亚-墨尔本1-CDN | 1x 2
+      - 澳大利亚-墨尔本2-CDN | 1x 2
+      - 美国东部阿什本1-CDN | 1x 2
+      - 美国东部阿什本2-CDN | 1x 2
+      - 美国东部阿什本3-CDN | 1x 2
+      - 美国西部洛杉矶1-CDN | 1x 2
+      - 美国西部洛杉矶2-CDN | 1x 2
+      - 美国东部纽约1-CDN | 1x 2
+      - 美国西部凤凰城1-CDN | 1x 2
+      - 美国西部凤凰城2-CDN | 1x 2
+      - 加拿大1-蒙特利尔-CDN | 1x 2
+      - 加拿大2-蒙特利尔-CDN | 1x 2
+      - 加拿大1-多伦多-CDN | 1x 2
+      - 巴西1-CDN | 1x 2
+      - 巴西2-CDN | 1x 2
+      - 巴西3-CDN | 1x 2
+      - 巴西4-CDN | 1x 2
+      - 巴西5-CDN | 1x 2
+      - 巴西6-CDN | 1x 2
+      - 巴西7-CDN | 1x 2
+      - 巴西-维涅杜1-CDN | 1x 2
+      - 巴西-维涅杜2-CDN | 1x 2
+      - 巴西-维涅杜3-CDN | 1x 2
+      - 巴西-维涅杜4-CDN | 1x 2
+      - 英国1-CDN | 1x 2
+      - 英国2-CDN | 1x 2
+      - 英国3-CDN | 1x 2
+      - 法国1-CDN | 1x 2
+      - 法国2-CDN | 1x 2
+      - 法国3-CDN | 1x 2
+      - 法国4-CDN | 1x 2
+      - 荷兰1-CDN | 1x 2
+      - 荷兰2-CDN | 1x 2
+      - 荷兰3-CDN | 1x 2
+      - 荷兰4-CDN | 1x 2
+      - 荷兰5-CDN | 1x 2
+      - 荷兰6-CDN | 1x 2
+      - 德国1-CDN | 1x 2
+      - 德国2-CDN | 1x 2
+      - 德国3-CDN | 1x 2
+      - 德国4-CDN | 1x 2
+      - 德国5-CDN | 1x 2
+      - 南非1-CDN | 1x 2
+      - 南非2-CDN | 1x 2
+      - 智利1-CDN | 1x 2
+      - 智利2-CDN | 1x 2
+      - 哥伦比亚1-CDN | 1x 2
+      - 哥伦比亚2-CDN | 1x 2
+      - 哥伦比亚3-CDN | 1x 2
+      - 哥伦比亚4-CDN | 1x 2
+      - 墨西哥1-CDN | 1x 2
+      - 西班牙1-CDN | 1x 2
+      - 沙特阿拉伯1-CDN | 1x 2
+      - 沙特阿拉伯2-CDN | 1x 2
+      - 瑞典临时公用-100Mbps | 0.1x 2
+      - 日本A-CDN | 1x 3
+      - 日本B-CDN | 1x 3
+      - 日本1-CDN | 1x 3
+      - 日本2-CDN | 1x 3
+      - 日本3-CDN | 1x 3
+      - 日本东京1-CDN | 1x 3
+      - 韩国春川1-CDN | 1x 3
+      - 韩国春川2-CDN | 1x 3
+      - 韩国春川3-CDN | 1x 3
+      - 韩国春川4-CDN | 1x 3
+      - 印度1-海得拉巴-CDN | 1x 3
+      - 印度2-海得拉巴-CDN | 1x 3
+      - 印度3-海得拉巴-CDN | 1x 3
+      - 印度4-海得拉巴-CDN | 1x 3
+      - 印度5-海得拉巴-CDN | 1x 3
+      - 印度6-海得拉巴-CDN | 1x 3
+      - 印度7-海得拉巴-CDN | 1x 3
+      - 印度1-孟买-CDN | 1x 3
+      - 澳大利亚-墨尔本1-CDN | 1x 3
+      - 澳大利亚-墨尔本2-CDN | 1x 3
+      - 美国东部阿什本1-CDN | 1x 3
+      - 美国东部阿什本2-CDN | 1x 3
+      - 美国东部阿什本3-CDN | 1x 3
+      - 美国西部洛杉矶1-CDN | 1x 3
+      - 美国西部洛杉矶2-CDN | 1x 3
+      - 美国东部纽约1-CDN | 1x 3
+      - 美国西部凤凰城1-CDN | 1x 3
+      - 美国西部凤凰城2-CDN | 1x 3
+      - 加拿大1-蒙特利尔-CDN | 1x 3
+      - 加拿大2-蒙特利尔-CDN | 1x 3
+      - 加拿大1-多伦多-CDN | 1x 3
+      - 巴西1-CDN | 1x 3
+      - 巴西2-CDN | 1x 3
+      - 巴西3-CDN | 1x 3
+      - 巴西4-CDN | 1x 3
+      - 巴西5-CDN | 1x 3
+      - 巴西6-CDN | 1x 3
+      - 巴西7-CDN | 1x 3
+      - 巴西-维涅杜1-CDN | 1x 3
+      - 巴西-维涅杜2-CDN | 1x 3
+      - 巴西-维涅杜3-CDN | 1x 3
+      - 巴西-维涅杜4-CDN | 1x 3
+      - 英国1-CDN | 1x 3
+      - 英国2-CDN | 1x 3
+      - 英国3-CDN | 1x 3
+      - 法国1-CDN | 1x 3
+      - 法国2-CDN | 1x 3
+      - 法国3-CDN | 1x 3
+      - 法国4-CDN | 1x 3
+      - 荷兰1-CDN | 1x 3
+      - 荷兰2-CDN | 1x 3
+      - 荷兰3-CDN | 1x 3
+      - 荷兰4-CDN | 1x 3
+      - 荷兰5-CDN | 1x 3
+      - 荷兰6-CDN | 1x 3
+      - 德国1-CDN | 1x 3
+      - 德国2-CDN | 1x 3
+      - 德国3-CDN | 1x 3
+      - 德国4-CDN | 1x 3
+      - 德国5-CDN | 1x 3
+      - 南非1-CDN | 1x 3
+      - 南非2-CDN | 1x 3
+      - 智利1-CDN | 1x 3
+      - 智利2-CDN | 1x 3
+      - 哥伦比亚1-CDN | 1x 3
+      - 哥伦比亚2-CDN | 1x 3
+      - 哥伦比亚3-CDN | 1x 3
+      - 哥伦比亚4-CDN | 1x 3
+      - 墨西哥1-CDN | 1x 3
+      - 西班牙1-CDN | 1x 3
+      - 沙特阿拉伯1-CDN | 1x 3
+      - 沙特阿拉伯2-CDN | 1x 3
+      - 瑞典临时公用-100Mbps | 0.1x 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -200,6 +1076,225 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
+      - 日本A-CDN | 1x
+      - 日本B-CDN | 1x
+      - 日本1-CDN | 1x
+      - 日本2-CDN | 1x
+      - 日本3-CDN | 1x
+      - 日本东京1-CDN | 1x
+      - 韩国春川1-CDN | 1x
+      - 韩国春川2-CDN | 1x
+      - 韩国春川3-CDN | 1x
+      - 韩国春川4-CDN | 1x
+      - 印度1-海得拉巴-CDN | 1x
+      - 印度2-海得拉巴-CDN | 1x
+      - 印度3-海得拉巴-CDN | 1x
+      - 印度4-海得拉巴-CDN | 1x
+      - 印度5-海得拉巴-CDN | 1x
+      - 印度6-海得拉巴-CDN | 1x
+      - 印度7-海得拉巴-CDN | 1x
+      - 印度1-孟买-CDN | 1x
+      - 澳大利亚-墨尔本1-CDN | 1x
+      - 澳大利亚-墨尔本2-CDN | 1x
+      - 美国东部阿什本1-CDN | 1x
+      - 美国东部阿什本2-CDN | 1x
+      - 美国东部阿什本3-CDN | 1x
+      - 美国西部洛杉矶1-CDN | 1x
+      - 美国西部洛杉矶2-CDN | 1x
+      - 美国东部纽约1-CDN | 1x
+      - 美国西部凤凰城1-CDN | 1x
+      - 美国西部凤凰城2-CDN | 1x
+      - 加拿大1-蒙特利尔-CDN | 1x
+      - 加拿大2-蒙特利尔-CDN | 1x
+      - 加拿大1-多伦多-CDN | 1x
+      - 巴西1-CDN | 1x
+      - 巴西2-CDN | 1x
+      - 巴西3-CDN | 1x
+      - 巴西4-CDN | 1x
+      - 巴西5-CDN | 1x
+      - 巴西6-CDN | 1x
+      - 巴西7-CDN | 1x
+      - 巴西-维涅杜1-CDN | 1x
+      - 巴西-维涅杜2-CDN | 1x
+      - 巴西-维涅杜3-CDN | 1x
+      - 巴西-维涅杜4-CDN | 1x
+      - 英国1-CDN | 1x
+      - 英国2-CDN | 1x
+      - 英国3-CDN | 1x
+      - 法国1-CDN | 1x
+      - 法国2-CDN | 1x
+      - 法国3-CDN | 1x
+      - 法国4-CDN | 1x
+      - 荷兰1-CDN | 1x
+      - 荷兰2-CDN | 1x
+      - 荷兰3-CDN | 1x
+      - 荷兰4-CDN | 1x
+      - 荷兰5-CDN | 1x
+      - 荷兰6-CDN | 1x
+      - 德国1-CDN | 1x
+      - 德国2-CDN | 1x
+      - 德国3-CDN | 1x
+      - 德国4-CDN | 1x
+      - 德国5-CDN | 1x
+      - 南非1-CDN | 1x
+      - 南非2-CDN | 1x
+      - 智利1-CDN | 1x
+      - 智利2-CDN | 1x
+      - 哥伦比亚1-CDN | 1x
+      - 哥伦比亚2-CDN | 1x
+      - 哥伦比亚3-CDN | 1x
+      - 哥伦比亚4-CDN | 1x
+      - 墨西哥1-CDN | 1x
+      - 西班牙1-CDN | 1x
+      - 沙特阿拉伯1-CDN | 1x
+      - 沙特阿拉伯2-CDN | 1x
+      - 瑞典临时公用-100Mbps | 0.1x
+      - 日本A-CDN | 1x 2
+      - 日本B-CDN | 1x 2
+      - 日本1-CDN | 1x 2
+      - 日本2-CDN | 1x 2
+      - 日本3-CDN | 1x 2
+      - 日本东京1-CDN | 1x 2
+      - 韩国春川1-CDN | 1x 2
+      - 韩国春川2-CDN | 1x 2
+      - 韩国春川3-CDN | 1x 2
+      - 韩国春川4-CDN | 1x 2
+      - 印度1-海得拉巴-CDN | 1x 2
+      - 印度2-海得拉巴-CDN | 1x 2
+      - 印度3-海得拉巴-CDN | 1x 2
+      - 印度4-海得拉巴-CDN | 1x 2
+      - 印度5-海得拉巴-CDN | 1x 2
+      - 印度6-海得拉巴-CDN | 1x 2
+      - 印度7-海得拉巴-CDN | 1x 2
+      - 印度1-孟买-CDN | 1x 2
+      - 澳大利亚-墨尔本1-CDN | 1x 2
+      - 澳大利亚-墨尔本2-CDN | 1x 2
+      - 美国东部阿什本1-CDN | 1x 2
+      - 美国东部阿什本2-CDN | 1x 2
+      - 美国东部阿什本3-CDN | 1x 2
+      - 美国西部洛杉矶1-CDN | 1x 2
+      - 美国西部洛杉矶2-CDN | 1x 2
+      - 美国东部纽约1-CDN | 1x 2
+      - 美国西部凤凰城1-CDN | 1x 2
+      - 美国西部凤凰城2-CDN | 1x 2
+      - 加拿大1-蒙特利尔-CDN | 1x 2
+      - 加拿大2-蒙特利尔-CDN | 1x 2
+      - 加拿大1-多伦多-CDN | 1x 2
+      - 巴西1-CDN | 1x 2
+      - 巴西2-CDN | 1x 2
+      - 巴西3-CDN | 1x 2
+      - 巴西4-CDN | 1x 2
+      - 巴西5-CDN | 1x 2
+      - 巴西6-CDN | 1x 2
+      - 巴西7-CDN | 1x 2
+      - 巴西-维涅杜1-CDN | 1x 2
+      - 巴西-维涅杜2-CDN | 1x 2
+      - 巴西-维涅杜3-CDN | 1x 2
+      - 巴西-维涅杜4-CDN | 1x 2
+      - 英国1-CDN | 1x 2
+      - 英国2-CDN | 1x 2
+      - 英国3-CDN | 1x 2
+      - 法国1-CDN | 1x 2
+      - 法国2-CDN | 1x 2
+      - 法国3-CDN | 1x 2
+      - 法国4-CDN | 1x 2
+      - 荷兰1-CDN | 1x 2
+      - 荷兰2-CDN | 1x 2
+      - 荷兰3-CDN | 1x 2
+      - 荷兰4-CDN | 1x 2
+      - 荷兰5-CDN | 1x 2
+      - 荷兰6-CDN | 1x 2
+      - 德国1-CDN | 1x 2
+      - 德国2-CDN | 1x 2
+      - 德国3-CDN | 1x 2
+      - 德国4-CDN | 1x 2
+      - 德国5-CDN | 1x 2
+      - 南非1-CDN | 1x 2
+      - 南非2-CDN | 1x 2
+      - 智利1-CDN | 1x 2
+      - 智利2-CDN | 1x 2
+      - 哥伦比亚1-CDN | 1x 2
+      - 哥伦比亚2-CDN | 1x 2
+      - 哥伦比亚3-CDN | 1x 2
+      - 哥伦比亚4-CDN | 1x 2
+      - 墨西哥1-CDN | 1x 2
+      - 西班牙1-CDN | 1x 2
+      - 沙特阿拉伯1-CDN | 1x 2
+      - 沙特阿拉伯2-CDN | 1x 2
+      - 瑞典临时公用-100Mbps | 0.1x 2
+      - 日本A-CDN | 1x 3
+      - 日本B-CDN | 1x 3
+      - 日本1-CDN | 1x 3
+      - 日本2-CDN | 1x 3
+      - 日本3-CDN | 1x 3
+      - 日本东京1-CDN | 1x 3
+      - 韩国春川1-CDN | 1x 3
+      - 韩国春川2-CDN | 1x 3
+      - 韩国春川3-CDN | 1x 3
+      - 韩国春川4-CDN | 1x 3
+      - 印度1-海得拉巴-CDN | 1x 3
+      - 印度2-海得拉巴-CDN | 1x 3
+      - 印度3-海得拉巴-CDN | 1x 3
+      - 印度4-海得拉巴-CDN | 1x 3
+      - 印度5-海得拉巴-CDN | 1x 3
+      - 印度6-海得拉巴-CDN | 1x 3
+      - 印度7-海得拉巴-CDN | 1x 3
+      - 印度1-孟买-CDN | 1x 3
+      - 澳大利亚-墨尔本1-CDN | 1x 3
+      - 澳大利亚-墨尔本2-CDN | 1x 3
+      - 美国东部阿什本1-CDN | 1x 3
+      - 美国东部阿什本2-CDN | 1x 3
+      - 美国东部阿什本3-CDN | 1x 3
+      - 美国西部洛杉矶1-CDN | 1x 3
+      - 美国西部洛杉矶2-CDN | 1x 3
+      - 美国东部纽约1-CDN | 1x 3
+      - 美国西部凤凰城1-CDN | 1x 3
+      - 美国西部凤凰城2-CDN | 1x 3
+      - 加拿大1-蒙特利尔-CDN | 1x 3
+      - 加拿大2-蒙特利尔-CDN | 1x 3
+      - 加拿大1-多伦多-CDN | 1x 3
+      - 巴西1-CDN | 1x 3
+      - 巴西2-CDN | 1x 3
+      - 巴西3-CDN | 1x 3
+      - 巴西4-CDN | 1x 3
+      - 巴西5-CDN | 1x 3
+      - 巴西6-CDN | 1x 3
+      - 巴西7-CDN | 1x 3
+      - 巴西-维涅杜1-CDN | 1x 3
+      - 巴西-维涅杜2-CDN | 1x 3
+      - 巴西-维涅杜3-CDN | 1x 3
+      - 巴西-维涅杜4-CDN | 1x 3
+      - 英国1-CDN | 1x 3
+      - 英国2-CDN | 1x 3
+      - 英国3-CDN | 1x 3
+      - 法国1-CDN | 1x 3
+      - 法国2-CDN | 1x 3
+      - 法国3-CDN | 1x 3
+      - 法国4-CDN | 1x 3
+      - 荷兰1-CDN | 1x 3
+      - 荷兰2-CDN | 1x 3
+      - 荷兰3-CDN | 1x 3
+      - 荷兰4-CDN | 1x 3
+      - 荷兰5-CDN | 1x 3
+      - 荷兰6-CDN | 1x 3
+      - 德国1-CDN | 1x 3
+      - 德国2-CDN | 1x 3
+      - 德国3-CDN | 1x 3
+      - 德国4-CDN | 1x 3
+      - 德国5-CDN | 1x 3
+      - 南非1-CDN | 1x 3
+      - 南非2-CDN | 1x 3
+      - 智利1-CDN | 1x 3
+      - 智利2-CDN | 1x 3
+      - 哥伦比亚1-CDN | 1x 3
+      - 哥伦比亚2-CDN | 1x 3
+      - 哥伦比亚3-CDN | 1x 3
+      - 哥伦比亚4-CDN | 1x 3
+      - 墨西哥1-CDN | 1x 3
+      - 西班牙1-CDN | 1x 3
+      - 沙特阿拉伯1-CDN | 1x 3
+      - 沙特阿拉伯2-CDN | 1x 3
+      - 瑞典临时公用-100Mbps | 0.1x 3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -243,6 +1338,225 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
+      - 日本A-CDN | 1x
+      - 日本B-CDN | 1x
+      - 日本1-CDN | 1x
+      - 日本2-CDN | 1x
+      - 日本3-CDN | 1x
+      - 日本东京1-CDN | 1x
+      - 韩国春川1-CDN | 1x
+      - 韩国春川2-CDN | 1x
+      - 韩国春川3-CDN | 1x
+      - 韩国春川4-CDN | 1x
+      - 印度1-海得拉巴-CDN | 1x
+      - 印度2-海得拉巴-CDN | 1x
+      - 印度3-海得拉巴-CDN | 1x
+      - 印度4-海得拉巴-CDN | 1x
+      - 印度5-海得拉巴-CDN | 1x
+      - 印度6-海得拉巴-CDN | 1x
+      - 印度7-海得拉巴-CDN | 1x
+      - 印度1-孟买-CDN | 1x
+      - 澳大利亚-墨尔本1-CDN | 1x
+      - 澳大利亚-墨尔本2-CDN | 1x
+      - 美国东部阿什本1-CDN | 1x
+      - 美国东部阿什本2-CDN | 1x
+      - 美国东部阿什本3-CDN | 1x
+      - 美国西部洛杉矶1-CDN | 1x
+      - 美国西部洛杉矶2-CDN | 1x
+      - 美国东部纽约1-CDN | 1x
+      - 美国西部凤凰城1-CDN | 1x
+      - 美国西部凤凰城2-CDN | 1x
+      - 加拿大1-蒙特利尔-CDN | 1x
+      - 加拿大2-蒙特利尔-CDN | 1x
+      - 加拿大1-多伦多-CDN | 1x
+      - 巴西1-CDN | 1x
+      - 巴西2-CDN | 1x
+      - 巴西3-CDN | 1x
+      - 巴西4-CDN | 1x
+      - 巴西5-CDN | 1x
+      - 巴西6-CDN | 1x
+      - 巴西7-CDN | 1x
+      - 巴西-维涅杜1-CDN | 1x
+      - 巴西-维涅杜2-CDN | 1x
+      - 巴西-维涅杜3-CDN | 1x
+      - 巴西-维涅杜4-CDN | 1x
+      - 英国1-CDN | 1x
+      - 英国2-CDN | 1x
+      - 英国3-CDN | 1x
+      - 法国1-CDN | 1x
+      - 法国2-CDN | 1x
+      - 法国3-CDN | 1x
+      - 法国4-CDN | 1x
+      - 荷兰1-CDN | 1x
+      - 荷兰2-CDN | 1x
+      - 荷兰3-CDN | 1x
+      - 荷兰4-CDN | 1x
+      - 荷兰5-CDN | 1x
+      - 荷兰6-CDN | 1x
+      - 德国1-CDN | 1x
+      - 德国2-CDN | 1x
+      - 德国3-CDN | 1x
+      - 德国4-CDN | 1x
+      - 德国5-CDN | 1x
+      - 南非1-CDN | 1x
+      - 南非2-CDN | 1x
+      - 智利1-CDN | 1x
+      - 智利2-CDN | 1x
+      - 哥伦比亚1-CDN | 1x
+      - 哥伦比亚2-CDN | 1x
+      - 哥伦比亚3-CDN | 1x
+      - 哥伦比亚4-CDN | 1x
+      - 墨西哥1-CDN | 1x
+      - 西班牙1-CDN | 1x
+      - 沙特阿拉伯1-CDN | 1x
+      - 沙特阿拉伯2-CDN | 1x
+      - 瑞典临时公用-100Mbps | 0.1x
+      - 日本A-CDN | 1x 2
+      - 日本B-CDN | 1x 2
+      - 日本1-CDN | 1x 2
+      - 日本2-CDN | 1x 2
+      - 日本3-CDN | 1x 2
+      - 日本东京1-CDN | 1x 2
+      - 韩国春川1-CDN | 1x 2
+      - 韩国春川2-CDN | 1x 2
+      - 韩国春川3-CDN | 1x 2
+      - 韩国春川4-CDN | 1x 2
+      - 印度1-海得拉巴-CDN | 1x 2
+      - 印度2-海得拉巴-CDN | 1x 2
+      - 印度3-海得拉巴-CDN | 1x 2
+      - 印度4-海得拉巴-CDN | 1x 2
+      - 印度5-海得拉巴-CDN | 1x 2
+      - 印度6-海得拉巴-CDN | 1x 2
+      - 印度7-海得拉巴-CDN | 1x 2
+      - 印度1-孟买-CDN | 1x 2
+      - 澳大利亚-墨尔本1-CDN | 1x 2
+      - 澳大利亚-墨尔本2-CDN | 1x 2
+      - 美国东部阿什本1-CDN | 1x 2
+      - 美国东部阿什本2-CDN | 1x 2
+      - 美国东部阿什本3-CDN | 1x 2
+      - 美国西部洛杉矶1-CDN | 1x 2
+      - 美国西部洛杉矶2-CDN | 1x 2
+      - 美国东部纽约1-CDN | 1x 2
+      - 美国西部凤凰城1-CDN | 1x 2
+      - 美国西部凤凰城2-CDN | 1x 2
+      - 加拿大1-蒙特利尔-CDN | 1x 2
+      - 加拿大2-蒙特利尔-CDN | 1x 2
+      - 加拿大1-多伦多-CDN | 1x 2
+      - 巴西1-CDN | 1x 2
+      - 巴西2-CDN | 1x 2
+      - 巴西3-CDN | 1x 2
+      - 巴西4-CDN | 1x 2
+      - 巴西5-CDN | 1x 2
+      - 巴西6-CDN | 1x 2
+      - 巴西7-CDN | 1x 2
+      - 巴西-维涅杜1-CDN | 1x 2
+      - 巴西-维涅杜2-CDN | 1x 2
+      - 巴西-维涅杜3-CDN | 1x 2
+      - 巴西-维涅杜4-CDN | 1x 2
+      - 英国1-CDN | 1x 2
+      - 英国2-CDN | 1x 2
+      - 英国3-CDN | 1x 2
+      - 法国1-CDN | 1x 2
+      - 法国2-CDN | 1x 2
+      - 法国3-CDN | 1x 2
+      - 法国4-CDN | 1x 2
+      - 荷兰1-CDN | 1x 2
+      - 荷兰2-CDN | 1x 2
+      - 荷兰3-CDN | 1x 2
+      - 荷兰4-CDN | 1x 2
+      - 荷兰5-CDN | 1x 2
+      - 荷兰6-CDN | 1x 2
+      - 德国1-CDN | 1x 2
+      - 德国2-CDN | 1x 2
+      - 德国3-CDN | 1x 2
+      - 德国4-CDN | 1x 2
+      - 德国5-CDN | 1x 2
+      - 南非1-CDN | 1x 2
+      - 南非2-CDN | 1x 2
+      - 智利1-CDN | 1x 2
+      - 智利2-CDN | 1x 2
+      - 哥伦比亚1-CDN | 1x 2
+      - 哥伦比亚2-CDN | 1x 2
+      - 哥伦比亚3-CDN | 1x 2
+      - 哥伦比亚4-CDN | 1x 2
+      - 墨西哥1-CDN | 1x 2
+      - 西班牙1-CDN | 1x 2
+      - 沙特阿拉伯1-CDN | 1x 2
+      - 沙特阿拉伯2-CDN | 1x 2
+      - 瑞典临时公用-100Mbps | 0.1x 2
+      - 日本A-CDN | 1x 3
+      - 日本B-CDN | 1x 3
+      - 日本1-CDN | 1x 3
+      - 日本2-CDN | 1x 3
+      - 日本3-CDN | 1x 3
+      - 日本东京1-CDN | 1x 3
+      - 韩国春川1-CDN | 1x 3
+      - 韩国春川2-CDN | 1x 3
+      - 韩国春川3-CDN | 1x 3
+      - 韩国春川4-CDN | 1x 3
+      - 印度1-海得拉巴-CDN | 1x 3
+      - 印度2-海得拉巴-CDN | 1x 3
+      - 印度3-海得拉巴-CDN | 1x 3
+      - 印度4-海得拉巴-CDN | 1x 3
+      - 印度5-海得拉巴-CDN | 1x 3
+      - 印度6-海得拉巴-CDN | 1x 3
+      - 印度7-海得拉巴-CDN | 1x 3
+      - 印度1-孟买-CDN | 1x 3
+      - 澳大利亚-墨尔本1-CDN | 1x 3
+      - 澳大利亚-墨尔本2-CDN | 1x 3
+      - 美国东部阿什本1-CDN | 1x 3
+      - 美国东部阿什本2-CDN | 1x 3
+      - 美国东部阿什本3-CDN | 1x 3
+      - 美国西部洛杉矶1-CDN | 1x 3
+      - 美国西部洛杉矶2-CDN | 1x 3
+      - 美国东部纽约1-CDN | 1x 3
+      - 美国西部凤凰城1-CDN | 1x 3
+      - 美国西部凤凰城2-CDN | 1x 3
+      - 加拿大1-蒙特利尔-CDN | 1x 3
+      - 加拿大2-蒙特利尔-CDN | 1x 3
+      - 加拿大1-多伦多-CDN | 1x 3
+      - 巴西1-CDN | 1x 3
+      - 巴西2-CDN | 1x 3
+      - 巴西3-CDN | 1x 3
+      - 巴西4-CDN | 1x 3
+      - 巴西5-CDN | 1x 3
+      - 巴西6-CDN | 1x 3
+      - 巴西7-CDN | 1x 3
+      - 巴西-维涅杜1-CDN | 1x 3
+      - 巴西-维涅杜2-CDN | 1x 3
+      - 巴西-维涅杜3-CDN | 1x 3
+      - 巴西-维涅杜4-CDN | 1x 3
+      - 英国1-CDN | 1x 3
+      - 英国2-CDN | 1x 3
+      - 英国3-CDN | 1x 3
+      - 法国1-CDN | 1x 3
+      - 法国2-CDN | 1x 3
+      - 法国3-CDN | 1x 3
+      - 法国4-CDN | 1x 3
+      - 荷兰1-CDN | 1x 3
+      - 荷兰2-CDN | 1x 3
+      - 荷兰3-CDN | 1x 3
+      - 荷兰4-CDN | 1x 3
+      - 荷兰5-CDN | 1x 3
+      - 荷兰6-CDN | 1x 3
+      - 德国1-CDN | 1x 3
+      - 德国2-CDN | 1x 3
+      - 德国3-CDN | 1x 3
+      - 德国4-CDN | 1x 3
+      - 德国5-CDN | 1x 3
+      - 南非1-CDN | 1x 3
+      - 南非2-CDN | 1x 3
+      - 智利1-CDN | 1x 3
+      - 智利2-CDN | 1x 3
+      - 哥伦比亚1-CDN | 1x 3
+      - 哥伦比亚2-CDN | 1x 3
+      - 哥伦比亚3-CDN | 1x 3
+      - 哥伦比亚4-CDN | 1x 3
+      - 墨西哥1-CDN | 1x 3
+      - 西班牙1-CDN | 1x 3
+      - 沙特阿拉伯1-CDN | 1x 3
+      - 沙特阿拉伯2-CDN | 1x 3
+      - 瑞典临时公用-100Mbps | 0.1x 3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -280,6 +1594,225 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
+      - 日本A-CDN | 1x
+      - 日本B-CDN | 1x
+      - 日本1-CDN | 1x
+      - 日本2-CDN | 1x
+      - 日本3-CDN | 1x
+      - 日本东京1-CDN | 1x
+      - 韩国春川1-CDN | 1x
+      - 韩国春川2-CDN | 1x
+      - 韩国春川3-CDN | 1x
+      - 韩国春川4-CDN | 1x
+      - 印度1-海得拉巴-CDN | 1x
+      - 印度2-海得拉巴-CDN | 1x
+      - 印度3-海得拉巴-CDN | 1x
+      - 印度4-海得拉巴-CDN | 1x
+      - 印度5-海得拉巴-CDN | 1x
+      - 印度6-海得拉巴-CDN | 1x
+      - 印度7-海得拉巴-CDN | 1x
+      - 印度1-孟买-CDN | 1x
+      - 澳大利亚-墨尔本1-CDN | 1x
+      - 澳大利亚-墨尔本2-CDN | 1x
+      - 美国东部阿什本1-CDN | 1x
+      - 美国东部阿什本2-CDN | 1x
+      - 美国东部阿什本3-CDN | 1x
+      - 美国西部洛杉矶1-CDN | 1x
+      - 美国西部洛杉矶2-CDN | 1x
+      - 美国东部纽约1-CDN | 1x
+      - 美国西部凤凰城1-CDN | 1x
+      - 美国西部凤凰城2-CDN | 1x
+      - 加拿大1-蒙特利尔-CDN | 1x
+      - 加拿大2-蒙特利尔-CDN | 1x
+      - 加拿大1-多伦多-CDN | 1x
+      - 巴西1-CDN | 1x
+      - 巴西2-CDN | 1x
+      - 巴西3-CDN | 1x
+      - 巴西4-CDN | 1x
+      - 巴西5-CDN | 1x
+      - 巴西6-CDN | 1x
+      - 巴西7-CDN | 1x
+      - 巴西-维涅杜1-CDN | 1x
+      - 巴西-维涅杜2-CDN | 1x
+      - 巴西-维涅杜3-CDN | 1x
+      - 巴西-维涅杜4-CDN | 1x
+      - 英国1-CDN | 1x
+      - 英国2-CDN | 1x
+      - 英国3-CDN | 1x
+      - 法国1-CDN | 1x
+      - 法国2-CDN | 1x
+      - 法国3-CDN | 1x
+      - 法国4-CDN | 1x
+      - 荷兰1-CDN | 1x
+      - 荷兰2-CDN | 1x
+      - 荷兰3-CDN | 1x
+      - 荷兰4-CDN | 1x
+      - 荷兰5-CDN | 1x
+      - 荷兰6-CDN | 1x
+      - 德国1-CDN | 1x
+      - 德国2-CDN | 1x
+      - 德国3-CDN | 1x
+      - 德国4-CDN | 1x
+      - 德国5-CDN | 1x
+      - 南非1-CDN | 1x
+      - 南非2-CDN | 1x
+      - 智利1-CDN | 1x
+      - 智利2-CDN | 1x
+      - 哥伦比亚1-CDN | 1x
+      - 哥伦比亚2-CDN | 1x
+      - 哥伦比亚3-CDN | 1x
+      - 哥伦比亚4-CDN | 1x
+      - 墨西哥1-CDN | 1x
+      - 西班牙1-CDN | 1x
+      - 沙特阿拉伯1-CDN | 1x
+      - 沙特阿拉伯2-CDN | 1x
+      - 瑞典临时公用-100Mbps | 0.1x
+      - 日本A-CDN | 1x 2
+      - 日本B-CDN | 1x 2
+      - 日本1-CDN | 1x 2
+      - 日本2-CDN | 1x 2
+      - 日本3-CDN | 1x 2
+      - 日本东京1-CDN | 1x 2
+      - 韩国春川1-CDN | 1x 2
+      - 韩国春川2-CDN | 1x 2
+      - 韩国春川3-CDN | 1x 2
+      - 韩国春川4-CDN | 1x 2
+      - 印度1-海得拉巴-CDN | 1x 2
+      - 印度2-海得拉巴-CDN | 1x 2
+      - 印度3-海得拉巴-CDN | 1x 2
+      - 印度4-海得拉巴-CDN | 1x 2
+      - 印度5-海得拉巴-CDN | 1x 2
+      - 印度6-海得拉巴-CDN | 1x 2
+      - 印度7-海得拉巴-CDN | 1x 2
+      - 印度1-孟买-CDN | 1x 2
+      - 澳大利亚-墨尔本1-CDN | 1x 2
+      - 澳大利亚-墨尔本2-CDN | 1x 2
+      - 美国东部阿什本1-CDN | 1x 2
+      - 美国东部阿什本2-CDN | 1x 2
+      - 美国东部阿什本3-CDN | 1x 2
+      - 美国西部洛杉矶1-CDN | 1x 2
+      - 美国西部洛杉矶2-CDN | 1x 2
+      - 美国东部纽约1-CDN | 1x 2
+      - 美国西部凤凰城1-CDN | 1x 2
+      - 美国西部凤凰城2-CDN | 1x 2
+      - 加拿大1-蒙特利尔-CDN | 1x 2
+      - 加拿大2-蒙特利尔-CDN | 1x 2
+      - 加拿大1-多伦多-CDN | 1x 2
+      - 巴西1-CDN | 1x 2
+      - 巴西2-CDN | 1x 2
+      - 巴西3-CDN | 1x 2
+      - 巴西4-CDN | 1x 2
+      - 巴西5-CDN | 1x 2
+      - 巴西6-CDN | 1x 2
+      - 巴西7-CDN | 1x 2
+      - 巴西-维涅杜1-CDN | 1x 2
+      - 巴西-维涅杜2-CDN | 1x 2
+      - 巴西-维涅杜3-CDN | 1x 2
+      - 巴西-维涅杜4-CDN | 1x 2
+      - 英国1-CDN | 1x 2
+      - 英国2-CDN | 1x 2
+      - 英国3-CDN | 1x 2
+      - 法国1-CDN | 1x 2
+      - 法国2-CDN | 1x 2
+      - 法国3-CDN | 1x 2
+      - 法国4-CDN | 1x 2
+      - 荷兰1-CDN | 1x 2
+      - 荷兰2-CDN | 1x 2
+      - 荷兰3-CDN | 1x 2
+      - 荷兰4-CDN | 1x 2
+      - 荷兰5-CDN | 1x 2
+      - 荷兰6-CDN | 1x 2
+      - 德国1-CDN | 1x 2
+      - 德国2-CDN | 1x 2
+      - 德国3-CDN | 1x 2
+      - 德国4-CDN | 1x 2
+      - 德国5-CDN | 1x 2
+      - 南非1-CDN | 1x 2
+      - 南非2-CDN | 1x 2
+      - 智利1-CDN | 1x 2
+      - 智利2-CDN | 1x 2
+      - 哥伦比亚1-CDN | 1x 2
+      - 哥伦比亚2-CDN | 1x 2
+      - 哥伦比亚3-CDN | 1x 2
+      - 哥伦比亚4-CDN | 1x 2
+      - 墨西哥1-CDN | 1x 2
+      - 西班牙1-CDN | 1x 2
+      - 沙特阿拉伯1-CDN | 1x 2
+      - 沙特阿拉伯2-CDN | 1x 2
+      - 瑞典临时公用-100Mbps | 0.1x 2
+      - 日本A-CDN | 1x 3
+      - 日本B-CDN | 1x 3
+      - 日本1-CDN | 1x 3
+      - 日本2-CDN | 1x 3
+      - 日本3-CDN | 1x 3
+      - 日本东京1-CDN | 1x 3
+      - 韩国春川1-CDN | 1x 3
+      - 韩国春川2-CDN | 1x 3
+      - 韩国春川3-CDN | 1x 3
+      - 韩国春川4-CDN | 1x 3
+      - 印度1-海得拉巴-CDN | 1x 3
+      - 印度2-海得拉巴-CDN | 1x 3
+      - 印度3-海得拉巴-CDN | 1x 3
+      - 印度4-海得拉巴-CDN | 1x 3
+      - 印度5-海得拉巴-CDN | 1x 3
+      - 印度6-海得拉巴-CDN | 1x 3
+      - 印度7-海得拉巴-CDN | 1x 3
+      - 印度1-孟买-CDN | 1x 3
+      - 澳大利亚-墨尔本1-CDN | 1x 3
+      - 澳大利亚-墨尔本2-CDN | 1x 3
+      - 美国东部阿什本1-CDN | 1x 3
+      - 美国东部阿什本2-CDN | 1x 3
+      - 美国东部阿什本3-CDN | 1x 3
+      - 美国西部洛杉矶1-CDN | 1x 3
+      - 美国西部洛杉矶2-CDN | 1x 3
+      - 美国东部纽约1-CDN | 1x 3
+      - 美国西部凤凰城1-CDN | 1x 3
+      - 美国西部凤凰城2-CDN | 1x 3
+      - 加拿大1-蒙特利尔-CDN | 1x 3
+      - 加拿大2-蒙特利尔-CDN | 1x 3
+      - 加拿大1-多伦多-CDN | 1x 3
+      - 巴西1-CDN | 1x 3
+      - 巴西2-CDN | 1x 3
+      - 巴西3-CDN | 1x 3
+      - 巴西4-CDN | 1x 3
+      - 巴西5-CDN | 1x 3
+      - 巴西6-CDN | 1x 3
+      - 巴西7-CDN | 1x 3
+      - 巴西-维涅杜1-CDN | 1x 3
+      - 巴西-维涅杜2-CDN | 1x 3
+      - 巴西-维涅杜3-CDN | 1x 3
+      - 巴西-维涅杜4-CDN | 1x 3
+      - 英国1-CDN | 1x 3
+      - 英国2-CDN | 1x 3
+      - 英国3-CDN | 1x 3
+      - 法国1-CDN | 1x 3
+      - 法国2-CDN | 1x 3
+      - 法国3-CDN | 1x 3
+      - 法国4-CDN | 1x 3
+      - 荷兰1-CDN | 1x 3
+      - 荷兰2-CDN | 1x 3
+      - 荷兰3-CDN | 1x 3
+      - 荷兰4-CDN | 1x 3
+      - 荷兰5-CDN | 1x 3
+      - 荷兰6-CDN | 1x 3
+      - 德国1-CDN | 1x 3
+      - 德国2-CDN | 1x 3
+      - 德国3-CDN | 1x 3
+      - 德国4-CDN | 1x 3
+      - 德国5-CDN | 1x 3
+      - 南非1-CDN | 1x 3
+      - 南非2-CDN | 1x 3
+      - 智利1-CDN | 1x 3
+      - 智利2-CDN | 1x 3
+      - 哥伦比亚1-CDN | 1x 3
+      - 哥伦比亚2-CDN | 1x 3
+      - 哥伦比亚3-CDN | 1x 3
+      - 哥伦比亚4-CDN | 1x 3
+      - 墨西哥1-CDN | 1x 3
+      - 西班牙1-CDN | 1x 3
+      - 沙特阿拉伯1-CDN | 1x 3
+      - 沙特阿拉伯2-CDN | 1x 3
+      - 瑞典临时公用-100Mbps | 0.1x 3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -318,6 +1851,225 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
+      - 日本A-CDN | 1x
+      - 日本B-CDN | 1x
+      - 日本1-CDN | 1x
+      - 日本2-CDN | 1x
+      - 日本3-CDN | 1x
+      - 日本东京1-CDN | 1x
+      - 韩国春川1-CDN | 1x
+      - 韩国春川2-CDN | 1x
+      - 韩国春川3-CDN | 1x
+      - 韩国春川4-CDN | 1x
+      - 印度1-海得拉巴-CDN | 1x
+      - 印度2-海得拉巴-CDN | 1x
+      - 印度3-海得拉巴-CDN | 1x
+      - 印度4-海得拉巴-CDN | 1x
+      - 印度5-海得拉巴-CDN | 1x
+      - 印度6-海得拉巴-CDN | 1x
+      - 印度7-海得拉巴-CDN | 1x
+      - 印度1-孟买-CDN | 1x
+      - 澳大利亚-墨尔本1-CDN | 1x
+      - 澳大利亚-墨尔本2-CDN | 1x
+      - 美国东部阿什本1-CDN | 1x
+      - 美国东部阿什本2-CDN | 1x
+      - 美国东部阿什本3-CDN | 1x
+      - 美国西部洛杉矶1-CDN | 1x
+      - 美国西部洛杉矶2-CDN | 1x
+      - 美国东部纽约1-CDN | 1x
+      - 美国西部凤凰城1-CDN | 1x
+      - 美国西部凤凰城2-CDN | 1x
+      - 加拿大1-蒙特利尔-CDN | 1x
+      - 加拿大2-蒙特利尔-CDN | 1x
+      - 加拿大1-多伦多-CDN | 1x
+      - 巴西1-CDN | 1x
+      - 巴西2-CDN | 1x
+      - 巴西3-CDN | 1x
+      - 巴西4-CDN | 1x
+      - 巴西5-CDN | 1x
+      - 巴西6-CDN | 1x
+      - 巴西7-CDN | 1x
+      - 巴西-维涅杜1-CDN | 1x
+      - 巴西-维涅杜2-CDN | 1x
+      - 巴西-维涅杜3-CDN | 1x
+      - 巴西-维涅杜4-CDN | 1x
+      - 英国1-CDN | 1x
+      - 英国2-CDN | 1x
+      - 英国3-CDN | 1x
+      - 法国1-CDN | 1x
+      - 法国2-CDN | 1x
+      - 法国3-CDN | 1x
+      - 法国4-CDN | 1x
+      - 荷兰1-CDN | 1x
+      - 荷兰2-CDN | 1x
+      - 荷兰3-CDN | 1x
+      - 荷兰4-CDN | 1x
+      - 荷兰5-CDN | 1x
+      - 荷兰6-CDN | 1x
+      - 德国1-CDN | 1x
+      - 德国2-CDN | 1x
+      - 德国3-CDN | 1x
+      - 德国4-CDN | 1x
+      - 德国5-CDN | 1x
+      - 南非1-CDN | 1x
+      - 南非2-CDN | 1x
+      - 智利1-CDN | 1x
+      - 智利2-CDN | 1x
+      - 哥伦比亚1-CDN | 1x
+      - 哥伦比亚2-CDN | 1x
+      - 哥伦比亚3-CDN | 1x
+      - 哥伦比亚4-CDN | 1x
+      - 墨西哥1-CDN | 1x
+      - 西班牙1-CDN | 1x
+      - 沙特阿拉伯1-CDN | 1x
+      - 沙特阿拉伯2-CDN | 1x
+      - 瑞典临时公用-100Mbps | 0.1x
+      - 日本A-CDN | 1x 2
+      - 日本B-CDN | 1x 2
+      - 日本1-CDN | 1x 2
+      - 日本2-CDN | 1x 2
+      - 日本3-CDN | 1x 2
+      - 日本东京1-CDN | 1x 2
+      - 韩国春川1-CDN | 1x 2
+      - 韩国春川2-CDN | 1x 2
+      - 韩国春川3-CDN | 1x 2
+      - 韩国春川4-CDN | 1x 2
+      - 印度1-海得拉巴-CDN | 1x 2
+      - 印度2-海得拉巴-CDN | 1x 2
+      - 印度3-海得拉巴-CDN | 1x 2
+      - 印度4-海得拉巴-CDN | 1x 2
+      - 印度5-海得拉巴-CDN | 1x 2
+      - 印度6-海得拉巴-CDN | 1x 2
+      - 印度7-海得拉巴-CDN | 1x 2
+      - 印度1-孟买-CDN | 1x 2
+      - 澳大利亚-墨尔本1-CDN | 1x 2
+      - 澳大利亚-墨尔本2-CDN | 1x 2
+      - 美国东部阿什本1-CDN | 1x 2
+      - 美国东部阿什本2-CDN | 1x 2
+      - 美国东部阿什本3-CDN | 1x 2
+      - 美国西部洛杉矶1-CDN | 1x 2
+      - 美国西部洛杉矶2-CDN | 1x 2
+      - 美国东部纽约1-CDN | 1x 2
+      - 美国西部凤凰城1-CDN | 1x 2
+      - 美国西部凤凰城2-CDN | 1x 2
+      - 加拿大1-蒙特利尔-CDN | 1x 2
+      - 加拿大2-蒙特利尔-CDN | 1x 2
+      - 加拿大1-多伦多-CDN | 1x 2
+      - 巴西1-CDN | 1x 2
+      - 巴西2-CDN | 1x 2
+      - 巴西3-CDN | 1x 2
+      - 巴西4-CDN | 1x 2
+      - 巴西5-CDN | 1x 2
+      - 巴西6-CDN | 1x 2
+      - 巴西7-CDN | 1x 2
+      - 巴西-维涅杜1-CDN | 1x 2
+      - 巴西-维涅杜2-CDN | 1x 2
+      - 巴西-维涅杜3-CDN | 1x 2
+      - 巴西-维涅杜4-CDN | 1x 2
+      - 英国1-CDN | 1x 2
+      - 英国2-CDN | 1x 2
+      - 英国3-CDN | 1x 2
+      - 法国1-CDN | 1x 2
+      - 法国2-CDN | 1x 2
+      - 法国3-CDN | 1x 2
+      - 法国4-CDN | 1x 2
+      - 荷兰1-CDN | 1x 2
+      - 荷兰2-CDN | 1x 2
+      - 荷兰3-CDN | 1x 2
+      - 荷兰4-CDN | 1x 2
+      - 荷兰5-CDN | 1x 2
+      - 荷兰6-CDN | 1x 2
+      - 德国1-CDN | 1x 2
+      - 德国2-CDN | 1x 2
+      - 德国3-CDN | 1x 2
+      - 德国4-CDN | 1x 2
+      - 德国5-CDN | 1x 2
+      - 南非1-CDN | 1x 2
+      - 南非2-CDN | 1x 2
+      - 智利1-CDN | 1x 2
+      - 智利2-CDN | 1x 2
+      - 哥伦比亚1-CDN | 1x 2
+      - 哥伦比亚2-CDN | 1x 2
+      - 哥伦比亚3-CDN | 1x 2
+      - 哥伦比亚4-CDN | 1x 2
+      - 墨西哥1-CDN | 1x 2
+      - 西班牙1-CDN | 1x 2
+      - 沙特阿拉伯1-CDN | 1x 2
+      - 沙特阿拉伯2-CDN | 1x 2
+      - 瑞典临时公用-100Mbps | 0.1x 2
+      - 日本A-CDN | 1x 3
+      - 日本B-CDN | 1x 3
+      - 日本1-CDN | 1x 3
+      - 日本2-CDN | 1x 3
+      - 日本3-CDN | 1x 3
+      - 日本东京1-CDN | 1x 3
+      - 韩国春川1-CDN | 1x 3
+      - 韩国春川2-CDN | 1x 3
+      - 韩国春川3-CDN | 1x 3
+      - 韩国春川4-CDN | 1x 3
+      - 印度1-海得拉巴-CDN | 1x 3
+      - 印度2-海得拉巴-CDN | 1x 3
+      - 印度3-海得拉巴-CDN | 1x 3
+      - 印度4-海得拉巴-CDN | 1x 3
+      - 印度5-海得拉巴-CDN | 1x 3
+      - 印度6-海得拉巴-CDN | 1x 3
+      - 印度7-海得拉巴-CDN | 1x 3
+      - 印度1-孟买-CDN | 1x 3
+      - 澳大利亚-墨尔本1-CDN | 1x 3
+      - 澳大利亚-墨尔本2-CDN | 1x 3
+      - 美国东部阿什本1-CDN | 1x 3
+      - 美国东部阿什本2-CDN | 1x 3
+      - 美国东部阿什本3-CDN | 1x 3
+      - 美国西部洛杉矶1-CDN | 1x 3
+      - 美国西部洛杉矶2-CDN | 1x 3
+      - 美国东部纽约1-CDN | 1x 3
+      - 美国西部凤凰城1-CDN | 1x 3
+      - 美国西部凤凰城2-CDN | 1x 3
+      - 加拿大1-蒙特利尔-CDN | 1x 3
+      - 加拿大2-蒙特利尔-CDN | 1x 3
+      - 加拿大1-多伦多-CDN | 1x 3
+      - 巴西1-CDN | 1x 3
+      - 巴西2-CDN | 1x 3
+      - 巴西3-CDN | 1x 3
+      - 巴西4-CDN | 1x 3
+      - 巴西5-CDN | 1x 3
+      - 巴西6-CDN | 1x 3
+      - 巴西7-CDN | 1x 3
+      - 巴西-维涅杜1-CDN | 1x 3
+      - 巴西-维涅杜2-CDN | 1x 3
+      - 巴西-维涅杜3-CDN | 1x 3
+      - 巴西-维涅杜4-CDN | 1x 3
+      - 英国1-CDN | 1x 3
+      - 英国2-CDN | 1x 3
+      - 英国3-CDN | 1x 3
+      - 法国1-CDN | 1x 3
+      - 法国2-CDN | 1x 3
+      - 法国3-CDN | 1x 3
+      - 法国4-CDN | 1x 3
+      - 荷兰1-CDN | 1x 3
+      - 荷兰2-CDN | 1x 3
+      - 荷兰3-CDN | 1x 3
+      - 荷兰4-CDN | 1x 3
+      - 荷兰5-CDN | 1x 3
+      - 荷兰6-CDN | 1x 3
+      - 德国1-CDN | 1x 3
+      - 德国2-CDN | 1x 3
+      - 德国3-CDN | 1x 3
+      - 德国4-CDN | 1x 3
+      - 德国5-CDN | 1x 3
+      - 南非1-CDN | 1x 3
+      - 南非2-CDN | 1x 3
+      - 智利1-CDN | 1x 3
+      - 智利2-CDN | 1x 3
+      - 哥伦比亚1-CDN | 1x 3
+      - 哥伦比亚2-CDN | 1x 3
+      - 哥伦比亚3-CDN | 1x 3
+      - 哥伦比亚4-CDN | 1x 3
+      - 墨西哥1-CDN | 1x 3
+      - 西班牙1-CDN | 1x 3
+      - 沙特阿拉伯1-CDN | 1x 3
+      - 沙特阿拉伯2-CDN | 1x 3
+      - 瑞典临时公用-100Mbps | 0.1x 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -365,6 +2117,225 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
+      - 日本A-CDN | 1x
+      - 日本B-CDN | 1x
+      - 日本1-CDN | 1x
+      - 日本2-CDN | 1x
+      - 日本3-CDN | 1x
+      - 日本东京1-CDN | 1x
+      - 韩国春川1-CDN | 1x
+      - 韩国春川2-CDN | 1x
+      - 韩国春川3-CDN | 1x
+      - 韩国春川4-CDN | 1x
+      - 印度1-海得拉巴-CDN | 1x
+      - 印度2-海得拉巴-CDN | 1x
+      - 印度3-海得拉巴-CDN | 1x
+      - 印度4-海得拉巴-CDN | 1x
+      - 印度5-海得拉巴-CDN | 1x
+      - 印度6-海得拉巴-CDN | 1x
+      - 印度7-海得拉巴-CDN | 1x
+      - 印度1-孟买-CDN | 1x
+      - 澳大利亚-墨尔本1-CDN | 1x
+      - 澳大利亚-墨尔本2-CDN | 1x
+      - 美国东部阿什本1-CDN | 1x
+      - 美国东部阿什本2-CDN | 1x
+      - 美国东部阿什本3-CDN | 1x
+      - 美国西部洛杉矶1-CDN | 1x
+      - 美国西部洛杉矶2-CDN | 1x
+      - 美国东部纽约1-CDN | 1x
+      - 美国西部凤凰城1-CDN | 1x
+      - 美国西部凤凰城2-CDN | 1x
+      - 加拿大1-蒙特利尔-CDN | 1x
+      - 加拿大2-蒙特利尔-CDN | 1x
+      - 加拿大1-多伦多-CDN | 1x
+      - 巴西1-CDN | 1x
+      - 巴西2-CDN | 1x
+      - 巴西3-CDN | 1x
+      - 巴西4-CDN | 1x
+      - 巴西5-CDN | 1x
+      - 巴西6-CDN | 1x
+      - 巴西7-CDN | 1x
+      - 巴西-维涅杜1-CDN | 1x
+      - 巴西-维涅杜2-CDN | 1x
+      - 巴西-维涅杜3-CDN | 1x
+      - 巴西-维涅杜4-CDN | 1x
+      - 英国1-CDN | 1x
+      - 英国2-CDN | 1x
+      - 英国3-CDN | 1x
+      - 法国1-CDN | 1x
+      - 法国2-CDN | 1x
+      - 法国3-CDN | 1x
+      - 法国4-CDN | 1x
+      - 荷兰1-CDN | 1x
+      - 荷兰2-CDN | 1x
+      - 荷兰3-CDN | 1x
+      - 荷兰4-CDN | 1x
+      - 荷兰5-CDN | 1x
+      - 荷兰6-CDN | 1x
+      - 德国1-CDN | 1x
+      - 德国2-CDN | 1x
+      - 德国3-CDN | 1x
+      - 德国4-CDN | 1x
+      - 德国5-CDN | 1x
+      - 南非1-CDN | 1x
+      - 南非2-CDN | 1x
+      - 智利1-CDN | 1x
+      - 智利2-CDN | 1x
+      - 哥伦比亚1-CDN | 1x
+      - 哥伦比亚2-CDN | 1x
+      - 哥伦比亚3-CDN | 1x
+      - 哥伦比亚4-CDN | 1x
+      - 墨西哥1-CDN | 1x
+      - 西班牙1-CDN | 1x
+      - 沙特阿拉伯1-CDN | 1x
+      - 沙特阿拉伯2-CDN | 1x
+      - 瑞典临时公用-100Mbps | 0.1x
+      - 日本A-CDN | 1x 2
+      - 日本B-CDN | 1x 2
+      - 日本1-CDN | 1x 2
+      - 日本2-CDN | 1x 2
+      - 日本3-CDN | 1x 2
+      - 日本东京1-CDN | 1x 2
+      - 韩国春川1-CDN | 1x 2
+      - 韩国春川2-CDN | 1x 2
+      - 韩国春川3-CDN | 1x 2
+      - 韩国春川4-CDN | 1x 2
+      - 印度1-海得拉巴-CDN | 1x 2
+      - 印度2-海得拉巴-CDN | 1x 2
+      - 印度3-海得拉巴-CDN | 1x 2
+      - 印度4-海得拉巴-CDN | 1x 2
+      - 印度5-海得拉巴-CDN | 1x 2
+      - 印度6-海得拉巴-CDN | 1x 2
+      - 印度7-海得拉巴-CDN | 1x 2
+      - 印度1-孟买-CDN | 1x 2
+      - 澳大利亚-墨尔本1-CDN | 1x 2
+      - 澳大利亚-墨尔本2-CDN | 1x 2
+      - 美国东部阿什本1-CDN | 1x 2
+      - 美国东部阿什本2-CDN | 1x 2
+      - 美国东部阿什本3-CDN | 1x 2
+      - 美国西部洛杉矶1-CDN | 1x 2
+      - 美国西部洛杉矶2-CDN | 1x 2
+      - 美国东部纽约1-CDN | 1x 2
+      - 美国西部凤凰城1-CDN | 1x 2
+      - 美国西部凤凰城2-CDN | 1x 2
+      - 加拿大1-蒙特利尔-CDN | 1x 2
+      - 加拿大2-蒙特利尔-CDN | 1x 2
+      - 加拿大1-多伦多-CDN | 1x 2
+      - 巴西1-CDN | 1x 2
+      - 巴西2-CDN | 1x 2
+      - 巴西3-CDN | 1x 2
+      - 巴西4-CDN | 1x 2
+      - 巴西5-CDN | 1x 2
+      - 巴西6-CDN | 1x 2
+      - 巴西7-CDN | 1x 2
+      - 巴西-维涅杜1-CDN | 1x 2
+      - 巴西-维涅杜2-CDN | 1x 2
+      - 巴西-维涅杜3-CDN | 1x 2
+      - 巴西-维涅杜4-CDN | 1x 2
+      - 英国1-CDN | 1x 2
+      - 英国2-CDN | 1x 2
+      - 英国3-CDN | 1x 2
+      - 法国1-CDN | 1x 2
+      - 法国2-CDN | 1x 2
+      - 法国3-CDN | 1x 2
+      - 法国4-CDN | 1x 2
+      - 荷兰1-CDN | 1x 2
+      - 荷兰2-CDN | 1x 2
+      - 荷兰3-CDN | 1x 2
+      - 荷兰4-CDN | 1x 2
+      - 荷兰5-CDN | 1x 2
+      - 荷兰6-CDN | 1x 2
+      - 德国1-CDN | 1x 2
+      - 德国2-CDN | 1x 2
+      - 德国3-CDN | 1x 2
+      - 德国4-CDN | 1x 2
+      - 德国5-CDN | 1x 2
+      - 南非1-CDN | 1x 2
+      - 南非2-CDN | 1x 2
+      - 智利1-CDN | 1x 2
+      - 智利2-CDN | 1x 2
+      - 哥伦比亚1-CDN | 1x 2
+      - 哥伦比亚2-CDN | 1x 2
+      - 哥伦比亚3-CDN | 1x 2
+      - 哥伦比亚4-CDN | 1x 2
+      - 墨西哥1-CDN | 1x 2
+      - 西班牙1-CDN | 1x 2
+      - 沙特阿拉伯1-CDN | 1x 2
+      - 沙特阿拉伯2-CDN | 1x 2
+      - 瑞典临时公用-100Mbps | 0.1x 2
+      - 日本A-CDN | 1x 3
+      - 日本B-CDN | 1x 3
+      - 日本1-CDN | 1x 3
+      - 日本2-CDN | 1x 3
+      - 日本3-CDN | 1x 3
+      - 日本东京1-CDN | 1x 3
+      - 韩国春川1-CDN | 1x 3
+      - 韩国春川2-CDN | 1x 3
+      - 韩国春川3-CDN | 1x 3
+      - 韩国春川4-CDN | 1x 3
+      - 印度1-海得拉巴-CDN | 1x 3
+      - 印度2-海得拉巴-CDN | 1x 3
+      - 印度3-海得拉巴-CDN | 1x 3
+      - 印度4-海得拉巴-CDN | 1x 3
+      - 印度5-海得拉巴-CDN | 1x 3
+      - 印度6-海得拉巴-CDN | 1x 3
+      - 印度7-海得拉巴-CDN | 1x 3
+      - 印度1-孟买-CDN | 1x 3
+      - 澳大利亚-墨尔本1-CDN | 1x 3
+      - 澳大利亚-墨尔本2-CDN | 1x 3
+      - 美国东部阿什本1-CDN | 1x 3
+      - 美国东部阿什本2-CDN | 1x 3
+      - 美国东部阿什本3-CDN | 1x 3
+      - 美国西部洛杉矶1-CDN | 1x 3
+      - 美国西部洛杉矶2-CDN | 1x 3
+      - 美国东部纽约1-CDN | 1x 3
+      - 美国西部凤凰城1-CDN | 1x 3
+      - 美国西部凤凰城2-CDN | 1x 3
+      - 加拿大1-蒙特利尔-CDN | 1x 3
+      - 加拿大2-蒙特利尔-CDN | 1x 3
+      - 加拿大1-多伦多-CDN | 1x 3
+      - 巴西1-CDN | 1x 3
+      - 巴西2-CDN | 1x 3
+      - 巴西3-CDN | 1x 3
+      - 巴西4-CDN | 1x 3
+      - 巴西5-CDN | 1x 3
+      - 巴西6-CDN | 1x 3
+      - 巴西7-CDN | 1x 3
+      - 巴西-维涅杜1-CDN | 1x 3
+      - 巴西-维涅杜2-CDN | 1x 3
+      - 巴西-维涅杜3-CDN | 1x 3
+      - 巴西-维涅杜4-CDN | 1x 3
+      - 英国1-CDN | 1x 3
+      - 英国2-CDN | 1x 3
+      - 英国3-CDN | 1x 3
+      - 法国1-CDN | 1x 3
+      - 法国2-CDN | 1x 3
+      - 法国3-CDN | 1x 3
+      - 法国4-CDN | 1x 3
+      - 荷兰1-CDN | 1x 3
+      - 荷兰2-CDN | 1x 3
+      - 荷兰3-CDN | 1x 3
+      - 荷兰4-CDN | 1x 3
+      - 荷兰5-CDN | 1x 3
+      - 荷兰6-CDN | 1x 3
+      - 德国1-CDN | 1x 3
+      - 德国2-CDN | 1x 3
+      - 德国3-CDN | 1x 3
+      - 德国4-CDN | 1x 3
+      - 德国5-CDN | 1x 3
+      - 南非1-CDN | 1x 3
+      - 南非2-CDN | 1x 3
+      - 智利1-CDN | 1x 3
+      - 智利2-CDN | 1x 3
+      - 哥伦比亚1-CDN | 1x 3
+      - 哥伦比亚2-CDN | 1x 3
+      - 哥伦比亚3-CDN | 1x 3
+      - 哥伦比亚4-CDN | 1x 3
+      - 墨西哥1-CDN | 1x 3
+      - 西班牙1-CDN | 1x 3
+      - 沙特阿拉伯1-CDN | 1x 3
+      - 沙特阿拉伯2-CDN | 1x 3
+      - 瑞典临时公用-100Mbps | 0.1x 3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
