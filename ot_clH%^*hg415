@@ -228,18 +228,6 @@ proxies:
   - {name: 沙特阿拉伯1-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: wvzyxk.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: wvzyxk.freefly.pp.ua}}}
   - {name: 沙特阿拉伯2-CDN | 1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: zutyrd.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: zutyrd.freefly.pp.ua}}}
   - {name: 瑞典临时公用-100Mbps | 0.1x 3, server: school.xn--vjqp6xkwblzeyv2h.cn, port: 2053, type: vmess, uuid: b5dcf117-08fd-487a-942b-4452ec2f37c4, alterId: 0, cipher: auto, tls: true, servername: zutyrd.rapidssl.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: zutyrd.rapidssl.pp.ua}}}
-  - {name: 香港HKT1 | 临时免费, server: gd2.chuanping.wang, port: 10574, type: ss, cipher: aes-128-gcm, password: b5a94f69-4e46-4506-becc-182b43912ab8}
-  - {name: CF | 新加坡SG1 | 免费节点, server: cu.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
-  - {name: CF | 美国US1 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
-  - {name: CF | 美国US2 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
-  - {name: CF | 美国US3 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
-  - {name: CF | 美国US4 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
-  - {name: 香港HKT1 | 临时免费 2, server: gd2.chuanping.wang, port: 10574, type: ss, cipher: aes-128-gcm, password: 401b8df2-10f3-4440-8b7f-9870474b2777}
-  - {name: CF | 新加坡SG1 | 免费节点 2, server: cu.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
-  - {name: CF | 美国US1 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
-  - {name: CF | 美国US2 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
-  - {name: CF | 美国US3 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
-  - {name: CF | 美国US4 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
   - {name: 日本-01|1.0x, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.diao.icu}}}
   - {name: 日本-02|1.0x, server: hkjpkrsg.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp2.diao.icu}}}
   - {name: 韩国-01|1.0x, server: usus.diao.icu, port: 2052, type: vmess, uuid: 55ed5197-fce0-4db5-81e3-75b6648d08f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.diao.icu}}}
@@ -258,6 +246,16 @@ proxies:
   - {name: 新加坡-01|1.0x 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
   - {name: 美国-01|1.0x 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
   - {name: 美国-02|1.0x 2, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
+  - {name: CF | 新加坡SG1 | 免费节点, server: cu.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
+  - {name: CF | 美国US1 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
+  - {name: CF | 美国US2 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
+  - {name: CF | 美国US3 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
+  - {name: CF | 美国US4 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: b5a94f69-4e46-4506-becc-182b43912ab8, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
+  - {name: CF | 新加坡SG1 | 免费节点 2, server: cu.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
+  - {name: CF | 美国US1 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
+  - {name: CF | 美国US2 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
+  - {name: CF | 美国US3 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
+  - {name: CF | 美国US4 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: 401b8df2-10f3-4440-8b7f-9870474b2777, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -487,18 +485,6 @@ proxy-groups:
       - 沙特阿拉伯1-CDN | 1x 3
       - 沙特阿拉伯2-CDN | 1x 3
       - 瑞典临时公用-100Mbps | 0.1x 3
-      - 香港HKT1 | 临时免费
-      - CF | 新加坡SG1 | 免费节点
-      - CF | 美国US1 | 免费节点
-      - CF | 美国US2 | 免费节点
-      - CF | 美国US3 | 免费节点
-      - CF | 美国US4 | 免费节点
-      - 香港HKT1 | 临时免费 2
-      - CF | 新加坡SG1 | 免费节点 2
-      - CF | 美国US1 | 免费节点 2
-      - CF | 美国US2 | 免费节点 2
-      - CF | 美国US3 | 免费节点 2
-      - CF | 美国US4 | 免费节点 2
       - 日本-01|1.0x
       - 日本-02|1.0x
       - 韩国-01|1.0x
@@ -517,6 +503,16 @@ proxy-groups:
       - 新加坡-01|1.0x 2
       - 美国-01|1.0x 2
       - 美国-02|1.0x 2
+      - CF | 新加坡SG1 | 免费节点
+      - CF | 美国US1 | 免费节点
+      - CF | 美国US2 | 免费节点
+      - CF | 美国US3 | 免费节点
+      - CF | 美国US4 | 免费节点
+      - CF | 新加坡SG1 | 免费节点 2
+      - CF | 美国US1 | 免费节点 2
+      - CF | 美国US2 | 免费节点 2
+      - CF | 美国US3 | 免费节点 2
+      - CF | 美国US4 | 免费节点 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -745,18 +741,6 @@ proxy-groups:
       - 沙特阿拉伯1-CDN | 1x 3
       - 沙特阿拉伯2-CDN | 1x 3
       - 瑞典临时公用-100Mbps | 0.1x 3
-      - 香港HKT1 | 临时免费
-      - CF | 新加坡SG1 | 免费节点
-      - CF | 美国US1 | 免费节点
-      - CF | 美国US2 | 免费节点
-      - CF | 美国US3 | 免费节点
-      - CF | 美国US4 | 免费节点
-      - 香港HKT1 | 临时免费 2
-      - CF | 新加坡SG1 | 免费节点 2
-      - CF | 美国US1 | 免费节点 2
-      - CF | 美国US2 | 免费节点 2
-      - CF | 美国US3 | 免费节点 2
-      - CF | 美国US4 | 免费节点 2
       - 日本-01|1.0x
       - 日本-02|1.0x
       - 韩国-01|1.0x
@@ -775,6 +759,16 @@ proxy-groups:
       - 新加坡-01|1.0x 2
       - 美国-01|1.0x 2
       - 美国-02|1.0x 2
+      - CF | 新加坡SG1 | 免费节点
+      - CF | 美国US1 | 免费节点
+      - CF | 美国US2 | 免费节点
+      - CF | 美国US3 | 免费节点
+      - CF | 美国US4 | 免费节点
+      - CF | 新加坡SG1 | 免费节点 2
+      - CF | 美国US1 | 免费节点 2
+      - CF | 美国US2 | 免费节点 2
+      - CF | 美国US3 | 免费节点 2
+      - CF | 美国US4 | 免费节点 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -1004,18 +998,6 @@ proxy-groups:
       - 沙特阿拉伯1-CDN | 1x 3
       - 沙特阿拉伯2-CDN | 1x 3
       - 瑞典临时公用-100Mbps | 0.1x 3
-      - 香港HKT1 | 临时免费
-      - CF | 新加坡SG1 | 免费节点
-      - CF | 美国US1 | 免费节点
-      - CF | 美国US2 | 免费节点
-      - CF | 美国US3 | 免费节点
-      - CF | 美国US4 | 免费节点
-      - 香港HKT1 | 临时免费 2
-      - CF | 新加坡SG1 | 免费节点 2
-      - CF | 美国US1 | 免费节点 2
-      - CF | 美国US2 | 免费节点 2
-      - CF | 美国US3 | 免费节点 2
-      - CF | 美国US4 | 免费节点 2
       - 日本-01|1.0x
       - 日本-02|1.0x
       - 韩国-01|1.0x
@@ -1034,6 +1016,16 @@ proxy-groups:
       - 新加坡-01|1.0x 2
       - 美国-01|1.0x 2
       - 美国-02|1.0x 2
+      - CF | 新加坡SG1 | 免费节点
+      - CF | 美国US1 | 免费节点
+      - CF | 美国US2 | 免费节点
+      - CF | 美国US3 | 免费节点
+      - CF | 美国US4 | 免费节点
+      - CF | 新加坡SG1 | 免费节点 2
+      - CF | 美国US1 | 免费节点 2
+      - CF | 美国US2 | 免费节点 2
+      - CF | 美国US3 | 免费节点 2
+      - CF | 美国US4 | 免费节点 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1275,18 +1267,6 @@ proxy-groups:
       - 沙特阿拉伯1-CDN | 1x 3
       - 沙特阿拉伯2-CDN | 1x 3
       - 瑞典临时公用-100Mbps | 0.1x 3
-      - 香港HKT1 | 临时免费
-      - CF | 新加坡SG1 | 免费节点
-      - CF | 美国US1 | 免费节点
-      - CF | 美国US2 | 免费节点
-      - CF | 美国US3 | 免费节点
-      - CF | 美国US4 | 免费节点
-      - 香港HKT1 | 临时免费 2
-      - CF | 新加坡SG1 | 免费节点 2
-      - CF | 美国US1 | 免费节点 2
-      - CF | 美国US2 | 免费节点 2
-      - CF | 美国US3 | 免费节点 2
-      - CF | 美国US4 | 免费节点 2
       - 日本-01|1.0x
       - 日本-02|1.0x
       - 韩国-01|1.0x
@@ -1305,13 +1285,21 @@ proxy-groups:
       - 新加坡-01|1.0x 2
       - 美国-01|1.0x 2
       - 美国-02|1.0x 2
+      - CF | 新加坡SG1 | 免费节点
+      - CF | 美国US1 | 免费节点
+      - CF | 美国US2 | 免费节点
+      - CF | 美国US3 | 免费节点
+      - CF | 美国US4 | 免费节点
+      - CF | 新加坡SG1 | 免费节点 2
+      - CF | 美国US1 | 免费节点 2
+      - CF | 美国US2 | 免费节点 2
+      - CF | 美国US3 | 免费节点 2
+      - CF | 美国US4 | 免费节点 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 禁止在中国大陆平台分享订阅 节点 配置教程
-      - 香港HKT1 | 临时免费
-      - 香港HKT1 | 临时免费 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -1541,18 +1529,6 @@ proxy-groups:
       - 沙特阿拉伯1-CDN | 1x 3
       - 沙特阿拉伯2-CDN | 1x 3
       - 瑞典临时公用-100Mbps | 0.1x 3
-      - 香港HKT1 | 临时免费
-      - CF | 新加坡SG1 | 免费节点
-      - CF | 美国US1 | 免费节点
-      - CF | 美国US2 | 免费节点
-      - CF | 美国US3 | 免费节点
-      - CF | 美国US4 | 免费节点
-      - 香港HKT1 | 临时免费 2
-      - CF | 新加坡SG1 | 免费节点 2
-      - CF | 美国US1 | 免费节点 2
-      - CF | 美国US2 | 免费节点 2
-      - CF | 美国US3 | 免费节点 2
-      - CF | 美国US4 | 免费节点 2
       - 日本-01|1.0x
       - 日本-02|1.0x
       - 韩国-01|1.0x
@@ -1571,6 +1547,16 @@ proxy-groups:
       - 新加坡-01|1.0x 2
       - 美国-01|1.0x 2
       - 美国-02|1.0x 2
+      - CF | 新加坡SG1 | 免费节点
+      - CF | 美国US1 | 免费节点
+      - CF | 美国US2 | 免费节点
+      - CF | 美国US3 | 免费节点
+      - CF | 美国US4 | 免费节点
+      - CF | 新加坡SG1 | 免费节点 2
+      - CF | 美国US1 | 免费节点 2
+      - CF | 美国US2 | 免费节点 2
+      - CF | 美国US3 | 免费节点 2
+      - CF | 美国US4 | 免费节点 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1799,18 +1785,6 @@ proxy-groups:
       - 沙特阿拉伯1-CDN | 1x 3
       - 沙特阿拉伯2-CDN | 1x 3
       - 瑞典临时公用-100Mbps | 0.1x 3
-      - 香港HKT1 | 临时免费
-      - CF | 新加坡SG1 | 免费节点
-      - CF | 美国US1 | 免费节点
-      - CF | 美国US2 | 免费节点
-      - CF | 美国US3 | 免费节点
-      - CF | 美国US4 | 免费节点
-      - 香港HKT1 | 临时免费 2
-      - CF | 新加坡SG1 | 免费节点 2
-      - CF | 美国US1 | 免费节点 2
-      - CF | 美国US2 | 免费节点 2
-      - CF | 美国US3 | 免费节点 2
-      - CF | 美国US4 | 免费节点 2
       - 日本-01|1.0x
       - 日本-02|1.0x
       - 韩国-01|1.0x
@@ -1829,6 +1803,16 @@ proxy-groups:
       - 新加坡-01|1.0x 2
       - 美国-01|1.0x 2
       - 美国-02|1.0x 2
+      - CF | 新加坡SG1 | 免费节点
+      - CF | 美国US1 | 免费节点
+      - CF | 美国US2 | 免费节点
+      - CF | 美国US3 | 免费节点
+      - CF | 美国US4 | 免费节点
+      - CF | 新加坡SG1 | 免费节点 2
+      - CF | 美国US1 | 免费节点 2
+      - CF | 美国US2 | 免费节点 2
+      - CF | 美国US3 | 免费节点 2
+      - CF | 美国US4 | 免费节点 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2058,18 +2042,6 @@ proxy-groups:
       - 沙特阿拉伯1-CDN | 1x 3
       - 沙特阿拉伯2-CDN | 1x 3
       - 瑞典临时公用-100Mbps | 0.1x 3
-      - 香港HKT1 | 临时免费
-      - CF | 新加坡SG1 | 免费节点
-      - CF | 美国US1 | 免费节点
-      - CF | 美国US2 | 免费节点
-      - CF | 美国US3 | 免费节点
-      - CF | 美国US4 | 免费节点
-      - 香港HKT1 | 临时免费 2
-      - CF | 新加坡SG1 | 免费节点 2
-      - CF | 美国US1 | 免费节点 2
-      - CF | 美国US2 | 免费节点 2
-      - CF | 美国US3 | 免费节点 2
-      - CF | 美国US4 | 免费节点 2
       - 日本-01|1.0x
       - 日本-02|1.0x
       - 韩国-01|1.0x
@@ -2088,6 +2060,16 @@ proxy-groups:
       - 新加坡-01|1.0x 2
       - 美国-01|1.0x 2
       - 美国-02|1.0x 2
+      - CF | 新加坡SG1 | 免费节点
+      - CF | 美国US1 | 免费节点
+      - CF | 美国US2 | 免费节点
+      - CF | 美国US3 | 免费节点
+      - CF | 美国US4 | 免费节点
+      - CF | 新加坡SG1 | 免费节点 2
+      - CF | 美国US1 | 免费节点 2
+      - CF | 美国US2 | 免费节点 2
+      - CF | 美国US3 | 免费节点 2
+      - CF | 美国US4 | 免费节点 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2326,18 +2308,6 @@ proxy-groups:
       - 沙特阿拉伯1-CDN | 1x 3
       - 沙特阿拉伯2-CDN | 1x 3
       - 瑞典临时公用-100Mbps | 0.1x 3
-      - 香港HKT1 | 临时免费
-      - CF | 新加坡SG1 | 免费节点
-      - CF | 美国US1 | 免费节点
-      - CF | 美国US2 | 免费节点
-      - CF | 美国US3 | 免费节点
-      - CF | 美国US4 | 免费节点
-      - 香港HKT1 | 临时免费 2
-      - CF | 新加坡SG1 | 免费节点 2
-      - CF | 美国US1 | 免费节点 2
-      - CF | 美国US2 | 免费节点 2
-      - CF | 美国US3 | 免费节点 2
-      - CF | 美国US4 | 免费节点 2
       - 日本-01|1.0x
       - 日本-02|1.0x
       - 韩国-01|1.0x
@@ -2356,6 +2326,16 @@ proxy-groups:
       - 新加坡-01|1.0x 2
       - 美国-01|1.0x 2
       - 美国-02|1.0x 2
+      - CF | 新加坡SG1 | 免费节点
+      - CF | 美国US1 | 免费节点
+      - CF | 美国US2 | 免费节点
+      - CF | 美国US3 | 免费节点
+      - CF | 美国US4 | 免费节点
+      - CF | 新加坡SG1 | 免费节点 2
+      - CF | 美国US1 | 免费节点 2
+      - CF | 美国US2 | 免费节点 2
+      - CF | 美国US3 | 免费节点 2
+      - CF | 美国US4 | 免费节点 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
