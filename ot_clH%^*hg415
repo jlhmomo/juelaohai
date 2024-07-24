@@ -255,36 +255,125 @@ proxies:
   - {name: 新加坡-01|1.0x, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
   - {name: 美国-01|1.0x, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.diao.icu}}}
   - {name: 美国-02|1.0x, server: usus.diao.icu, port: 2052, type: vmess, uuid: 1f8d816a-fb7b-44ec-8209-4c7abaad5dfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us2.diao.icu}}}
-  - {name: 香港HK3, server: gd3.chuanping.wang, port: 10558, type: ss, cipher: aes-128-gcm, password: 28c4fcec-e4a2-4a4d-b192-dc2e61d2e691}
+  - {name: AWS | 美国US1 | 免费节点, server: awsjp1.trojanws.xyz, port: 47923, type: trojan, password: 28c4fcec-e4a2-4a4d-b192-dc2e61d2e691, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
+  - {name: AWS | 美国US2 | 免费节点, server: awsjp1.trojanws.xyz, port: 47922, type: trojan, password: 28c4fcec-e4a2-4a4d-b192-dc2e61d2e691, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
+  - {name: AWS | 美国US3 | 免费节点, server: awsjp1.trojanws.xyz, port: 32269, type: trojan, password: 28c4fcec-e4a2-4a4d-b192-dc2e61d2e691, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: CF | 新加坡SG1 | 免费节点, server: cu.cfyun.top, port: 443, type: trojan, password: 28c4fcec-e4a2-4a4d-b192-dc2e61d2e691, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
   - {name: CF | 美国US1 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: 28c4fcec-e4a2-4a4d-b192-dc2e61d2e691, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
   - {name: CF | 美国US2 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: 28c4fcec-e4a2-4a4d-b192-dc2e61d2e691, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
   - {name: CF | 美国US3 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: 28c4fcec-e4a2-4a4d-b192-dc2e61d2e691, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: CF | 美国US4 | 免费节点, server: ct.cfyun.top, port: 443, type: trojan, password: 28c4fcec-e4a2-4a4d-b192-dc2e61d2e691, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
-  - {name: 香港HK3 2, server: gd3.chuanping.wang, port: 10558, type: ss, cipher: aes-128-gcm, password: eaf9cae7-1fc2-4d9b-855c-856abc04a677}
+  - {name: AWS | 美国US1 | 免费节点 2, server: awsjp1.trojanws.xyz, port: 47923, type: trojan, password: eaf9cae7-1fc2-4d9b-855c-856abc04a677, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
+  - {name: AWS | 美国US2 | 免费节点 2, server: awsjp1.trojanws.xyz, port: 47922, type: trojan, password: eaf9cae7-1fc2-4d9b-855c-856abc04a677, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
+  - {name: AWS | 美国US3 | 免费节点 2, server: awsjp1.trojanws.xyz, port: 32269, type: trojan, password: eaf9cae7-1fc2-4d9b-855c-856abc04a677, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: CF | 新加坡SG1 | 免费节点 2, server: cu.cfyun.top, port: 443, type: trojan, password: eaf9cae7-1fc2-4d9b-855c-856abc04a677, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
   - {name: CF | 美国US1 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: eaf9cae7-1fc2-4d9b-855c-856abc04a677, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
   - {name: CF | 美国US2 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: eaf9cae7-1fc2-4d9b-855c-856abc04a677, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
   - {name: CF | 美国US3 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: eaf9cae7-1fc2-4d9b-855c-856abc04a677, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: CF | 美国US4 | 免费节点 2, server: ct.cfyun.top, port: 443, type: trojan, password: eaf9cae7-1fc2-4d9b-855c-856abc04a677, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
-  - {name: 香港HK3 3, server: gd3.chuanping.wang, port: 10558, type: ss, cipher: aes-128-gcm, password: 65adbacd-7e1d-49da-ba7f-9465f30247e0}
+  - {name: AWS | 美国US1 | 免费节点 3, server: awsjp1.trojanws.xyz, port: 47923, type: trojan, password: 65adbacd-7e1d-49da-ba7f-9465f30247e0, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
+  - {name: AWS | 美国US2 | 免费节点 3, server: awsjp1.trojanws.xyz, port: 47922, type: trojan, password: 65adbacd-7e1d-49da-ba7f-9465f30247e0, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
+  - {name: AWS | 美国US3 | 免费节点 3, server: awsjp1.trojanws.xyz, port: 32269, type: trojan, password: 65adbacd-7e1d-49da-ba7f-9465f30247e0, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: CF | 新加坡SG1 | 免费节点 3, server: cu.cfyun.top, port: 443, type: trojan, password: 65adbacd-7e1d-49da-ba7f-9465f30247e0, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
   - {name: CF | 美国US1 | 免费节点 3, server: ct.cfyun.top, port: 443, type: trojan, password: 65adbacd-7e1d-49da-ba7f-9465f30247e0, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
   - {name: CF | 美国US2 | 免费节点 3, server: ct.cfyun.top, port: 443, type: trojan, password: 65adbacd-7e1d-49da-ba7f-9465f30247e0, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
   - {name: CF | 美国US3 | 免费节点 3, server: ct.cfyun.top, port: 443, type: trojan, password: 65adbacd-7e1d-49da-ba7f-9465f30247e0, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: CF | 美国US4 | 免费节点 3, server: ct.cfyun.top, port: 443, type: trojan, password: 65adbacd-7e1d-49da-ba7f-9465f30247e0, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
-  - {name: 香港HK3 4, server: gd3.chuanping.wang, port: 10558, type: ss, cipher: aes-128-gcm, password: 9d0f63f2-55fb-4d34-836a-da70563bf988}
+  - {name: AWS | 美国US1 | 免费节点 4, server: awsjp1.trojanws.xyz, port: 47923, type: trojan, password: 9d0f63f2-55fb-4d34-836a-da70563bf988, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
+  - {name: AWS | 美国US2 | 免费节点 4, server: awsjp1.trojanws.xyz, port: 47922, type: trojan, password: 9d0f63f2-55fb-4d34-836a-da70563bf988, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
+  - {name: AWS | 美国US3 | 免费节点 4, server: awsjp1.trojanws.xyz, port: 32269, type: trojan, password: 9d0f63f2-55fb-4d34-836a-da70563bf988, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: CF | 新加坡SG1 | 免费节点 4, server: cu.cfyun.top, port: 443, type: trojan, password: 9d0f63f2-55fb-4d34-836a-da70563bf988, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
   - {name: CF | 美国US1 | 免费节点 4, server: ct.cfyun.top, port: 443, type: trojan, password: 9d0f63f2-55fb-4d34-836a-da70563bf988, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
   - {name: CF | 美国US2 | 免费节点 4, server: ct.cfyun.top, port: 443, type: trojan, password: 9d0f63f2-55fb-4d34-836a-da70563bf988, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
   - {name: CF | 美国US3 | 免费节点 4, server: ct.cfyun.top, port: 443, type: trojan, password: 9d0f63f2-55fb-4d34-836a-da70563bf988, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: CF | 美国US4 | 免费节点 4, server: ct.cfyun.top, port: 443, type: trojan, password: 9d0f63f2-55fb-4d34-836a-da70563bf988, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
-  - {name: 香港HK3 5, server: gd3.chuanping.wang, port: 10558, type: ss, cipher: aes-128-gcm, password: def3c74f-41bb-468f-84d0-1d36bcd87e54}
+  - {name: AWS | 美国US1 | 免费节点 5, server: awsjp1.trojanws.xyz, port: 47923, type: trojan, password: def3c74f-41bb-468f-84d0-1d36bcd87e54, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
+  - {name: AWS | 美国US2 | 免费节点 5, server: awsjp1.trojanws.xyz, port: 47922, type: trojan, password: def3c74f-41bb-468f-84d0-1d36bcd87e54, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
+  - {name: AWS | 美国US3 | 免费节点 5, server: awsjp1.trojanws.xyz, port: 32269, type: trojan, password: def3c74f-41bb-468f-84d0-1d36bcd87e54, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: CF | 新加坡SG1 | 免费节点 5, server: cu.cfyun.top, port: 443, type: trojan, password: def3c74f-41bb-468f-84d0-1d36bcd87e54, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
   - {name: CF | 美国US1 | 免费节点 5, server: ct.cfyun.top, port: 443, type: trojan, password: def3c74f-41bb-468f-84d0-1d36bcd87e54, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
   - {name: CF | 美国US2 | 免费节点 5, server: ct.cfyun.top, port: 443, type: trojan, password: def3c74f-41bb-468f-84d0-1d36bcd87e54, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
   - {name: CF | 美国US3 | 免费节点 5, server: ct.cfyun.top, port: 443, type: trojan, password: def3c74f-41bb-468f-84d0-1d36bcd87e54, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: CF | 美国US4 | 免费节点 5, server: ct.cfyun.top, port: 443, type: trojan, password: def3c74f-41bb-468f-84d0-1d36bcd87e54, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
+  - {name: 香港HK1, server: gd2.chuanping.wang, port: 10571, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 香港HK2, server: gd3.chuanping.wang, port: 10556, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 香港HK3, server: gd3.chuanping.wang, port: 10558, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 香港HK6 | 负载均衡, server: gd1.chuanping.wang, port: 10523, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 香港HKT1 | 家宽, server: gd2.chuanping.wang, port: 10574, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 香港HKT2 | 家宽, server: gd3.chuanping.wang, port: 10523, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 日本JP1, server: js1.chuanping.wang, port: 10466, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 日本JP2, server: js1.chuanping.wang, port: 10467, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 日本JP3, server: js1.chuanping.wang, port: 10468, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 日本JP4, server: js1.chuanping.wang, port: 10469, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 新加坡SG1, server: gd1.chuanping.wang, port: 10596, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 新加坡SG2, server: gd3.chuanping.wang, port: 10519, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 新加坡SG3, server: gd1.chuanping.wang, port: 10598, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 新加坡SG4, server: gd2.chuanping.wang, port: 10573, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 美国US1, server: gd1.chuanping.wang, port: 10599, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: 美国US2, server: gd1.chuanping.wang, port: 10597, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: Netflix | 新加坡SG1, server: gd3.chuanping.wang, port: 10559, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: Netflix | 新加坡SG2, server: gd3.chuanping.wang, port: 10522, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: Netflix | 新加坡SG3, server: gd3.chuanping.wang, port: 10524, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: Netflix | 新加坡SG4, server: gd3.chuanping.wang, port: 10517, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: Netflix | 台湾TW1, server: gd2.chuanping.wang, port: 10572, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: Netflix | 台湾TW2, server: gd1.chuanping.wang, port: 10521, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: Netflix | 台湾TW3, server: gd3.chuanping.wang, port: 10516, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: Netflix | 日本JP1, server: gd1.chuanping.wang, port: 10522, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: Netflix | 日本JP2, server: gd1.chuanping.wang, port: 10524, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: Netflix | 美国US1, server: gd3.chuanping.wang, port: 10557, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: Netflix | 美国US2, server: gd3.chuanping.wang, port: 10521, type: ss, cipher: aes-128-gcm, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8}
+  - {name: AWS | 美国US1 | 免费节点 6, server: awsjp1.trojanws.xyz, port: 47923, type: trojan, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
+  - {name: AWS | 美国US2 | 免费节点 6, server: awsjp1.trojanws.xyz, port: 47922, type: trojan, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
+  - {name: AWS | 美国US3 | 免费节点 6, server: awsjp1.trojanws.xyz, port: 32269, type: trojan, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
+  - {name: CF | 新加坡SG1 | 免费节点 6, server: cu.cfyun.top, port: 443, type: trojan, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8, sni: cfsg1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfsg1.trojanwss.xyz}}}
+  - {name: CF | 美国US1 | 免费节点 6, server: ct.cfyun.top, port: 443, type: trojan, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8, sni: cfus1.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus1.trojanwss.xyz}}}
+  - {name: CF | 美国US2 | 免费节点 6, server: ct.cfyun.top, port: 443, type: trojan, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
+  - {name: CF | 美国US3 | 免费节点 6, server: ct.cfyun.top, port: 443, type: trojan, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
+  - {name: CF | 美国US4 | 免费节点 6, server: ct.cfyun.top, port: 443, type: trojan, password: 09e362be-299f-4845-8e7f-3ffa574dd8a8, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
+  - {name: "[CORE] 中國香港1", server: gdcm.inorym.com, port: 13464, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 中國香港2", server: sdgsq.zhuanaz.icu, port: 33318, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 中國香港3", server: cu1.guguyun.xyz, port: 41769, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 中國香港4", server: gzct.guguyun.xyz, port: 40266, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 中國香港5", server: afafga.zhuanaz.icu, port: 38218, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 新加坡1", server: gdcm.inorym.com, port: 31594, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 新加坡2", server: sdgsq.zhuanaz.icu, port: 47329, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 新加坡3", server: cu1.guguyun.xyz, port: 14958, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 新加坡4", server: gzct.guguyun.xyz, port: 54453, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 新加坡5", server: afafga.zhuanaz.icu, port: 37393, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 日本1", server: gdcm.inorym.com, port: 18334, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 日本2", server: sdgsq.zhuanaz.icu, port: 12516, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 日本3", server: cu1.guguyun.xyz, port: 27102, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 日本4", server: gzct.guguyun.xyz, port: 46006, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 美國1", server: gdcm.inorym.com, port: 30821, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 美國2", server: sdgsq.zhuanaz.icu, port: 17110, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 美國3", server: cu1.guguyun.xyz, port: 47249, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 美國4", server: gzct.guguyun.xyz, port: 45698, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 美國5", server: afafga.zhuanaz.icu, port: 49681, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 中國台灣1", server: gdcm.inorym.com, port: 49052, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 中國台灣2", server: sdgsq.zhuanaz.icu, port: 33748, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 中國台灣3", server: cu1.guguyun.xyz, port: 25661, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 中國台灣4", server: gzct.guguyun.xyz, port: 12340, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 中國台灣5", server: afafga.zhuanaz.icu, port: 24063, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 德國1", server: gdcm.inorym.com, port: 11636, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 德國2", server: sdgsq.zhuanaz.icu, port: 32854, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 德國3", server: cu1.guguyun.xyz, port: 53634, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 德國4", server: gzct.guguyun.xyz, port: 47253, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[CORE] 德國5", server: afafga.zhuanaz.icu, port: 49270, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
+  - {name: "[EDGE] 中國香港", server: hkm.260500.blog, port: 443, type: vmess, uuid: 309b67dc-3e82-4b30-a724-6c5c62d18181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hkm.260500.blog}}}
+  - {name: "[EDGE] 新加坡", server: sg.260500.blog, port: 443, type: vmess, uuid: 309b67dc-3e82-4b30-a724-6c5c62d18181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sg.260500.blog}}}
+  - {name: "[EDGE] 美利坚", server: us.260500.blog, port: 443, type: vmess, uuid: 309b67dc-3e82-4b30-a724-6c5c62d18181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us.260500.blog}}}
+  - {name: "[EDGE] 法国", server: fr.260500.blog, port: 443, type: vmess, uuid: 309b67dc-3e82-4b30-a724-6c5c62d18181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: fr.260500.blog}}}
+  - {name: 香港-None, server: zf-11423341.fly64jfgwhale.xyz, port: 54876, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
+  - {name: 乌克兰-None, server: zf-11423341.fly64jfgwhale.xyz, port: 15662, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
+  - {name: "[ss]日本02|🇯🇵JapanBGP中转", server: rdgfe.vxzjv.xyz, port: 32082, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3a2699-3f97-4fa8-bb48-2c1f63ba2726}
+  - {name: "[ss]台湾01|🇨🇳Taiwan中转", server: gzct.guguyun.xyz, port: 25488, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3a2699-3f97-4fa8-bb48-2c1f63ba2726}
+  - {name: "[ss]新加坡01|🇸🇬Singapore中转", server: rdgfe.vxzjv.xyz, port: 43497, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3a2699-3f97-4fa8-bb48-2c1f63ba2726}
+  - {name: "[ss]美国01|🇺🇸America中转", server: gzct.guguyun.xyz, port: 31190, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3a2699-3f97-4fa8-bb48-2c1f63ba2726}
+  - {name: "[ss]香港01|🇭🇰Hong Kong中转", server: cu1.guguyun.xyz, port: 29764, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3a2699-3f97-4fa8-bb48-2c1f63ba2726}
+  - {name: "[ss]香港02|🇭🇰Hong Kong香港中转", server: gzct.guguyun.xyz, port: 41755, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3a2699-3f97-4fa8-bb48-2c1f63ba2726}
+  - {name: "[ss]土耳其01|🇹🇷Türkiye中转", server: rdgfe.vxzjv.xyz, port: 51082, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3a2699-3f97-4fa8-bb48-2c1f63ba2726}
+  - {name: "[ss]日本01|🇯🇵Japan大阪中转", server: nnertn.vxzjv.xyz, port: 47324, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3a2699-3f97-4fa8-bb48-2c1f63ba2726}
+  - {name: "[ss]俄罗斯01|🇷🇺Russia中转", server: rdgfe.vxzjv.xyz, port: 54698, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3a2699-3f97-4fa8-bb48-2c1f63ba2726}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -541,36 +630,125 @@ proxy-groups:
       - 新加坡-01|1.0x
       - 美国-01|1.0x
       - 美国-02|1.0x
-      - 香港HK3
+      - AWS | 美国US1 | 免费节点
+      - AWS | 美国US2 | 免费节点
+      - AWS | 美国US3 | 免费节点
       - CF | 新加坡SG1 | 免费节点
       - CF | 美国US1 | 免费节点
       - CF | 美国US2 | 免费节点
       - CF | 美国US3 | 免费节点
       - CF | 美国US4 | 免费节点
-      - 香港HK3 2
+      - AWS | 美国US1 | 免费节点 2
+      - AWS | 美国US2 | 免费节点 2
+      - AWS | 美国US3 | 免费节点 2
       - CF | 新加坡SG1 | 免费节点 2
       - CF | 美国US1 | 免费节点 2
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
-      - 香港HK3 3
+      - AWS | 美国US1 | 免费节点 3
+      - AWS | 美国US2 | 免费节点 3
+      - AWS | 美国US3 | 免费节点 3
       - CF | 新加坡SG1 | 免费节点 3
       - CF | 美国US1 | 免费节点 3
       - CF | 美国US2 | 免费节点 3
       - CF | 美国US3 | 免费节点 3
       - CF | 美国US4 | 免费节点 3
-      - 香港HK3 4
+      - AWS | 美国US1 | 免费节点 4
+      - AWS | 美国US2 | 免费节点 4
+      - AWS | 美国US3 | 免费节点 4
       - CF | 新加坡SG1 | 免费节点 4
       - CF | 美国US1 | 免费节点 4
       - CF | 美国US2 | 免费节点 4
       - CF | 美国US3 | 免费节点 4
       - CF | 美国US4 | 免费节点 4
-      - 香港HK3 5
+      - AWS | 美国US1 | 免费节点 5
+      - AWS | 美国US2 | 免费节点 5
+      - AWS | 美国US3 | 免费节点 5
       - CF | 新加坡SG1 | 免费节点 5
       - CF | 美国US1 | 免费节点 5
       - CF | 美国US2 | 免费节点 5
       - CF | 美国US3 | 免费节点 5
       - CF | 美国US4 | 免费节点 5
+      - 香港HK1
+      - 香港HK2
+      - 香港HK3
+      - 香港HK6 | 负载均衡
+      - 香港HKT1 | 家宽
+      - 香港HKT2 | 家宽
+      - 日本JP1
+      - 日本JP2
+      - 日本JP3
+      - 日本JP4
+      - 新加坡SG1
+      - 新加坡SG2
+      - 新加坡SG3
+      - 新加坡SG4
+      - 美国US1
+      - 美国US2
+      - Netflix | 新加坡SG1
+      - Netflix | 新加坡SG2
+      - Netflix | 新加坡SG3
+      - Netflix | 新加坡SG4
+      - Netflix | 台湾TW1
+      - Netflix | 台湾TW2
+      - Netflix | 台湾TW3
+      - Netflix | 日本JP1
+      - Netflix | 日本JP2
+      - Netflix | 美国US1
+      - Netflix | 美国US2
+      - AWS | 美国US1 | 免费节点 6
+      - AWS | 美国US2 | 免费节点 6
+      - AWS | 美国US3 | 免费节点 6
+      - CF | 新加坡SG1 | 免费节点 6
+      - CF | 美国US1 | 免费节点 6
+      - CF | 美国US2 | 免费节点 6
+      - CF | 美国US3 | 免费节点 6
+      - CF | 美国US4 | 免费节点 6
+      - "[CORE] 中國香港1"
+      - "[CORE] 中國香港2"
+      - "[CORE] 中國香港3"
+      - "[CORE] 中國香港4"
+      - "[CORE] 中國香港5"
+      - "[CORE] 新加坡1"
+      - "[CORE] 新加坡2"
+      - "[CORE] 新加坡3"
+      - "[CORE] 新加坡4"
+      - "[CORE] 新加坡5"
+      - "[CORE] 日本1"
+      - "[CORE] 日本2"
+      - "[CORE] 日本3"
+      - "[CORE] 日本4"
+      - "[CORE] 美國1"
+      - "[CORE] 美國2"
+      - "[CORE] 美國3"
+      - "[CORE] 美國4"
+      - "[CORE] 美國5"
+      - "[CORE] 中國台灣1"
+      - "[CORE] 中國台灣2"
+      - "[CORE] 中國台灣3"
+      - "[CORE] 中國台灣4"
+      - "[CORE] 中國台灣5"
+      - "[CORE] 德國1"
+      - "[CORE] 德國2"
+      - "[CORE] 德國3"
+      - "[CORE] 德國4"
+      - "[CORE] 德國5"
+      - "[EDGE] 中國香港"
+      - "[EDGE] 新加坡"
+      - "[EDGE] 美利坚"
+      - "[EDGE] 法国"
+      - 香港-None
+      - 乌克兰-None
+      - "[ss]日本02|🇯🇵JapanBGP中转"
+      - "[ss]台湾01|🇨🇳Taiwan中转"
+      - "[ss]新加坡01|🇸🇬Singapore中转"
+      - "[ss]美国01|🇺🇸America中转"
+      - "[ss]香港01|🇭🇰Hong Kong中转"
+      - "[ss]香港02|🇭🇰Hong Kong香港中转"
+      - "[ss]土耳其01|🇹🇷Türkiye中转"
+      - "[ss]日本01|🇯🇵Japan大阪中转"
+      - "[ss]俄罗斯01|🇷🇺Russia中转"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -826,36 +1004,125 @@ proxy-groups:
       - 新加坡-01|1.0x
       - 美国-01|1.0x
       - 美国-02|1.0x
-      - 香港HK3
+      - AWS | 美国US1 | 免费节点
+      - AWS | 美国US2 | 免费节点
+      - AWS | 美国US3 | 免费节点
       - CF | 新加坡SG1 | 免费节点
       - CF | 美国US1 | 免费节点
       - CF | 美国US2 | 免费节点
       - CF | 美国US3 | 免费节点
       - CF | 美国US4 | 免费节点
-      - 香港HK3 2
+      - AWS | 美国US1 | 免费节点 2
+      - AWS | 美国US2 | 免费节点 2
+      - AWS | 美国US3 | 免费节点 2
       - CF | 新加坡SG1 | 免费节点 2
       - CF | 美国US1 | 免费节点 2
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
-      - 香港HK3 3
+      - AWS | 美国US1 | 免费节点 3
+      - AWS | 美国US2 | 免费节点 3
+      - AWS | 美国US3 | 免费节点 3
       - CF | 新加坡SG1 | 免费节点 3
       - CF | 美国US1 | 免费节点 3
       - CF | 美国US2 | 免费节点 3
       - CF | 美国US3 | 免费节点 3
       - CF | 美国US4 | 免费节点 3
-      - 香港HK3 4
+      - AWS | 美国US1 | 免费节点 4
+      - AWS | 美国US2 | 免费节点 4
+      - AWS | 美国US3 | 免费节点 4
       - CF | 新加坡SG1 | 免费节点 4
       - CF | 美国US1 | 免费节点 4
       - CF | 美国US2 | 免费节点 4
       - CF | 美国US3 | 免费节点 4
       - CF | 美国US4 | 免费节点 4
-      - 香港HK3 5
+      - AWS | 美国US1 | 免费节点 5
+      - AWS | 美国US2 | 免费节点 5
+      - AWS | 美国US3 | 免费节点 5
       - CF | 新加坡SG1 | 免费节点 5
       - CF | 美国US1 | 免费节点 5
       - CF | 美国US2 | 免费节点 5
       - CF | 美国US3 | 免费节点 5
       - CF | 美国US4 | 免费节点 5
+      - 香港HK1
+      - 香港HK2
+      - 香港HK3
+      - 香港HK6 | 负载均衡
+      - 香港HKT1 | 家宽
+      - 香港HKT2 | 家宽
+      - 日本JP1
+      - 日本JP2
+      - 日本JP3
+      - 日本JP4
+      - 新加坡SG1
+      - 新加坡SG2
+      - 新加坡SG3
+      - 新加坡SG4
+      - 美国US1
+      - 美国US2
+      - Netflix | 新加坡SG1
+      - Netflix | 新加坡SG2
+      - Netflix | 新加坡SG3
+      - Netflix | 新加坡SG4
+      - Netflix | 台湾TW1
+      - Netflix | 台湾TW2
+      - Netflix | 台湾TW3
+      - Netflix | 日本JP1
+      - Netflix | 日本JP2
+      - Netflix | 美国US1
+      - Netflix | 美国US2
+      - AWS | 美国US1 | 免费节点 6
+      - AWS | 美国US2 | 免费节点 6
+      - AWS | 美国US3 | 免费节点 6
+      - CF | 新加坡SG1 | 免费节点 6
+      - CF | 美国US1 | 免费节点 6
+      - CF | 美国US2 | 免费节点 6
+      - CF | 美国US3 | 免费节点 6
+      - CF | 美国US4 | 免费节点 6
+      - "[CORE] 中國香港1"
+      - "[CORE] 中國香港2"
+      - "[CORE] 中國香港3"
+      - "[CORE] 中國香港4"
+      - "[CORE] 中國香港5"
+      - "[CORE] 新加坡1"
+      - "[CORE] 新加坡2"
+      - "[CORE] 新加坡3"
+      - "[CORE] 新加坡4"
+      - "[CORE] 新加坡5"
+      - "[CORE] 日本1"
+      - "[CORE] 日本2"
+      - "[CORE] 日本3"
+      - "[CORE] 日本4"
+      - "[CORE] 美國1"
+      - "[CORE] 美國2"
+      - "[CORE] 美國3"
+      - "[CORE] 美國4"
+      - "[CORE] 美國5"
+      - "[CORE] 中國台灣1"
+      - "[CORE] 中國台灣2"
+      - "[CORE] 中國台灣3"
+      - "[CORE] 中國台灣4"
+      - "[CORE] 中國台灣5"
+      - "[CORE] 德國1"
+      - "[CORE] 德國2"
+      - "[CORE] 德國3"
+      - "[CORE] 德國4"
+      - "[CORE] 德國5"
+      - "[EDGE] 中國香港"
+      - "[EDGE] 新加坡"
+      - "[EDGE] 美利坚"
+      - "[EDGE] 法国"
+      - 香港-None
+      - 乌克兰-None
+      - "[ss]日本02|🇯🇵JapanBGP中转"
+      - "[ss]台湾01|🇨🇳Taiwan中转"
+      - "[ss]新加坡01|🇸🇬Singapore中转"
+      - "[ss]美国01|🇺🇸America中转"
+      - "[ss]香港01|🇭🇰Hong Kong中转"
+      - "[ss]香港02|🇭🇰Hong Kong香港中转"
+      - "[ss]土耳其01|🇹🇷Türkiye中转"
+      - "[ss]日本01|🇯🇵Japan大阪中转"
+      - "[ss]俄罗斯01|🇷🇺Russia中转"
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -1112,36 +1379,125 @@ proxy-groups:
       - 新加坡-01|1.0x
       - 美国-01|1.0x
       - 美国-02|1.0x
-      - 香港HK3
+      - AWS | 美国US1 | 免费节点
+      - AWS | 美国US2 | 免费节点
+      - AWS | 美国US3 | 免费节点
       - CF | 新加坡SG1 | 免费节点
       - CF | 美国US1 | 免费节点
       - CF | 美国US2 | 免费节点
       - CF | 美国US3 | 免费节点
       - CF | 美国US4 | 免费节点
-      - 香港HK3 2
+      - AWS | 美国US1 | 免费节点 2
+      - AWS | 美国US2 | 免费节点 2
+      - AWS | 美国US3 | 免费节点 2
       - CF | 新加坡SG1 | 免费节点 2
       - CF | 美国US1 | 免费节点 2
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
-      - 香港HK3 3
+      - AWS | 美国US1 | 免费节点 3
+      - AWS | 美国US2 | 免费节点 3
+      - AWS | 美国US3 | 免费节点 3
       - CF | 新加坡SG1 | 免费节点 3
       - CF | 美国US1 | 免费节点 3
       - CF | 美国US2 | 免费节点 3
       - CF | 美国US3 | 免费节点 3
       - CF | 美国US4 | 免费节点 3
-      - 香港HK3 4
+      - AWS | 美国US1 | 免费节点 4
+      - AWS | 美国US2 | 免费节点 4
+      - AWS | 美国US3 | 免费节点 4
       - CF | 新加坡SG1 | 免费节点 4
       - CF | 美国US1 | 免费节点 4
       - CF | 美国US2 | 免费节点 4
       - CF | 美国US3 | 免费节点 4
       - CF | 美国US4 | 免费节点 4
-      - 香港HK3 5
+      - AWS | 美国US1 | 免费节点 5
+      - AWS | 美国US2 | 免费节点 5
+      - AWS | 美国US3 | 免费节点 5
       - CF | 新加坡SG1 | 免费节点 5
       - CF | 美国US1 | 免费节点 5
       - CF | 美国US2 | 免费节点 5
       - CF | 美国US3 | 免费节点 5
       - CF | 美国US4 | 免费节点 5
+      - 香港HK1
+      - 香港HK2
+      - 香港HK3
+      - 香港HK6 | 负载均衡
+      - 香港HKT1 | 家宽
+      - 香港HKT2 | 家宽
+      - 日本JP1
+      - 日本JP2
+      - 日本JP3
+      - 日本JP4
+      - 新加坡SG1
+      - 新加坡SG2
+      - 新加坡SG3
+      - 新加坡SG4
+      - 美国US1
+      - 美国US2
+      - Netflix | 新加坡SG1
+      - Netflix | 新加坡SG2
+      - Netflix | 新加坡SG3
+      - Netflix | 新加坡SG4
+      - Netflix | 台湾TW1
+      - Netflix | 台湾TW2
+      - Netflix | 台湾TW3
+      - Netflix | 日本JP1
+      - Netflix | 日本JP2
+      - Netflix | 美国US1
+      - Netflix | 美国US2
+      - AWS | 美国US1 | 免费节点 6
+      - AWS | 美国US2 | 免费节点 6
+      - AWS | 美国US3 | 免费节点 6
+      - CF | 新加坡SG1 | 免费节点 6
+      - CF | 美国US1 | 免费节点 6
+      - CF | 美国US2 | 免费节点 6
+      - CF | 美国US3 | 免费节点 6
+      - CF | 美国US4 | 免费节点 6
+      - "[CORE] 中國香港1"
+      - "[CORE] 中國香港2"
+      - "[CORE] 中國香港3"
+      - "[CORE] 中國香港4"
+      - "[CORE] 中國香港5"
+      - "[CORE] 新加坡1"
+      - "[CORE] 新加坡2"
+      - "[CORE] 新加坡3"
+      - "[CORE] 新加坡4"
+      - "[CORE] 新加坡5"
+      - "[CORE] 日本1"
+      - "[CORE] 日本2"
+      - "[CORE] 日本3"
+      - "[CORE] 日本4"
+      - "[CORE] 美國1"
+      - "[CORE] 美國2"
+      - "[CORE] 美國3"
+      - "[CORE] 美國4"
+      - "[CORE] 美國5"
+      - "[CORE] 中國台灣1"
+      - "[CORE] 中國台灣2"
+      - "[CORE] 中國台灣3"
+      - "[CORE] 中國台灣4"
+      - "[CORE] 中國台灣5"
+      - "[CORE] 德國1"
+      - "[CORE] 德國2"
+      - "[CORE] 德國3"
+      - "[CORE] 德國4"
+      - "[CORE] 德國5"
+      - "[EDGE] 中國香港"
+      - "[EDGE] 新加坡"
+      - "[EDGE] 美利坚"
+      - "[EDGE] 法国"
+      - 香港-None
+      - 乌克兰-None
+      - "[ss]日本02|🇯🇵JapanBGP中转"
+      - "[ss]台湾01|🇨🇳Taiwan中转"
+      - "[ss]新加坡01|🇸🇬Singapore中转"
+      - "[ss]美国01|🇺🇸America中转"
+      - "[ss]香港01|🇭🇰Hong Kong中转"
+      - "[ss]香港02|🇭🇰Hong Kong香港中转"
+      - "[ss]土耳其01|🇹🇷Türkiye中转"
+      - "[ss]日本01|🇯🇵Japan大阪中转"
+      - "[ss]俄罗斯01|🇷🇺Russia中转"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1410,46 +1766,154 @@ proxy-groups:
       - 新加坡-01|1.0x
       - 美国-01|1.0x
       - 美国-02|1.0x
-      - 香港HK3
+      - AWS | 美国US1 | 免费节点
+      - AWS | 美国US2 | 免费节点
+      - AWS | 美国US3 | 免费节点
       - CF | 新加坡SG1 | 免费节点
       - CF | 美国US1 | 免费节点
       - CF | 美国US2 | 免费节点
       - CF | 美国US3 | 免费节点
       - CF | 美国US4 | 免费节点
-      - 香港HK3 2
+      - AWS | 美国US1 | 免费节点 2
+      - AWS | 美国US2 | 免费节点 2
+      - AWS | 美国US3 | 免费节点 2
       - CF | 新加坡SG1 | 免费节点 2
       - CF | 美国US1 | 免费节点 2
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
-      - 香港HK3 3
+      - AWS | 美国US1 | 免费节点 3
+      - AWS | 美国US2 | 免费节点 3
+      - AWS | 美国US3 | 免费节点 3
       - CF | 新加坡SG1 | 免费节点 3
       - CF | 美国US1 | 免费节点 3
       - CF | 美国US2 | 免费节点 3
       - CF | 美国US3 | 免费节点 3
       - CF | 美国US4 | 免费节点 3
-      - 香港HK3 4
+      - AWS | 美国US1 | 免费节点 4
+      - AWS | 美国US2 | 免费节点 4
+      - AWS | 美国US3 | 免费节点 4
       - CF | 新加坡SG1 | 免费节点 4
       - CF | 美国US1 | 免费节点 4
       - CF | 美国US2 | 免费节点 4
       - CF | 美国US3 | 免费节点 4
       - CF | 美国US4 | 免费节点 4
-      - 香港HK3 5
+      - AWS | 美国US1 | 免费节点 5
+      - AWS | 美国US2 | 免费节点 5
+      - AWS | 美国US3 | 免费节点 5
       - CF | 新加坡SG1 | 免费节点 5
       - CF | 美国US1 | 免费节点 5
       - CF | 美国US2 | 免费节点 5
       - CF | 美国US3 | 免费节点 5
       - CF | 美国US4 | 免费节点 5
+      - 香港HK1
+      - 香港HK2
+      - 香港HK3
+      - 香港HK6 | 负载均衡
+      - 香港HKT1 | 家宽
+      - 香港HKT2 | 家宽
+      - 日本JP1
+      - 日本JP2
+      - 日本JP3
+      - 日本JP4
+      - 新加坡SG1
+      - 新加坡SG2
+      - 新加坡SG3
+      - 新加坡SG4
+      - 美国US1
+      - 美国US2
+      - Netflix | 新加坡SG1
+      - Netflix | 新加坡SG2
+      - Netflix | 新加坡SG3
+      - Netflix | 新加坡SG4
+      - Netflix | 台湾TW1
+      - Netflix | 台湾TW2
+      - Netflix | 台湾TW3
+      - Netflix | 日本JP1
+      - Netflix | 日本JP2
+      - Netflix | 美国US1
+      - Netflix | 美国US2
+      - AWS | 美国US1 | 免费节点 6
+      - AWS | 美国US2 | 免费节点 6
+      - AWS | 美国US3 | 免费节点 6
+      - CF | 新加坡SG1 | 免费节点 6
+      - CF | 美国US1 | 免费节点 6
+      - CF | 美国US2 | 免费节点 6
+      - CF | 美国US3 | 免费节点 6
+      - CF | 美国US4 | 免费节点 6
+      - "[CORE] 中國香港1"
+      - "[CORE] 中國香港2"
+      - "[CORE] 中國香港3"
+      - "[CORE] 中國香港4"
+      - "[CORE] 中國香港5"
+      - "[CORE] 新加坡1"
+      - "[CORE] 新加坡2"
+      - "[CORE] 新加坡3"
+      - "[CORE] 新加坡4"
+      - "[CORE] 新加坡5"
+      - "[CORE] 日本1"
+      - "[CORE] 日本2"
+      - "[CORE] 日本3"
+      - "[CORE] 日本4"
+      - "[CORE] 美國1"
+      - "[CORE] 美國2"
+      - "[CORE] 美國3"
+      - "[CORE] 美國4"
+      - "[CORE] 美國5"
+      - "[CORE] 中國台灣1"
+      - "[CORE] 中國台灣2"
+      - "[CORE] 中國台灣3"
+      - "[CORE] 中國台灣4"
+      - "[CORE] 中國台灣5"
+      - "[CORE] 德國1"
+      - "[CORE] 德國2"
+      - "[CORE] 德國3"
+      - "[CORE] 德國4"
+      - "[CORE] 德國5"
+      - "[EDGE] 中國香港"
+      - "[EDGE] 新加坡"
+      - "[EDGE] 美利坚"
+      - "[EDGE] 法国"
+      - 香港-None
+      - 乌克兰-None
+      - "[ss]日本02|🇯🇵JapanBGP中转"
+      - "[ss]台湾01|🇨🇳Taiwan中转"
+      - "[ss]新加坡01|🇸🇬Singapore中转"
+      - "[ss]美国01|🇺🇸America中转"
+      - "[ss]香港01|🇭🇰Hong Kong中转"
+      - "[ss]香港02|🇭🇰Hong Kong香港中转"
+      - "[ss]土耳其01|🇹🇷Türkiye中转"
+      - "[ss]日本01|🇯🇵Japan大阪中转"
+      - "[ss]俄罗斯01|🇷🇺Russia中转"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 禁止在中国大陆平台分享订阅 节点 配置教程
+      - 香港HK1
+      - 香港HK2
       - 香港HK3
-      - 香港HK3 2
-      - 香港HK3 3
-      - 香港HK3 4
-      - 香港HK3 5
+      - 香港HK6 | 负载均衡
+      - 香港HKT1 | 家宽
+      - 香港HKT2 | 家宽
+      - Netflix | 台湾TW1
+      - Netflix | 台湾TW2
+      - Netflix | 台湾TW3
+      - "[CORE] 中國香港1"
+      - "[CORE] 中國香港2"
+      - "[CORE] 中國香港3"
+      - "[CORE] 中國香港4"
+      - "[CORE] 中國香港5"
+      - "[CORE] 中國台灣1"
+      - "[CORE] 中國台灣2"
+      - "[CORE] 中國台灣3"
+      - "[CORE] 中國台灣4"
+      - "[CORE] 中國台灣5"
+      - "[EDGE] 中國香港"
+      - 香港-None
+      - "[ss]台湾01|🇨🇳Taiwan中转"
+      - "[ss]香港01|🇭🇰Hong Kong中转"
+      - "[ss]香港02|🇭🇰Hong Kong香港中转"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -1706,36 +2170,125 @@ proxy-groups:
       - 新加坡-01|1.0x
       - 美国-01|1.0x
       - 美国-02|1.0x
-      - 香港HK3
+      - AWS | 美国US1 | 免费节点
+      - AWS | 美国US2 | 免费节点
+      - AWS | 美国US3 | 免费节点
       - CF | 新加坡SG1 | 免费节点
       - CF | 美国US1 | 免费节点
       - CF | 美国US2 | 免费节点
       - CF | 美国US3 | 免费节点
       - CF | 美国US4 | 免费节点
-      - 香港HK3 2
+      - AWS | 美国US1 | 免费节点 2
+      - AWS | 美国US2 | 免费节点 2
+      - AWS | 美国US3 | 免费节点 2
       - CF | 新加坡SG1 | 免费节点 2
       - CF | 美国US1 | 免费节点 2
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
-      - 香港HK3 3
+      - AWS | 美国US1 | 免费节点 3
+      - AWS | 美国US2 | 免费节点 3
+      - AWS | 美国US3 | 免费节点 3
       - CF | 新加坡SG1 | 免费节点 3
       - CF | 美国US1 | 免费节点 3
       - CF | 美国US2 | 免费节点 3
       - CF | 美国US3 | 免费节点 3
       - CF | 美国US4 | 免费节点 3
-      - 香港HK3 4
+      - AWS | 美国US1 | 免费节点 4
+      - AWS | 美国US2 | 免费节点 4
+      - AWS | 美国US3 | 免费节点 4
       - CF | 新加坡SG1 | 免费节点 4
       - CF | 美国US1 | 免费节点 4
       - CF | 美国US2 | 免费节点 4
       - CF | 美国US3 | 免费节点 4
       - CF | 美国US4 | 免费节点 4
-      - 香港HK3 5
+      - AWS | 美国US1 | 免费节点 5
+      - AWS | 美国US2 | 免费节点 5
+      - AWS | 美国US3 | 免费节点 5
       - CF | 新加坡SG1 | 免费节点 5
       - CF | 美国US1 | 免费节点 5
       - CF | 美国US2 | 免费节点 5
       - CF | 美国US3 | 免费节点 5
       - CF | 美国US4 | 免费节点 5
+      - 香港HK1
+      - 香港HK2
+      - 香港HK3
+      - 香港HK6 | 负载均衡
+      - 香港HKT1 | 家宽
+      - 香港HKT2 | 家宽
+      - 日本JP1
+      - 日本JP2
+      - 日本JP3
+      - 日本JP4
+      - 新加坡SG1
+      - 新加坡SG2
+      - 新加坡SG3
+      - 新加坡SG4
+      - 美国US1
+      - 美国US2
+      - Netflix | 新加坡SG1
+      - Netflix | 新加坡SG2
+      - Netflix | 新加坡SG3
+      - Netflix | 新加坡SG4
+      - Netflix | 台湾TW1
+      - Netflix | 台湾TW2
+      - Netflix | 台湾TW3
+      - Netflix | 日本JP1
+      - Netflix | 日本JP2
+      - Netflix | 美国US1
+      - Netflix | 美国US2
+      - AWS | 美国US1 | 免费节点 6
+      - AWS | 美国US2 | 免费节点 6
+      - AWS | 美国US3 | 免费节点 6
+      - CF | 新加坡SG1 | 免费节点 6
+      - CF | 美国US1 | 免费节点 6
+      - CF | 美国US2 | 免费节点 6
+      - CF | 美国US3 | 免费节点 6
+      - CF | 美国US4 | 免费节点 6
+      - "[CORE] 中國香港1"
+      - "[CORE] 中國香港2"
+      - "[CORE] 中國香港3"
+      - "[CORE] 中國香港4"
+      - "[CORE] 中國香港5"
+      - "[CORE] 新加坡1"
+      - "[CORE] 新加坡2"
+      - "[CORE] 新加坡3"
+      - "[CORE] 新加坡4"
+      - "[CORE] 新加坡5"
+      - "[CORE] 日本1"
+      - "[CORE] 日本2"
+      - "[CORE] 日本3"
+      - "[CORE] 日本4"
+      - "[CORE] 美國1"
+      - "[CORE] 美國2"
+      - "[CORE] 美國3"
+      - "[CORE] 美國4"
+      - "[CORE] 美國5"
+      - "[CORE] 中國台灣1"
+      - "[CORE] 中國台灣2"
+      - "[CORE] 中國台灣3"
+      - "[CORE] 中國台灣4"
+      - "[CORE] 中國台灣5"
+      - "[CORE] 德國1"
+      - "[CORE] 德國2"
+      - "[CORE] 德國3"
+      - "[CORE] 德國4"
+      - "[CORE] 德國5"
+      - "[EDGE] 中國香港"
+      - "[EDGE] 新加坡"
+      - "[EDGE] 美利坚"
+      - "[EDGE] 法国"
+      - 香港-None
+      - 乌克兰-None
+      - "[ss]日本02|🇯🇵JapanBGP中转"
+      - "[ss]台湾01|🇨🇳Taiwan中转"
+      - "[ss]新加坡01|🇸🇬Singapore中转"
+      - "[ss]美国01|🇺🇸America中转"
+      - "[ss]香港01|🇭🇰Hong Kong中转"
+      - "[ss]香港02|🇭🇰Hong Kong香港中转"
+      - "[ss]土耳其01|🇹🇷Türkiye中转"
+      - "[ss]日本01|🇯🇵Japan大阪中转"
+      - "[ss]俄罗斯01|🇷🇺Russia中转"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1991,36 +2544,125 @@ proxy-groups:
       - 新加坡-01|1.0x
       - 美国-01|1.0x
       - 美国-02|1.0x
-      - 香港HK3
+      - AWS | 美国US1 | 免费节点
+      - AWS | 美国US2 | 免费节点
+      - AWS | 美国US3 | 免费节点
       - CF | 新加坡SG1 | 免费节点
       - CF | 美国US1 | 免费节点
       - CF | 美国US2 | 免费节点
       - CF | 美国US3 | 免费节点
       - CF | 美国US4 | 免费节点
-      - 香港HK3 2
+      - AWS | 美国US1 | 免费节点 2
+      - AWS | 美国US2 | 免费节点 2
+      - AWS | 美国US3 | 免费节点 2
       - CF | 新加坡SG1 | 免费节点 2
       - CF | 美国US1 | 免费节点 2
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
-      - 香港HK3 3
+      - AWS | 美国US1 | 免费节点 3
+      - AWS | 美国US2 | 免费节点 3
+      - AWS | 美国US3 | 免费节点 3
       - CF | 新加坡SG1 | 免费节点 3
       - CF | 美国US1 | 免费节点 3
       - CF | 美国US2 | 免费节点 3
       - CF | 美国US3 | 免费节点 3
       - CF | 美国US4 | 免费节点 3
-      - 香港HK3 4
+      - AWS | 美国US1 | 免费节点 4
+      - AWS | 美国US2 | 免费节点 4
+      - AWS | 美国US3 | 免费节点 4
       - CF | 新加坡SG1 | 免费节点 4
       - CF | 美国US1 | 免费节点 4
       - CF | 美国US2 | 免费节点 4
       - CF | 美国US3 | 免费节点 4
       - CF | 美国US4 | 免费节点 4
-      - 香港HK3 5
+      - AWS | 美国US1 | 免费节点 5
+      - AWS | 美国US2 | 免费节点 5
+      - AWS | 美国US3 | 免费节点 5
       - CF | 新加坡SG1 | 免费节点 5
       - CF | 美国US1 | 免费节点 5
       - CF | 美国US2 | 免费节点 5
       - CF | 美国US3 | 免费节点 5
       - CF | 美国US4 | 免费节点 5
+      - 香港HK1
+      - 香港HK2
+      - 香港HK3
+      - 香港HK6 | 负载均衡
+      - 香港HKT1 | 家宽
+      - 香港HKT2 | 家宽
+      - 日本JP1
+      - 日本JP2
+      - 日本JP3
+      - 日本JP4
+      - 新加坡SG1
+      - 新加坡SG2
+      - 新加坡SG3
+      - 新加坡SG4
+      - 美国US1
+      - 美国US2
+      - Netflix | 新加坡SG1
+      - Netflix | 新加坡SG2
+      - Netflix | 新加坡SG3
+      - Netflix | 新加坡SG4
+      - Netflix | 台湾TW1
+      - Netflix | 台湾TW2
+      - Netflix | 台湾TW3
+      - Netflix | 日本JP1
+      - Netflix | 日本JP2
+      - Netflix | 美国US1
+      - Netflix | 美国US2
+      - AWS | 美国US1 | 免费节点 6
+      - AWS | 美国US2 | 免费节点 6
+      - AWS | 美国US3 | 免费节点 6
+      - CF | 新加坡SG1 | 免费节点 6
+      - CF | 美国US1 | 免费节点 6
+      - CF | 美国US2 | 免费节点 6
+      - CF | 美国US3 | 免费节点 6
+      - CF | 美国US4 | 免费节点 6
+      - "[CORE] 中國香港1"
+      - "[CORE] 中國香港2"
+      - "[CORE] 中國香港3"
+      - "[CORE] 中國香港4"
+      - "[CORE] 中國香港5"
+      - "[CORE] 新加坡1"
+      - "[CORE] 新加坡2"
+      - "[CORE] 新加坡3"
+      - "[CORE] 新加坡4"
+      - "[CORE] 新加坡5"
+      - "[CORE] 日本1"
+      - "[CORE] 日本2"
+      - "[CORE] 日本3"
+      - "[CORE] 日本4"
+      - "[CORE] 美國1"
+      - "[CORE] 美國2"
+      - "[CORE] 美國3"
+      - "[CORE] 美國4"
+      - "[CORE] 美國5"
+      - "[CORE] 中國台灣1"
+      - "[CORE] 中國台灣2"
+      - "[CORE] 中國台灣3"
+      - "[CORE] 中國台灣4"
+      - "[CORE] 中國台灣5"
+      - "[CORE] 德國1"
+      - "[CORE] 德國2"
+      - "[CORE] 德國3"
+      - "[CORE] 德國4"
+      - "[CORE] 德國5"
+      - "[EDGE] 中國香港"
+      - "[EDGE] 新加坡"
+      - "[EDGE] 美利坚"
+      - "[EDGE] 法国"
+      - 香港-None
+      - 乌克兰-None
+      - "[ss]日本02|🇯🇵JapanBGP中转"
+      - "[ss]台湾01|🇨🇳Taiwan中转"
+      - "[ss]新加坡01|🇸🇬Singapore中转"
+      - "[ss]美国01|🇺🇸America中转"
+      - "[ss]香港01|🇭🇰Hong Kong中转"
+      - "[ss]香港02|🇭🇰Hong Kong香港中转"
+      - "[ss]土耳其01|🇹🇷Türkiye中转"
+      - "[ss]日本01|🇯🇵Japan大阪中转"
+      - "[ss]俄罗斯01|🇷🇺Russia中转"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2277,36 +2919,125 @@ proxy-groups:
       - 新加坡-01|1.0x
       - 美国-01|1.0x
       - 美国-02|1.0x
-      - 香港HK3
+      - AWS | 美国US1 | 免费节点
+      - AWS | 美国US2 | 免费节点
+      - AWS | 美国US3 | 免费节点
       - CF | 新加坡SG1 | 免费节点
       - CF | 美国US1 | 免费节点
       - CF | 美国US2 | 免费节点
       - CF | 美国US3 | 免费节点
       - CF | 美国US4 | 免费节点
-      - 香港HK3 2
+      - AWS | 美国US1 | 免费节点 2
+      - AWS | 美国US2 | 免费节点 2
+      - AWS | 美国US3 | 免费节点 2
       - CF | 新加坡SG1 | 免费节点 2
       - CF | 美国US1 | 免费节点 2
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
-      - 香港HK3 3
+      - AWS | 美国US1 | 免费节点 3
+      - AWS | 美国US2 | 免费节点 3
+      - AWS | 美国US3 | 免费节点 3
       - CF | 新加坡SG1 | 免费节点 3
       - CF | 美国US1 | 免费节点 3
       - CF | 美国US2 | 免费节点 3
       - CF | 美国US3 | 免费节点 3
       - CF | 美国US4 | 免费节点 3
-      - 香港HK3 4
+      - AWS | 美国US1 | 免费节点 4
+      - AWS | 美国US2 | 免费节点 4
+      - AWS | 美国US3 | 免费节点 4
       - CF | 新加坡SG1 | 免费节点 4
       - CF | 美国US1 | 免费节点 4
       - CF | 美国US2 | 免费节点 4
       - CF | 美国US3 | 免费节点 4
       - CF | 美国US4 | 免费节点 4
-      - 香港HK3 5
+      - AWS | 美国US1 | 免费节点 5
+      - AWS | 美国US2 | 免费节点 5
+      - AWS | 美国US3 | 免费节点 5
       - CF | 新加坡SG1 | 免费节点 5
       - CF | 美国US1 | 免费节点 5
       - CF | 美国US2 | 免费节点 5
       - CF | 美国US3 | 免费节点 5
       - CF | 美国US4 | 免费节点 5
+      - 香港HK1
+      - 香港HK2
+      - 香港HK3
+      - 香港HK6 | 负载均衡
+      - 香港HKT1 | 家宽
+      - 香港HKT2 | 家宽
+      - 日本JP1
+      - 日本JP2
+      - 日本JP3
+      - 日本JP4
+      - 新加坡SG1
+      - 新加坡SG2
+      - 新加坡SG3
+      - 新加坡SG4
+      - 美国US1
+      - 美国US2
+      - Netflix | 新加坡SG1
+      - Netflix | 新加坡SG2
+      - Netflix | 新加坡SG3
+      - Netflix | 新加坡SG4
+      - Netflix | 台湾TW1
+      - Netflix | 台湾TW2
+      - Netflix | 台湾TW3
+      - Netflix | 日本JP1
+      - Netflix | 日本JP2
+      - Netflix | 美国US1
+      - Netflix | 美国US2
+      - AWS | 美国US1 | 免费节点 6
+      - AWS | 美国US2 | 免费节点 6
+      - AWS | 美国US3 | 免费节点 6
+      - CF | 新加坡SG1 | 免费节点 6
+      - CF | 美国US1 | 免费节点 6
+      - CF | 美国US2 | 免费节点 6
+      - CF | 美国US3 | 免费节点 6
+      - CF | 美国US4 | 免费节点 6
+      - "[CORE] 中國香港1"
+      - "[CORE] 中國香港2"
+      - "[CORE] 中國香港3"
+      - "[CORE] 中國香港4"
+      - "[CORE] 中國香港5"
+      - "[CORE] 新加坡1"
+      - "[CORE] 新加坡2"
+      - "[CORE] 新加坡3"
+      - "[CORE] 新加坡4"
+      - "[CORE] 新加坡5"
+      - "[CORE] 日本1"
+      - "[CORE] 日本2"
+      - "[CORE] 日本3"
+      - "[CORE] 日本4"
+      - "[CORE] 美國1"
+      - "[CORE] 美國2"
+      - "[CORE] 美國3"
+      - "[CORE] 美國4"
+      - "[CORE] 美國5"
+      - "[CORE] 中國台灣1"
+      - "[CORE] 中國台灣2"
+      - "[CORE] 中國台灣3"
+      - "[CORE] 中國台灣4"
+      - "[CORE] 中國台灣5"
+      - "[CORE] 德國1"
+      - "[CORE] 德國2"
+      - "[CORE] 德國3"
+      - "[CORE] 德國4"
+      - "[CORE] 德國5"
+      - "[EDGE] 中國香港"
+      - "[EDGE] 新加坡"
+      - "[EDGE] 美利坚"
+      - "[EDGE] 法国"
+      - 香港-None
+      - 乌克兰-None
+      - "[ss]日本02|🇯🇵JapanBGP中转"
+      - "[ss]台湾01|🇨🇳Taiwan中转"
+      - "[ss]新加坡01|🇸🇬Singapore中转"
+      - "[ss]美国01|🇺🇸America中转"
+      - "[ss]香港01|🇭🇰Hong Kong中转"
+      - "[ss]香港02|🇭🇰Hong Kong香港中转"
+      - "[ss]土耳其01|🇹🇷Türkiye中转"
+      - "[ss]日本01|🇯🇵Japan大阪中转"
+      - "[ss]俄罗斯01|🇷🇺Russia中转"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2572,36 +3303,125 @@ proxy-groups:
       - 新加坡-01|1.0x
       - 美国-01|1.0x
       - 美国-02|1.0x
-      - 香港HK3
+      - AWS | 美国US1 | 免费节点
+      - AWS | 美国US2 | 免费节点
+      - AWS | 美国US3 | 免费节点
       - CF | 新加坡SG1 | 免费节点
       - CF | 美国US1 | 免费节点
       - CF | 美国US2 | 免费节点
       - CF | 美国US3 | 免费节点
       - CF | 美国US4 | 免费节点
-      - 香港HK3 2
+      - AWS | 美国US1 | 免费节点 2
+      - AWS | 美国US2 | 免费节点 2
+      - AWS | 美国US3 | 免费节点 2
       - CF | 新加坡SG1 | 免费节点 2
       - CF | 美国US1 | 免费节点 2
       - CF | 美国US2 | 免费节点 2
       - CF | 美国US3 | 免费节点 2
       - CF | 美国US4 | 免费节点 2
-      - 香港HK3 3
+      - AWS | 美国US1 | 免费节点 3
+      - AWS | 美国US2 | 免费节点 3
+      - AWS | 美国US3 | 免费节点 3
       - CF | 新加坡SG1 | 免费节点 3
       - CF | 美国US1 | 免费节点 3
       - CF | 美国US2 | 免费节点 3
       - CF | 美国US3 | 免费节点 3
       - CF | 美国US4 | 免费节点 3
-      - 香港HK3 4
+      - AWS | 美国US1 | 免费节点 4
+      - AWS | 美国US2 | 免费节点 4
+      - AWS | 美国US3 | 免费节点 4
       - CF | 新加坡SG1 | 免费节点 4
       - CF | 美国US1 | 免费节点 4
       - CF | 美国US2 | 免费节点 4
       - CF | 美国US3 | 免费节点 4
       - CF | 美国US4 | 免费节点 4
-      - 香港HK3 5
+      - AWS | 美国US1 | 免费节点 5
+      - AWS | 美国US2 | 免费节点 5
+      - AWS | 美国US3 | 免费节点 5
       - CF | 新加坡SG1 | 免费节点 5
       - CF | 美国US1 | 免费节点 5
       - CF | 美国US2 | 免费节点 5
       - CF | 美国US3 | 免费节点 5
       - CF | 美国US4 | 免费节点 5
+      - 香港HK1
+      - 香港HK2
+      - 香港HK3
+      - 香港HK6 | 负载均衡
+      - 香港HKT1 | 家宽
+      - 香港HKT2 | 家宽
+      - 日本JP1
+      - 日本JP2
+      - 日本JP3
+      - 日本JP4
+      - 新加坡SG1
+      - 新加坡SG2
+      - 新加坡SG3
+      - 新加坡SG4
+      - 美国US1
+      - 美国US2
+      - Netflix | 新加坡SG1
+      - Netflix | 新加坡SG2
+      - Netflix | 新加坡SG3
+      - Netflix | 新加坡SG4
+      - Netflix | 台湾TW1
+      - Netflix | 台湾TW2
+      - Netflix | 台湾TW3
+      - Netflix | 日本JP1
+      - Netflix | 日本JP2
+      - Netflix | 美国US1
+      - Netflix | 美国US2
+      - AWS | 美国US1 | 免费节点 6
+      - AWS | 美国US2 | 免费节点 6
+      - AWS | 美国US3 | 免费节点 6
+      - CF | 新加坡SG1 | 免费节点 6
+      - CF | 美国US1 | 免费节点 6
+      - CF | 美国US2 | 免费节点 6
+      - CF | 美国US3 | 免费节点 6
+      - CF | 美国US4 | 免费节点 6
+      - "[CORE] 中國香港1"
+      - "[CORE] 中國香港2"
+      - "[CORE] 中國香港3"
+      - "[CORE] 中國香港4"
+      - "[CORE] 中國香港5"
+      - "[CORE] 新加坡1"
+      - "[CORE] 新加坡2"
+      - "[CORE] 新加坡3"
+      - "[CORE] 新加坡4"
+      - "[CORE] 新加坡5"
+      - "[CORE] 日本1"
+      - "[CORE] 日本2"
+      - "[CORE] 日本3"
+      - "[CORE] 日本4"
+      - "[CORE] 美國1"
+      - "[CORE] 美國2"
+      - "[CORE] 美國3"
+      - "[CORE] 美國4"
+      - "[CORE] 美國5"
+      - "[CORE] 中國台灣1"
+      - "[CORE] 中國台灣2"
+      - "[CORE] 中國台灣3"
+      - "[CORE] 中國台灣4"
+      - "[CORE] 中國台灣5"
+      - "[CORE] 德國1"
+      - "[CORE] 德國2"
+      - "[CORE] 德國3"
+      - "[CORE] 德國4"
+      - "[CORE] 德國5"
+      - "[EDGE] 中國香港"
+      - "[EDGE] 新加坡"
+      - "[EDGE] 美利坚"
+      - "[EDGE] 法国"
+      - 香港-None
+      - 乌克兰-None
+      - "[ss]日本02|🇯🇵JapanBGP中转"
+      - "[ss]台湾01|🇨🇳Taiwan中转"
+      - "[ss]新加坡01|🇸🇬Singapore中转"
+      - "[ss]美国01|🇺🇸America中转"
+      - "[ss]香港01|🇭🇰Hong Kong中转"
+      - "[ss]香港02|🇭🇰Hong Kong香港中转"
+      - "[ss]土耳其01|🇹🇷Türkiye中转"
+      - "[ss]日本01|🇯🇵Japan大阪中转"
+      - "[ss]俄罗斯01|🇷🇺Russia中转"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
