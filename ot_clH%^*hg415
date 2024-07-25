@@ -77,8 +77,6 @@ proxies:
   - {name: "[EDGE] 新加坡", server: sg.260500.blog, port: 443, type: vmess, uuid: 309b67dc-3e82-4b30-a724-6c5c62d18181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sg.260500.blog}}}
   - {name: "[EDGE] 美利坚", server: us.260500.blog, port: 443, type: vmess, uuid: 309b67dc-3e82-4b30-a724-6c5c62d18181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us.260500.blog}}}
   - {name: "[EDGE] 法国", server: fr.260500.blog, port: 443, type: vmess, uuid: 309b67dc-3e82-4b30-a724-6c5c62d18181, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: fr.260500.blog}}}
-  - {name: 香港-None, server: zf-11423341.fly64jfgwhale.xyz, port: 54876, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
-  - {name: 乌克兰-None, server: zf-11423341.fly64jfgwhale.xyz, port: 15662, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
   - {name: "[ss]日本02|🇯🇵JapanBGP中转", server: rdgfe.vxzjv.xyz, port: 32082, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3a2699-3f97-4fa8-bb48-2c1f63ba2726}
   - {name: "[ss]台湾01|🇨🇳Taiwan中转", server: gzct.guguyun.xyz, port: 25488, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3a2699-3f97-4fa8-bb48-2c1f63ba2726}
   - {name: "[ss]新加坡01|🇸🇬Singapore中转", server: rdgfe.vxzjv.xyz, port: 43497, type: ss, cipher: chacha20-ietf-poly1305, password: 9f3a2699-3f97-4fa8-bb48-2c1f63ba2726}
@@ -374,6 +372,15 @@ proxies:
   - {name: CF | 美国US2 | 免费节点 6, server: ct.cfyun.top, port: 443, type: trojan, password: def3c74f-41bb-468f-84d0-1d36bcd87e54, sni: cfus2.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus2.trojanwss.xyz}}}
   - {name: CF | 美国US3 | 免费节点 6, server: ct.cfyun.top, port: 443, type: trojan, password: def3c74f-41bb-468f-84d0-1d36bcd87e54, sni: cfus3.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus3.trojanwss.xyz}}}
   - {name: CF | 美国US4 | 免费节点 6, server: ct.cfyun.top, port: 443, type: trojan, password: def3c74f-41bb-468f-84d0-1d36bcd87e54, sni: cfus4.trojanwss.xyz, network: ws, ws-opts: {path: /CFJICHANG, headers: {Host: cfus4.trojanwss.xyz}}}
+  - {name: 美国1-None, server: zf-11423341.fly64jfgwhale.xyz, port: 38322, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
+  - {name: 美国2-None, server: zf-11423341.fly64jfgwhale.xyz, port: 38322, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
+  - {name: 美国3-None, server: zf-11423341.fly64jfgwhale.xyz, port: 38322, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
+  - {name: 香港1-None, server: zf-11423341.fly64jfgwhale.xyz, port: 54876, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
+  - {name: 香港2-None, server: zf-11423341.fly64jfgwhale.xyz, port: 54876, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
+  - {name: 香港3-None, server: zf-11423341.fly64jfgwhale.xyz, port: 54876, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
+  - {name: 白俄罗斯1-None, server: zf-11423341.fly64jfgwhale.xyz, port: 15662, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
+  - {name: 白俄罗斯2-None, server: zf-11423341.fly64jfgwhale.xyz, port: 15662, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
+  - {name: 白俄罗斯3-None, server: zf-11423341.fly64jfgwhale.xyz, port: 15662, type: ss, cipher: aes-128-gcm, password: 419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -452,8 +459,6 @@ proxy-groups:
       - "[EDGE] 新加坡"
       - "[EDGE] 美利坚"
       - "[EDGE] 法国"
-      - 香港-None
-      - 乌克兰-None
       - "[ss]日本02|🇯🇵JapanBGP中转"
       - "[ss]台湾01|🇨🇳Taiwan中转"
       - "[ss]新加坡01|🇸🇬Singapore中转"
@@ -749,6 +754,15 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 6
       - CF | 美国US3 | 免费节点 6
       - CF | 美国US4 | 免费节点 6
+      - 美国1-None
+      - 美国2-None
+      - 美国3-None
+      - 香港1-None
+      - 香港2-None
+      - 香港3-None
+      - 白俄罗斯1-None
+      - 白俄罗斯2-None
+      - 白俄罗斯3-None
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -826,8 +840,6 @@ proxy-groups:
       - "[EDGE] 新加坡"
       - "[EDGE] 美利坚"
       - "[EDGE] 法国"
-      - 香港-None
-      - 乌克兰-None
       - "[ss]日本02|🇯🇵JapanBGP中转"
       - "[ss]台湾01|🇨🇳Taiwan中转"
       - "[ss]新加坡01|🇸🇬Singapore中转"
@@ -1123,6 +1135,15 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 6
       - CF | 美国US3 | 免费节点 6
       - CF | 美国US4 | 免费节点 6
+      - 美国1-None
+      - 美国2-None
+      - 美国3-None
+      - 香港1-None
+      - 香港2-None
+      - 香港3-None
+      - 白俄罗斯1-None
+      - 白俄罗斯2-None
+      - 白俄罗斯3-None
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -1201,8 +1222,6 @@ proxy-groups:
       - "[EDGE] 新加坡"
       - "[EDGE] 美利坚"
       - "[EDGE] 法国"
-      - 香港-None
-      - 乌克兰-None
       - "[ss]日本02|🇯🇵JapanBGP中转"
       - "[ss]台湾01|🇨🇳Taiwan中转"
       - "[ss]新加坡01|🇸🇬Singapore中转"
@@ -1498,6 +1517,15 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 6
       - CF | 美国US3 | 免费节点 6
       - CF | 美国US4 | 免费节点 6
+      - 美国1-None
+      - 美国2-None
+      - 美国3-None
+      - 香港1-None
+      - 香港2-None
+      - 香港3-None
+      - 白俄罗斯1-None
+      - 白俄罗斯2-None
+      - 白俄罗斯3-None
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1588,8 +1616,6 @@ proxy-groups:
       - "[EDGE] 新加坡"
       - "[EDGE] 美利坚"
       - "[EDGE] 法国"
-      - 香港-None
-      - 乌克兰-None
       - "[ss]日本02|🇯🇵JapanBGP中转"
       - "[ss]台湾01|🇨🇳Taiwan中转"
       - "[ss]新加坡01|🇸🇬Singapore中转"
@@ -1885,6 +1911,15 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 6
       - CF | 美国US3 | 免费节点 6
       - CF | 美国US4 | 免费节点 6
+      - 美国1-None
+      - 美国2-None
+      - 美国3-None
+      - 香港1-None
+      - 香港2-None
+      - 香港3-None
+      - 白俄罗斯1-None
+      - 白俄罗斯2-None
+      - 白俄罗斯3-None
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -1910,10 +1945,12 @@ proxy-groups:
       - "[CORE] 中國台灣4"
       - "[CORE] 中國台灣5"
       - "[EDGE] 中國香港"
-      - 香港-None
       - "[ss]台湾01|🇨🇳Taiwan中转"
       - "[ss]香港01|🇭🇰Hong Kong中转"
       - "[ss]香港02|🇭🇰Hong Kong香港中转"
+      - 香港1-None
+      - 香港2-None
+      - 香港3-None
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -1992,8 +2029,6 @@ proxy-groups:
       - "[EDGE] 新加坡"
       - "[EDGE] 美利坚"
       - "[EDGE] 法国"
-      - 香港-None
-      - 乌克兰-None
       - "[ss]日本02|🇯🇵JapanBGP中转"
       - "[ss]台湾01|🇨🇳Taiwan中转"
       - "[ss]新加坡01|🇸🇬Singapore中转"
@@ -2289,6 +2324,15 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 6
       - CF | 美国US3 | 免费节点 6
       - CF | 美国US4 | 免费节点 6
+      - 美国1-None
+      - 美国2-None
+      - 美国3-None
+      - 香港1-None
+      - 香港2-None
+      - 香港3-None
+      - 白俄罗斯1-None
+      - 白俄罗斯2-None
+      - 白俄罗斯3-None
   - name: 📲 电报信息
     type: select
     proxies:
@@ -2366,8 +2410,6 @@ proxy-groups:
       - "[EDGE] 新加坡"
       - "[EDGE] 美利坚"
       - "[EDGE] 法国"
-      - 香港-None
-      - 乌克兰-None
       - "[ss]日本02|🇯🇵JapanBGP中转"
       - "[ss]台湾01|🇨🇳Taiwan中转"
       - "[ss]新加坡01|🇸🇬Singapore中转"
@@ -2663,6 +2705,15 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 6
       - CF | 美国US3 | 免费节点 6
       - CF | 美国US4 | 免费节点 6
+      - 美国1-None
+      - 美国2-None
+      - 美国3-None
+      - 香港1-None
+      - 香港2-None
+      - 香港3-None
+      - 白俄罗斯1-None
+      - 白俄罗斯2-None
+      - 白俄罗斯3-None
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2741,8 +2792,6 @@ proxy-groups:
       - "[EDGE] 新加坡"
       - "[EDGE] 美利坚"
       - "[EDGE] 法国"
-      - 香港-None
-      - 乌克兰-None
       - "[ss]日本02|🇯🇵JapanBGP中转"
       - "[ss]台湾01|🇨🇳Taiwan中转"
       - "[ss]新加坡01|🇸🇬Singapore中转"
@@ -3038,6 +3087,15 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 6
       - CF | 美国US3 | 免费节点 6
       - CF | 美国US4 | 免费节点 6
+      - 美国1-None
+      - 美国2-None
+      - 美国3-None
+      - 香港1-None
+      - 香港2-None
+      - 香港3-None
+      - 白俄罗斯1-None
+      - 白俄罗斯2-None
+      - 白俄罗斯3-None
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3125,8 +3183,6 @@ proxy-groups:
       - "[EDGE] 新加坡"
       - "[EDGE] 美利坚"
       - "[EDGE] 法国"
-      - 香港-None
-      - 乌克兰-None
       - "[ss]日本02|🇯🇵JapanBGP中转"
       - "[ss]台湾01|🇨🇳Taiwan中转"
       - "[ss]新加坡01|🇸🇬Singapore中转"
@@ -3422,6 +3478,15 @@ proxy-groups:
       - CF | 美国US2 | 免费节点 6
       - CF | 美国US3 | 免费节点 6
       - CF | 美国US4 | 免费节点 6
+      - 美国1-None
+      - 美国2-None
+      - 美国3-None
+      - 香港1-None
+      - 香港2-None
+      - 香港3-None
+      - 白俄罗斯1-None
+      - 白俄罗斯2-None
+      - 白俄罗斯3-None
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
