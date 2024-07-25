@@ -15,7 +15,7 @@ proxies:
   - {name: 台湾 3, server: cu1.guguyun.xyz, port: 25661, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
   - {name: 台湾 4, server: gzct.guguyun.xyz, port: 12340, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
   - {name: 台湾 5, server: afafga.zhuanaz.icu, port: 24063, type: ss, cipher: aes-128-gcm, password: 309b67dc-3e82-4b30-a724-6c5c62d18181}
-  - {name: 香港游戏节点暂不公开提供 可先使用直连法, server: 666, port: 666, type: ss, cipher: aes-256-gcm, password: !<str> 666}
+  - {name: 专线游戏节点暂不公开提供 可先使用直连法, server: 666, port: 666, type: ss, cipher: aes-256-gcm, password: !<str> 666}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -32,7 +32,7 @@ proxy-groups:
       - 台湾 3
       - 台湾 4
       - 台湾 5
-      - 香港游戏节点暂不公开提供 可先使用直连法
+      - 专线游戏节点暂不公开提供 可先使用直连法
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -48,7 +48,7 @@ proxy-groups:
       - 台湾 3
       - 台湾 4
       - 台湾 5
-      - 香港游戏节点暂不公开提供 可先使用直连法
+      - 专线游戏节点暂不公开提供 可先使用直连法
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -65,7 +65,7 @@ proxy-groups:
       - 台湾 3
       - 台湾 4
       - 台湾 5
-      - 香港游戏节点暂不公开提供 可先使用直连法
+      - 专线游戏节点暂不公开提供 可先使用直连法
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -94,7 +94,7 @@ proxy-groups:
       - 台湾 3
       - 台湾 4
       - 台湾 5
-      - 香港游戏节点暂不公开提供 可先使用直连法
+      - 专线游戏节点暂不公开提供 可先使用直连法
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -107,7 +107,6 @@ proxy-groups:
       - 台湾 3
       - 台湾 4
       - 台湾 5
-      - 香港游戏节点暂不公开提供 可先使用直连法
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -124,7 +123,7 @@ proxy-groups:
       - 台湾 3
       - 台湾 4
       - 台湾 5
-      - 香港游戏节点暂不公开提供 可先使用直连法
+      - 专线游戏节点暂不公开提供 可先使用直连法
   - name: 📲 电报信息
     type: select
     proxies:
@@ -140,7 +139,7 @@ proxy-groups:
       - 台湾 3
       - 台湾 4
       - 台湾 5
-      - 香港游戏节点暂不公开提供 可先使用直连法
+      - 专线游戏节点暂不公开提供 可先使用直连法
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -157,7 +156,7 @@ proxy-groups:
       - 台湾 3
       - 台湾 4
       - 台湾 5
-      - 香港游戏节点暂不公开提供 可先使用直连法
+      - 专线游戏节点暂不公开提供 可先使用直连法
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -183,7 +182,7 @@ proxy-groups:
       - 台湾 3
       - 台湾 4
       - 台湾 5
-      - 香港游戏节点暂不公开提供 可先使用直连法
+      - 专线游戏节点暂不公开提供 可先使用直连法
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
